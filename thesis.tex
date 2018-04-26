@@ -1,0 +1,221 @@
+\documentclass[11pt,a4paper,twoside,onehalfspacing,fleqn]{report}
+%\bibliographystyle{refs}
+%\usepackage{aas_macros}
+\usepackage{natbib}
+\usepackage{fixltx2e}
+\usepackage{textcomp}
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}	% Extra maths symbols
+\usepackage{verbatim}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\usepackage{enumerate}
+\usepackage[font=small,format=plain,labelfont=bf,up]{caption}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{mathtools}
+\usepackage{lscape}
+\usepackage{natbib}
+%\usepackage{newtxtext,newtxmath}
+\usepackage{txfonts}
+\usepackage{subfig}
+\usepackage{slashed}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{parskip, setspace, fullpage}
+\usepackage{appendix}
+\usepackage{rotating}
+\usepackage[a4paper,left=1in,right=1in,top=1in,bindingoffset=0.7in,bottom=1.2in]{geometry}
+\usepackage{hyperref}
+\hypersetup{}
+\usepackage{minted}
+
+
+% Units and Satellite macros
+\newcommand{\swift}{{\textit{Swift}}}
+\newcommand{\integral}{{\textit{INTEGRAL}}}
+\newcommand{\nustar}{{\textit {NuSTAR}}}
+\newcommand{\xmm}{{\textit{XMM-Newton}}}
+\newcommand{\chandra}{{\textit{Chandra}}}
+\newcommand{\rxte}{{\textit{RXTE}}}
+\newcommand{\sax}{{\textit{BeppoSAX}}}
+\newcommand{\ms}{$M_{\odot}$}
+\newcommand{\rs}{$R_{\odot}$}
+\newcommand{\ls}{$L_{\odot}$}
+\newcommand{\Mns}{$M_{NS}$}
+\newcommand{\Rns}{$R_{NS}$}
+\newcommand{\kms}{km~s$^{-1}$}
+\newcommand{\fluxcgs}{erg~s$^{-1}$~cm$^{-2}$}
+\newcommand{\lumcgs}{erg~s$^{-1}$}
+\newcommand{\nHcgs}{cm$^{-2}$}
+\newcommand{\la}{\,\rlap{\raise 0.5ex\hbox{$<$}}{\lower 1.0ex\hbox{$\sim$}}\,}
+\newcommand\fd{\hbox{$.\!\!^{\reset@font\romn d}$}}
+\newcommand\fh{\hbox{$.\!\!^{\reset@font\romn h}$}}
+\newcommand\fm{\hbox{$.\!\!^{\reset@font\romn m}$}}
+\newcommand\fs{\hbox{$.\!\!^{\reset@font\romn s}$}}
+\newcommand\fdg{\hbox{$.\!\!^\circ$}}
+\newcommand\farcm{\hbox{$.\mkern-4mu^\prime$}}
+\newcommand\farcs{\hbox{$.\!\!^{\prime\prime}$}}
+\newcommand\fp{\hbox{$.\!\!^{\reset@font\reset@font\scriptscriptstyle\romn p}$}}
+\newcommand\arcmin{\hbox{$^\prime$}}
+\newcommand\arcsec{\hbox{$^{\prime\prime}$}}
+\newcommand{\ga}{\,\rlap{\raise 0.5ex\hbox{$>$}}{\lower 1.0ex\hbox{$\sim$}}\,}
+\newcommand{\spcu}{cts\,s$^{-1}$\,PCU$^{-1}$}
+\newcommand{\ergf}{\,ergs~s$^{-1}$~cm$^{-2}$}
+\newcommand{\phspcu}{Cts s$^{-1}$ PCU$^{-1}$}
+
+% Journal Macros
+\def\aj{{AJ}}% 
+         % Astronomical Journal 
+\def\araa{{ARA\&A}}% 
+         % Annual Review of Astron and Astrophys 
+\def\apj{{ApJ}}% 
+         % Astrophysical Journal 
+\def\apjl{{ApJ}}% 
+         % Astrophysical Journal, Letters 
+\def\apjs{{ApJS}}% 
+         % Astrophysical Journal, Supplement 
+\def\aap{{A\&A}}% 
+         % Astronomy and Astrophysics 
+\def\aapr{{A\&A~Rev.}}% 
+         % Astronomy and Astrophysics Reviews 
+\def\aaps{{A\&AS}}% 
+         % Astronomy and Astrophysics, Supplement 
+\def\prl{{Phys.~Rev.~Lett.}}%
+\def\pr{{Phys.~Rev.}}
+\def\physrep{{Phys.~Rep.}} 
+\def\sovast{{Sov.~Astron.}}
+% Physical Review Letters 
+\def\pasp{{PASP}}% 
+\def\pasa{{PASA}}% 
+         % Publications of the ASP 
+\def\pasj{{PASJ}}% 
+         % Publications of the ASJ 
+\def\nat{{Nature}}% 
+         % Nature 
+\def\mnras{{MNRAS}}% 
+         % Monthly Notices of the RAS 
+\def\iaucirc{{IAU Circ.}}% 
+\def\gca{{Geochim. Cosmochim. Acta}}
+		%Geochimica et Cosmochimica Acta
+\def\atel{{ATel}}
+		%Astronomers Telegram
+\def\astlet{{Astron. Lett.}} %
+		%Astronomy Letters
+\def\aspc{{ASPC}}
+		%Astronomical Society of the Pacific Conference Series
+\def\apss{{Ap\&SS}}
+		%Astrophysics and Space Science
+\def\yCat{yCat}
+\def\ssr{{Space~Sci.~Rev.}}
+\def\actaa{{Acta. ~Astron.}}
+\def\procspie{{Proc.~SPIE}}
+\def\lrr{{Livng~Rev.~Relativity}} 
+\def\baas{{Bulletin of the American Astronomical Society}}
+% Sources
+
+\def\igr{{IGR\,J17091$-$3624}}
+\def\grs{{GRS\,1915+105}}
+\def\bp{{GRO\,J1744$-$28}}
+
+\onehalfspacing
+
+\setlength{\parindent}{1cm}
+
+\begin{document}
+\pagenumbering{gobble}
+%    \setcounter{page}{1}
+\include{titlepage}
+
+\thispagestyle{empty}
+
+\cleardoublepage
+
+\include{abstract}
+
+\thispagestyle{empty}
+
+\cleardoublepage
+\pagenumbering{roman}
+    \setcounter{page}{1}
+
+\tableofcontents
+
+\cleardoublepage
+
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+\cleardoublepage
+
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+\raggedright
+
+\cleardoublepage
+%
+%\include{preface}
+%
+%\cleardoublepage
+
+\include{dedication}
+
+\cleardoublepage
+
+\include{acknowledgements}
+
+\newpage{   }
+
+\setcounter{chapter}{0}
+	\clearpage
+    \setcounter{page}{0}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\include{Introduction}
+
+\cleardoublepage
+
+\include{PhysicsofAccretion}
+
+\cleardoublepage
+
+\include{Methods}
+
+\cleardoublepage
+
+\include{IGRJ17091Paper}
+
+\cleardoublepage
+
+\include{BPBigPaper}
+
+\cleardoublepage
+
+\include{BPLetter}
+
+\cleardoublepage
+
+\include{Conclusion}
+
+\cleardoublepage
+
+\nocite{*}
+\bibliography{/home/jamie/Documents/Bibliographies/refs.bib}
+\bibliographystyle{apalike}
+
+\begin{appendices}
+\include{igrclasslist}
+\include{xtelist}
+\include{bursthists}
+\include{paramcorr}
+\include{pantheon}
+
+\end{appendices}
+
+
+\end{document}

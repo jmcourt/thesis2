@@ -1,0 +1,81 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: titlepage.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: dedication.aux
+A level-1 auxiliary file: acknowledgements.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: PhysicsofAccretion.aux
+A level-1 auxiliary file: Methods.aux
+A level-1 auxiliary file: IGRJ17091Paper.aux
+A level-1 auxiliary file: BPBigPaper.aux
+A level-1 auxiliary file: BPLetter.aux
+A level-1 auxiliary file: Conclusion.aux
+The style file: apalike.bst
+A level-1 auxiliary file: igrclasslist.aux
+A level-1 auxiliary file: xtelist.aux
+A level-1 auxiliary file: bursthists.aux
+A level-1 auxiliary file: paramcorr.aux
+A level-1 auxiliary file: pantheon.aux
+Case mismatch error between cite keys Numpy and NumPy
+---line 5 of file pantheon.aux
+ : \citation{Numpy
+ :                }
+I'm skipping whatever remains of this command
+Database file #1: /home/jamie/Documents/Bibliographies/refs.bib.bib
+Reallocated field_info (elt_size=4) to 10016 items from 5000.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--can't use both author and editor fields in Fender_Jets
+Warning--empty publisher in Fender_Jets
+Warning--empty publisher in Frank_Timescales
+Warning--can't use both author and editor fields in McClintock_BHBs
+Warning--empty publisher in McClintock_BHBs
+Warning--empty publisher in Misner_GravBook
+Warning--empty title in Poisson_Distribution
+Warning--empty journal in Poisson_Distribution
+Warning--can't use both author and editor fields in Strohmayer_TypeI
+Warning--empty publisher in Strohmayer_TypeI
+Warning--empty publisher in vonMises_Poptest
+You've used 302 entries,
+            1935 wiz_defined-function locations,
+            2289 strings with 83986 characters,
+and the built_in function-call counts, 170280 in all, are:
+= -- 14747
+> -- 13075
+< -- 156
++ -- 4866
+- -- 4847
+* -- 16645
+:= -- 30703
+add.period$ -- 897
+call.type$ -- 302
+change.case$ -- 3889
+chr.to.int$ -- 283
+cite$ -- 313
+duplicate$ -- 4735
+empty$ -- 8488
+format.name$ -- 5227
+if$ -- 31904
+int.to.chr$ -- 20
+int.to.str$ -- 0
+missing$ -- 305
+newline$ -- 1503
+num.names$ -- 960
+pop$ -- 3536
+preamble$ -- 2
+purify$ -- 3898
+quote$ -- 0
+skip$ -- 3519
+stack$ -- 0
+substring$ -- 8015
+swap$ -- 735
+text.length$ -- 80
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1796
+warning$ -- 11
+while$ -- 904
+width$ -- 0
+write$ -- 3919
+(There was 1 error message)

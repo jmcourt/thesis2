@@ -1,0 +1,2130 @@
+\newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[{Abdo} et~al., 2010]{Abdo_Catalogue}
+{Abdo}, A.~A., {Ackermann}, M., {Ajello}, M., {Allafort}, A., {Antolini}, E.,
+  {Atwood}, W.~B., {Axelsson}, M., {Baldini}, L., {Ballet}, J., {Barbiellini},
+  G., and et~al. (2010).
+\newblock {Fermi Large Area Telescope First Source Catalog}.
+\newblock {\em \apjs}, 188:405--436.
+
+\bibitem[{Abramowicz} et~al., 1988]{Abramowicz_Slim}
+{Abramowicz}, M.~A., {Czerny}, B., {Lasota}, J.~P., and {Szuszkiewicz}, E.
+  (1988).
+\newblock {Slim accretion disks}.
+\newblock {\em \apj}, 332:646--658.
+
+\bibitem[{Allen} et~al., 2015]{Allen_1750}
+{Allen}, J.~L., {Linares}, M., {Homan}, J., and {Chakrabarty}, D. (2015).
+\newblock {Spectral Softening Between Outburst and Quiescence In The Neutron
+  Star Low-Mass X-Ray Binary SAX J1750.8-2900}.
+\newblock {\em \apj}, 801:10.
+
+\bibitem[{Alpar} et~al., 1982]{Alpar_MSP}
+{Alpar}, M.~A., {Cheng}, A.~F., {Ruderman}, M.~A., and {Shaham}, J. (1982).
+\newblock {A new class of radio pulsars}.
+\newblock {\em \nat}, 300:728--730.
+
+\bibitem[{Altamirano} and {Belloni}, 2012]{Altamirano_HFQPO}
+{Altamirano}, D. and {Belloni}, T. (2012).
+\newblock {Discovery of High-frequency Quasi-periodic Oscillations in the Black
+  Hole Candidate IGR J17091-3624}.
+\newblock {\em \apjl}, 747:L4.
+
+\bibitem[{Altamirano} et~al., 2011a]{Altamirano_Discovery}
+{Altamirano}, D., {Belloni}, T., {Krimm}, H., {Casella}, P., {Curran}, P.,
+  {Kennea}, J., {Kalamkar}, M., {van der Klis}, M., {Wijnands}, R., {Linares},
+  M., {Motta}, S., {Munoz-Darias}, T., and {Stiele}, H. (2011a).
+\newblock {IGR J17091-3624 undergoes 'heartbeat' oscillations similar to those
+  of GRS 1915+105}.
+\newblock {\em The Astronomer's Telegram}, 3230.
+
+\bibitem[{Altamirano} et~al., 2011b]{Altamirano_IGR_FH}
+{Altamirano}, D., {Belloni}, T., {Linares}, M., {van der Klis}, M., {Wijnands},
+  R., {Curran}, P.~A., {Kalamkar}, M., {Stiele}, H., {Motta}, S.,
+  {Mu{\~n}oz-Darias}, T., {Casella}, P., and {Krimm}, H. (2011b).
+\newblock {The Faint ''Heartbeats'' of IGR J17091-3624: An Exceptional Black
+  Hole Candidate}.
+\newblock {\em \apjl}, 742:L17.
+
+\bibitem[{Altamirano} et~al., 2008a]{Altamirano_Broken}
+{Altamirano}, D., {Casella}, P., {Patruno}, A., {Wijnands}, R., and {van der
+  Klis}, M. (2008a).
+\newblock {Intermittent Millisecond X-Ray Pulsations from the Neutron Star
+  X-Ray Transient SAX J1748.9-2021 in the Globular Cluster NGC 6440}.
+\newblock {\em \apjl}, 674:L45.
+
+\bibitem[{Altamirano} et~al., 2011c]{Altamirano_10Hz}
+{Altamirano}, D., {Linares}, M., {van der Klis}, M., {Wijnands}, R.,
+  {Kalamkar}, M., {Casella}, P., {Watts}, A., {Patruno}, A., {Armas-Padilla},
+  M., {Cavecchi}, Y., {Degenaar}, N., {Kaur}, R., {Yang}, Y., and {Rea}, N.
+  (2011c).
+\newblock {Discovery of 10 mHz quasi-periodic oscillations likely from IGR
+  J17091-3624}.
+\newblock {\em The Astronomer's Telegram}, 3225.
+
+\bibitem[{Altamirano} et~al., 2008b]{Altamirano_CrabNorm}
+{Altamirano}, D., {van der Klis}, M., {M{\'e}ndez}, M., {Jonker}, P.~G.,
+  {Klein-Wolt}, M., and {Lewin}, W.~H.~G. (2008b).
+\newblock {X-Ray Time Variability Across the Atoll Source States of 4U
+  1636-53}.
+\newblock {\em \apj}, 685:436--450.
+
+\bibitem[{Altamirano} et~al., 2008c]{Altamirano_MargStab}
+{Altamirano}, D., {van der Klis}, M., {Wijnands}, R., and {Cumming}, A.
+  (2008c).
+\newblock {Millihertz Oscillation Frequency Drift Predicts the Occurrence of
+  Type I X-Ray Bursts}.
+\newblock {\em \apjl}, 673:L35.
+
+\bibitem[{Altamirano} et~al., 2013]{Altamirano_Quiescence}
+{Altamirano}, D., {Wijnands}, R., and {Belloni}, T. (2013).
+\newblock {The black hole candidate IGR J17091-3624 going to quiescence}.
+\newblock {\em The Astronomer's Telegram}, 5112.
+
+\bibitem[{Altamirano} et~al., 2012]{Altamirano_NH}
+{Altamirano}, D., {Wijnands}, R., {Belloni}, T., and {Motta}, S. (2012).
+\newblock {The black hole candidate IGR J17091-3624 is still active}.
+\newblock {\em The Astronomer's Telegram}, 3913.
+
+\bibitem[{Angelini} et~al., 1991]{Angelini_SMC}
+{Angelini}, L., {White}, N.~E., and {Stella}, L. (1991).
+\newblock {The discovery of an X-ray burst and a study of aperiodic variability
+  from SMC X-1}.
+\newblock {\em \apj}, 371:332--341.
+
+\bibitem[{Aptekar} et~al., 1998]{Aptekar_Recur}
+{Aptekar}, R.~L., {Butterworth}, P.~S., {Cline}, T.~L., {Frederiks}, D.~D.,
+  {Golenetskii}, S.~V., {Il'inskii}, V.~N., {Mazets}, E.~P., {Stilwell}, D.~E.,
+  and {Terekhov}, M.~M. (1998).
+\newblock {Hard X-Ray Bursts from GRO J1744-28. I. Observations by the
+  Konus-Wind and Konus-A Experiments}.
+\newblock {\em \apj}, 493:404--407.
+
+\bibitem[{Aptekar} et~al., 1997]{Aptekar_OscRel}
+{Aptekar}, R.~L., {Butterworth}, P.~S., {Golenetskii}, S.~V., {Il'Inskii},
+  V.~N., {Cline}, T.~L., {Mazets}, E.~P., {Stillwell}, D.~E., {Terekhov},
+  M.~M., and {Frederiks}, D.~D. (1997).
+\newblock {Long-term activity of the bursting x-ray pulsar GRO J1744-28 from
+  Konus-Wind and Konus-A observations}.
+\newblock {\em Astronomy Letters}, 23:147--154.
+
+\bibitem[{Archibald} et~al., 2010]{Archibald_Pulsations}
+{Archibald}, A.~M., {Kaspi}, V.~M., {Bogdanov}, S., {Hessels}, J.~W.~T.,
+  {Stairs}, I.~H., {Ransom}, S.~M., and {McLaughlin}, M.~A. (2010).
+\newblock {X-ray Variability and Evidence for Pulsations from the Unique Radio
+  Pulsar/X-ray Binary Transition Object FIRST J102347.6+003841}.
+\newblock {\em \apj}, 722:88--95.
+
+\bibitem[{Archibald} et~al., 2009]{Archibald_Link}
+{Archibald}, A.~M., {Stairs}, I.~H., {Ransom}, S.~M., {Kaspi}, V.~M.,
+  {Kondratiev}, V.~I., {Lorimer}, D.~R., {McLaughlin}, M.~A., {Boyles}, J.,
+  {Hessels}, J.~W.~T., {Lynch}, R., {van Leeuwen}, J., {Roberts}, M.~S.~E.,
+  {Jenet}, F., {Champion}, D.~J., {Rosen}, R., {Barlow}, B.~N., {Dunlap},
+  B.~H., and {Remillard}, R.~A. (2009).
+\newblock {A Radio Pulsar/X-ray Binary Link}.
+\newblock {\em Science}, 324:1411.
+
+\bibitem[{Arnaud}, 1996]{Arnaud_Xspec}
+{Arnaud}, K.~A. (1996).
+\newblock {XSPEC: The First Ten Years}.
+\newblock In {Jacoby}, G.~H. and {Barnes}, J., editors, {\em Astronomical Data
+  Analysis Software and Systems V}, volume 101 of {\em Astronomical Society of
+  the Pacific Conference Series}, page~17.
+
+\bibitem[{Astropy Collaboration} et~al., 2013]{Astropy}
+{Astropy Collaboration}, {Robitaille}, T.~P., {Tollerud}, E.~J., {Greenfield},
+  P., {Droettboom}, M., {Bray}, E., {Aldcroft}, T., {Davis}, M., {Ginsburg},
+  A., {Price-Whelan}, A.~M., {Kerzendorf}, W.~E., {Conley}, A., {Crighton}, N.,
+  {Barbary}, K., {Muna}, D., {Ferguson}, H., {Grollier}, F., {Parikh}, M.~M.,
+  {Nair}, P.~H., {Unther}, H.~M., {Deil}, C., {Woillez}, J., {Conseil}, S.,
+  {Kramer}, R., {Turner}, J.~E.~H., {Singer}, L., {Fox}, R., {Weaver}, B.~A.,
+  {Zabalza}, V., {Edwards}, Z.~I., {Azalee Bostroem}, K., {Burke}, D.~J.,
+  {Casey}, A.~R., {Crawford}, S.~M., {Dencheva}, N., {Ely}, J., {Jenness}, T.,
+  {Labrie}, K., {Lim}, P.~L., {Pierfederici}, F., {Pontzen}, A., {Ptak}, A.,
+  {Refsdal}, B., {Servillat}, M., and {Streicher}, O. (2013).
+\newblock {Astropy: A community Python package for astronomy}.
+\newblock {\em \aap}, 558:A33.
+
+\bibitem[{Atwood} et~al., 2009]{Atwood_LAT}
+{Atwood}, W.~B., {Abdo}, A.~A., {Ackermann}, M., {Althouse}, W., {Anderson},
+  B., {Axelsson}, M., {Baldini}, L., {Ballet}, J., {Band}, D.~L.,
+  {Barbiellini}, G., and et~al. (2009).
+\newblock {The Large Area Telescope on the Fermi Gamma-Ray Space Telescope
+  Mission}.
+\newblock {\em \apj}, 697:1071--1102.
+
+\bibitem[{Backer} et~al., 1982]{Backer_MSP}
+{Backer}, D.~C., {Kulkarni}, S.~R., {Heiles}, C., {Davis}, M.~M., and {Goss},
+  W.~M. (1982).
+\newblock {A millisecond pulsar}.
+\newblock {\em \nat}, 300:615--618.
+
+\bibitem[{Bagnoli} and {in't Zand}, 2015]{Bagnoli_RB}
+{Bagnoli}, T. and {in't Zand}, J.~J.~M. (2015).
+\newblock {Discovery of GRS 1915+105 variability patterns in the Rapid
+  Burster}.
+\newblock {\em \mnras}, 450:L52--L56.
+
+\bibitem[{Bagnoli} et~al., 2015]{Bagnoli_PopStudy}
+{Bagnoli}, T., {in't Zand}, J.~J.~M., {D'Angelo}, C.~R., and {Galloway}, D.~K.
+  (2015).
+\newblock {A population study of type II bursts in the Rapid Burster}.
+\newblock {\em \mnras}, 449:268--287.
+
+\bibitem[{Bagnoli} et~al., 2013]{Bagnoli_Slow_Rotator}
+{Bagnoli}, T., {in't Zand}, J.~J.~M., {Galloway}, D.~K., and {Watts}, A.~L.
+  (2013).
+\newblock {Indications for a slow rotator in the Rapid Burster from its
+  thermonuclear bursting behaviour}.
+\newblock {\em \mnras}, 431:1947--1955.
+
+\bibitem[{Barthelmy}, 2000]{Barthelmy_BAT}
+{Barthelmy}, S.~D. (2000).
+\newblock {Burst Alert Telescope (BAT) on the Swift MIDEX mission}.
+\newblock In {Flanagan}, K.~A. and {Siegmund}, O.~H., editors, {\em X-Ray and
+  Gamma-Ray Instrumentation for Astronomy XI}, volume 4140 of {\em \procspie},
+  pages 50--63.
+
+\bibitem[{Bazzano} et~al., 2011]{Bazzano_PlaneSurvey}
+{Bazzano}, A., {Bird}, A.~J., {Kuulkers}, E., {Sidoli}, L., {Fiocchi},
+  V.~S.~M., {Natalucci}, L., {Tarana}, A., {Ubertini}, P., {Capitanio}, F.,
+  {Del Santo}, M., {Sabatini}, S., {Tavani}, M., {Bassani}, L., {Malizia}, A.,
+  {Drave}, S.~P., and {Winkler}, C. (2011).
+\newblock {Announcement of INTEGRAL Galactic Plane monitoring program and
+  detection of 2 new hard X-ray sources.}
+\newblock {\em The Astronomer's Telegram}, 3361.
+
+\bibitem[{Bazzano} et~al., 2006]{Bazzano_Survey}
+{Bazzano}, A., {Stephen}, J.~B., {Fiocchi}, M., {Bird}, A.~J., {Bassani}, L.,
+  {Dean}, A.~J., {Malizia}, A., {Ubertini}, P., {Lebrun}, F., {Walter}, R., and
+  {Winkler}, C. (2006).
+\newblock {INTEGRAL IBIS Census of the Sky Beyond 100 keV}.
+\newblock {\em \apjl}, 649:L9--L12.
+
+\bibitem[{Belloni} and {Hasinger}, 1990]{Belloni_RMSNorm}
+{Belloni}, T. and {Hasinger}, G. (1990).
+\newblock {An atlas of aperiodic variability in HMXB}.
+\newblock {\em \aap}, 230:103--119.
+
+\bibitem[{Belloni} et~al., 2000]{Belloni_GRS_MI}
+{Belloni}, T., {Klein-Wolt}, M., {M{\'e}ndez}, M., {van der Klis}, M., and {van
+  Paradijs}, J. (2000).
+\newblock {A model-independent analysis of the variability of GRS 1915+105}.
+\newblock {\em \aap}, 355:271--290.
+
+\bibitem[{Belloni} et~al., 1997a]{Belloni_Model1}
+{Belloni}, T., {M{\'e}ndez}, M., {King}, A.~R., {van der Klis}, M., and {van
+  Paradijs}, J. (1997a).
+\newblock {A Unified Model for the Spectral Variability in GRS 1915+105}.
+\newblock {\em \apjl}, 488:L109--L112.
+
+\bibitem[{Belloni} et~al., 1997b]{Belloni_Timescales}
+{Belloni}, T., {M{\'e}ndez}, M., {King}, A.~R., {van der Klis}, M., and {van
+  Paradijs}, J. (1997b).
+\newblock {An Unstable Central Disk in the Superluminal Black Hole X-Ray Binary
+  GRS 1915+105}.
+\newblock {\em \apjl}, 479:L145--L148.
+
+\bibitem[{Belloni} et~al., 2002]{Belloni_QPOs}
+{Belloni}, T., {Psaltis}, D., and {van der Klis}, M. (2002).
+\newblock {A Unified Description of the Timing Features of Accreting X-Ray
+  Binaries}.
+\newblock {\em \apj}, 572:392--406.
+
+\bibitem[{Belloni} and {Motta}, 2016]{Belloni_Review}
+{Belloni}, T.~M. and {Motta}, S.~E. (2016).
+\newblock {Transient Black Hole Binaries}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Bignami} et~al., 1990]{Bignami_EPIC}
+{Bignami}, G.~F., {Villa}, G.~E., {Boella}, G., {Bonelli}, G., {Caraveo}, P.,
+  {Chiappetti}, L., {Quadrini}, M.~E., {Di Cocco}, G., {Trifoglio}, M., and
+  {Ubertini}, P. (1990).
+\newblock {European Photon Imaging Camera (EPIC) for X-ray astronomy}.
+\newblock In {Siegmund}, O.~H.~W. and {Hudson}, H.~S., editors, {\em EUV,
+  X-ray, and Gamma-ray instrumentation for astronomy}, volume 1344 of {\em
+  \procspie}, pages 144--153.
+
+\bibitem[{Bildsten} and {Brown}, 1997]{Bildsten_Nuclear}
+{Bildsten}, L. and {Brown}, E.~F. (1997).
+\newblock {Thermonuclear Burning on the Accreting X-Ray Pulsar GRO J1744-28}.
+\newblock {\em \apj}, 477:897--904.
+
+\bibitem[{Bildsten} et~al., 1997]{Bildsten_Rev}
+{Bildsten}, L., {Chakrabarty}, D., {Chiu}, J., {Finger}, M.~H., {Koh}, D.~T.,
+  {Nelson}, R.~W., {Prince}, T.~A., {Rubin}, B.~C., {Scott}, D.~M.,
+  {Stollberg}, M., {Vaughan}, B.~A., {Wilson}, C.~A., and {Wilson}, R.~B.
+  (1997).
+\newblock {Observations of Accreting Pulsars}.
+\newblock {\em \apjs}, 113:367--408.
+
+\bibitem[{Bird} et~al., 2016]{Bird_Survey}
+{Bird}, A.~J., {Bazzano}, A., {Malizia}, A., {Fiocchi}, M., {Sguera}, V.,
+  {Bassani}, L., {Hill}, A.~B., {Ubertini}, P., and {Winkler}, C. (2016).
+\newblock {The IBIS Soft Gamma-Ray Sky after 1000 Integral Orbits}.
+\newblock {\em \apjs}, 223:15.
+
+\bibitem[{Blackburn}, 1995]{Blackburn_FTools}
+{Blackburn}, J.~K. (1995).
+\newblock {FTOOLS: A FITS Data Processing and Analysis Software Package}.
+\newblock In {Shaw}, R.~A., {Payne}, H.~E., and {Hayes}, J.~J.~E., editors,
+  {\em Astronomical Data Analysis Software and Systems IV}, volume~77 of {\em
+  Astronomical Society of the Pacific Conference Series}, page 367.
+
+\bibitem[{Bogdanov} et~al., 2015]{Bogdanov_TMSPVar}
+{Bogdanov}, S., {Archibald}, A.~M., {Bassa}, C., {Deller}, A.~T., {Halpern},
+  J.~P., {Heald}, G., {Hessels}, J.~W.~T., {Janssen}, G.~H., {Lyne}, A.~G.,
+  {Mold{\'o}n}, J., {Paragi}, Z., {Patruno}, A., {Perera}, B.~B.~P.,
+  {Stappers}, B.~W., {Tendulkar}, S.~P., {D'Angelo}, C.~R., and {Wijnands}, R.
+  (2015).
+\newblock {Coordinated X-Ray, Ultraviolet, Optical, and Radio Observations of
+  the PSR J1023+0038 System in a Low-mass X-Ray Binary State}.
+\newblock {\em \apj}, 806:148.
+
+\bibitem[{Bogdanov} and {Halpern}, 2015]{Bogdanov_Proxy}
+{Bogdanov}, S. and {Halpern}, J.~P. (2015).
+\newblock {Identification of the High-energy Gamma-Ray Source 3FGL J1544.6-1125
+  as a Transitional Millisecond Pulsar Binary in an Accreting State}.
+\newblock {\em \apjl}, 803:L27.
+
+\bibitem[{Boldt}, 1987]{Boldt_HEAO1}
+{Boldt}, E. (1987).
+\newblock {The cosmic X-ray background}.
+\newblock In {Hewitt}, A., {Burbidge}, G., and {Fang}, L.~Z., editors, {\em
+  Observational Cosmology}, volume 124 of {\em IAU Symposium}, pages 611--615.
+
+\bibitem[{Bradt} et~al., 1993]{Bradt_RXTE}
+{Bradt}, H.~V., {Rothschild}, R.~E., and {Swank}, J.~H. (1993).
+\newblock {X-ray timing explorer mission}.
+\newblock {\em \aaps}, 97:355--360.
+
+\bibitem[{Bradt} et~al., 1990]{Bradt_XTEaims}
+{Bradt}, H.~V., {Swank}, J.~H., and {Rothschild}, R.~E. (1990).
+\newblock {The X-ray Timing Explorer}.
+\newblock {\em Advances in Space Research}, 10:297--310.
+
+\bibitem[{Burrows} et~al., 2003]{Burrows_XRT}
+{Burrows}, D.~N., {Hill}, J.~E., {Nousek}, J.~A., {Wells}, A.~A., {Short},
+  A.~T., {Ambrosi}, R.~M., {Chincarini}, G., {Citterio}, O., and {Tagliaferri},
+  G. (2003).
+\newblock {Swift x-ray telescope (XRT)}.
+\newblock In {Truemper}, J.~E. and {Tananbaum}, H.~D., editors, {\em X-Ray and
+  Gamma-Ray Telescopes and Instruments for Astronomy.}, volume 4851 of {\em
+  \procspie}, pages 1320--1325.
+
+\bibitem[{Campana} et~al., 1998]{Campana_NoDisk}
+{Campana}, S., {Colpi}, M., {Mereghetti}, S., {Stella}, L., and {Tavani}, M.
+  (1998).
+\newblock {The neutron stars of Soft X-ray Transients}.
+\newblock {\em \aapr}, 8:279--316.
+
+\bibitem[{Campana} et~al., 2017]{Campana_PropBorder}
+{Campana}, S., {Stella}, L., {Mereghetti}, S., and {de Martino}, D. (2017).
+\newblock {A universal relation for the propeller mechanisms in magnetic
+  rotating stars at different scales}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Capitanio} et~al., 2012]{Capitanio_peculiar}
+{Capitanio}, F., {Del Santo}, M., {Bozzo}, E., {Ferrigno}, C., {De Cesare}, G.,
+  and {Paizis}, A. (2012).
+\newblock {The peculiar 2011 outburst of the black hole candidate IGR
+  J17091-3624, a GRS 1915+105-like source?}
+\newblock {\em \mnras}, 422:3130--3141.
+
+\bibitem[{Castro-Tirado} et~al., 1992]{CastroTirado_GRS1915}
+{Castro-Tirado}, A.~J., {Brandt}, S., and {Lund}, N. (1992).
+\newblock {GRS 1915+105}.
+\newblock {\em \iaucirc}, 5590.
+
+\bibitem[{Chakrabarty} et~al., 1997a]{Chakrabarty_GX14}
+{Chakrabarty}, D., {Bildsten}, L., {Finger}, M.~H., {Grunsfeld}, J.~M., {Koh},
+  D.~T., {Nelson}, R.~W., {Prince}, T.~A., {Vaughan}, B.~A., and {Wilson},
+  R.~B. (1997a).
+\newblock {On the Correlation of Torque and Luminosity in GX 1+4}.
+\newblock {\em \apjl}, 481:L101--L105.
+
+\bibitem[{Chakrabarty} et~al., 1997b]{Chakrabarty_4U}
+{Chakrabarty}, D., {Bildsten}, L., {Grunsfeld}, J.~M., {Koh}, D.~T., {Prince},
+  T.~A., {Vaughan}, B.~A., {Finger}, M.~H., {Scott}, D.~M., and {Wilson}, R.~B.
+  (1997b).
+\newblock {Torque Reversal and Spin-down of the Accretion-powered Pulsar 4U
+  1626-67}.
+\newblock {\em \apj}, 474:414--425.
+
+\bibitem[{Chakrabarty} et~al., 2014]{Chakrabarty_BPloc}
+{Chakrabarty}, D., {Jonker}, P.~G., and {Markwardt}, C.~B. (2014).
+\newblock {Chandra Localization and Detection of a Burst and Pulsations from
+  GRO J1744-28}.
+\newblock {\em The Astronomer's Telegram}, 5895.
+
+\bibitem[{Chen} et~al., 1996]{Chen_QPOs}
+{Chen}, X., {Swank}, J.~H., and {Taam}, R.~E. (1996).
+\newblock {The Pattern of Correlated X-ray Timing and Spectral Behavior in GRS
+  1915+105}.
+\newblock In {\em American Astronomical Society Meeting Abstracts}, volume~28
+  of {\em Bulletin of the American Astronomical Society}, page 1315.
+
+\bibitem[{Cole} et~al., 1997]{Cole_BPD}
+{Cole}, D.~M., {Vanden Berk}, D.~E., {Severson}, S.~A., {Miller}, M.~C.,
+  {Quashnock}, J.~M., {Nichol}, R.~C., {Lamb}, D.~Q., {Hurley}, K., {Blanco},
+  P., {Lidman}, C., and {Glazebrook}, K. (1997).
+\newblock {Optical/Near-Infrared Observations of GRO J1744-28}.
+\newblock {\em \apj}, 480:377--382.
+
+\bibitem[Court, 2017]{Court_PANTHEON}
+Court, J. (2017).
+\newblock jmcourt/pantheon: Zenodo release.
+
+\bibitem[{Court} et~al., 2018a]{Court_BPTMSP}
+{Court}, J., {Altamirano}, D., and {Sanna}, A. (2018a).
+\newblock {The Bursting Pulsar GRO J1744-28: the Slowest Transitional Pulsar?}
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Court} et~al., 2018b]{Court_BPClasses}
+{Court}, J.~M.~C., {Altamirano}, D., {Albayati}, A.~C., {Overton}, T., {Sanna},
+  A., {Degenaar}, N., {Yamaoka}, K., {Belloni}, T., and {Blaes}, O. ((in prep)
+  2018b).
+\newblock {A Population Study of X-Ray bursts in the "Bursting Pulsar" GRO
+  J1744-28}.
+\newblock {\em \mnras}.
+
+\bibitem[{Court} et~al., 2017]{Court_IGRClasses}
+{Court}, J.~M.~C., {Altamirano}, D., {Pereyra}, M., {Boon}, C.~M., {Yamaoka},
+  K., {Belloni}, T., {Wijnands}, R., and {Pahari}, M. (2017).
+\newblock {An atlas of exotic variability in IGR J17091-3624: a comparison with
+  GRS 1915+105}.
+\newblock {\em \mnras}, 468:4748--4771.
+
+\bibitem[{Courvoisier} et~al., 2003]{Courvoisier_ISDC}
+{Courvoisier}, T.~J.-L., {Walter}, R., {Beckmann}, V., {Dean}, A.~J., {Dubath},
+  P., {Hudec}, R., {Kretschmar}, P., {Mereghetti}, S., {Montmerle}, T.,
+  {Mowlavi}, N., {Paltani}, S., {Preite Martinez}, A., {Produit}, N.,
+  {Staubert}, R., {Strong}, A.~W., {Swings}, J.-P., {Westergaard}, N.~J.,
+  {White}, N., {Winkler}, C., and {Zdziarski}, A.~A. (2003).
+\newblock {The INTEGRAL Science Data Centre (ISDC)}.
+\newblock {\em \aap}, 411:L53--L57.
+
+\bibitem[{D'A{\`i}} et~al., 2016]{Dai_Hlags}
+{D'A{\`i}}, A., {Burderi}, L., {Di Salvo}, T., {Iaria}, R., {Pintore}, F.,
+  {Riggio}, A., and {Sanna}, A. (2016).
+\newblock {Discovery of hard phase lags in the pulsed emission of GRO
+  J1744-28}.
+\newblock {\em \mnras}, 463:L84--L88.
+
+\bibitem[{D'A{\`i}} et~al., 2015]{Dai_OB3}
+{D'A{\`i}}, A., {Di Salvo}, T., {Iaria}, R., {Garc{\'{\i}}a}, J.~A., {Sanna},
+  A., {Pintore}, F., {Riggio}, A., {Burderi}, L., {Bozzo}, E., {Dauser}, T.,
+  {Matranga}, M., {Galiano}, C.~G., and {Robba}, N.~R. (2015).
+\newblock {GRO J1744-28: an intermediate B-field pulsar in a low-mass X-ray
+  binary}.
+\newblock {\em \mnras}, 449:4288--4303.
+
+\bibitem[{Daigne} et~al., 2002]{Daigne_BPQ}
+{Daigne}, F., {Goldoni}, P., {Ferrando}, P., {Goldwurm}, A., {Decourchelle},
+  A., and {Warwick}, R.~S. (2002).
+\newblock {XMM-Newton observation of the bursting pulsar GRO J1744-28 in
+  quiescence}.
+\newblock {\em \aap}, 386:531--534.
+
+\bibitem[{D'Amico} et~al., 2001]{DAmico_ScoHardTail}
+{D'Amico}, F., {Heindl}, W.~A., {Rothschild}, R.~E., and {Gruber}, D.~E.
+  (2001).
+\newblock {High-Energy X-Ray Timing Experiment Detections of Hard X-Ray Tails
+  in Scorpius X-1}.
+\newblock {\em \apjl}, 547:L147--L150.
+
+\bibitem[{D'Angelo} and {Spruit}, 2010]{Dangelo_Episodic1}
+{D'Angelo}, C.~R. and {Spruit}, H.~C. (2010).
+\newblock {Episodic accretion on to strongly magnetic stars}.
+\newblock {\em \mnras}, 406:1208--1219.
+
+\bibitem[{D'Angelo} and {Spruit}, 2012]{Dangelo_Episodic2}
+{D'Angelo}, C.~R. and {Spruit}, H.~C. (2012).
+\newblock {Accretion discs trapped near corotation}.
+\newblock {\em \mnras}, 420:416--429.
+
+\bibitem[{De Martino} et~al., 2013]{DeMartino_XSS}
+{De Martino}, D., {Belloni}, T., {Falanga}, M., {Papitto}, A., {Motta}, S.,
+  {Pellizzoni}, A., {Evangelista}, Y., {Piano}, G., {Masetti}, N.,
+  {Bonnet-Bidaud}, J.-M., {Mouchet}, M., {Mukai}, K., and {Possenti}, A.
+  (2013).
+\newblock {X-ray follow-ups of XSS J12270-4859: a low-mass X-ray binary with
+  gamma-ray Fermi-LAT association}.
+\newblock {\em \aap}, 550:A89.
+
+\bibitem[{Degenaar} et~al., 2014a]{Degenaar_BPSpec}
+{Degenaar}, N., {Miller}, J.~M., {Harrison}, F.~A., {Kennea}, J.~A.,
+  {Kouveliotou}, C., and {Younes}, G. (2014a).
+\newblock {High-resolution X-Ray Spectroscopy of the Bursting Pulsar GRO
+  J1744-28}.
+\newblock {\em \apjl}, 796:L9.
+
+\bibitem[{Degenaar} et~al., 2012]{Degenaar_BPQuiescence}
+{Degenaar}, N., {Wijnands}, R., {Cackett}, E.~M., {Homan}, J., {in't Zand},
+  J.~J.~M., {Kuulkers}, E., {Maccarone}, T.~J., and {van der Klis}, M. (2012).
+\newblock {A four-year XMM-Newton/Chandra monitoring campaign of the Galactic
+  centre: analysing the X-ray transients}.
+\newblock {\em \aap}, 545:A49.
+
+\bibitem[{Degenaar} et~al., 2014b]{Degenaar_174457}
+{Degenaar}, N., {Wijnands}, R., {Reynolds}, M.~T., {Miller}, J.~M.,
+  {Altamirano}, D., {Kennea}, J., {Gehrels}, N., {Haggard}, D., and {Ponti}, G.
+  (2014b).
+\newblock {The Peculiar Galactic Center Neutron Star X-Ray Binary XMM
+  J174457-2850.3}.
+\newblock {\em \apj}, 792:109.
+
+\bibitem[{den Herder} et~al., 1994]{denHerder_RGS}
+{den Herder}, J.-W., {Aarts}, H.~J., {van den Berg}, M.~L., {Bixler}, J.~V.,
+  {den Boggende}, A.~J., {Branduardi-Raymont}, G., {Brinkman}, A.~C., {Decker},
+  T.~A., {Dubbeldam}, L., {Hailey}, C.~J., {Jansen}, F.~A., {Kahn}, S.~M., {de
+  Korte}, P.~A., {Mauche}, C.~W., {Montesanti}, R.~C., {Paerels}, F.~B.,
+  {Spruijt}, H., {Thomsen}, K., {Verhoeve}, P., and {Zehnder}, A. (1994).
+\newblock {Reflection grating spectrometer onboard the ESA x-ray multi-mirror
+  (XMM) mission}.
+\newblock In {Cerutti-Maori}, M.~G. and {Roussel}, P., editors, {\em Space
+  Optics 1994: Earth Observation and Astronomy}, volume 2209 of {\em
+  \procspie}, pages 451--462.
+
+\bibitem[{Di Salvo} et~al., 2001a]{DiSalvo_GX349}
+{Di Salvo}, T., {Robba}, N.~R., {Iaria}, R., {Stella}, L., {Burderi}, L., and
+  {Israel}, G.~L. (2001a).
+\newblock {Detection of a Hard Tail in the X-Ray Spectrum of the Z Source GX
+  349+2}.
+\newblock {\em \apj}, 554:49--55.
+
+\bibitem[{Di Salvo} et~al., 2001b]{DiSalvo_GX17}
+{Di Salvo}, T., {Stella}, L., {Robba}, N.~R., {Burderi}, L., and {van der
+  Klis}, M. (2001b).
+\newblock {The discovery of a hard X-ray component in the horizontal branch
+  spectrum of the Z source GX 17+2}.
+\newblock In {Gimenez}, A., {Reglero}, V., and {Winkler}, C., editors, {\em
+  Exploring the Gamma-Ray Universe}, volume 459 of {\em ESA Special
+  Publication}, pages 341--344.
+
+\bibitem[{Done} et~al., 2004]{Done_GRS_HighAcc}
+{Done}, C., {Wardzi{\'n}ski}, G., and {Gierli{\'n}ski}, M. (2004).
+\newblock {GRS 1915+105: the brightest Galactic black hole}.
+\newblock {\em \mnras}, 349:393--403.
+
+\bibitem[{Doroshenko} et~al., 2015]{Doroshenko_NBFlash}
+{Doroshenko}, R., {Santangelo}, A., {Doroshenko}, V., {Suleimanov}, V., and
+  {Piraino}, S. (2015).
+\newblock {BeppoSAX observations of GRO J1744-28: cyclotron line detection and
+  the softening of the burst spectra}.
+\newblock {\em \mnras}, 452:2490--2499.
+
+\bibitem[{Doxsey} et~al., 1978]{Doxsey_RBGlob}
+{Doxsey}, R., {Bradt}, H., {Johnston}, M., {Gursky}, H., {Schwartz}, D.~A., and
+  {Schwarz}, J. (1978).
+\newblock {Position for the rapid burster MXB 1730-335 determined with the
+  scanning modulation collimator on HEAO 1}.
+\newblock {\em \apjl}, 221:L53--L55.
+
+\bibitem[{Drave} et~al., 2012]{Drave_Return}
+{Drave}, S.~P., {Fiocchi}, M., {Sguera}, V., {Bazzano}, A., {Bird}, A.~J.,
+  {Sidoli}, L., and {Kuulker}, E. (2012).
+\newblock {A possible state change in the black-hole candidate IGR
+  J17091-3624}.
+\newblock {\em The Astronomer's Telegram}, 3916.
+
+\bibitem[{Eckert} et~al., 2013]{Eckert_IGRJ18245}
+{Eckert}, D., {Del Santo}, M., {Bazzano}, A., {Watanabe}, K., {Paizis}, A.,
+  {Bozzo}, E., {Ferrigno}, C., {Caballero}, I., {Sidoli}, L., and {Kuiper}, L.
+  (2013).
+\newblock {IGR J18245-2452: a new hard X-ray transient discovered by INTEGRAL}.
+\newblock {\em The Astronomer's Telegram}, 4925.
+
+\bibitem[{Evans} et~al., 2009]{Evans_Swift2}
+{Evans}, P.~A., {Beardmore}, A.~P., {Page}, K.~L., {Osborne}, J.~P., {O'Brien},
+  P.~T., {Willingale}, R., {Starling}, R.~L.~C., {Burrows}, D.~N., {Godet}, O.,
+  {Vetere}, L., {Racusin}, J., {Goad}, M.~R., {Wiersema}, K., {Angelini}, L.,
+  {Capalbi}, M., {Chincarini}, G., {Gehrels}, N., {Kennea}, J.~A., {Margutti},
+  R., {Morris}, D.~C., {Mountford}, C.~J., {Pagani}, C., {Perri}, M., {Romano},
+  P., and {Tanvir}, N. (2009).
+\newblock {Methods and results of an automatic analysis of a complete sample of
+  Swift-XRT observations of GRBs}.
+\newblock {\em \mnras}, 397:1177--1201.
+
+\bibitem[{Evans} et~al., 2007]{Evans_Swift1}
+{Evans}, P.~A., {Beardmore}, A.~P., {Page}, K.~L., {Tyler}, L.~G., {Osborne},
+  J.~P., {Goad}, M.~R., {O'Brien}, P.~T., {Vetere}, L., {Racusin}, J.,
+  {Morris}, D., {Burrows}, D.~N., {Capalbi}, M., {Perri}, M., {Gehrels}, N.,
+  and {Romano}, P. (2007).
+\newblock {An online repository of Swift/XRT light curves of {$\gamma$}-ray
+  bursts}.
+\newblock {\em \aap}, 469:379--385.
+
+\bibitem[{Fender}, 2006]{Fender_Jets}
+{Fender}, R. (2006).
+\newblock {\em {Jets from X-ray binaries}}, pages 381--419.
+
+\bibitem[{Fender} and {Belloni}, 2004]{Fender_DiskJet}
+{Fender}, R. and {Belloni}, T. (2004).
+\newblock {GRS 1915+105 and the Disc-Jet Coupling in Accreting Black Hole
+  Systems}.
+\newblock {\em \araa}, 42:317--364.
+
+\bibitem[{Ferrigno} et~al., 2014]{Ferrigno_TMSPVar}
+{Ferrigno}, C., {Bozzo}, E., {Papitto}, A., {Rea}, N., {Pavan}, L., {Campana},
+  S., {Wieringa}, M., {Filipovi{\'c}}, M., {Falanga}, M., and {Stella}, L.
+  (2014).
+\newblock {Hiccup accretion in the swinging pulsar IGR J18245-2452}.
+\newblock {\em \aap}, 567:A77.
+
+\bibitem[{Finger} et~al., 1996a]{Finger_Pulse}
+{Finger}, M.~H., {Koh}, D.~T., {Nelson}, R.~W., {Prince}, T.~A., {Vaughan},
+  B.~A., and {Wilson}, R.~B. (1996a).
+\newblock {Discovery of hard X-ray pulsations from the transient source GRO
+  J1744 - 28}.
+\newblock {\em \nat}, 381:291--293.
+
+\bibitem[{Finger} et~al., 1996b]{Finger_BP}
+{Finger}, M.~H., {Wilson}, R.~B., {Harmon}, B.~A., {Hagedon}, K., and {Prince},
+  T.~A. (1996b).
+\newblock {GRO J1744-28}.
+\newblock {\em \iaucirc}, 6285.
+
+\bibitem[{Fiocchi} et~al., 2012]{Fiocchi_PlaneScan}
+{Fiocchi}, M.~T., {Natalucci}, L., and {GPS Team} (2012).
+\newblock {The INTEGRAL Galactic Plane Scanning}.
+\newblock In {\em Proceedings of ''An INTEGRAL view of the high-energy sky (the
+  first 10 years)'' - 9th INTEGRAL Workshop and celebration of the 10th
+  anniversary of the launch (INTEGRAL 2012). 15-19 October 2012. Bibliotheque
+  Nationale de France, Paris, France. Published online at
+  \url{http://pos.sissa.it/cgi-bin/reader/conf.cgi?confid=176}, id.82},
+  page~82.
+
+\bibitem[{Fishman} et~al., 1995]{Fishman_Discovery}
+{Fishman}, G.~J., {Kouveliotou}, C., {van Paradijs}, J., {Harmon}, B.~A.,
+  {Paciesas}, W.~S., {Briggs}, M.~S., {Kommers}, J., and {Lewin}, W.~H.~G.
+  (1995).
+\newblock {Galactic Center}.
+\newblock {\em \iaucirc}, 6272.
+
+\bibitem[{Frank} et~al., 2002]{Frank_Timescales}
+{Frank}, J., {King}, A., and {Raine}, D.~J. (2002).
+\newblock {\em {Accretion Power in Astrophysics: Third Edition}}.
+
+\bibitem[{Fruscione} et~al., 2006]{Fruscione_Ciao}
+{Fruscione}, A., {McDowell}, J.~C., {Allen}, G.~E., {Brickhouse}, N.~S.,
+  {Burke}, D.~J., {Davis}, J.~E., {Durham}, N., {Elvis}, M., {Galle}, E.~C.,
+  {Harris}, D.~E., {Huenemoerder}, D.~P., {Houck}, J.~C., {Ishibashi}, B.,
+  {Karovska}, M., {Nicastro}, F., {Noble}, M.~S., {Nowak}, M.~A., {Primini},
+  F.~A., {Siemiginowska}, A., {Smith}, R.~K., and {Wise}, M. (2006).
+\newblock {CIAO: Chandra's data analysis system}.
+\newblock In {\em Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series}, volume 6270 of {\em \procspie}, page 62701V.
+
+\bibitem[{Galloway} and {in't Zand}, 2010]{Galloway_NewTypeII}
+{Galloway}, D.~K. and {in't Zand}, J.~J.~M. (2010).
+\newblock {Type-II bursts from the new Terzan 5 transient: a GRO J1744-28
+  analogue?}
+\newblock {\em The Astronomer's Telegram}, 3000.
+
+\bibitem[{Galloway} et~al., 2008]{Galloway_TypeI}
+{Galloway}, D.~K., {Muno}, M.~P., {Hartman}, J.~M., {Psaltis}, D., and
+  {Chakrabarty}, D. (2008).
+\newblock {Thermonuclear (Type I) X-Ray Bursts Observed by the Rossi X-Ray
+  Timing Explorer}.
+\newblock {\em \apjs}, 179:360--422.
+
+\bibitem[{Garmire} et~al., 2003]{Garmire_ACIS}
+{Garmire}, G.~P., {Bautz}, M.~W., {Ford}, P.~G., {Nousek}, J.~A., and {Ricker},
+  Jr., G.~R. (2003).
+\newblock {Advanced CCD imaging spectrometer (ACIS) instrument on the Chandra
+  X-ray Observatory}.
+\newblock In {Truemper}, J.~E. and {Tananbaum}, H.~D., editors, {\em X-Ray and
+  Gamma-Ray Telescopes and Instruments for Astronomy.}, volume 4851 of {\em
+  \procspie}, pages 28--44.
+
+\bibitem[{Gehrels}, 2004]{Gehrels_Swift}
+{Gehrels}, N. (2004).
+\newblock {The Swift Gamma-Ray Burst Mission}.
+\newblock In {Schoenfelder}, V., {Lichti}, G., and {Winkler}, C., editors, {\em
+  5th INTEGRAL Workshop on the INTEGRAL Universe}, volume 552 of {\em ESA
+  Special Publication}, page 777.
+
+\bibitem[{Gehrels} et~al., 1994]{Gehrels_CGRO}
+{Gehrels}, N., {Chipman}, E., and {Kniffen}, D. (1994).
+\newblock {The Compton Gamma Ray Observatory}.
+\newblock {\em \apjs}, 92:351--362.
+
+\bibitem[{Ghosh} and {Chakrabarti}, 2014]{Ghosh_Eccentric}
+{Ghosh}, A. and {Chakrabarti}, S.~K. (2014).
+\newblock {Periods of two enigmatic black hole candidates GRS 1915+105 and IGR
+  J17091-3624}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Giacconi} et~al., 1971]{Giacconi_Uhuru}
+{Giacconi}, R., {Kellogg}, E., {Gorenstein}, P., {Gursky}, H., and {Tananbaum},
+  H. (1971).
+\newblock {An X-Ray Scan of the Galactic Plane from UHURU}.
+\newblock {\em \apjl}, 165:L27.
+
+\bibitem[{Giles} et~al., 1996]{Giles_BP}
+{Giles}, A.~B., {Swank}, J.~H., {Jahoda}, K., {Zhang}, W., {Strohmayer}, T.,
+  {Stark}, M.~J., and {Morgan}, E.~H. (1996).
+\newblock {The Main Characteristics of GRO J1744-28 Observed by the
+  Proportional Counter Array Experiment on the Rossi X-Ray Timing Explorer}.
+\newblock {\em \apjl}, 469:L25.
+
+\bibitem[{Gimenez} and {Mas-Hesse}, 1998]{Gimenez_OMC}
+{Gimenez}, A. and {Mas-Hesse}, J.~M. (1998).
+\newblock {Optical monitoring camera on board the ESA high-energy mission
+  INTEGRAL}.
+\newblock In {Doty}, F.~P. and {Hoover}, R.~B., editors, {\em Hard X-Ray and
+  Gamma-Ray Detector Physics and Applications}, volume 3446 of {\em \procspie},
+  pages 257--265.
+
+\bibitem[{Giorgini} et~al., 1997]{Giorgini_Horizons}
+{Giorgini}, J.~D., {Yeomans}, D.~K., {Chamberlin}, A.~B., {Chodas}, P.~W.,
+  {Jacobson}, R.~A., {Keesey}, M.~S., {Lieske}, J.~H., {Ostro}, S.~J.,
+  {Standish}, E.~M., and {Wimberly}, R.~N. (1997).
+\newblock {JPL's On-Line Solar System Ephemeris and Data Service}.
+\newblock In {Bietenholz}, M.~F., {Bartel}, N., {Rupen}, M.~P., {Beasley},
+  A.~J., {Graham}, D.~A., {Altunin}, V.~I., {Venturi}, T., {Umana}, G., and
+  {Conway}, J.~E., editors, {\em Bulletin of the American Astronomical
+  Society}, volume~29 of {\em \baas}, page 1099.
+
+\bibitem[{Gosling} et~al., 2007]{Gosling_BPCompanion}
+{Gosling}, A.~J., {Bandyopadhyay}, R.~M., {Miller-Jones}, J.~C.~A., and
+  {Farrell}, S.~A. (2007).
+\newblock {GRO J1744-28, search for the counterpart: infrared photometry and
+  spectroscopy}.
+\newblock {\em \mnras}, 380:1511--1520.
+
+\bibitem[{Graessle} et~al., 2006]{Graessle_ChaCALDB}
+{Graessle}, D.~E., {Evans}, I.~N., {Glotfelty}, K., {He}, X.~H., {Evans},
+  J.~D., {Rots}, A.~H., {Fabbiano}, G., and {Brissenden}, R.~J. (2006).
+\newblock {The Chandra X-ray Observatory calibration database (CalDB):
+  building, planning, and improving}.
+\newblock In {\em Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series}, volume 6270 of {\em \procspie}, page 62701X.
+
+\bibitem[{Gruber} et~al., 1996]{Gruber_HEXTE}
+{Gruber}, D.~E., {Blanco}, P.~R., {Heindl}, W.~A., {Pelling}, M.~R.,
+  {Rothschild}, R.~E., and {Hink}, P.~L. (1996).
+\newblock {The high energy X-ray timing experiment on XTE.}
+\newblock {\em \aaps}, 120:641--644.
+
+\bibitem[{Hannikainen} et~al., 2007]{Hannikainen_NewClass}
+{Hannikainen}, D.~C., {Hjalmarsdotter}, L., {Rodriguez}, J., {Vilhu}, O.,
+  {Zdziarski}, A.~A., and {Belloni}, T. (2007).
+\newblock {Identifying a New Class of Variability in GRS 1915+105}.
+\newblock In {\em ESA Special Publication}, volume 622 of {\em ESA Special
+  Publication}, page 353.
+
+\bibitem[{Harrison} et~al., 2013]{Harrison_NuSTAR}
+{Harrison}, F.~A., {Craig}, W.~W., {Christensen}, F.~E., {Hailey}, C.~J.,
+  {Zhang}, W.~W., {Boggs}, S.~E., {Stern}, D., {Cook}, W.~R., {Forster}, K.,
+  {Giommi}, P., {Grefenstette}, B.~W., {Kim}, Y., {Kitaguchi}, T., {Koglin},
+  J.~E., {Madsen}, K.~K., {Mao}, P.~H., {Miyasaka}, H., {Mori}, K., {Perri},
+  M., {Pivovaroff}, M.~J., {Puccetti}, S., {Rana}, V.~R., {Westergaard}, N.~J.,
+  {Willis}, J., {Zoglauer}, A., {An}, H., {Bachetti}, M., {Barri{\`e}re},
+  N.~M., {Bellm}, E.~C., {Bhalerao}, V., {Brejnholt}, N.~F., {Fuerst}, F.,
+  {Liebe}, C.~C., {Markwardt}, C.~B., {Nynka}, M., {Vogel}, J.~K., {Walton},
+  D.~J., {Wik}, D.~R., {Alexander}, D.~M., {Cominsky}, L.~R., {Hornschemeier},
+  A.~E., {Hornstrup}, A., {Kaspi}, V.~M., {Madejski}, G.~M., {Matt}, G.,
+  {Molendi}, S., {Smith}, D.~M., {Tomsick}, J.~A., {Ajello}, M., {Ballantyne},
+  D.~R., {Balokovi{\'c}}, M., {Barret}, D., {Bauer}, F.~E., {Blandford}, R.~D.,
+  {Brandt}, W.~N., {Brenneman}, L.~W., {Chiang}, J., {Chakrabarty}, D.,
+  {Chenevez}, J., {Comastri}, A., {Dufour}, F., {Elvis}, M., {Fabian}, A.~C.,
+  {Farrah}, D., {Fryer}, C.~L., {Gotthelf}, E.~V., {Grindlay}, J.~E.,
+  {Helfand}, D.~J., {Krivonos}, R., {Meier}, D.~L., {Miller}, J.~M.,
+  {Natalucci}, L., {Ogle}, P., {Ofek}, E.~O., {Ptak}, A., {Reynolds}, S.~P.,
+  {Rigby}, J.~R., {Tagliaferri}, G., {Thorsett}, S.~E., {Treister}, E., and
+  {Urry}, C.~M. (2013).
+\newblock {The Nuclear Spectroscopic Telescope Array (NuSTAR) High-energy X-Ray
+  Mission}.
+\newblock {\em \apj}, 770:103.
+
+\bibitem[{Hayakawa}, 1985]{Hayakawa_Type2Mod}
+{Hayakawa}, S. (1985).
+\newblock {X-rays from accreting neutron stars}.
+\newblock {\em \physrep}, 121:317--406.
+
+\bibitem[{Heger} et~al., 2007]{Heger_MargStab}
+{Heger}, A., {Cumming}, A., and {Woosley}, S.~E. (2007).
+\newblock {Millihertz Quasi-periodic Oscillations from Marginally Stable
+  Nuclear Burning on an Accreting Neutron Star}.
+\newblock {\em \apj}, 665:1311--1320.
+
+\bibitem[{Heidke}, 1926]{Heidke_SKSC}
+{Heidke}, P. (1926).
+\newblock Berechnung des erfolges und der gute der windstarkvorhersagen im
+  sturmwarnungsdienst.
+\newblock {\em Geogr. Ann.}, 8:301349.
+
+\bibitem[{Hill} et~al., 2011]{Hill_XSS}
+{Hill}, A.~B., {Szostek}, A., {Corbel}, S., {Camilo}, F., {Corbet}, R.~H.~D.,
+  {Dubois}, R., {Dubus}, G., {Edwards}, P.~G., {Ferrara}, E.~C., {Kerr}, M.,
+  {Koerding}, E., {Kozie{\l}}, D., and {Stawarz}, {\L}. (2011).
+\newblock {The bright unidentified{$\gamma$}-ray source 1FGL J1227.9-4852: can
+  it be associated with a low-mass X-ray binary?}
+\newblock {\em \mnras}, 415:235--243.
+
+\bibitem[{Hirose} et~al., 2009]{Hirose_Stable}
+{Hirose}, S., {Krolik}, J.~H., and {Blaes}, O. (2009).
+\newblock {Radiation-Dominated Disks are Thermally Stable}.
+\newblock {\em \apj}, 691:16--31.
+
+\bibitem[{Hoffman} et~al., 1978]{Hoffman_RB}
+{Hoffman}, J.~A., {Marshall}, H.~L., and {Lewin}, W.~H.~G. (1978).
+\newblock {Dual character of the rapid burster and a classification of X-ray
+  bursts}.
+\newblock {\em \nat}, 271:630--633.
+
+\bibitem[{Hunter}, 2007]{Hunter_MatPlotLib}
+{Hunter}, J.~D. (2007).
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing In Science \& Engineering}, 9(3):90--95.
+
+\bibitem[{Huppenkothen} et~al., 2017]{Huppenkothen_ML}
+{Huppenkothen}, D., {Heil}, L.~M., {Hogg}, D.~W., and {Mueller}, A. (2017).
+\newblock {Using machine learning to explore the long-term evolution of GRS
+  1915+105}.
+\newblock {\em \mnras}, 466:2364--2377.
+
+\bibitem[{Huppenkothen} et~al., 2016]{Huppenkothen_V404}
+{Huppenkothen}, D., {Younes}, G., {Ingram}, A., {Kouveliotou}, C., {G{\"o}{\u
+  g}{\"u}{\c s}}, E., {Bachetti}, M., {S{\'a}nchez-Fern{\'a}ndez}, C.,
+  {Chenevez}, J., {Motta}, S., {van der Klis}, M., {Granot}, J., {Gehrels}, N.,
+  {Kuulkers}, E., {Tomsick}, J.~A., and {Walton}, D.~J. (2016).
+\newblock {Detection of Very Low-Frequency Quasi-Periodic Oscillations in the
+  2015 Outburst of V404 Cygni}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Iaria} et~al., 2018]{Iaria_RB}
+{Iaria}, R., {Gambino}, A.~F., {Di Salvo}, T., {Burderi}, L., {Matranga}, M.,
+  {Riggio}, A., {Sanna}, A., {Scarano}, F., and {D'A{\i}}, A. (2018).
+\newblock {A possible solution of the puzzling variation of the orbital period
+  of MXB 1659-298}.
+\newblock {\em \mnras}, 473:3490--3499.
+
+\bibitem[{Ibarra} et~al., 2009]{Ibarra_sas}
+{Ibarra}, A., {Calle}, I., {Gabriel}, C., {Salgado}, J., and {Osuna}, P.
+  (2009).
+\newblock {XMM-Newton Science Analysis Software: How to Bring New Technologies
+  to Long-life Satellite Missions}.
+\newblock In {Bohlender}, D.~A., {Durand}, D., and {Dowler}, P., editors, {\em
+  Astronomical Data Analysis Software and Systems XVIII}, volume 411 of {\em
+  Astronomical Society of the Pacific Conference Series}, page 322.
+
+\bibitem[{Ibragimov} and {Poutanen}, 2009]{Ibragimov_PulseFrac}
+{Ibragimov}, A. and {Poutanen}, J. (2009).
+\newblock {Accreting millisecond pulsar SAX J1808.4-3658 during its 2002
+  outburst: evidence for a receding disc}.
+\newblock {\em \mnras}, 400:492--508.
+
+\bibitem[{Icke}, 1979]{Icke_Disk}
+{Icke}, V. (1979).
+\newblock {Disk accretion in a soft potential well}.
+\newblock {\em \aap}, 78:21--24.
+
+\bibitem[{Illarionov} and {Sunyaev}, 1975]{Illarionov_Propellor}
+{Illarionov}, A.~F. and {Sunyaev}, R.~A. (1975).
+\newblock {Why the Number of Galactic X-ray Stars Is so Small?}
+\newblock {\em \aap}, 39:185.
+
+\bibitem[{Irwin} et~al., 1989]{Irwin_LombScargle}
+{Irwin}, A.~W., {Campbell}, B., {Morbey}, C.~L., {Walker}, G.~A.~H., and
+  {Yang}, S. (1989).
+\newblock {Long-period radial-velocity variations of Arcturus}.
+\newblock {\em \pasp}, 101:147--159.
+
+\bibitem[{Iyer} et~al., 2015a]{Iyer_IGRMass}
+{Iyer}, N., {Nandi}, A., and {Mandal}, S. (2015a).
+\newblock {Determination of the Mass of IGR J17091-3624 from
+  ''Spectro-temporal'' Variations during the Onset Phase of the 2011 Outburst}.
+\newblock {\em \apj}, 807:108.
+
+\bibitem[{Iyer} et~al., 2015b]{Iyer_Bayes}
+{Iyer}, N., {Nandi}, A., and {Mandal}, S. (2015b).
+\newblock {Estimating the mass of IGR J17091-3624: statistical challenges and
+  methods}.
+\newblock In {\em Astronomical Society of India Conference Series}, volume~12
+  of {\em Astronomical Society of India Conference Series}.
+
+\bibitem[{Jahoda} et~al., 2006]{Jahoda_Calibrate}
+{Jahoda}, K., {Markwardt}, C.~B., {Radeva}, Y., {Rots}, A.~H., {Stark}, M.~J.,
+  {Swank}, J.~H., {Strohmayer}, T.~E., and {Zhang}, W. (2006).
+\newblock {Calibration of the Rossi X-Ray Timing Explorer Proportional Counter
+  Array}.
+\newblock {\em \apjs}, 163:401--423.
+
+\bibitem[{Jahoda} et~al., 1996]{Jahoda_PCA}
+{Jahoda}, K., {Swank}, J.~H., {Giles}, A.~B., {Stark}, M.~J., {Strohmayer}, T.,
+  {Zhang}, W., and {Morgan}, E.~H. (1996).
+\newblock {In-orbit performance and calibration of the Rossi X-ray Timing
+  Explorer (RXTE) Proportional Counter Array (PCA)}.
+\newblock In {Siegmund}, O.~H. and {Gummin}, M.~A., editors, {\em EUV, X-Ray,
+  and Gamma-Ray Instrumentation for Astronomy VII}, volume 2808 of {\em
+  \procspie}, pages 59--70.
+
+\bibitem[{Janiuk} and {Czerny}, 2005]{Janiuk_Lag}
+{Janiuk}, A. and {Czerny}, B. (2005).
+\newblock {Time-delays between the soft and hard X-ray bands in GRS 1915+105}.
+\newblock {\em \mnras}, 356:205--216.
+
+\bibitem[{Janiuk} et~al., 2000]{Janiuk_RadInstab}
+{Janiuk}, A., {Czerny}, B., and {Siemiginowska}, A. (2000).
+\newblock {Radiation Pressure Instability as a Variability Mechanism in the
+  Microquasar GRS 1915+105}.
+\newblock {\em \apjl}, 542:L33--L36.
+
+\bibitem[{Jansen} et~al., 2001]{Jansen_XMM}
+{Jansen}, F., {Lumb}, D., {Altieri}, B., {Clavel}, J., {Ehle}, M., {Erd}, C.,
+  {Gabriel}, C., {Guainazzi}, M., {Gondoin}, P., {Much}, R., {Munoz}, R.,
+  {Santos}, M., {Schartel}, N., {Texier}, D., and {Vacanti}, G. (2001).
+\newblock {XMM-Newton observatory. I. The spacecraft and operations}.
+\newblock {\em \aap}, 365:L1--L6.
+
+\bibitem[{Johnson} et~al., 2015]{Johnson_12270Spin}
+{Johnson}, T.~J., {Ray}, P.~S., {Roy}, J., {Cheung}, C.~C., {Harding}, A.~K.,
+  {Pletsch}, H.~J., {Fort}, S., {Camilo}, F., {Deneva}, J., {Bhattacharyya},
+  B., {Stappers}, B.~W., and {Kerr}, M. (2015).
+\newblock {Discovery of Gamma-Ray Pulsations from the Transitional Redback PSR
+  J1227-4853}.
+\newblock {\em \apj}, 806:91.
+
+\bibitem[{Jones} et~al., 2001]{NumPy}
+{Jones}, E., {Oliphant}, T., {Peterson}, P., et~al. (2001).
+\newblock {{SciPy}: Open source scientific tools for {Python}}.
+
+\bibitem[{Kennea} and {Capitanio}, 2007]{Kennea_NH}
+{Kennea}, J.~A. and {Capitanio}, F. (2007).
+\newblock {Swift/XRT Observations of IGR J17091-3624 and IGR J17098-3628}.
+\newblock {\em The Astronomer's Telegram}, 1140.
+
+\bibitem[{Kennea} et~al., 2014]{Kennea_BPOutburst}
+{Kennea}, J.~A., {Kouveliotou}, C., and {Younes}, G. (2014).
+\newblock {GRO J1744-28: Swift XRT confirmation of outburst}.
+\newblock {\em The Astronomer's Telegram}, 5845.
+
+\bibitem[Kenney, 1939]{Kenney_Quartile}
+Kenney, J. (1939).
+\newblock {\em Mathematics of Statistics}.
+\newblock Number v. 1 in Mathematics of Statistics. D. Van Nostrand Company,
+  Incorporated.
+
+\bibitem[{Kenter} et~al., 2000]{Kenter_HRCI}
+{Kenter}, A.~T., {Chappell}, J.~H., {Kraft}, R.~P., {Meehan}, G.~R., {Murray},
+  S.~S., {Zombeck}, M.~V., {Hole}, K.~T., {Juda}, M., {Donnelly}, R.~H.,
+  {Patnaude}, D., {Pease}, D.~O., {Wilton}, C., {Zhao}, P., {Austin}, G.~K.,
+  {Fraser}, G.~W., {Pearson}, J.~F., {Lees}, J.~E., {Brunton}, A.~N.,
+  {Barbera}, M., {Collura}, A., and {Serio}, S. (2000).
+\newblock {In-flight performance and calibration of the Chandra high-resolution
+  camera imager (HRC-I)}.
+\newblock In {Truemper}, J.~E. and {Aschenbach}, B., editors, {\em X-Ray
+  Optics, Instruments, and Missions III}, volume 4012 of {\em \procspie}, pages
+  467--492.
+
+\bibitem[{King} et~al., 2012]{King_IGRWinds}
+{King}, A.~L., {Miller}, J.~M., {Raymond}, J., {Fabian}, A.~C., {Reynolds},
+  C.~S., {Kallman}, T.~R., {Maitra}, D., {Cackett}, E.~M., and {Rupen}, M.~P.
+  (2012).
+\newblock {An Extreme X-Ray Disk Wind in the Black Hole Candidate IGR
+  J17091-3624}.
+\newblock {\em \apjl}, 746:L20.
+
+\bibitem[{King} et~al., 2015]{King_V404}
+{King}, A.~L., {Miller}, J.~M., {Raymond}, J., {Reynolds}, M.~T., and
+  {Morningstar}, W. (2015).
+\newblock {High-resolution Chandra HETG Spectroscopy of V404 Cygni in
+  Outburst}.
+\newblock {\em \apjl}, 813:L37.
+
+\bibitem[{Klein-Wolt} et~al., 2002]{KleinWolt_OmegaClass}
+{Klein-Wolt}, M., {Fender}, R.~P., {Pooley}, G.~G., {Belloni}, T., {MigliariF},
+  S., {Morgan}, E.~H., and {van der Klis}, M. (2002).
+\newblock {Hard X-ray states and radio emission in GRS 1915+105}.
+\newblock {\em \mnras}, 331:745--764.
+
+\bibitem[{Kok}, 2000]{Kok_YesNo}
+{Kok}, C. (2000).
+\newblock {\em On the Behaviour of a Few Popular Verification Scores in Yes No
+  Forecasting}.
+\newblock Scientific report. Koninklijk Nederlands Meteorologisch Insutuut.
+
+\bibitem[{Kommers} et~al., 1997]{Kommers_Ringing}
+{Kommers}, J.~M., {Fox}, D.~W., {Lewin}, W.~H.~G., {Rutledge}, R.~E., {van
+  Paradijs}, J., and {Kouveliotou}, C. (1997).
+\newblock {Postburst Quasi-periodic Oscillations from GRO J1744-28 and from the
+  Rapid Burster}.
+\newblock {\em \apjl}, 482:L53--L56.
+
+\bibitem[{Kouveliotou} et~al., 1996]{Kouveliotou_BP}
+{Kouveliotou}, C., {van Paradijs}, J., {Fishman}, G.~J., {Briggs}, M.~S.,
+  {Kommers}, J., {Harmon}, B.~A., {Meegan}, C.~A., and {Lewin}, W.~H.~G.
+  (1996).
+\newblock {A new type of transient high-energy source in the direction of the
+  Galactic Centre}.
+\newblock {\em \nat}, 379:799--801.
+
+\bibitem[{Koyama} et~al., 2007]{Koyama_XIS}
+{Koyama}, K., {Tsunemi}, H., {Dotani}, T., {Bautz}, M.~W., {Hayashida}, K.,
+  {Tsuru}, T.~G., {Matsumoto}, H., {Ogawara}, Y., {Ricker}, G.~R., {Doty}, J.,
+  {Kissel}, S.~E., {Foster}, R., {Nakajima}, H., {Yamaguchi}, H., {Mori}, H.,
+  {Sakano}, M., {Hamaguchi}, K., {Nishiuchi}, M., {Miyata}, E., {Torii}, K.,
+  {Namiki}, M., {Katsuda}, S., {Matsuura}, D., {Miyauchi}, T., {Anabuki}, N.,
+  {Tawa}, N., {Ozaki}, M., {Murakami}, H., {Maeda}, Y., {Ichikawa}, Y.,
+  {Prigozhin}, G.~Y., {Boughan}, E.~A., {Lamarr}, B., {Miller}, E.~D., {Burke},
+  B.~E., {Gregory}, J.~A., {Pillsbury}, A., {Bamba}, A., {Hiraga}, J.~S.,
+  {Senda}, A., {Katayama}, H., {Kitamoto}, S., {Tsujimoto}, M., {Kohmura}, T.,
+  {Tsuboi}, Y., and {Awaki}, H. (2007).
+\newblock {X-Ray Imaging Spectrometer (XIS) on Board Suzaku}.
+\newblock {\em \pasj}, 59:23--33.
+
+\bibitem[{Kraft} et~al., 2000]{Kraft_HRCS}
+{Kraft}, R.~P., {Chappell}, J.~H., {Kenter}, A.~T., {Meehan}, G.~R., {Murray},
+  S.~S., {Zombeck}, M.~V., {Donnelly}, R.~H., {Drake}, J.~J., {Johnson}, C.~O.,
+  {Juda}, M., {Patnaude}, D., {Pease}, D.~O., {Ratzlaff}, P.~W., {Wargelin},
+  B.~J., {Zhao}, P., {Austin}, G.~K., {Fraser}, G.~W., {Pearson}, J.~F.,
+  {Lees}, J.~E., {Brunton}, A.~N., {Barbera}, M., {Collura}, A., and {Serio},
+  S. (2000).
+\newblock {In-flight performance and calibration of the Chandra high-resolution
+  camera spectroscopic readout (HRC-S)}.
+\newblock In {Truemper}, J.~E. and {Aschenbach}, B., editors, {\em X-Ray
+  Optics, Instruments, and Missions III}, volume 4012 of {\em \procspie}, pages
+  493--517.
+
+\bibitem[{Kreykenbohm} et~al., 2008]{Kreykenbohm_Vela}
+{Kreykenbohm}, I., {Wilms}, J., {Kretschmar}, P., {Torrej{\'o}n}, J.~M.,
+  {Pottschmidt}, K., {Hanke}, M., {Santangelo}, A., {Ferrigno}, C., and
+  {Staubert}, R. (2008).
+\newblock {High variability in Vela X-1: giant flares and off states}.
+\newblock {\em \aap}, 492:511--525.
+
+\bibitem[{Krimm} et~al., 2011]{Krimm_IGRActivity}
+{Krimm}, H.~A., {Barthelmy}, S.~D., {Baumgartner}, W., {Cummings}, J.,
+  {Fenimore}, E., {Gehrels}, N., {Kennea}, J.~A., {Markwardt}, C.~B., {Palmer},
+  D., {Sakamoto}, T., {Skinner}, G., {Stamatikos}, M., {Tueller}, J., and
+  {Ukwatta}, T. (2011).
+\newblock {Swift/BAT reports renewed activity from IGR J17091-3624}.
+\newblock {\em The Astronomer's Telegram}, 3144.
+
+\bibitem[{Krimm} et~al., 2013]{Krimm_BAT}
+{Krimm}, H.~A., {Holland}, S.~T., {Corbet}, R.~H.~D., {Pearlman}, A.~B.,
+  {Romano}, P., {Kennea}, J.~A., {Bloom}, J.~S., {Barthelmy}, S.~D.,
+  {Baumgartner}, W.~H., {Cummings}, J.~R., {Gehrels}, N., {Lien}, A.~Y.,
+  {Markwardt}, C.~B., {Palmer}, D.~M., {Sakamoto}, T., {Stamatikos}, M., and
+  {Ukwatta}, T.~N. (2013).
+\newblock {The Swift/BAT Hard X-Ray Transient Monitor}.
+\newblock {\em \apjs}, 209:14.
+
+\bibitem[{Krimm} and {Kennea}, 2011]{Krimm_IGROutburst}
+{Krimm}, H.~A. and {Kennea}, J.~A. (2011).
+\newblock {Swift/XRT Observations Confirm that IGR J17091-3624 is in Outburst}.
+\newblock {\em The Astronomer's Telegram}, 3148:1.
+
+\bibitem[{Krivonos} et~al., 2015]{Krivonos_Survey}
+{Krivonos}, R., {Tsygankov}, S., {Lutovinov}, A., {Revnivtsev}, M., {Churazov},
+  E., and {Sunyaev}, R. (2015).
+\newblock {INTEGRAL 11-year hard X-ray survey above 100 keV}.
+\newblock {\em \mnras}, 448:3766--3774.
+
+\bibitem[{Kuulkers} et~al., 2002]{Kuulkers_GX17}
+{Kuulkers}, E., {Homan}, J., {van der Klis}, M., {Lewin}, W.~H.~G., and
+  {M{\'e}ndez}, M. (2002).
+\newblock {X-ray bursts at extreme mass accretion rates from GX 17+2}.
+\newblock {\em \aap}, 382:947--973.
+
+\bibitem[{Kuulkers} et~al., 2003]{Kuulkers_IGRDiscovery}
+{Kuulkers}, E., {Lutovinov}, A., {Parmar}, A., {Capitanio}, F., {Mowlavi}, N.,
+  and {Hermsen}, W. (2003).
+\newblock {Igr J17091-3624}.
+\newblock {\em The Astronomer's Telegram}, 149.
+
+\bibitem[{Kuulkers} et~al., 2005]{Kuulkers_Monitoring}
+{Kuulkers}, E., {Shaw}, S., {Paizis}, A., {Mowlavi}, N., {Courvoisier}, T.,
+  {Ebisawa}, K., {Kretschmar}, P., {Markwardt}, C., {Oosterbroek}, T., {Orr},
+  A., and {Wijnands}, R. (2005).
+\newblock {Announcement of INTEGRAL Galactic Bulge monitoring program and
+  (re)brightening of GRO J1655-40}.
+\newblock {\em The Astronomer's Telegram}, 438.
+
+\bibitem[{Kuulkers} et~al., 2007]{Kuulkers_Bulge}
+{Kuulkers}, E., {Shaw}, S.~E., {Paizis}, A., {Chenevez}, J., {Brandt}, S.,
+  {Courvoisier}, T.~J.-L., {Domingo}, A., {Ebisawa}, K., {Kretschmar}, P.,
+  {Markwardt}, C.~B., {Mowlavi}, N., {Oosterbroek}, T., {Orr}, A.,
+  {R{\'{\i}}squez}, D., {Sanchez-Fernandez}, C., and {Wijnands}, R. (2007).
+\newblock {The INTEGRAL Galactic bulge monitoring program: the first 1.5
+  years}.
+\newblock {\em \aap}, 466:595--618.
+
+\bibitem[{Lam} et~al., 2015]{Numba}
+{Lam}, S.~K., {Pitrou}, A., and {Seibert}, S. (2015).
+\newblock Numba: a llvm-based python jit compiler.
+\newblock In {\em LLVM '15 Proceedings of the Second Workshop on the LLVM
+  Compiler Infrastructure in HPC}.
+
+\bibitem[{Lamb} et~al., 1996]{Lamb_TypeIBP}
+{Lamb}, D.~Q., {Miller}, M.~C., and {Taam}, R.~E. (1996).
+\newblock {GRO J1744-28: Last Gasps of a Dying Low-mass X-ray Binary}.
+\newblock {\em ArXiv Astrophysics e-prints}.
+
+\bibitem[{Leahy} et~al., 1983]{Leahy_Norm}
+{Leahy}, D.~A., {Darbro}, W., {Elsner}, R.~F., {Weisskopf}, M.~C., {Kahn}, S.,
+  {Sutherland}, P.~G., and {Grindlay}, J.~E. (1983).
+\newblock {On searches for pulsed emission with application to four globular
+  cluster X-ray sources - NGC 1851, 6441, 6624, and 6712}.
+\newblock {\em \apj}, 266:160--170.
+
+\bibitem[{Lebrun} et~al., 1996]{Lebrun_ISGRI}
+{Lebrun}, F., {Blondel}, C., {Fondeur}, I., {Goldwurm}, A., {Laurent}, P., and
+  {Leray}, J.~P. (1996).
+\newblock {ISGRI: a CdTe array imager for INTEGRAL}.
+\newblock In {Ramsey}, B.~D. and {Parnell}, T.~A., editors, {\em Gamma-Ray and
+  Cosmic-Ray Detectors, Techniques, and Missions}, volume 2806 of {\em
+  \procspie}, pages 258--268.
+
+\bibitem[{Leiter}, 1983]{Leiter_AGNDisks}
+{Leiter}, D. (1983).
+\newblock {Electron-positron processes and spectral evolution in black hole
+  accretion disk dynamo models for AGN sources of the cosmic X-ray and gamma
+  ray backgrounds}.
+\newblock In {Burns}, M.~L., {Harding}, A.~K., and {Ramaty}, R., editors, {\em
+  Positron-Electron Pairs in Astrophysics}, volume 101 of {\em American
+  Institute of Physics Conference Series}, pages 337--342.
+
+\bibitem[{Lemiere} et~al., 2015]{Lemiere_HESSLoc}
+{Lemiere}, A., {Terrier}, R., {Jouvin}, L., {Marandon}, V., and {Khelifi}, B.
+  (2015).
+\newblock {Study of the VHE diffuse emission in the central 200 pc of our
+  Galaxy with H.E.S.S.}
+\newblock In {\em 34th International Cosmic Ray Conference (ICRC2015)},
+  volume~34 of {\em International Cosmic Ray Conference}, page 838.
+
+\bibitem[{Levine} et~al., 1996]{Levine_ASM}
+{Levine}, A.~M., {Bradt}, H., {Cui}, W., {Jernigan}, J.~G., {Morgan}, E.~H.,
+  {Remillard}, R., {Shirey}, R.~E., and {Smith}, D.~A. (1996).
+\newblock {First Results from the All-Sky Monitor on the Rossi X-Ray Timing
+  Explorer}.
+\newblock {\em \apjl}, 469:L33.
+
+\bibitem[{Lewin} et~al., 1976a]{Lewin_RBDiscovery}
+{Lewin}, W.~H.~G., {Clark}, G., and {Doty}, J. (1976a).
+\newblock {X-Ray Bursts}.
+\newblock {\em \iaucirc}, 2922.
+
+\bibitem[{Lewin} et~al., 1976b]{Lewin_TypeII}
+{Lewin}, W.~H.~G., {Doty}, J., {Clark}, G.~W., {Rappaport}, S.~A., {Bradt},
+  H.~V.~D., {Doxsey}, R., {Hearn}, D.~R., {Hoffman}, J.~A., {Jernigan}, J.~G.,
+  {Li}, F.~K., {Mayer}, W., {McClintock}, J., {Primini}, F., and {Richardson},
+  J. (1976b).
+\newblock {The discovery of rapidly repetitive X-ray bursts from a new source
+  in Scorpius}.
+\newblock {\em \apjl}, 207:L95--L99.
+
+\bibitem[{Lewin} et~al., 1971]{Lewin_GX1}
+{Lewin}, W.~H.~G., {Ricker}, G.~R., and {McClintock}, J.~E. (1971).
+\newblock {X-Rays from a New Variable Source GX 1+4}.
+\newblock {\em \apjl}, 169:L17.
+
+\bibitem[{Lewin} et~al., 1996]{Lewin_BP}
+{Lewin}, W.~H.~G., {Rutledge}, R.~E., {Kommers}, J.~M., {van Paradijs}, J., and
+  {Kouveliotou}, C. (1996).
+\newblock {A Comparison between the Rapid Burster and GRO J1744-28}.
+\newblock {\em \apjl}, 462:L39.
+
+\bibitem[{Lewin} et~al., 1993]{Lewin_Bursts}
+{Lewin}, W.~H.~G., {van Paradijs}, J., and {Taam}, R.~E. (1993).
+\newblock {X-Ray Bursts}.
+\newblock {\em \ssr}, 62:223--389.
+
+\bibitem[{Lewin} et~al., 1988]{Lewin_QPORev}
+{Lewin}, W.~H.~G., {van Paradijs}, J., and {van der Klis}, M. (1988).
+\newblock {A review of quasi-periodic oscillations in low-mass X-ray binaries}.
+\newblock {\em \ssr}, 46:273--378.
+
+\bibitem[{Lightman} and {Eardley}, 1974]{Lightman_Instability}
+{Lightman}, A.~P. and {Eardley}, D.~M. (1974).
+\newblock {Black Holes in Binary Systems: Instability of Disk Accretion}.
+\newblock {\em \apjl}, 187:L1.
+
+\bibitem[{Lin} et~al., 2009]{Lin_CygSco}
+{Lin}, D., {Remillard}, R.~A., and {Homan}, J. (2009).
+\newblock {Spectral States of XTE J1701 - 462: Link Between Z and Atoll
+  Sources}.
+\newblock {\em \apj}, 696:1257--1277.
+
+\bibitem[{Linares} et~al., 2012]{Linares_MargStab}
+{Linares}, M., {Altamirano}, D., {Chakrabarty}, D., {Cumming}, A., and {Keek},
+  L. (2012).
+\newblock {Millihertz Quasi-periodic Oscillations and Thermonuclear Bursts from
+  Terzan 5: A Showcase of Burning Regimes}.
+\newblock {\em \apj}, 748:82.
+
+\bibitem[{Linares} et~al., 2014]{Linares_NewBurst}
+{Linares}, M., {Kennea}, J., {Krimm}, H., and {Kouveliotou}, C. (2014).
+\newblock {Swift detects bursting activity from GRO J1744-28}.
+\newblock {\em The Astronomer's Telegram}, 5883.
+
+\bibitem[{Liu} et~al., 2007]{Liu_Catalog}
+{Liu}, Q.~Z., {van Paradijs}, J., and {van den Heuvel}, E.~P.~J. (2007).
+\newblock {A catalogue of low-mass X-ray binaries in the Galaxy, LMC, and SMC
+  (Fourth edition)}.
+\newblock {\em \aap}, 469:807--810.
+
+\bibitem[{Lomb}, 1976]{Lomb_LombScargle}
+{Lomb}, N.~R. (1976).
+\newblock {Least-squares frequency analysis of unequally spaced data}.
+\newblock {\em \apss}, 39:447--462.
+
+\bibitem[{Lubi{\'n}ski}, 2009]{Lubinski_Heavens}
+{Lubi{\'n}ski}, P. (2009).
+\newblock {Analysis of extremely low signal-to-noise ratio data from
+  INTEGRAL/PICsIT}.
+\newblock {\em \aap}, 496:557--576.
+
+\bibitem[{Maccarone}, 2003]{Maccarone_2pct}
+{Maccarone}, T.~J. (2003).
+\newblock {Do X-ray binary spectral state transition luminosities vary?}
+\newblock {\em \aap}, 409:697--706.
+
+\bibitem[{Madsen} et~al., 2017]{Madsen_CrabFlux}
+{Madsen}, K.~K., {Forster}, K., {Grefenstette}, B.~W., {Harrison}, F.~A., and
+  {Stern}, D. (2017).
+\newblock {Measurement of the Absolute Crab Flux with NuSTAR}.
+\newblock {\em \apj}, 841:56.
+
+\bibitem[{Makishima} et~al., 1986]{Makishima_Eq}
+{Makishima}, K., {Maejima}, Y., {Mitsuda}, K., {Bradt}, H.~V., {Remillard},
+  R.~A., {Tuohy}, I.~R., {Hoshi}, R., and {Nakagawa}, M. (1986).
+\newblock {Simultaneous X-ray and optical observations of GX 339-4 in an X-ray
+  high state}.
+\newblock {\em \apj}, 308:635--643.
+
+\bibitem[{Manchester} et~al., 2005]{Manchester_PulsarCat}
+{Manchester}, R.~N., {Hobbs}, G.~B., {Teoh}, A., and {Hobbs}, M. (2005).
+\newblock {The Australia Telescope National Facility Pulsar Catalogue}.
+\newblock {\em \aj}, 129:1993--2006.
+
+\bibitem[{Markwardt} et~al., 1999]{Markwardt_FluxFreqGRS}
+{Markwardt}, C.~B., {Swank}, J.~H., and {Taam}, R.~E. (1999).
+\newblock {Variable-Frequency Quasi-periodic Oscillations from the Galactic
+  Microquasar GRS 1915+105}.
+\newblock {\em \apjl}, 513:L37--L40.
+
+\bibitem[{Marshall} et~al., 1979]{Marshall_2types}
+{Marshall}, H., {Grindlay}, J., and {Weisskopf}, M. (1979).
+\newblock {Observations of the Rapid Burster (MXB1730-335) Using the EINSTEIN
+  Observatory.}
+\newblock In {\em Bulletin of the American Astronomical Society}, volume~11 of
+  {\em \baas}, page 788.
+
+\bibitem[{Masetti} et~al., 2014]{Masetti_BPCompanion}
+{Masetti}, N., {D'Avanzo}, P., {Blagorodnova}, N., and {Palazzi}, E. (2014).
+\newblock {The near-infrared counterpart of GRO J1744-28}.
+\newblock {\em The Astronomer's Telegram}, 5999.
+
+\bibitem[{Mason} et~al., 1996]{Mason_OM}
+{Mason}, K.~O., {Cropper}, M.~S., {Hunt}, R., {Horner}, S.~D., {Priedhorsky},
+  W.~C., {Ho}, C., {Cordova}, F.~A., {Jamar}, C.~A., and {Antonello}, E.
+  (1996).
+\newblock {XMM Optical/UV Monitor Telescope}.
+\newblock In {Siegmund}, O.~H. and {Gummin}, M.~A., editors, {\em EUV, X-Ray,
+  and Gamma-Ray Instrumentation for Astronomy VII}, volume 2808 of {\em
+  \procspie}, pages 438--447.
+
+\bibitem[{Massa} et~al., 2013]{Massa_MoveLag}
+{Massa}, F., {Massaro}, E., {Mineo}, T., {D'A{\`i}}, A., {Feroci}, M.,
+  {Casella}, P., and {Belloni}, T. (2013).
+\newblock {The complex behaviour of the microquasar GRS 1915+105 in the
+  {$\rho$} class observed with BeppoSAX. III. The hard X-ray delay and limit
+  cycle mapping}.
+\newblock {\em \aap}, 556:A84.
+
+\bibitem[{Massaro} et~al., 2014a]{Massaro_Numerical}
+{Massaro}, E., {Ardito}, A., {Ricciardi}, P., {Massa}, F., {Mineo}, T., and
+  {D'A{\`i}}, A. (2014a).
+\newblock {Non-linear oscillator models for the X-ray bursting of the
+  microquasar GRS 1915+105}.
+\newblock {\em \apss}, 352:699--714.
+
+\bibitem[{Massaro} et~al., 2014b]{Massaro_DiffEq}
+{Massaro}, E., {Ardito}, A., {Ricciardi}, P., {Massa}, F., {Mineo}, T., and
+  {D'A{\`i}}, A. (2014b).
+\newblock {Non-linear oscillator models for the X-ray bursting of the
+  microquasar GRS 1915+105}.
+\newblock {\em \apss}, 352:699--714.
+
+\bibitem[{Massaro} et~al., 2010]{Massaro_Lag}
+{Massaro}, E., {Ventura}, G., {Massa}, F., {Feroci}, M., {Mineo}, T.,
+  {Cusumano}, G., {Casella}, P., and {Belloni}, T. (2010).
+\newblock {The complex behaviour of the microquasar GRS 1915+105 in the
+  {$\rho$} class observed with BeppoSAX. I. Timing analysis}.
+\newblock {\em \aap}, 513:A21.
+
+\bibitem[{McClintock} and {Rappaport}, 1985]{McClintock_XRBRev}
+{McClintock}, J.~E. and {Rappaport}, S.~A. (1985).
+\newblock {Low-mass X-ray binaries}.
+\newblock In {Lamb}, D.~Q. and {Patterson}, J., editors, {\em Cataclysmic
+  Variables and Low-Mass X-ray Binaries}, volume 113 of {\em Astrophysics and
+  Space Science Library}, pages 61--77.
+
+\bibitem[{McClintock} and {Remillard}, 2006]{McClintock_BHBs}
+{McClintock}, J.~E. and {Remillard}, R.~A. (2006).
+\newblock {\em {Black hole binaries}}, pages 157--213.
+
+\bibitem[{Merloni} and {Nayakshin}, 2006]{Merloni_MagDom}
+{Merloni}, A. and {Nayakshin}, S. (2006).
+\newblock {On the limit-cycle instability in magnetized accretion discs}.
+\newblock {\em \mnras}, 372:728--734.
+
+\bibitem[{Miller} et~al., 2016]{Miller_2016Outburst}
+{Miller}, J.~M., {Reynolds}, M., {Kennea}, J., {King}, A.~L., and {Tomsick}, J.
+  (2016).
+\newblock {Renewed Activity in the Galactic Black Hole IGR J17091-3624}.
+\newblock {\em The Astronomer's Telegram}, 8742.
+
+\bibitem[{Miller} et~al., 1996]{Miller_KHQPO}
+{Miller}, M.~C., {Lamb}, F.~K., and {Psaltis}, D. (1996).
+\newblock {Sonic-Point Model of Kilohertz QPOs in LMXBs}.
+\newblock In {\em American Astronomical Society Meeting Abstracts}, volume~28
+  of {\em Bulletin of the American Astronomical Society}, page 1329.
+
+\bibitem[{Mineo} et~al., 2012]{Mineo_PhasRes}
+{Mineo}, T., {Massaro}, E., {D'Ai}, A., {Massa}, F., {Feroci}, M., {Ventura},
+  G., {Casella}, P., {Ferrigno}, C., and {Belloni}, T. (2012).
+\newblock {The complex behaviour of the microquasar GRS 1915+105 in the
+  {$\rho$} class observed with BeppoSAX. II. Time-resolved spectral analysis}.
+\newblock {\em \aap}, 537:A18.
+
+\bibitem[{Mir} et~al., 2016]{Mir_LagModel}
+{Mir}, M.~H., {Misra}, R., {Pahari}, M., {Iqbal}, N., and {Ahmad}, N. (2016).
+\newblock {A model for the energy-dependent time-lag and rms of the heartbeat
+  oscillations in GRS 1915+105}.
+\newblock {\em \mnras}, 457:2999--3005.
+
+\bibitem[{Misner} et~al., 1973]{Misner_GravBook}
+{Misner}, C.~W., {Thorne}, K.~S., and {Wheeler}, J.~A. (1973).
+\newblock {\em {Gravitation}}.
+
+\bibitem[{Mitsuda} et~al., 2007]{Mitsuda_Suzaku}
+{Mitsuda}, K., {Bautz}, M., {Inoue}, H., {Kelley}, R.~L., {Koyama}, K.,
+  {Kunieda}, H., {Makishima}, K., {Ogawara}, Y., {Petre}, R., {Takahashi}, T.,
+  {Tsunemi}, H., {White}, N.~E., {Anabuki}, N., {Angelini}, L., {Arnaud}, K.,
+  {Awaki}, H., {Bamba}, A., {Boyce}, K., {Brown}, G.~V., {Chan}, K.-W.,
+  {Cottam}, J., {Dotani}, T., {Doty}, J., {Ebisawa}, K., {Ezoe}, Y., {Fabian},
+  A.~C., {Figueroa}, E., {Fujimoto}, R., {Fukazawa}, Y., {Furusho}, T.,
+  {Furuzawa}, A., {Gendreau}, K., {Griffiths}, R.~E., {Haba}, Y., {Hamaguchi},
+  K., {Harrus}, I., {Hasinger}, G., {Hatsukade}, I., {Hayashida}, K., {Henry},
+  P.~J., {Hiraga}, J.~S., {Holt}, S.~S., {Hornschemeier}, A., {Hughes}, J.~P.,
+  {Hwang}, U., {Ishida}, M., {Ishisaki}, Y., {Isobe}, N., {Itoh}, M.,
+  {Iyomoto}, N., {Kahn}, S.~M., {Kamae}, T., {Katagiri}, H., {Kataoka}, J.,
+  {Katayama}, H., {Kawai}, N., {Kilbourne}, C., {Kinugasa}, K., {Kissel}, S.,
+  {Kitamoto}, S., {Kohama}, M., {Kohmura}, T., {Kokubun}, M., {Kotani}, T.,
+  {Kotoku}, J., {Kubota}, A., {Madejski}, G.~M., {Maeda}, Y., {Makino}, F.,
+  {Markowitz}, A., {Matsumoto}, C., {Matsumoto}, H., {Matsuoka}, M.,
+  {Matsushita}, K., {McCammon}, D., {Mihara}, T., {Misaki}, K., {Miyata}, E.,
+  {Mizuno}, T., {Mori}, K., {Mori}, H., {Morii}, M., {Moseley}, H., {Mukai},
+  K., {Murakami}, H., {Murakami}, T., {Mushotzky}, R., {Nagase}, F., {Namiki},
+  M., {Negoro}, H., {Nakazawa}, K., {Nousek}, J.~A., {Okajima}, T., {Ogasaka},
+  Y., {Ohashi}, T., {Oshima}, T., {Ota}, N., {Ozaki}, M., {Ozawa}, H.,
+  {Parmar}, A.~N., {Pence}, W.~D., {Porter}, F.~S., {Reeves}, J.~N., {Ricker},
+  G.~R., {Sakurai}, I., {Sanders}, W.~T., {Senda}, A., {Serlemitsos}, P.,
+  {Shibata}, R., {Soong}, Y., {Smith}, R., {Suzuki}, M., {Szymkowiak}, A.~E.,
+  {Takahashi}, H., {Tamagawa}, T., {Tamura}, K., {Tamura}, T., {Tanaka}, Y.,
+  {Tashiro}, M., {Tawara}, Y., {Terada}, Y., {Terashima}, Y., {Tomida}, H.,
+  {Torii}, K., {Tsuboi}, Y., {Tsujimoto}, M., {Tsuru}, T.~G., {Turner},
+  M.~J.~L.~., {Ueda}, Y., {Ueno}, S., {Ueno}, M., {Uno}, S., {Urata}, Y.,
+  {Watanabe}, S., {Yamamoto}, N., {Yamaoka}, K., {Yamasaki}, N.~Y.,
+  {Yamashita}, K., {Yamauchi}, M., {Yamauchi}, S., {Yaqoob}, T., {Yonetoku},
+  D., and {Yoshida}, A. (2007).
+\newblock {The X-Ray Observatory Suzaku}.
+\newblock {\em \pasj}, 59:1--7.
+
+\bibitem[{Morgan} et~al., 1997]{Morgan_QPO}
+{Morgan}, E.~H., {Remillard}, R.~A., and {Greiner}, J. (1997).
+\newblock {RXTE Observations of QPOs in the Black Hole Candidate GRS 1915+105}.
+\newblock {\em \apj}, 482:993--1010.
+
+\bibitem[{Murray} et~al., 1987]{Murray_HRC}
+{Murray}, S.~S., {Chappell}, J.~H., {Elvis}, M.~S., {Forman}, W.~R., and
+  {Grindlay}, J.~E. (1987).
+\newblock {The AXAF high resolution camera (HRC) and its use for observations
+  of distant clusters of galaxies}.
+\newblock {\em Astrophysical Letters and Communications}, 26:113--125.
+
+\bibitem[{Nayakshin} et~al., 2000]{Nayakshin_GRSModel}
+{Nayakshin}, S., {Rappaport}, S., and {Melia}, F. (2000).
+\newblock {Time-dependent Disk Models for the Microquasar GRS 1915+105}.
+\newblock {\em \apj}, 535:798--814.
+
+\bibitem[{Negoro} et~al., 2014]{Negoro_OB3}
+{Negoro}, H., {Sugizaki}, M., {Krimm}, H.~A., {Kennea}, J.~A., {Ueno}, S.,
+  {Tomida}, H., {Nakahira}, S., {Kimura}, M., {Ishikawa}, M., {Nakagawa},
+  Y.~E., {Mihara}, T., {Serino}, M., {Morii}, M., {Sugimoto}, J., {Takagi}, T.,
+  {Yoshikawa}, A., {Matsuoka}, M., {Kawai}, N., {Usui}, R., {Ishikawa}, K.,
+  {Yoshii}, T., {Tachibana}, Y., {Yoshida}, A., {Sakamoto}, T., {Nakano}, Y.,
+  {Kawakubo}, Y., {Ohtsuki}, H., {Tsunemi}, H., {Sasaki}, M., {Uchida}, D.,
+  {Nakajima}, M., {Sakakibara}, H., {Fukushima}, K., {Onodera}, T., {Suzuki},
+  K., {Ueda}, Y., {Shidatsu}, M., {Kawamuro}, T., {Hori}, T., {Tsuboi}, Y.,
+  {Higa}, M., {Kawagoe}, A., {Yamauchi}, M., {Yoshidome}, K., {Ogawa}, Y.,
+  {Yamada}, H., {Morooka}, Y., and {Yamaoka}, K. (2014).
+\newblock {MAXI/GSC and Swift/BAT detection of enhanced hard X-ray emission
+  from the Galactic center region, renewed activity of GRO J1744-28 ?}
+\newblock {\em The Astronomer's Telegram}, 5790.
+
+\bibitem[Negri and Vestri, 2017]{Negri_PeakUtils}
+Negri, L.~H. and Vestri, C. (2017).
+\newblock lucashn/peakutils: v1.1.0.
+
+\bibitem[{Neilsen} et~al., 2011]{Neilsen_GRSModel}
+{Neilsen}, J., {Remillard}, R.~A., and {Lee}, J.~C. (2011).
+\newblock {The Physics of the ''Heartbeat'' State of GRS 1915+105}.
+\newblock {\em \apj}, 737:69.
+
+\bibitem[{Neilsen} et~al., 2012]{Neilsen_Rho}
+{Neilsen}, J., {Remillard}, R.~A., and {Lee}, J.~C. (2012).
+\newblock {Radiation Pressure and Mass Ejection in {$\rho$}-like States of GRS
+  1915+105}.
+\newblock {\em \apj}, 750:71.
+
+\bibitem[{Nobili}, 2003]{Nobili_Hotspot}
+{Nobili}, L. (2003).
+\newblock {A Disk-Jet Interaction Model for the X-Ray Variability in
+  Microquasars}.
+\newblock {\em \apj}, 582:954--958.
+
+\bibitem[{Nousek} et~al., 1987]{Nousek_ACIS}
+{Nousek}, J.~A., {Garmire}, G.~P., {Ricker}, G.~R., {Collins}, S.~A., and
+  {Reigler}, G.~R. (1987).
+\newblock {The AXAF CCD Imaging Spectrometer Experiment (ACIS)}.
+\newblock {\em Astrophysical Letters and Communications}, 26:35--41.
+
+\bibitem[{Novikov} and {Thorne}, 1973]{Novikov_Torque}
+{Novikov}, I.~D. and {Thorne}, K.~S. (1973).
+\newblock {Astrophysics of black holes.}
+\newblock In {Dewitt}, C. and {Dewitt}, B.~S., editors, {\em Black Holes (Les
+  Astres Occlus)}, pages 343--450.
+
+\bibitem[{Paciesas} et~al., 1996]{Paciesas_BPDiscovery}
+{Paciesas}, W.~S., {Harmon}, B.~A., {Fishman}, G.~J., {Zhang}, S.~N., and
+  {Robinson}, C.~R. (1996).
+\newblock {Galactic Center}.
+\newblock {\em \iaucirc}, 6284.
+
+\bibitem[{Paczynski}, 1979]{Paczynski_Roche}
+{Paczynski}, B. (1979).
+\newblock {Evolution of binary X-ray systems}.
+\newblock In {Baity}, W.~A. and {Peterson}, L.~E., editors, {\em X-ray
+  Astronomy}, pages 251--255.
+
+\bibitem[{Pahari} et~al., 2012]{Pahari_IGRClasses}
+{Pahari}, M., {Bhattacharyya}, S., {Yadav}, J.~S., and {Pandey}, S.~K. (2012).
+\newblock {Evidence of two unique variability classes from IGR J17091-3624}.
+\newblock {\em \mnras}, 422:L87.
+
+\bibitem[{Pahari} et~al., 2013a]{Pahari_Chi}
+{Pahari}, M., {Neilsen}, J., {Yadav}, J.~S., {Misra}, R., and {Uttley}, P.
+  (2013a).
+\newblock {Comparison of Time/Phase Lags in the Hard State and Plateau State of
+  GRS 1915+105}.
+\newblock {\em \apj}, 778:136.
+
+\bibitem[{Pahari} and {Pal}, 2009]{Pahari_NewClass}
+{Pahari}, M. and {Pal}, S. (2009).
+\newblock {Discovery of one new class in the light curve of GRS 1915+105}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Pahari} et~al., 2014]{Pahari_RhoDiff}
+{Pahari}, M., {Yadav}, J.~S., and {Bhattacharyya}, S. (2014).
+\newblock {X-Ray Spectral State Evolution in IGR J17091-3624 and Comparison of
+  its Heartbeat Oscillation Properties with those of GRS 1915+105}.
+\newblock {\em \apj}, 783:141.
+
+\bibitem[{Pahari} et~al., 2013b]{Pahari_ClassVI}
+{Pahari}, M., {Yadav}, J.~S., {Rodriguez}, J., {Misra}, R., {Bhattacharyya},
+  S., and {Pandey}, S.~K. (2013b).
+\newblock {Properties of Unique Hard X-Ray Dips Observed from GRS 1915+105 and
+  IGR J17091-3624 and Their Implications}.
+\newblock {\em \apj}, 778:46.
+
+\bibitem[{Pandey-Pommier} et~al., 2014]{Pandey-Pommier_BPRad}
+{Pandey-Pommier}, M., {Masetti}, N., and {Durouchoux}, P. (2014).
+\newblock {GRO J1744-28: search for radio counterpart with the GMRT}.
+\newblock {\em The Astronomer's Telegram}, 5904.
+
+\bibitem[{Papitto}, 2017]{Papitto_Talk}
+{Papitto}, A. (2017).
+\newblock {The discovery of transitional (and optical) millisecond pulsars}.
+\newblock La Gomera Accretion Week 2017.
+
+\bibitem[{Papitto} et~al., 2013a]{Papitto_Swings}
+{Papitto}, A., {Ferrigno}, C., {Bozzo}, E., {Rea}, N., {Pavan}, L., {Burderi},
+  L., {Burgay}, M., {Campana}, S., {di Salvo}, T., {Falanga}, M.,
+  {Filipovi{\'c}}, M.~D., {Freire}, P.~C.~C., {Hessels}, J.~W.~T., {Possenti},
+  A., {Ransom}, S.~M., {Riggio}, A., {Romano}, P., {Sarkissian}, J.~M.,
+  {Stairs}, I.~H., {Stella}, L., {Torres}, D.~F., {Wieringa}, M.~H., and
+  {Wong}, G.~F. (2013a).
+\newblock {Swings between rotation and accretion power in a binary millisecond
+  pulsar}.
+\newblock {\em \nat}, 501:517--520.
+
+\bibitem[{Papitto} et~al., 2013b]{Papitto_Finding}
+{Papitto}, A., {Hessels}, J.~W.~T., {Burgay}, M., {Ransom}, S., {Rea}, N.,
+  {Possenti}, A., {Stairs}, I., {Ferrigno}, C., and {Bozz}, E. (2013b).
+\newblock {The transient low-mass X-ray binary IGR J18245-2452 is again active
+  as a radio pulsar}.
+\newblock {\em The Astronomer's Telegram}, 5069.
+
+\bibitem[{Patruno} et~al., 2017]{Patruno_AllAMXPs}
+{Patruno}, A., {Haskell}, B., and {Andersson}, N. (2017).
+\newblock {The Spin Distribution of Fast-spinning Neutron Stars in Low-mass
+  X-Ray Binaries: Evidence for Two Subpopulations}.
+\newblock {\em \apj}, 850:106.
+
+\bibitem[{Patruno} et~al., 2016]{Patruno_Reflares2}
+{Patruno}, A., {Maitra}, D., {Curran}, P.~A., {D'Angelo}, C., {Fridriksson},
+  J.~K., {Russell}, D.~M., {Middleton}, M., and {Wijnands}, R. (2016).
+\newblock {The Reflares and Outburst Evolution in the Accreting Millisecond
+  Pulsar SAX J1808.4-3658: A Disk Truncated Near Co-Rotation?}
+\newblock {\em \apj}, 817:100.
+
+\bibitem[{Patruno} et~al., 2009]{Patruno_Reflares}
+{Patruno}, A., {Watts}, A., {Klein Wolt}, M., {Wijnands}, R., and {van der
+  Klis}, M. (2009).
+\newblock {1 Hz Flaring in SAX J1808.4-3658: Flow Instabilities near the
+  Propeller Stage}.
+\newblock {\em \apj}, 707:1296--1309.
+
+\bibitem[{Patruno} and {Watts}, 2012]{Patruno_AMXPs}
+{Patruno}, A. and {Watts}, A.~L. (2012).
+\newblock {Accreting Millisecond X-Ray Pulsars}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[Pedregosa et~al., 2011]{sklearn}
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
+  O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,
+  Passos, A., Cournapeau, D., Brucher, M., Perrot, M., and Duchesnay, E.
+  (2011).
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830.
+
+\bibitem[{Pence}, 1992]{Pence_FTools}
+{Pence}, W.~D. (1992).
+\newblock {FTOOLS - A New Package of Programs to Manipulate and Process FITS
+  Format Files}.
+\newblock In {\em American Astronomical Society Meeting Abstracts \#180},
+  volume~24 of {\em Bulletin of the American Astronomical Society}, page 750.
+
+\bibitem[{Poisson}, 1837]{Poisson_Distribution}
+{Poisson}, S. (1837).
+
+\bibitem[{Poutanen} and {Svensson}, 1996]{Poutanen_Hybrid}
+{Poutanen}, J. and {Svensson}, R. (1996).
+\newblock {The Two-Phase Pair Corona Model for Active Galactic Nuclei and X-Ray
+  Binaries: How to Obtain Exact Solutions}.
+\newblock {\em \apj}, 470:249.
+
+\bibitem[{Pretorius}, 2009]{Pretorius_Optical}
+{Pretorius}, M.~L. (2009).
+\newblock {Time-resolved optical observations of five cataclysmic variables
+  detected by INTEGRAL}.
+\newblock {\em \mnras}, 395:386--393.
+
+\bibitem[{Pringle}, 1981]{Pringle_Disks}
+{Pringle}, J.~E. (1981).
+\newblock {Accretion discs in astrophysics}.
+\newblock {\em \araa}, 19:137--162.
+
+\bibitem[{Psaltis}, 2008]{Psaltis_Inner100}
+{Psaltis}, D. (2008).
+\newblock {Probes and Tests of Strong-Field Gravity with Observations in the
+  Electromagnetic Spectrum}.
+\newblock {\em Living Reviews in Relativity}, 11:9.
+
+\bibitem[{Rao} and {Vadawale}, 2012]{Rao_Spectralfit}
+{Rao}, A. and {Vadawale}, S.~V. (2012).
+\newblock {Why is IGR J17091-3624 So Faint? Constraints on Distance, Mass, and
+  Spin from ''Phase-resolved'' Spectroscopy of the ''Heartbeat'' Oscillations}.
+\newblock {\em \apjl}, 757:L12.
+
+\bibitem[{Rappaport} and {Joss}, 1997]{Rappaport_BPHistory}
+{Rappaport}, S. and {Joss}, P.~C. (1997).
+\newblock {The Nature and Evolutionary History of GRO J1744-28}.
+\newblock {\em \apj}, 486:435--444.
+
+\bibitem[{Rappaport} et~al., 1977]{Rappaport_4U}
+{Rappaport}, S., {Markert}, T., {Li}, F.~K., {Clark}, G.~W., {Jernigan}, J.~G.,
+  and {McClintock}, J.~E. (1977).
+\newblock {Discovery of a 7.68 second X-ray periodicity in 3U 1626-67}.
+\newblock {\em \apjl}, 217:L29--L33.
+
+\bibitem[{Rea} et~al., 2017]{Rea_J0838}
+{Rea}, N., {Zelati}, F.~C., {Esposito}, P., {D'Avanzo}, P., {de Martino}, D.,
+  {Israel}, G.~L., {Torres}, D.~F., {Campana}, S., {Belloni}, T.~M., {Papitto},
+  A., {Masetti}, N., {Carrasco}, L., {Possenti}, A., {Wieringa}, M.,
+  {Wilhelmi}, E.~D.~O., {Li}, J., {Bozzo}, E., {Ferrigno}, C., {Linares}, M.,
+  {Tauris}, T.~M., {Hernanz}, M., {Ribas}, I., {Monelli}, M., {Borghese}, A.,
+  {Baglio}, M.~C., and {Casares}, J. (2017).
+\newblock {Multiband study of RX J0838-2827 and XMM J083850.4-282759: a new
+  asynchronous magnetic cataclysmic variable and a candidate transitional
+  millisecond pulsar}.
+\newblock {\em \mnras}, 471:2902--2916.
+
+\bibitem[{Rebusco} et~al., 2012]{Rebusco_IGRMass}
+{Rebusco}, P., {Moskalik}, P., {Klu{\'z}niak}, W., and {Abramowicz}, M.~A.
+  (2012).
+\newblock {Period doubling and non-linear resonance in the black hole candidate
+  IGR J17091-3624?}
+\newblock {\em \aap}, 540:L4.
+
+\bibitem[{Reid} et~al., 2014]{Reid_Parallax}
+{Reid}, M.~J., {McClintock}, J.~E., {Steiner}, J.~F., {Steeghs}, D.,
+  {Remillard}, R.~A., {Dhawan}, V., and {Narayan}, R. (2014).
+\newblock {A Parallax Distance to the Microquasar GRS 1915+105 and a Revised
+  Estimate of its Black Hole Mass}.
+\newblock {\em \apj}, 796:2.
+
+\bibitem[{Remillard} et~al., 1999a]{Remillard_HHz1}
+{Remillard}, R.~A., {McClintock}, J.~E., {Sobczak}, G.~J., {Bailyn}, C.~D.,
+  {Orosz}, J.~A., {Morgan}, E.~H., and {Levine}, A.~M. (1999a).
+\newblock {X-Ray Nova XTE J1550-564: Discovery of a Quasi-periodic Oscillation
+  near 185 HZ}.
+\newblock {\em \apjl}, 517:L127--L130.
+
+\bibitem[{Remillard} et~al., 1999b]{Remillard_HHz2}
+{Remillard}, R.~A., {Morgan}, E.~H., {McClintock}, J.~E., {Bailyn}, C.~D., and
+  {Orosz}, J.~A. (1999b).
+\newblock {RXTE Observations of 0.1-300 HZ Quasi-periodic Oscillationsin the
+  Microquasar GRO J1655-40}.
+\newblock {\em \apj}, 522:397--412.
+
+\bibitem[{Revnivtsev} et~al., 2001]{Revnivtsev_MargStab}
+{Revnivtsev}, M., {Churazov}, E., {Gilfanov}, M., and {Sunyaev}, R. (2001).
+\newblock {New class of low frequency QPOs: Signature of nuclear burning or
+  accretion disk instabilities?}
+\newblock {\em \aap}, 372:138--144.
+
+\bibitem[{Robitaille} and {Bressert}, 2012]{Robitaille_APLpy}
+{Robitaille}, T. and {Bressert}, E. (2012).
+\newblock {APLpy: Astronomical Plotting Library in Python}.
+\newblock Astrophysics Source Code Library.
+
+\bibitem[{Rodriguez} et~al., 2011a]{Rodriguez_D}
+{Rodriguez}, J., {Corbel}, S., {Caballero}, I., {Tomsick}, J.~A., {Tzioumis},
+  T., {Paizis}, A., {Cadolle Bel}, M., and {Kuulkers}, E. (2011a).
+\newblock {First simultaneous multi-wavelength observations of the black hole
+  candidate IGR J17091-3624. ATCA, INTEGRAL, Swift, and RXTE views of the 2011
+  outburst}.
+\newblock {\em \aap}, 533:L4.
+
+\bibitem[{Rodriguez} et~al., 2003]{Rodriguez_XTE}
+{Rodriguez}, J., {Corbel}, S., and {Tomsick}, J.~A. (2003).
+\newblock {Spectral Evolution of the Microquasar XTE J1550-564 over Its Entire
+  2000 Outburst}.
+\newblock {\em \apj}, 595:1032--1038.
+
+\bibitem[{Rodriguez} et~al., 2011b]{Rodriguez_Contamination}
+{Rodriguez}, J., {Corbel}, S., {Tomsick}, J.~A., {Paizis}, A., and {Kuulkers},
+  E. (2011b).
+\newblock {0.1 Hz QPOs during RXTE observations of IGR J17091-3624}.
+\newblock {\em The Astronomer's Telegram}, 3168.
+
+\bibitem[{Rodriguez} et~al., 2008]{Rodriguez_Ejection}
+{Rodriguez}, J., {Hannikainen}, D.~C., {Shaw}, S.~E., {Pooley}, G., {Corbel},
+  S., {Tagger}, M., {Mirabel}, I.~F., {Belloni}, T., {Cabanac}, C., {Cadolle
+  Bel}, M., {Chenevez}, J., {Kretschmar}, P., {Lehto}, H.~J., {Paizis}, A.,
+  {Varni{\`e}re}, P., and {Vilhu}, O. (2008).
+\newblock {2 Years of INTEGRAL Monitoring of GRS 1915+105. I. Multiwavelength
+  Coverage with INTEGRAL, RXTE, and the Ryle Radio Telescope}.
+\newblock {\em \apj}, 675:1436--1448.
+
+\bibitem[{Roming} et~al., 2004]{Roming_UVOT}
+{Roming}, P.~W.~A., {Hunsberger}, S.~D., {Nousek}, J.~A., {Ivanushkina}, M.,
+  {Mason}, K.~O., and {Breeveld}, A.~A. (2004).
+\newblock {The Swift Ultra-Violet/Optical Telescope (UVOT)}.
+\newblock In {Fenimore}, E. and {Galassi}, M., editors, {\em Gamma-Ray Bursts:
+  30 Years of Discovery}, volume 727 of {\em American Institute of Physics
+  Conference Series}, pages 651--654.
+
+\bibitem[{Roy} et~al., 2015]{Roy_12270Spin}
+{Roy}, J., {Ray}, P.~S., {Bhattacharyya}, B., {Stappers}, B., {Chengalur},
+  J.~N., {Deneva}, J., {Camilo}, F., {Johnson}, T.~J., {Wolff}, M., {Hessels},
+  J.~W.~T., {Bassa}, C.~G., {Keane}, E.~F., {Ferrara}, E.~C., {Harding}, A.~K.,
+  and {Wood}, K.~S. (2015).
+\newblock {Discovery of Psr J1227-4853: A Transition from a Low-mass X-Ray
+  Binary to a Redback Millisecond Pulsar}.
+\newblock {\em \apjl}, 800:L12.
+
+\bibitem[{Russell} et~al., 2017]{Russell_BPRad}
+{Russell}, T., {Degenaar}, N., {Miller-Jones}, J., and {Tudor}, V. (2017).
+\newblock {Radio luminosity upper limits of the transient neutron star low-mass
+  X-ray binary GRO J1744-28}.
+\newblock {\em The Astronomer's Telegram}, 10106.
+
+\bibitem[{Sanna} et~al., 2017a]{Sanna_AMXP}
+{Sanna}, A., {Bahramian}, A., {Bozzo}, E., {Heinke}, C., {Altamirano}, D.,
+  {Wijnands}, R., {Degenaar}, N., {Maccarone}, T., {Riggio}, A., {Di Salvo},
+  T., {Iaria}, R., {Burgay}, M., {Possenti}, A., {Ferrigno}, C., {Papitto}, A.,
+  {Sivakoff}, G., {D'Amico}, N., and {Burderi}, L. (2017a).
+\newblock {Discovery of 105 Hz coherent pulsations in the ultracompact binary
+  IGR J16597-3704}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Sanna} et~al., 2017b]{Sanna_BPOutburst}
+{Sanna}, A., {D'Ai}, A., {Bozzo}, E., {Riggio}, A., {Pintore}, F., {Burderi},
+  L., {Di Salvo}, T., and {Iaria}, R. (2017b).
+\newblock {Swift-XRT confirms the renewed X-ray activity of the Bursting Pulsar
+  ``GRO J1744-28''}.
+\newblock {\em The Astronomer's Telegram}, 10079.
+
+\bibitem[{Sanna} et~al., 2017c]{Sanna_BP}
+{Sanna}, A., {Riggio}, A., {Burderi}, L., {Pintore}, F., {Di Salvo}, T.,
+  {D'A{\`i}}, A., {Bozzo}, E., {Esposito}, P., {Segreto}, A., {Scarano}, F.,
+  {Iaria}, R., and {Gambino}, A.~F. (2017c).
+\newblock {Study of the accretion torque during the 2014 outburst of the X-ray
+  pulsar GRO J1744-28}.
+\newblock {\em \mnras}, 469:2--12.
+
+\bibitem[{Sazonov} et~al., 1997]{Sazonov_BPGranat}
+{Sazonov}, S.~Y., {Sunyaev}, R.~A., and {Lund}, N. (1997).
+\newblock {Super-Eddington x-ray luminosity of the bursting pulsar GRO
+  J1744-28: WATCH/Granat observations}.
+\newblock {\em Astronomy Letters}, 23:286--292.
+
+\bibitem[{S{\c a}dowski}, 2016]{Sadowski_MagField}
+{S{\c a}dowski}, A. (2016).
+\newblock {Magnetic flux stabilizing thin accretion discs}.
+\newblock {\em \mnras}, 462:960--965.
+
+\bibitem[{Scargle}, 1982]{Scargle_LombScargle}
+{Scargle}, J.~D. (1982).
+\newblock {Studies in astronomical time series analysis. II - Statistical
+  aspects of spectral analysis of unevenly spaced data}.
+\newblock {\em \apj}, 263:835--853.
+
+\bibitem[{Scaringi} et~al., 2017]{Scaringi_Gating}
+{Scaringi}, S., {Maccarone}, T.~J., {D'Angelo}, C., {Knigge}, C., and {Groot},
+  P.~J. (2017).
+\newblock {Magnetically gated accretion in an accreting 'non-magnetic' white
+  dwarf}.
+\newblock {\em \nat}, 552:210--213.
+
+\bibitem[{Scaringi} et~al., 2015]{Scaringi_AccLinks}
+{Scaringi}, S., {Maccarone}, T.~J., {Koerding}, E., {Knigge}, C., {Vaughan},
+  S., {Marsh}, T.~R., {Aranzana}, E., {Dhillon}, V., and {Barros}, S.~C.~C.
+  (2015).
+\newblock {Accretion-induced variability links young stellar objects, white
+  dwarfs, and black holes}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[{Schnopper} et~al., 1996]{Schnopper_JEMX}
+{Schnopper}, H.~W., {Budtz-Joergensen}, C.~C., {Westergaard}, N.~J.,
+  {Hornstrup}, A., {Kamarainen}, V.~J., {Huovelin}, J., {Vilhu}, O., {Costa},
+  E., {Piro}, L., {Frontera}, F., {Manzo}, G., {Giarrusso}, S.,
+  {Castro-Tirado}, A.~J., {Reglero}, V., {Svensson}, R., {Fabian}, A.~C.,
+  {Zdziarski}, A., {Morawski}, M., {Jahoda}, K., {Sunyaev}, R., and
+  {Pavlinsky}, M.~P. (1996).
+\newblock {Joint European x-ray monitor (JEM-X): x-ray monitor for ESA's
+  INTEGRAL mission}.
+\newblock In {Ramsey}, B.~D. and {Parnell}, T.~A., editors, {\em Gamma-Ray and
+  Cosmic-Ray Detectors, Techniques, and Missions}, volume 2806 of {\em
+  \procspie}, pages 297--307.
+
+\bibitem[{Shakura} and {Sunyaev}, 1973]{Shakura_Disk}
+{Shakura}, N.~I. and {Sunyaev}, R.~A. (1973).
+\newblock {Black holes in binary systems. Observational appearance.}
+\newblock {\em \aap}, 24:337--355.
+
+\bibitem[{Spruit} and {Taam}, 1993]{Spruit_Type2Mod}
+{Spruit}, H.~C. and {Taam}, R.~E. (1993).
+\newblock {An instability associated with a magnetosphere-disk interaction}.
+\newblock {\em \apj}, 402:593--604.
+
+\bibitem[{Stappers} et~al., 2014]{Stappers_Switch}
+{Stappers}, B.~W., {Archibald}, A.~M., {Hessels}, J.~W.~T., {Bassa}, C.~G.,
+  {Bogdanov}, S., {Janssen}, G.~H., {Kaspi}, V.~M., {Lyne}, A.~G., {Patruno},
+  A., {Tendulkar}, S., {Hill}, A.~B., and {Glanzman}, T. (2014).
+\newblock {A State Change in the Missing Link Binary Pulsar System PSR
+  J1023+0038}.
+\newblock {\em \apj}, 790:39.
+
+\bibitem[{Stefanov}, 2014]{Stefanov_HFQPOs}
+{Stefanov}, I.~Z. (2014).
+\newblock {Confronting models for the high-frequency QPOs with Lense-Thirring
+  precession}.
+\newblock {\em \mnras}, 444:2178--2185.
+
+\bibitem[{Steiner} et~al., 2009]{Steiner_simpl}
+{Steiner}, J.~F., {Narayan}, R., {McClintock}, J.~E., and {Ebisawa}, K. (2009).
+\newblock {A Simple Comptonization Model}.
+\newblock {\em \pasp}, 121:1279.
+
+\bibitem[{Strader} et~al., 2016]{Strader_6}
+{Strader}, J., {Li}, K.-L., {Chomiuk}, L., {Heinke}, C.~O., {Udalski}, A.,
+  {Peacock}, M., {Shishkovsky}, L., and {Tremou}, E. (2016).
+\newblock {A New {$\gamma$}-Ray Loud, Eclipsing Low-mass X-Ray Binary}.
+\newblock {\em \apj}, 831:89.
+
+\bibitem[{Strohmayer} and {Bildsten}, 2006]{Strohmayer_TypeI}
+{Strohmayer}, T. and {Bildsten}, L. (2006).
+\newblock {\em {New views of thermonuclear bursts}}, pages 113--156.
+
+\bibitem[{Strohmayer} et~al., 1997]{Strohmayer_BPFieldTypeI}
+{Strohmayer}, T.~E., {Jahoda}, K., {Giles}, A.~B., and {Lee}, U. (1997).
+\newblock {Millisecond Pulsations from a Low-Mass X-Ray Binary in the Galactic
+  Center Region}.
+\newblock {\em \apj}, 486:355--362.
+
+\bibitem[{Str{\"u}der} et~al., 2001]{Struder_PN}
+{Str{\"u}der}, L., {Briel}, U., {Dennerl}, K., {Hartmann}, R., {Kendziorra},
+  E., {Meidinger}, N., {Pfeffermann}, E., {Reppin}, C., {Aschenbach}, B.,
+  {Bornemann}, W., {Br{\"a}uninger}, H., {Burkert}, W., {Elender}, M.,
+  {Freyberg}, M., {Haberl}, F., {Hartner}, G., {Heuschmann}, F., {Hippmann},
+  H., {Kastelic}, E., {Kemmer}, S., {Kettenring}, G., {Kink}, W., {Krause}, N.,
+  {M{\"u}ller}, S., {Oppitz}, A., {Pietsch}, W., {Popp}, M., {Predehl}, P.,
+  {Read}, A., {Stephan}, K.~H., {St{\"o}tter}, D., {Tr{\"u}mper}, J., {Holl},
+  P., {Kemmer}, J., {Soltau}, H., {St{\"o}tter}, R., {Weber}, U., {Weichert},
+  U., {von Zanthier}, C., {Carathanassis}, D., {Lutz}, G., {Richter}, R.~H.,
+  {Solc}, P., {B{\"o}ttcher}, H., {Kuster}, M., {Staubert}, R., {Abbey}, A.,
+  {Holland}, A., {Turner}, M., {Balasini}, M., {Bignami}, G.~F., {La
+  Palombara}, N., {Villa}, G., {Buttler}, W., {Gianini}, F., {Lain{\'e}}, R.,
+  {Lumb}, D., and {Dhez}, P. (2001).
+\newblock {The European Photon Imaging Camera on XMM-Newton: The pn-CCD
+  camera}.
+\newblock {\em \aap}, 365:L18--L26.
+
+\bibitem[{Sturner} and {Dermer}, 1996]{Sturner_BPNature}
+{Sturner}, S.~J. and {Dermer}, C.~D. (1996).
+\newblock {On the Nature of the Bursting X-Ray Pulsar GRO J1744-28}.
+\newblock {\em \apjl}, 465:L31.
+
+\bibitem[{Sturner} and {Shrader}, 2005]{Sturner_Failed}
+{Sturner}, S.~J. and {Shrader}, C.~R. (2005).
+\newblock {XTE J1550-564: INTEGRAL Observations of a Failed Outburst}.
+\newblock {\em \apj}, 625:923--930.
+
+\bibitem[{Svensson} and {Zdziarski}, 1994]{Svensson_Instab}
+{Svensson}, R. and {Zdziarski}, A.~A. (1994).
+\newblock {Black hole accretion disks with coronae}.
+\newblock {\em \apj}, 436:599--606.
+
+\bibitem[{Swank}, 1996]{Swank_QPOs}
+{Swank}, J.~H. (1996).
+\newblock {Compact Star Time Scales}.
+\newblock In {\em American Astronomical Society Meeting Abstracts}, volume~28
+  of {\em Bulletin of the American Astronomical Society}, page 1342.
+
+\bibitem[{Szkody} et~al., 2003]{Szkody_1023Accretion}
+{Szkody}, P., {Fraser}, O., {Silvestri}, N., {Henden}, A., {Anderson}, S.~F.,
+  {Frith}, J., {Lawton}, B., {Owens}, E., {Raymond}, S., {Schmidt}, G.,
+  {Wolfe}, M., {Bochanski}, J., {Covey}, K., {Harris}, H., {Hawley}, S.,
+  {Knapp}, G.~R., {Margon}, B., {Voges}, W., {Walkowicz}, L., {Brinkmann}, J.,
+  and {Lamb}, D.~Q. (2003).
+\newblock {Cataclysmic Variables from the Sloan Digital Sky Survey. II. The
+  Second Year}.
+\newblock {\em \aj}, 126:1499--1514.
+
+\bibitem[{Taam} and {Lin}, 1984]{Taam_Evo}
+{Taam}, R.~E. and {Lin}, D.~N.~C. (1984).
+\newblock {The evolution of the inner regions of viscous accretion disks
+  surrounding neutron stars}.
+\newblock {\em \apj}, 287:761--768.
+
+\bibitem[{Tagger} et~al., 2004]{Tagger_MagneticFlood}
+{Tagger}, M., {Varni{\`e}re}, P., {Rodriguez}, J., and {Pellat}, R. (2004).
+\newblock {Magnetic Floods: A Scenario for the Variability of the Microquasar
+  GRS 1915+105}.
+\newblock {\em \apj}, 607:410--419.
+
+\bibitem[{Takahashi} et~al., 2007]{Takahashi_HXD}
+{Takahashi}, T., {Abe}, K., {Endo}, M., {Endo}, Y., {Ezoe}, Y., {Fukazawa}, Y.,
+  {Hamaya}, M., {Hirakuri}, S., {Hong}, S., {Horii}, M., {Inoue}, H., {Isobe},
+  N., {Itoh}, T., {Iyomoto}, N., {Kamae}, T., {Kasama}, D., {Kataoka}, J.,
+  {Kato}, H., {Kawaharada}, M., {Kawano}, N., {Kawashima}, K., {Kawasoe}, S.,
+  {Kishishita}, T., {Kitaguchi}, T., {Kobayashi}, Y., {Kokubun}, M., {Kotoku},
+  J., {Kouda}, M., {Kubota}, A., {Kuroda}, Y., {Madejski}, G., {Makishima}, K.,
+  {Masukawa}, K., {Matsumoto}, Y., {Mitani}, T., {Miyawaki}, R., {Mizuno}, T.,
+  {Mori}, K., {Mori}, M., {Murashima}, M., {Murakami}, T., {Nakazawa}, K.,
+  {Niko}, H., {Nomachi}, M., {Okada}, Y., {Ohno}, M., {Oonuki}, K., {Ota}, N.,
+  {Ozawa}, H., {Sato}, G., {Shinoda}, S., {Sugiho}, M., {Suzuki}, M.,
+  {Taguchi}, K., {Takahashi}, H., {Takahashi}, I., {Takeda}, S., {Tamura},
+  K.-I., {Tamura}, T., {Tanaka}, T., {Tanihata}, C., {Tashiro}, M., {Terada},
+  Y., {Tominaga}, S., {Uchiyama}, Y., {Watanabe}, S., {Yamaoka}, K.,
+  {Yanagida}, T., and {Yonetoku}, D. (2007).
+\newblock {Hard X-Ray Detector (HXD) on Board Suzaku}.
+\newblock {\em \pasj}, 59:35--51.
+
+\bibitem[{Takahashi} et~al., 2016]{Takahashi_Hitomi}
+{Takahashi}, T., {Kokubun}, M., {Mitsuda}, K., {Kelley}, R., {Ohashi}, T.,
+  {Aharonian}, F., {Akamatsu}, H., {Akimoto}, F., {Allen}, S., {Anabuki}, N.,
+  and et~al. (2016).
+\newblock {The ASTRO-H (Hitomi) x-ray astronomy satellite}.
+\newblock In {\em Space Telescopes and Instrumentation 2016: Ultraviolet to
+  Gamma Ray}, volume 9905 of {\em \procspie}, page 99050U.
+
+\bibitem[{Tan} et~al., 1991]{Tan_RBBursts}
+{Tan}, J., {Lewin}, W.~H.~G., {Lubin}, L.~M., {van Paradijs}, J., {Penninx},
+  W., {van der Klis}, M., {Damen}, E., and {Stella}, L. (1991).
+\newblock {The Rapid Burster and its type II burst profiles}.
+\newblock {\em \mnras}, 251:1--23.
+
+\bibitem[{Tomsick} et~al., 2003]{Tomsick_MiniOutbursts}
+{Tomsick}, J.~A., {Kalemci}, E., {Corbel}, S., and {Kaaret}, P. (2003).
+\newblock {X-Ray Flares and Oscillations from the Black Hole Candidate X-Ray
+  Transient XTE J1650-500 at Low Luminosity}.
+\newblock {\em \apj}, 592:1100--1109.
+
+\bibitem[{Turner} et~al., 2001]{Turner_MOS}
+{Turner}, M.~J.~L., {Abbey}, A., {Arnaud}, M., {Balasini}, M., {Barbera}, M.,
+  {Belsole}, E., {Bennie}, P.~J., {Bernard}, J.~P., {Bignami}, G.~F., {Boer},
+  M., {Briel}, U., {Butler}, I., {Cara}, C., {Chabaud}, C., {Cole}, R.,
+  {Collura}, A., {Conte}, M., {Cros}, A., {Denby}, M., {Dhez}, P., {Di Coco},
+  G., {Dowson}, J., {Ferrando}, P., {Ghizzardi}, S., {Gianotti}, F., {Goodall},
+  C.~V., {Gretton}, L., {Griffiths}, R.~G., {Hainaut}, O., {Hochedez}, J.~F.,
+  {Holland}, A.~D., {Jourdain}, E., {Kendziorra}, E., {Lagostina}, A., {Laine},
+  R., {La Palombara}, N., {Lortholary}, M., {Lumb}, D., {Marty}, P., {Molendi},
+  S., {Pigot}, C., {Poindron}, E., {Pounds}, K.~A., {Reeves}, J.~N., {Reppin},
+  C., {Rothenflug}, R., {Salvetat}, P., {Sauvageot}, J.~L., {Schmitt}, D.,
+  {Sembay}, S., {Short}, A.~D.~T., {Spragg}, J., {Stephen}, J., {Str{\"u}der},
+  L., {Tiengo}, A., {Trifoglio}, M., {Tr{\"u}mper}, J., {Vercellone}, S.,
+  {Vigroux}, L., {Villa}, G., {Ward}, M.~J., {Whitehead}, S., and {Zonca}, E.
+  (2001).
+\newblock {The European Photon Imaging Camera on XMM-Newton: The MOS cameras :
+  The MOS cameras}.
+\newblock {\em \aap}, 365:L27--L35.
+
+\bibitem[{Ubertini} et~al., 2003]{Ubertini_IBIS}
+{Ubertini}, P., {Lebrun}, F., {Di Cocco}, G., {Bazzano}, A., {Bird}, A.~J.,
+  {Broenstad}, K., {Goldwurm}, A., {La Rosa}, G., {Labanti}, C., {Laurent}, P.,
+  {Mirabel}, I.~F., {Quadrini}, E.~M., {Ramsey}, B., {Reglero}, V., {Sabau},
+  L., {Sacco}, B., {Staubert}, R., {Vigroux}, L., {Weisskopf}, M.~C., and
+  {Zdziarski}, A.~A. (2003).
+\newblock {IBIS: The Imager on-board INTEGRAL}.
+\newblock {\em \aap}, 411:L131--L139.
+
+\bibitem[{Uchiyama} et~al., 2008]{Uchiyama_SuzPSF}
+{Uchiyama}, Y., {Maeda}, Y., {Ebara}, M., {Fujimoto}, R., {Ishisaki}, Y.,
+  {Ishida}, M., {Iizuka}, R., {Ushio}, M., {Inoue}, H., {Okada}, S., {Mori},
+  H., and {Ozaki}, M. (2008).
+\newblock {Restoring the Suzaku Source Position Accuracy and Point-Spread
+  Function}.
+\newblock {\em \pasj}, 60:S35--S42.
+
+\bibitem[{Ueda} et~al., 2006]{Ueda_1915MultiWav}
+{Ueda}, Y., {Ishioka}, R., {Sekiguchi}, K., {Ribo}, M., {Rodriguez}, J.,
+  {Chaty}, S., {Greiner}, J., {Sala}, G., {Fuchs}, Y., {Goldoni}, P., {Covino},
+  S., {Pooley}, G.~G., {Edwards}, P., {Tzioumis}, A., {Lehto}, H., {Gerard},
+  E., {Colom}, P., {Martin}, J., {Trushkin}, S.~A., {Castro-Tirado}, A.~J.,
+  {Hannikainen}, D., {Sudo}, H., {Honma}, M., {Iwamuro}, F., {Kubuta}, K.,
+  {Yamaoka}, K., {Done}, C., {Naik}, S., {Fukazawa}, Y., {Angelini}, L.,
+  {Awaki}, H., {Ebisawa}, K., {Iwasawa}, K., {Kawai}, N., {Kinugasa}, K.,
+  {Kokubun}, M., {Kotani}, T., {Kubota}, A., {Murakami}, T., {Namiki}, M.,
+  {Takahashi}, H., {Yaqoob}, T., {Yonetoku}, D., and {Yoshida}, A. (2006).
+\newblock {The 2005 October Multiwavelength Campaign of GRS 1915+105}.
+\newblock In {\em VI Microquasar Workshop: Microquasars and Beyond}, page 23.1.
+
+\bibitem[{van den Eijnden} et~al., 2017]{vandenEijnden_RB}
+{van den Eijnden}, J., {Bagnoli}, T., {Degenaar}, N., {Lohfink}, A.~M.,
+  {Parker}, M.~L., {in 't Zand}, J.~J.~M., and {Fabian}, A.~C. (2017).
+\newblock {A strongly truncated inner accretion disc in the Rapid Burster}.
+\newblock {\em \mnras}, 466:L98--L102.
+
+\bibitem[{van den Heuvel}, 1993]{vandenHeuvel_Graveyard}
+{van den Heuvel}, E.~P.~J. (1993).
+\newblock {Formation and evolution of pulsars}.
+\newblock In {Phillips}, J.~A., {Thorsett}, S.~E., and {Kulkarni}, S.~R.,
+  editors, {\em Planets Around Pulsars}, volume~36 of {\em Astronomical Society
+  of the Pacific Conference Series}, pages 123--147.
+
+\bibitem[{van der Klis}, 1989]{vanderKlis_QPOs}
+{van der Klis}, M. (1989).
+\newblock {Quasi-periodic oscillations and noise in low-mass X-ray binaries}.
+\newblock {\em \araa}, 27:517--553.
+
+\bibitem[{van der Klis}, 1997]{vanderKlis_KHzQPO}
+{van der Klis}, M. (1997).
+\newblock {Kilohertz Quasi-Periodic Oscillations in Low-Mass X-Ray Binaries}.
+\newblock In {Maoz}, D., {Sternberg}, A., and {Leibowitz}, E.~M., editors, {\em
+  Astronomical Time Series}, volume 218 of {\em Astrophysics and Space Science
+  Library}, page 121.
+
+\bibitem[{Van der Klis}, 2004]{vanderKlis_Review}
+{Van der Klis}, M. (2004).
+\newblock {A review of rapid X-ray variability in X-ray binaries}.
+\newblock {\em ArXiv Astrophysics e-prints}.
+
+\bibitem[{Vaughan} et~al., 2003]{Vaughan_RMS}
+{Vaughan}, S., {Edelson}, R., {Warwick}, R.~S., and {Uttley}, P. (2003).
+\newblock {On characterizing the variability properties of X-ray light curves
+  from active galaxies}.
+\newblock {\em \mnras}, 345:1271--1284.
+
+\bibitem[{Vedrenne} et~al., 2003]{Vedrenne_SPI}
+{Vedrenne}, G., {Roques}, J.-P., {Sch{\"o}nfelder}, V., {Mandrou}, P.,
+  {Lichti}, G.~G., {von Kienlin}, A., {Cordier}, B., {Schanne}, S.,
+  {Kn{\"o}dlseder}, J., {Skinner}, G., {Jean}, P., {Sanchez}, F., {Caraveo},
+  P., {Teegarden}, B., {von Ballmoos}, P., {Bouchet}, L., {Paul}, P.,
+  {Matteson}, J., {Boggs}, S., {Wunderer}, C., {Leleux}, P., {Weidenspointner},
+  G., {Durouchoux}, P., {Diehl}, R., {Strong}, A., {Cass{\'e}}, M., {Clair},
+  M.~A., and {Andr{\'e}}, Y. (2003).
+\newblock {SPI: The spectrometer aboard INTEGRAL}.
+\newblock {\em \aap}, 411:L63--L70.
+
+\bibitem[{Vignarca} et~al., 2003]{Vignarca_FluxFreqGRS}
+{Vignarca}, F., {Migliari}, S., {Belloni}, T., {Psaltis}, D., and {van der
+  Klis}, M. (2003).
+\newblock {Tracing the power-law component in the energy spectrum of black hole
+  candidates as a function of the QPO frequency}.
+\newblock {\em \aap}, 397:729--738.
+
+\bibitem[{Vilhu}, 1999]{Vilhu_SupEd}
+{Vilhu}, O. (1999).
+\newblock {Super-Eddington Accretion in GRS 1915+105}.
+\newblock In {Poutanen}, J. and {Svensson}, R., editors, {\em High Energy
+  Processes in Accreting Black Holes}, volume 161 of {\em Astronomical Society
+  of the Pacific Conference Series}, page~82.
+
+\bibitem[{von Mises}, 1964]{vonMises_Poptest}
+{von Mises}, R. (1964).
+\newblock {\em {Mathematical Theory of Probability and Statistics}}.
+
+\bibitem[{Walker}, 1992]{Walker_Type2Mod}
+{Walker}, M.~A. (1992).
+\newblock {Radiation Dynamics in X-Ray Binaries. II. Type 2 Bursts}.
+\newblock {\em \apj}, 385:651.
+
+\bibitem[{Walter} et~al., 2010]{Walter_Heavens}
+{Walter}, R., {Rohlfs}, R., {Meharga}, M.~T., {Binko}, P., {Morisset}, N.,
+  {Beck}, M., {Produit}, N., {Pavan}, L., {Savchenko}, V., {Ferrigno}, C.,
+  {Frankowski}, A., and {Bordas}, P. (2010).
+\newblock {Integral in Heavens}.
+\newblock In {\em Eighth Integral Workshop. The Restless Gamma-ray Universe
+  (INTEGRAL 2010)}, page 162.
+
+\bibitem[{Weisskopf}, 1999]{Weisskopf_Chandra}
+{Weisskopf}, M.~C. (1999).
+\newblock {The Chandra X-Ray Observatory (CXO): An Overview}.
+\newblock {\em ArXiv Astrophysics e-prints}.
+
+\bibitem[{White} and {Zhang}, 1997]{White_Radiation}
+{White}, N.~E. and {Zhang}, W. (1997).
+\newblock {Millisecond X-Ray Pulsars in Low-mass X-Ray Binaries}.
+\newblock {\em \apjl}, 490:L87--L90.
+
+\bibitem[{Wijnands} et~al., 2001]{Wijnands_1808}
+{Wijnands}, R., {M{\'e}ndez}, M., {Markwardt}, C., {van der Klis}, M.,
+  {Chakrabarty}, D., and {Morgan}, E. (2001).
+\newblock {The Erratic Luminosity Behavior of SAX J1808.4-3658 during Its 2000
+  Outburst}.
+\newblock {\em \apj}, 560:892--896.
+
+\bibitem[{Wijnands} and {van der Klis}, 1998]{Wijnands_XRPulsar}
+{Wijnands}, R. and {van der Klis}, M. (1998).
+\newblock {A millisecond pulsar in an X-ray binary system}.
+\newblock {\em \nat}, 394:344--346.
+
+\bibitem[{Wijnands} and {Wang}, 2002]{Wijnands_BPQ}
+{Wijnands}, R. and {Wang}, Q.~D. (2002).
+\newblock {A Chandra Observation of GRO J1744-28: The Bursting Pulsar in
+  Quiescence}.
+\newblock {\em \apjl}, 568:L93--L96.
+
+\bibitem[{Wijnands} et~al., 2012]{Wijnands_Quiescence}
+{Wijnands}, R., {Yang}, Y.~J., and {Altamirano}, D. (2012).
+\newblock {The enigmatic black hole candidate and X-ray transient IGR
+  J17091-3624 in its quiescent state as seen with XMM-Newton}.
+\newblock {\em \mnras}, 422:91--95.
+
+\bibitem[{Wilms} et~al., 2000]{Wilms_tbabs}
+{Wilms}, J., {Allen}, A., and {McCray}, R. (2000).
+\newblock {On the Absorption of X-Rays in the Interstellar Medium}.
+\newblock {\em \apj}, 542:914--924.
+
+\bibitem[{Winkler} et~al., 2003]{Winkler_IBIS}
+{Winkler}, C., {Courvoisier}, T.~J.-L., {Di Cocco}, G., {Gehrels}, N.,
+  {Gim{\'e}nez}, A., {Grebenev}, S., {Hermsen}, W., {Mas-Hesse}, J.~M.,
+  {Lebrun}, F., {Lund}, N., {Palumbo}, G.~G.~C., {Paul}, J., {Roques}, J.-P.,
+  {Schnopper}, H., {Sch{\"o}nfelder}, V., {Sunyaev}, R., {Teegarden}, B.,
+  {Ubertini}, P., {Vedrenne}, G., and {Dean}, A.~J. (2003).
+\newblock {The INTEGRAL mission}.
+\newblock {\em \aap}, 411:L1--L6.
+
+\bibitem[{Woods} et~al., 1999]{Woods_OB2}
+{Woods}, P.~M., {Kouveliotou}, C., {van Paradijs}, J., {Briggs}, M.~S.,
+  {Wilson}, C.~A., {Deal}, K., {Harmon}, B.~A., {Fishman}, G.~J., {Lewin},
+  W.~H.~G., and {Kommers}, J. (1999).
+\newblock {Properties of the Second Outburst of the Bursting Pulsar (GRO
+  J1744-28) as Observed with BATSE}.
+\newblock {\em \apj}, 517:431--435.
+
+\bibitem[{Woods} et~al., 2000]{Woods_PulseBursts}
+{Woods}, P.~M., {Kouveliotou}, C., {van Paradijs}, J., {Koshut}, T.~M.,
+  {Finger}, M.~H., {Briggs}, M.~S., {Fishman}, G.~J., and {Lewin}, W.~H.~G.
+  (2000).
+\newblock {Detailed Analysis of the Pulsations during and after Bursts from the
+  Bursting Pulsar (GRO J1744-28)}.
+\newblock {\em \apj}, 540:1062--1068.
+
+\bibitem[{Xue} et~al., 2011]{Xue_Spin}
+{Xue}, L., {S{\c a}dowski}, A., {Abramowicz}, M.~A., and {Lu}, J.-F. (2011).
+\newblock {Studies of Thermally Unstable Accretion Disks Around Black Holes
+  with Adaptive Pseudospectral Domain Decomposition Method. II. Limit-cycle
+  Behavior in Accretion Disks around Kerr Black Holes}.
+\newblock {\em \apjs}, 195:7.
+
+\bibitem[{Yadav} et~al., 2000]{Yadav_GRSBursts}
+{Yadav}, J.~S., {Agrawal}, P.~C., {Paul}, B., {Rao}, A.~R., {Seetha}, S., and
+  {Kasturirangan}, K. (2000).
+\newblock {Different Types of X-ray Bursts During High State of the
+  Superluminal Source GRS 1915+105}.
+\newblock {\em Advances in Space Research}, 25:441--444.
+
+\bibitem[{Younes} et~al., 2015]{Younes_Expo}
+{Younes}, G., {Kouveliotou}, C., {Grefenstette}, B.~W., {Tomsick}, J.~A.,
+  {Tennant}, A., {Finger}, M.~H., {F{\"u}rst}, F., {Pottschmidt}, K.,
+  {Bhalerao}, V., {Boggs}, S.~E., {Boirin}, L., {Chakrabarty}, D.,
+  {Christensen}, F.~E., {Craig}, W.~W., {Degenaar}, N., {Fabian}, A.~C.,
+  {Gandhi}, P., {G{\"o}{\u g}{\"u}{\c s}}, E., {Hailey}, C.~J., {Harrison},
+  F.~A., {Kennea}, J.~A., {Miller}, J.~M., {Stern}, D., and {Zhang}, W.~W.
+  (2015).
+\newblock {Simultaneous NuSTAR/Chandra Observations of the Bursting Pulsar GRO
+  J1744-28 during Its Third Reactivation}.
+\newblock {\em \apj}, 804:43.
+
+\bibitem[{Zdziarski} et~al., 1996]{Zdziarski_Nthcomp}
+{Zdziarski}, A.~A., {Johnson}, W.~N., and {Magdziarz}, P. (1996).
+\newblock {Broad-band {$\gamma$}-ray and X-ray spectra of NGC 4151 and their
+  implications for physical processes and geometry.}
+\newblock {\em \mnras}, 283:193--206.
+
+\bibitem[{Zhang} et~al., 2014]{Zhang_IGR}
+{Zhang}, Z., {Qu}, J.~L., {Gao}, H.~Q., {Zhang}, S., {Bu}, Q.~C., {Ge}, M.~Y.,
+  {Chen}, L., and {Li}, Z.~B. (2014).
+\newblock {The variability classes in IGR J17091-3624 during the 2011
+  outburst}.
+\newblock {\em \aap}, 569:A33.
+
+\bibitem[{Zheng} et~al., 2011]{Zheng_Model}
+{Zheng}, S.-M., {Yuan}, F., {Gu}, W.-M., and {Lu}, J.-F. (2011).
+\newblock {Revisiting the Thermal Stability of Radiation-dominated Thin Disks}.
+\newblock {\em \apj}, 732:52.
+
+\bibitem[{Zimmerman} et~al., 2005]{Zimmerman_ezdiskbb}
+{Zimmerman}, E.~R., {Narayan}, R., {McClintock}, J.~E., and {Miller}, J.~M.
+  (2005).
+\newblock {Multitemperature Blackbody Spectra of Thin Accretion Disks with and
+  without a Zero-Torque Inner Boundary Condition}.
+\newblock {\em \apj}, 618:832--844.
+
+\bibitem[{Zoghbi} et~al., 2016]{Zoghbi_Bulge}
+{Zoghbi}, A., {Miller}, J.~M., {King}, A.~L., {Miller}, M.~C., {Proga}, D.,
+  {Kallman}, T., {Fabian}, A.~C., {Harrison}, F.~A., {Kaastra}, J., {Raymond},
+  J., {Reynolds}, C.~S., {Boggs}, S.~E., {Christensen}, F.~E., {Craig}, W.,
+  {Hailey}, C.~J., {Stern}, D., and {Zhang}, W.~W. (2016).
+\newblock {Disk-Wind Connection during the Heartbeats of GRS 1915+105}.
+\newblock {\em \apj}, 833:165.
+
+\bibitem[{{\.Z}ycki} et~al., 1999]{Zycki_Nthcomp}
+{{\.Z}ycki}, P.~T., {Done}, C., and {Smith}, D.~A. (1999).
+\newblock {The 1989 May outburst of the soft X-ray transient GS 2023+338 (V404
+  Cyg)}.
+\newblock {\em \mnras}, 309:561--575.
+
+\end{thebibliography}

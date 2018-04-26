@@ -1,0 +1,702 @@
+
+\chapter{The Evolution of X-ray Bursts in the ``Bursting Pulsar'' GRO J1744--28}
+
+%%%%%%%%%%%%%%%%% BODY OF PAPER %%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+
+\par Low Mass X-ray Binaries (hereafter LMXBs) are extremely dynamic astrophysical systems, which exhibit high-amplitude X-ray variability on timescales of milliseconds to years.  In these systems a compact object accretes matter from a stellar companion, either via a stellar wind or via Roche-lobe overflow.  The donated matter spirals in towards the compact object, forming an accretion disk of matter which heats up by friction to temperatures of $\gtrsim1$\,keV.
+\par LMXBs are an excellent laboratory in which to explore the behaviour of matter under extreme physical conditions.  In addition to extreme temperatures, the inner portion of an accretion disk is a region of extreme gravity, gas pressure and photon pressure.  If the primary object in the binary is a neutron star, these systems also contain regions of extreme magnetic fields.
+\par Many LMXBs containing a neutron star are known to exhibit `bursts'; discrete periods of increased X-ray emission over timescales of seconds.  These bursts are generally categorised as either Type I or Type II, depending on the profile of the burst and its spectral evolution \citep{Hoffman_RB,Lewin_Bursts}, and occur during outbursts; extended periods of increased X-ray binary luminosity which last weeks to months.  Type I bursts are caused by accreted matter on the surface of the neutron star reaching a critical pressure and temperature which triggers runaway thermonuclear burning (see e.g. \citealp{Lewin_Bursts,Strohmayer_TypeI}).  They appear in X-ray lightcurves as a sudden increase in intensity, followed by an exponential decay, over a timescale of a few $\sim10$s of seconds.
+\par Type II bursts are believed to be caused by viscous instabilities in the accretion disk \citep{Lewin_TypeII}.  However, the exact details of the mechanism responsible for Type II bursts remain unclear.  This type of bursts is more varied in its phenomenological appearance, ranging from near-Gaussian in shape over timescales of $\sim10$\,s to broad flat-topped lightcurve features which last for $\sim100$\,s (e.g. \citealp{Bagnoli_PopStudy}).
+\par Type I X-ray bursts are seen in data from over a hundred neutron star LMXBs, while regular Type II bursts have only been unambiguously identified in two sources: the ``Rapid Burster'' MXB 1730-335 \citep{Lewin_TypeII} and the ``Bursting Pulsar'' GRO J1744--28 \citep{Kouveliotou_BP}.   Isolated Type II bursts may have also been observed in at least one additional X-ray Binary (SMC X-1, \citealp{Angelini_SMC}), but the identification of these features remains unclear.
+\par The Type II bursting behaviour in the Rapid Burster has been extensively studied (see e.g. \citealp{Lewin_TypeII,Hoffman_RB}).  \citet{Bagnoli_PopStudy} performed a full population study of all Type II bursts observed in this object by the \textit{Rossi X-ray Timing Explorer} (\textit{RXTE}, \citealp{Bradt_RXTE}).  Their results suggest that gating of the accretion by a strong magnetic field plays some role in the creation of Type II bursts.  To further probe the physics behind Type II X-ray bursts, in this paper we perform a similar population study on bursts from the Bursting Pulsar.
+\par The Bursting Pulsar \citep{Paciesas_BPDiscovery} is a system containing a neutron star and a G or K class evolved companion star (e.g. \citealp{Sturner_BPNature,Gosling_BPCompanion,Masetti_BPCompanion}).  The system lies at a distance of $\sim4$--$8$\,kpc in the direction of the Galactic centre (e.g. \citealp{Kouveliotou_BP,Gosling_BPCompanion,Sanna_BP}), and it is the only known pulsar that regularly displays Type II bursts.  Unlike in the Rapid Burster, unambiguous Type I bursts have never been observed from the Bursting Pulsar (e.g. \citealp{Giles_BP}, however see also \citealp{Lamb_TypeIBP,Doroshenko_NBFlash}).  Type II bursts were first identified upon discovery in 1995 by the Burst and Transient Source Experiment (BATSE) aboard the \textit{Compton Gamma Ray Observatory} (\textit{CGRO}, \citealp{Gehrels_CGRO}).  Additional outbursts have occurred irregularly; specifically in 1997 and 2014 \citep{Woods_OB2,Kennea_BPOutburst}.  An additional outburst may have occurred in 2017 \citep{Sanna_BPOutburst}, but it was significantly less luminous than previous outbursts and the Bursting Pulsar did not transition to the soft state (such events are referred to as `failed outbursts' or `failed state-transition outbursts', see e.g. \citealp{Sturner_Failed}).
+\par Previous work by \citet{Giles_BP} indicated that Type II bursts in the 1995--1996 outburst of the Bursting Pulsar could be separated into a number of distinct populations based on peak flux.  This is a notable difference from the Rapid Burster, in which all Type II bursts have peak fluxes approximately equal to or less than object's Eddington Luminosity \citep{Tan_RBBursts}.  In this paper we expand on the work of \citet{Giles_BP} and analyze \textit{RXTE}, \textit{NuSTAR}, \textit{Chandra}, \textit{XMM-Newton}, \textit{Swift} and \textit{INTEGRAL} data to fully quantify the population of Type II bursts in the Bursting Pulsar during all outbursts in which they were observed.  We study how the bursting in this object evolves over time throughout each outburst, and we link this behaviour to the long-term evolution of the source.  We also perform basic timing, morphology and spectral analysis on bursts, to try and understand the physical processes behind these phenomena.  %We can then compare our results with the results of the \citealp{Bagnoli_PopStudy} study of Type II bursts in the Rapid Burster, to better understand the similarities and differences between these objects and, by extension, the physical phenomena underlying the generation of Type II X-ray bursts.
+
+\section{Data and Data Analysis}
+
+\par Since discovery, the Bursting Pulsar has undergone three bright outbursts, which began in 1995, 1997 and 2014.  We refer to these outbursts as Outbursts 1, 2 and 3.  We do not consider the outburst in 2017 in this paper, as no Type II bursts were observed during this time, nor do we analyse data taken while the source was in quiesence.  See \citet{Daigne_BPQ}, \citet{Wijnands_BPQ} and \citet{Degenaar_BPQuiescence} for studies of the Bursting Pulsar during quiescence.
+\par We analysed data from all X-ray instruments which observed the Bursting Pulsar during these outbursts.  Specifically, we analysed lightcurves, the evolution of hardness ratios as a function of time and of count rate, and performed statistical analysis of properties associated with each individual burst.
+
+\subsection{\textit{RXTE}}
+
+\par We analysed data from the Proportional Counter Array (PCA, \citealp{Jahoda_PCA}) aboard \textit{RXTE} corresponding to the Outbursts 1 \& 2 of the Bursting Pulsar.  This in turn corresponded to observation IDs starting with 10401-01, 20077-01, 20078-01, 20401-01 and 30075-01, between MJDs 50117 and 51225.  This resulted in a total of 743\,ks of data over 300 observations, which we have listed in Appendix \ref{app:obs}. Lightcurve data were extracted from \texttt{fits} files using \texttt{FTOOLS}\footnote{\url{https://heasarc.gsfc.nasa.gov/ftools/ftools_menu.html}}.  Errors were calculated and quoted at the 1$\,\sigma$ level.
+\par We also use data from the All-Sky Monitor (ASM, \citealp{Levine_ASM}) to monitor the long-term evolution of the source.  ASM data was taken from MIT's ASM Light Curves Overview website\footnote{\url{http://xte.mit.edu/ASM_lc.html}}.
+
+\subsubsection{Long-Term Evolution}
+
+\par To analyse the long-term evolution of the source during its outbursts, we extracted 2--16\,keV count rates from the \textit{Standard2} data in each observation.  Following \citet{Altamirano_CrabNorm}, we normalised the intensity estimated in each observation by the intensity of the Crab nebula, using the Crab observation that is the closest in time but within the same PCA gain epoch as the observation in question (see \citealp{Jahoda_Calibrate}).
+
+\subsubsection{Burst Identification and Analysis}
+
+\label{sec:burst_diff}
+
+\par To perform population studies on the Type II bursts in the Bursting Pulsar, we first extracted lightcurves from the \texttt{Standard1} data in each observation, as this data is available for all \textit{RXTE} observations.  We used our own software\footnote{\url{https://github.com/jmcourt/pantheon}, \citep{Court_PANTHEON}} to search these lightcurves and return a list of individual bursts, using the algorithm described in Appendix A of \citet{Court_IGRClasses}.  We manually cleaned spurious detections from our sample.  We defined a `burst' as an event that lasted at least 3 seconds during which the 1\,s binned count rate exceeded 3 standard deviations above the persistent emission level and reached a maximum of at least five standard devations above the persistent emission level.  We did not subtract background, as all count rate-related parameters we analyse are persistent emission subtracted, automatically removing background contribution.
+\par During the analysis, we discovered a number of different ``classes'', similar to the multiple classes of burst described by \citet{Giles_BP}.  Our classes varied significantly in terms of overall structure, and as such needed to be treated separately; we show representative lightcurves from our classes in Figure \ref{fig:classes}.  These classes were separated from one another by a number of criteria including peak count rate and recurrence time (the time between peaks of consecutive bursts).
+\par The vast majority of detected bursts resembled the Type II seen in the Rapid Burster (referred to as `Normal Bursts' in Section \ref{sec:Results}) in terms of shape, duration and amplitude.  We rebinned the data corresponding to these Normal Bursts to 0.5\,s.  We sampled the persistent emission before the burst, and defined the start of the burst as the first point at which count rate exceeded 5 standard deviations above the persistent emission before the burst.  The end of the burst was defined similarly, but instead sampling the persistent emission after the burst; by doing this, we avoid making the implicit assumption that the persistent emission is equal before and after the burst.  We fitted phenomenologically-motivated lightcurve models to each of these bursts (described in detail in Section \ref{sec:struc}), and used these fits to extract a number of parameters which characterise the shape and energetics of a burst (such as burst duration, total photon counts associated with a burst and persistent emission count rate).
+\par Due to the very high peak count rates of Normal Bursts, data were substantially affected by dead-time (compare e.g. \textit{GRANAT} data presented in \citealp{Sazonov_BPGranat}).  These effects are complex and non-linear, and we did not correct for them here.  The dead time corrections required for the count rates seen in other classes of burst are minimal, as they are orders of magnitude fainter \citep{Giles_BP}.  To test for correlations between parameters in a model-independent way, we used the Spearman's Rank correlation coefficient (as available in \texttt{Scipy}, \citealp{NumPy}).  This metric only tests the hypothesis that an increase in the value of one parameter is likely to correspond to an increase in the value of another parameter, and it is not affected by the shape of the monotonic correlation to be measured.  Although dead-time effects lead to artificially low count rates being reported, a higher intensity still corresponds to a higher reported count rate.   As such, using this correlation coefficient removed the effects of dead time on our detection of any correlations.
+\par To calculate the distribution of recurrence times between consecutive bursts, we considered observations containing multiple bursts.  If fewer than 25\,s of data gap exists between a pair of bursts, we considered them to be consecutive and added their recurrence time to the distribution.  We choose this maximum gap size as this is approximately the timescale over which a Normal Burst occurs.
+\par To perform basic phenomelogical analysis of the spectral behaviour of these bursts, we divided our data into two energy bands when \texttt{SB\_62us\_0\_23\_500ms} and \texttt{SB\_62us\_24\_249\_500ms} mode data were available: A (PCA channels 0--23, corresponding to $\sim2$--$7$\,keV\footnote{In \textit{RXTE} gain epoch 1, corresponding to dates before MJD 50163.  This corresponds to $\sim2$--$9$\,keV in epoch 2 (MJDs 50163--50188) and $\sim2$--$10$\,keV in epoch 3 (MJDs 50188--51259).}) and B (channels 24--249, corresponding to $\sim8$--$60$\,keV\footnote{In \textit{RXTE} gain epoch 1.  This corresponds to $\sim9$--$60$\,keV in epoch 2 and $\sim10$--$60$\,keV in epoch 3.}).  The evolution of colour (defined as the ratio of the count rates in B and A) throughout a burst could then be studied.  Due to the very high count rates during Normal Bursts, we did not correct for background.  During fainter types of burst we estimate the background in different energy bands by subtracting count rates from \textit{RXTE} observation 30075-01-26-00 of this region, when the source was inactive.  Unlike using the \textit{RXTE} background model, this method subtracts the contributions from other sources in the field.  However, as it is unclear whether any of the rest of these sources are variable, the absolute values of colours we quote should be treated with caution.  We created hardness-intensity diagrams to search for evidence of hysteretic loops in hardness-intensity space.
+\par Following \citet{Bagnoli_PopStudy}, we used the total number of persistent emission-subtracted counts as a proxy for fluence for all bursts other than Normal Bursts.  As the contribution of the background does not change much during a single observation, this method also automatically subtracts background counts from our results.
+
+\subsubsection{Detecting Pulsations}
+
+\par The Bursting Pulsar is situated in a very dense region of the sky close to the Galactic centre, and so several additional objects also fall within the 1$^\circ$ \textit{RXTE}/PCA field of view.  Therefore it is important to confirm that the variability we observe in our data does in fact originate from the Bursting Pulsar.
+\par To ascertain that all bursts considered in this study are from the Bursting Pulsar, we analyse the coherent X-ray pulse at the pulsar spin frequency to confirm that the source was active.  We first corrected the photon time of arrivals (ToA) of the \textit{RXTE} PCA dataset, to take into account the motion of the Earth-spacecraft system with respect to the Solar System barycentre, by using the \texttt{faxbary} tool (DE-405 Solar System ephemeris). To this end we adopted the source position obtained from a \textit{Chandra} observation of the source during a quiescence state \citep[RA=266.137875$^{\circ}$ DEC=-28.740833$^{\circ}$, 1$\sigma$ confidence radius of 0.8''][]{Wijnands_BPQ}. To take into account the delays caused by the binary orbital motion, we then corrected the PCA ToAs through the recursive formula (assuming eccentricity $e \ll 1$): 
+\begin{eqnarray}
+\label{eq:barygen} 
+t + x\,\sin\Big(\frac{2\pi}{P_{orb}} \,(t-T_{NOD})\Big) = t_{arr}
+\end{eqnarray}
+where $t$ is the photon emission time, $t_{arr}$ is the photon arrival time at the Solar System barycentre, $x$ is the projected semi-major axis of the neutron star orbit in light seconds, $P_{orb}$ is the orbital period and $T_{NOD}$ is the time of passage through the ascending node. We corrected for the binary motion by using the orbital parameters reported by \citet{Finger_Pulse}.
+\par For each PCA observation we investigated the presence of the $\sim 2.14$\,Hz coherent pulsation by performing an epoch-folding search of the data using 16 phase bin and starting with the spin frequency value $\nu=2.141004$ Hz, corresponding to the spin frequency measured from the 1996 outburst of the source \citep{Finger_Pulse}, with a frequency step of $10^{-5}$\,Hz for 10001 total steps. We detected X-ray coherent pulsations in all PCA observations performed during Outbursts 1 \& 2. We then fitted each best folded profile with a sinusoid of unitary period in order to determine the corresponding sinusoidal amplitude. We selected only pulse profiles for which the ratio between the sinusoidal amplitude and its 1$\sigma$ error was larger than 3.  We corrected fractional amplitude values to take into account the PCA background contribution to the observed X-ray emission, that we estimated using the bright-background model suitable for the Bursting Pulsar count rate \citep[see][]{Jahoda_Calibrate}.
+\par Outbursts 1 and 2 occurred during different PCA gain epochs (see \citealp{Jahoda_Calibrate}), and we did not correct for this here.  However, the reported 2--16\,keV Crab count rate changes by no more than a factor 1.09 in any of the PCUs during the time period corresponding to these outbursts.  Therefore the effects of the gain on our results are negligible.
+
+\subsection{\textit{Swift}}
+\par In this study, we made use of data from the X-Ray Telescope (XRT, \citealp{Burrows_XRT}) and the Burst Alert Telescope (BAT, \citealp{Krimm_BAT}) aboard the Neil Gehrels Swift Observatory (\textit{Swift}, \citealp{Gehrels_Swift}).  We extracted a long-term 0.3--10\,keV \textit{Swift}/XRT lightcurve of Outburst 3 using the lightcurve generator provided by the UK Swift Science Data Centre (UKSSDC, \citealp{Evans_Swift1}).  We also make use of \textit{Swift}/BAT lightcurves from the Swift/BAT Hard X-ray Transient website\footnote{\url{https://swift.gsfc.nasa.gov/results/transients/}} (see \citealp{Krimm_BAT}).
+
+\subsection{\textit{INTEGRAL}}
+
+\par We also made use of data from the Imager on Board \textit{INTEGRAL} \citep{Winkler_IBIS}.  We extracted 17.3--80\,keV IBIS/ISGRI lightcurves of the Rapid Burster during Outburst 3 using the \textit{INTEGRAL} Heavens portal.  This is provided by the \textit{INTEGRAL} Science Data Centre \citep{Lubinski_Heavens}.
+
+\subsection{\textit{Chandra}}
+
+\par The Bursting Pulsar was targeted with \textit{Chandra} \citep{Weisskopf_Chandra} three times during Outburst 3 (Table \ref{tab:Chandra}).  One of these observations (OBSID 16596) was taken simultaneously with a \textit{NuSTAR} observation (80002017004).  In all three observations data were obtained with the High Energy Transmission Grating (HETG), where the incoming light was dispersed onto the ACIS-S \citep{Garmire_ACIS} array. The ACIS-S was operated in continued clocking (CC) mode to minimize the effects of pile-up. The  Chandra/HETG observations were analysed using standard tools available within \texttt{ciao} v. 4.5 \citep{Fruscione_Ciao}. We extracted 1\,s binned light curves from the \texttt{evt2} data using \texttt{dmextract}, where we combined the first order positive and negative grating data from both the Medium Energy Grating (MEG; 0.4-5 keV) and the High Energy Grating (HEG; 0.8--8\,keV).
+
+\begin{table}
+\centering
+\begin{tabular}{lllllll}
+\hline
+\hline
+\scriptsize  OBSID &\scriptsize Exposure (ks) &\scriptsize MJD &\scriptsize Reference \\
+\hline
+16596  	& 10 &  56719      &   \citet{Younes_Expo} \\
+16605  	& 35 &   56745    &    \citet{Degenaar_BPSpec}\\
+16606  	& 35 &   56747    &    \citet{Degenaar_BPSpec}\\
+\hline
+\hline
+\end{tabular}
+\caption{Information on the three \textit{Chandra} observations of the Bursting Pulsar during Outburst 3.  All other observations of the Bursting Pulsar in the Chandra archive were obtained at times that the source was in quiescence.}
+\label{tab:Chandra}
+\end{table}
+
+\subsection{\textit{XMM-Newton}}
+
+%\par \textit{XMM-Newton} \citep{Jansen_XMM} consists of 3 instruments: the European Photon Imaging Camera CCDs (EPIC, \citealp{Bignami_EPIC}), the Reflection Grating Spectrometer (RGS, \citealp{denHerder_RGS}) and the Optical Monitor (OM, \citealp{Mason_OM}).  Here, we only consider data from EPIC.
+\par A single pointed \textit{XMM-Newton} observation of the Bursting Pulsar was taken during Outburst 3 on MJD 56722 (OBSID 0729560401), and no observations were taken during Outbursts 1 or 2.  We extracted a 0.5--10\,keV lightcurve from EPIC-PN at 1\,s resolution using \texttt{xmmsas} version 15.0.0.  During this observation, EPIC-PN was operating in Fast Timing mode.  We use EPIC-PN as the statistics are better than in MOS1 or MOS2.
+
+\subsection{\textit{Suzaku}}
+\par \textit{Suzaku} \citep{Mitsuda_Suzaku} observed the Bursting Pulsar once during Outburst 3 on MJD 56740 (OBSID 908004010), and no observations were taken during Outbursts 1 or 2.
+%\par \textit{Suzaku} carried two scientific instruments: the X-ray Imaging Spectrometers (XIS; \citealp{Koyama_XIS}) and the Hard X-ray Detector (HXD; \citealp{Takahashi_HXD}).  The XIS was composed of three front-illuminated X-ray CCDs (referred as XIS0, 2 and 3) and one back-illuminated BI chip (referred as XIS 1).  XIS 2 was not operational during our observation.  The XIS was sensitive to the 0.3-12 keV range.  The HXD is a combination of Si PIN diodes (sensitive to 12-70 keV) and GSO scintillators (sensitive to 40-600 keV).% embedded in well-shaped BGO shields which reduces the backgrounds.
+%\par All three operational XISs were operated in 1/4 window mode with the 0.135\,s burst option. This setting minimizes the pile-up effect due to the brightness of this source. The HXD was operated in the normal mode.  The net exposure of the XIS and HXD was 4.2\,ksec and 55.4\,ksec, respectively.  
+\par To create a lightcurve, we reprocessed and screened data from the X-ray Imaging Spectrometer (XIS, \citealp{Koyama_XIS})using the \texttt{aepipeline} script and the latest calibration database released on June 7, 2016.  The attitude correction for the thermal wobbling was made by \texttt{aeattcor2} and \texttt{xiscoord} \citep{Uchiyama_SuzPSF}. The source was extracted within a radius of 250 pixels corresponding to 260'' from the image center.  The background was extracted near the edge of the XIS chip, and subtracted from the source. 
+%\par For the HXD, the PIN and GSO light curves were analyzed by \texttt{hxdpinxblc} and \texttt{gsolc}. The non X-ray background was taken from the publicly available databases\footnote{\url{http://www.astro.isas.jaxa.jp/suzaku/analysis/hxd/pinnxb/pinnxb_ver2.2_tuned/} for PIN}$^,$\footnote{\url{http://www.astro.isas.jaxa.jp/suzaku/analysis/hxd/gsonxb/gsonxb_ver2.6/} for GSO} and subtracted. Additional Cosmic X-ray background (CXB) was also subtracted for the PIN data, based on previous HEAO-1 observation \citep{Boldt_HEAO1}. The deadtime was corrected for both PIN and GSO data.  
+
+\subsection{\textit{NuSTAR}}
+
+\par \textit{NuSTAR} \citep{Harrison_NuSTAR} consists of two grazing-incident X-ray telescopes.  These instruments only observed the Bursting Pulsar twice during its outbursts, both times in Outburst 3 (Table \ref{tab:NuS}).  We extracted lightcurves from both of these observations using \texttt{nupipeline} and \texttt{nuproducts}, following standard procedures\footnote{See \url{https://www.cosmos.esa.int/web/xmm-newton/sas-threads}.}.
+
+\begin{table}
+\centering
+\begin{tabular}{lllllll}
+\hline
+\hline
+\scriptsize  OBSID &\scriptsize Exposure (ks) &\scriptsize MJD &\scriptsize Reference \\
+\hline
+80002017002 	& 29 & 56703 &  \citet{Dai_Hlags}  \\
+80002017004 	& 9 & 56719 & \citet{Younes_Expo}\\
+\hline
+\hline
+\end{tabular}
+\caption{Information on the three \textit{NuSTAR} observations of the Bursting Pulsar during Outburst 3.}
+\label{tab:NuS}
+\end{table}
+
+\section{Results}
+\label{sec:Results}
+
+\subsection{Outburst Evolution}
+
+\par We show the long-term monitoring lightcurves of Outbursts 1,2 and 3 in Figure \ref{fig:global_ob}, as well as mark the dates of pointed observations with various instruments.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0cm 0 0cm 0},clip]{images/lc_comp.pdf}
+  \caption{\small Comparisons of the three outbursts of the Bursting Pulsar reported on in this paper.  Times corresponding to pointed observations with \textit{Chandra}, \textit{NuSTAR}, \textit{Suzaku}, \textit{Swift} and \textit{XMM-Newton} are marked.}
+  \label{fig:global_ob}
+\end{figure*}
+
+\par The Bursting Pulsar was discovered already in outburst on December 12 1995 \citep{Fishman_Discovery}; BATSE data suggest that this outburst began several days earlier on December 3 \citep{Paciesas_BPDiscovery,Bildsten_Rev}.  The main outburst ended around May 10 1996 \citep{Woods_PulseBursts}.  We show the global lightcurve of this outburst in Figure \ref{fig:global_ob}, Panel 1.  As \textit{RXTE} did not observe the object before or during the peak of Outburst, we can only obtain a lower limit of $\sim1.75$\,Crab for the peak 2--16\,keV flux.
+\par There are atleast two major rebrightening events in the tail of Outburst 1, which can be seen clearly  in Figure \ref{fig:global_ob} centred at MJDs of $\sim50235$ and $\sim50280$.  During these rebrightening events, the 2--16\,keV flux peaked at $\sim0.10$ and $\sim0.18$\,Crab respectively.
+
+\par Outburst 2 began on December 1 1996 and ended around April 7 1997 \citep{Woods_OB2}.  The 2--16\,keV flux peaked at 1.02\,Crab on MJD 50473; we show the global lightcurve of this outburst in Figure \ref{fig:global_ob}, Panel 2.  Type II bursts are seen in \textit{RXTE}/PCA lightcurves from Outburst 2 between MJDs 50466 and 50544.  One rebrightening event occurred during the tail of Outburst 2, centred at an MJD of $\sim50615$ with a peak 2--16\,keV flux of $\sim54$\,mCrab.  A second possible rebrightening event occurs at MJD 50975, with a peak 2--16\,keV flux of 11\,mCrab, but the cadence of \textit{RXTE}/PCA observations was too low to unambiguously confirm the existence of a reflare at this time.
+
+\par Outburst 3 began on January 31, 2014 \citep{Negoro_OB3,Kennea_BPOutburst} and ended around April 23 (e.g. \citealp{Dai_OB3}).  The daily 0.3--10\,keV Swift/XRT rate peaked at 81\,cts\,s$^{-1}$ on MJD 56729, corresponding to 0.4\,Crab.  We show the global lightcurve of this outburst in Figure \ref{fig:global_ob}, Panel 3.
+\par During the main part of Outburst 3, \textit{Swift}, \textit{XMM-Newton} and \textit{Suzaku} made one pointed observation each, \textit{Chandra} made four observations, and \textit{NuSTAR} made three observations.  The \textit{Chandra} observation on March 3 2014 was made simultaneously with one of the \textit{NuSTAR} observations (see \citealp{Younes_Expo}).  After the main part of the outburst, the source was not well-monitored, although it remained detectable by \textit{Swift}/BAT, and it is unclear whether any rebrightening events occured.  A single \textit{NuSTAR} observation was made during the outburst tail on August 14 2014.
+
+\par As can be seen in Figure \ref{fig:global_ob}, the main section of all three outburst follow a common profile, over a timescale of $\sim150$ days.  A notable difference between outbursts 1 \& 2 is the number of rebrightening events; while we find two rebrightening events associated with Outburst 1, we only find one associated with Outburst 2 unless we assume the event at MJD 50975 is associated with the outburst.  Additionally, Outburst 2 was at least a factor $\sim1.7$ fainter at its peak than Outburst 1 (see also \citealp{Woods_OB2}), while Outburst 3 was a factor of $\gtrsim4$ fainter at peak than Outburst 1.
+
+\subsubsection{Pulsations}
+
+\par We found pulsations in PCA data throughout the entirety of Outbursts 1 \& 2, confirming that all the types of Type II bursts we see are from the Bursting Pulsar.  Previous studies have shown that pulsations were also present during Outburst 3 (e.g. \citealp{Sanna_BP}).
+
+%  In Figure \ref{fig:pulsovertime}, we show that the amplitude of these pulsations generally followed the intensity of the source in both outbursts.
+
+%\begin{figure}
+ % \centering
+ % \includegraphics[width=.9\linewidth, trim={0.4cm 1cm 0cm 1cm},clip]{images/PulseAmp.eps}
+%  \caption{\small \textit{RXTE}/PCA lightcurves of Outbursts 1 \& 2 of the Bursting Pulsar, overlaid with plots showing how the amplitude of the 2.4\,Hz pulsation associated with the pulsar changes as a function of time during these outbursts.}
+%  \label{fig:pulsovertime}
+%\end{figure}
+
+\subsubsection{Bursting Behaviour}
+
+\par Bursts are seen in \textit{RXTE}/PCA lightcurves from the start of the Outburst 1 (e.g. \citealp{Kouveliotou_BP}).  These Type II bursts occur until around MJD 50200, as the source flux falls below $\sim0.1$\,Crab in the 2--16\,keV band.  
+\par During the latter part of the first rebrightening after Outburst 1, between MJDs 50238 and 50246, we found Type II-like bursts with amplitudes $\sim2$ orders of magnitude smaller than those found during the main outburst event.  These gradually increased in frequency throughout this period of time until evolving into a period of highly structured variability which persisted until MJD 50261.
+\par In Outburst 2, we found Type II bursts occuring between MJDs $\sim50466$ and $50542$.  Low-amplitude Type II-like bursts are seen during the latter stages of the main outburst, between MJDs 50562 and 50577.  These again evolve into a period of highly structured variability; this persists until MJD 50618, just after the peak of the rebrightening event.
+\par High-amplitude Type II bursts were also seen in Outburst 3 (e.g. \citealp{Linares_NewBurst}).  As no soft ($\lesssim10\,$keV) X-ray instrument was monitoring the Bursting Pulsar during the latter part of Outburst 3, it is unknown whether this Outburst showed the lower-amplitude bursting behaviour seen at the end of Outbursts 1 \& 2.  Low amplitude bursting bhaviour is not seen in the pointed \textit{NuStar} observation which was made during this time.
+
+\subsection{Categorizing Bursts}
+
+\label{sec:classes}
+
+\par We find that bursts in the Bursting Pulsar fall into a number of discrete classes, lightcurves from which we show in Figure \ref{fig:classes}.  These classes are as follows:
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.7cm 0.1cm 1.5cm 1.4cm},clip]{images/comp_bursts.eps}
+  \caption{\small 2--49\,keV lightcurves for the four classes of bursting behaviour identified in this paper: \textbf{a)} Normal Burst, \textbf{b)} Miniburst, \textbf{c)} Mesoburst, \textbf{d)} Structured Bursts.  Note that Panel \textbf{d} is plotted with a different time scaling to the other panels so as to better show the behaviour of Structured Bursting.  On all figures the median count rate, which we use as a proxy for the persistent emission, is plotted in cyan.  Lightcurves \textbf{a}-\textbf{c} are binned to 0.125\,s, while lightcurve \textbf{d} is binned to 1\,s.}
+  \label{fig:classes}
+\end{figure}
+
+\begin{itemize}
+\item Normal Bursts (Figure \ref{fig:classes}, Panel a): Type II bursts.  These are the brightests bursts seen from this source, with peak count 1\,s binned rates of $\sim10000$\,cts\,s$^{-1}$\,PCU$^{-1}$, and recurrence timescales of order $\sim1000$\,s.  These bursts are roughly Gaussian in shape with durations of $\sim10$\,s, and are followed by a `dip' in the persistent emission count rate with a duration of order 100\,s (see also e.g. \citealp{Giles_BP}).
+\item Minibursts (Figure \ref{fig:classes}, Panel b): faint bursts with 1\,s-binned peak count rates of $\sim2$ times the persistent emission count rate.  Minibursts are variable, with duration timescales between $\sim5$--50\,s.  These bursts are also sometimes followed by dips similar to those seen after Normal Bursts.
+\item Mesobursts (Figure \ref{fig:classes}, Panel c): Type II-like bursts.  These bursts differ from Normal Bursts in that they do not show well-defined subsequent `dips'.  They are also fainter than Normal Bursts, with peak count 1\,s binned count rates of $\sim1000$\,cts\,s$^{-1}$\,PCU$^{-1}$.  Their burst profiles show fast rises on timescales of seconds, with slower decays and overall durations of $\sim50$\,s.  The structure of the bursts is very non-Gaussian, appearing as a small forest of peaks in lightcurves.
+\item Structured Bursts (Figure \ref{fig:classes}, Panel d): the most complex class of bursting behaviour we observe from the Bursting Pulsar, consisting of patterns of flares and dips in the X-ray lightcurve.  The amplitudes of individual flares are similar to those of the faintest Mesobursts.  The recurrence timescale is of the order of the timescale of an individual flare, meaning that is it difficult to fully separate individual flares of this class.
+\end{itemize}
+
+\par In the upper panel Figure \ref{fig:jointhist} we show a histogram of persistent-emission-subtracted peak count rates for all Normal and Mesobursts observed by \textit{RXTE}.  We split these two classes based on the bimodal distribution in peak count rate as well as the lack of dips in Mesobursts.
+\par In the lower panel Figure \ref{fig:jointhist}, we show the histogram of peak count rates for all Normal and Minibursts observed by \textit{RXTE} as a fraction of the persistent emission at that time.  We split these two classes based on the strongly bimodal distribution in fractional amplitude.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={1.3cm 0cm 2.0cm 0cm},clip]{images/norm_meso_sep.eps}
+  \includegraphics[width=.9\linewidth, trim={1.3cm 0cm 2.0cm 0cm},clip]{images/norm_mini_sep.eps}
+  \caption{\small \textbf{Upper Panel:} A histogram of the peak 1\,s binned peak count rates of the joint population of all Normal and Mesobursts seen by \textit{RXTE}.  The dashed line indicates the position of the threshold above which we consider a Type II-like burst to be a Normal Burst.  The resultant split of the population into Normal and Mesobursts is indicated by blue and red shading respectively.
+ \textbf{Upper Panel:} A histogram of the peak 1\,s binned peak count rates of the joint population of all Normal and Minibursts seen by \textit{RXTE}, divided by the persistent emission count rate at that time.  The dashed line indicates the position of the threshold below which we consider a burst to be a Miniburst.  The resultant split of the population into Normal and Minibursts is indicated by blue and green shading respectively.
+  Note that the $x$-axis of both plots is logarithmic, and so number density is not preserved.}
+  \label{fig:jointhist}
+\end{figure}
+
+\par We also find 6 bursts with fast ($\sim1$\,s) rises and exponential decays that occur during the lowest flux regions of the outburst ($\lesssim50$\,mCrab).  \citet{Strohmayer_BPFieldTypeI} and \citet{Galloway_TypeI} have previously identified these bursts as being Type I X-ray bursts from another source in the \textit{RXTE} field of view.  To show that these unrelated Type I bursts would not be confused with Minibursts, we add examples of the Type I bursts to lightcurves from observations containing Minibursts.  We find that the peak count rates in Type I bursts are roughly equal to the amplitude of the noise in the persistent flux in these observations, hence they would not be detected by our algorithms.
+\par We show when in Outbursts 1 \& 2 each type of burst was observed in Figures \ref{fig:ob_evo1} and \ref{fig:ob_evo2} respectively.  Normal Bursts and Minibursts (red) occur during the same periods of time from around the peak of an outburst until the persistent emission falls beneath $\sim0.1$\,Crab; assuming an Eddington Limit of $\sim1$\,Crab (e.g \citealp{Sazonov_BPGranat}), this corresponds to an Eddington ratio of $\sim0.1$.  After this point, bursting is not observed for a few tens of days.  Mesobursts (blue) begin at the end of a rebrightening event in Outburst 1 and during the final days of the main part of the outburst in Outburst 2.  Structured Bursts (yellow) occur during the first part of a rebrightening event in both outbursts.  Although there was a second rebrightening event after Outburst 1, neither Mesobursts nor Structured Bursts were observed at this time.  Based on this separation, as well as differences in structure, we treat each class of burst separately below.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={9.5cm 0cm 10cm 0cm},clip]{images/obevo1.pdf}
+  \caption{\small Central panel shows the global 2--16\,keV \textit{RXTE}/PCA lightcurve of the 1995--1996 outburst of the Bursting Pulsar, highlighting periods of time during which Mesobursts (blue) Structured Bursts (yellow) or Normal and Mini bursts (red) are observed.  A single Mesoburst was also observed on MJD 50253, during the period of the outburst highlighted in yellow (see Figure \ref{fig:meso_in_struc}).  Other panels show example lightcurves which contain the aforementioned types of bursting behaviour.  See section \ref{sec:classes} for a detailed treatment of burst classification.  Fluxes reported in units of Crab.}
+  \label{fig:ob_evo1}
+\end{figure*}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={9.5cm 0cm 10cm 0cm},clip]{images/obevo2.pdf}
+  \caption{\small Central panel shows the global 2--16\,keV \textit{RXTE}/PCA lightcurve of the 1997--1999 outburst of the Bursting Pulsar, highlighting periods of time during which Mesobursts (blue) Structured Bursts (yellow) or Normal and Mini bursts (red) are observed.  Other panels show example lightcurves which contain the aforementioned types of bursting behaviour.}
+  \label{fig:ob_evo2}
+\end{figure*}
+
+\subsection{Normal Bursts}
+
+\par We define Normal Bursts as the set of all bursts with a persistent-emission-subtracted peak 1\,s binned \textit{RXTE}/PCA-equivalent count rate above 3000\,cts\,s$^{-1}$\,PCU$^{-1}$.  Normal Bursts account for 99 out of the 190\footnote{This number does not include Structured Bursts as their complex structure makes them difficult to separate.} bursts identified for this study.  They are observed during all three outbursts covered in this study.  They occurred between MJDs 50117 and 50200 in Outburst 1, and between 50466 and 50542 in Outburst 2; during these intervals, \textit{RXTE} observed the source for a total of 192\,ks.  See Table \ref{tab:staretimes} to compare these with numbers for the other classes of burst identified in this study.  They occur during the same time intervals during which Minibursts are present.  In both of these outbursts, the region of Normal and Minibursts correspond to the time between the peak of the outburst and and the time that the persistent intensity falls below $\sim0.1$\,Crab.
+
+\begin{table}
+\centering
+\begin{tabular}{llll}
+\hline
+\hline
+\scriptsize  Bursting Mode &\scriptsize Bursts &\scriptsize Total Exposure (ks) &\scriptsize Duration (d) \\
+\hline
+Normal Bursts & 99  & 192 & 76\\
+Minibursts & 48 & 192  & 76\\
+Mesobursts & 43 &44 &25\\
+Structured Bursts & - &80 &54 \\
+\hline
+\hline
+\end{tabular}
+\caption{Statistics on the population of bursts we use for this study, as well as the duration and integrated \textit{RXTE}/PCA exposure time of each mode of bursting.  All numbers are the sum of values for Outbursts 1 and 2.  As Normal and Minibursts happen during the same period of time in each outburst, the exposure time and mode duration for these classes of bursting are equal.}
+\label{tab:staretimes}
+\end{table}
+
+\subsubsection{Recurrence Time}
+
+\par Using Outburst 3 data from \textit{Chandra}, \textit{XMM-Newton}, \textit{NuSTAR}\footnote{To avoid double-counting peak pairs, we do not use \textit{NuSTAR} observation 80002017004, which was taken simultaneously with \textit{Chandra} observation 16596.} and \textit{Suzaku}, we find minimum and maximum recurrence times of $\sim345$ and $\sim5660$\,s respectively.  We show the histogram of recurrence times from Outburst 3 in Figure \ref{fig:sep}, showing which parts of the distribution were observed with which observatory.  Compared to data from \textit{Chandra} and \textit{XMM-Newton}, data from \textit{Suzaku} generally suggests shorter recurrence times.  This is likely due to \textit{Suzaku} observations consisting of a number of $\sim2$\,ks windows; as this number is of the same order of magnitude as the recurrence time between bursts, there is a strong selection effect against high recurrence times in the \textit{Suzaku} dataset.
+\par From the \textit{RXTE} data we find minimum and maximum burst recurrence times of $\sim250$ and $\sim2510$\,s during Outburst 1, and minimum and maximum recurrence times of $\sim250$ and $\sim2340$\,s during Outburst 2.  As the length of an \textit{RXTE} pointing ($\lesssim3$\,ks) is also of the same order of magnitude as the recurrence time between bursts, selection effects bias us against sampling pairs of bursts with longer recurrence times, and hence this upper value is likely an underestimate.  We show the combined histogram of recurrence times from Outbursts 1 and 2 in the top panel of Figure \ref{fig:sep}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.1cm 0},clip]{images/manyinst_stdist.eps}
+    \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.1cm 0},clip]{images/rinst_stdist.eps}
+  \caption{\small \textbf{Top:} The distribution of recurrence times between consecutive Normal Bursts seen in pointed \textit{Chandra}, \textit{XMM-Newton}, \textit{NuSTAR} and \textit{Suzaku} observations of Outburst 3 of the Bursting Pulsar.  Distributions of bursts observed by different instruments are stacked on top of each other and colour coded. \textbf{Bottom:} The distribution of recurrence times between consecutive Normal Bursts seen in \textit{RXTE} observations of Outbursts 1 \& 2 of the Bursting Pulsar.}
+  \label{fig:sep}
+\end{figure}
+
+\par To test whether consecutive bursts are independent events, we tested the hypothesis that bursts are randomly distributed in time in a Poisson distribution \citep{Poisson_Distribution}.  Assuming our hypothesis, as well as assuming that the frequency of Normal Bursts does not change during an outburst (e.g. \citealp{Aptekar_Recur}), we could concatenate different observations and the resultant distribution of burst times will still be Poissonian.  For each of Outbursts 1 \& 2, we concatenated all \textit{RXTE} data during the Normal Bursting part of the outburst into a single lightcurve.  We split our lightcurves into windows of length $w$ and counted how many bursts were in each, forming a histogram of number of bursts per window.  We fit this histogram with a Poisson probability density function, obtaining the value $\lambda$ which is the mean number of bursts in a time $w$.  $\lambda/w$ is therefore an expression of the true burst frequency per unit time, and should be independent of our choice of $w$.  We tried values of $w$ between 100 and 10000\,s for both outbursts, and found that in all cases $\lambda/w$ depends strongly on $w$.  Therefore our assumptions cannot both be valid, and we rejected the hypothesis that these bursts are from a Poisson distribution with constant $\lambda$.  This in turn suggests at least one of the following must be correct:
+\begin{enumerate}
+\item The frequency of bursts was not constant throughout the outburst.  Or:
+\item The arrival time of a given burst depends on the arrival time of the preceding burst, and therefore bursts are not independent events.
+\end{enumerate}
+
+\subsubsection{Burst Structure}
+
+\label{sec:struc}
+
+\par In the top panel of Figure \ref{fig:norm_overlay} we show a plot of all Normal Bursts observed with \textit{RXTE} overlayed on top of one another.  We find that all Normal Bursts follow a similar burst profile with similar rise and decay timescales but varying peak intensities.  In the lower panel of Figure \ref{fig:norm_overlay} we show a plot of Normal Bursts overlaid on top of each other after being normalised by the persistent emission count rate in their respective observation.  The bursts are even closer to following a single profile in this figure, suggesting a correlation between persistent emission level in an outburst and the individual fluence of its bursts.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.1cm 0},clip]{images/1000norm.pdf}
+  \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.1cm 0},clip]{images/1000norm_renormed.pdf}
+  \caption{\small \textbf{Top:} a plot of every Normal Burst, centred by the time of its peak, overlaid on top of each other to show the existence of a common pulse profile.  \textbf{Bottom:} a plot of every Normal Burst in which count rates have been normalised by the persistent emission count rate during the observation from which each burst was observed.  As the bursts are on average closer to the average pulse profile in this metric, this suggests that the intensity of a burst is roughly dependent on the persistent emission rate.  Some persistent emission-normalised count rates may be artificially low due to dead-time effects.}
+  \label{fig:norm_overlay}
+\end{figure}
+
+\par The structure of the lightcurve of a Normal Burst can be described in three well-defined parts:
+
+\begin{enumerate}
+\item The main burst: roughly approximated by a skewed Gaussian.
+\item A `plateau': a period of time after the main burst during which count rate remains relatively stable at a level above the persistent rate.
+\item A `dip': a period during which the count rate falls below the persistent level, before exponentially decaying back up towards the persistent level (e.g. \citealp{Younes_Expo}).
+\end{enumerate}
+
+\par The dip is present after every burst in our \textit{RXTE} sample from Outbursts 1 \& 2, whereas the plateau is only seen in 39 out of 99.  We show example lightcurves of bursts with and without plateaus in Figure \ref{fig:w_wo}, which also show that the dip is present in both cases.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.8cm 0 1.6cm 0},clip]{images/w_woburst.eps}
+  \caption{\small \textit{RXTE} lightcurves of Normal Bursts with (top) and without (bottom) `plateau' features, showing the burst structure in each case.  The median count rate, which we use as a proxy for the persistent emission, is plotted in cyan to highlight the presence of the count rate `dip' after each burst.}
+  \label{fig:w_wo}
+\end{figure}
+
+\par In order to study Normal Bursts, we fit the burst profiles with phenomenologically-motivated mathematical functions.  In Figure \ref{fig:explain} we show a schematic plot of our model, as well as annotations explaining the identities of the various parameters we use.  We fit the main burst with a skewed Gaussian, centred at $t=x_0$ with amplitude $a_b$, standard deviation $\sigma_B$ and skewness $c$, added to the persistent emission rate $k$.  We fit the `dip' with the continuous piecewise function $f(t)$:
+
+\begin{equation}
+f(t)=
+\begin{dcases}
+k-\frac{a_d(t-t_0)}{d-t_0}, & \text{if } t\leq d\\
+k-a_d\exp\left(\frac{d-t}{\lambda}\right), & \text{otherwise}
+\end{dcases}
+\label{eq:dipper}
+\end{equation}
+
+Where $t$ is time, $t_0$ is the start time of the dip, $a_d$ is the amplitude of the dip, $d$ is the time at the local dip minimum and $\lambda$ is the dip recovery timescale.  This function is based on the finding by \citet{Younes_Expo} that dip count rates recover exponentially, but has the added advantage that the start of the recovery phase can also be fit as an independent parameter.  Using this fit, we can estimate values for burst fluence $\phi_B$, burst scale-length $\sigma_B$, `missing' dip fluence $\phi_D$ and dip scale-length $\lambda$ and compare these with other burst parameters.  When present, we also calculate the fluence of the plateau $\phi_p$ by summing the persistent emission-subtracted counts during the region between the end of the burst (as defined in Section \ref{sec:burst_diff}) and the start of the dip.  For each pair of parameters, we do not consider datapoints when the magnitude of the error on a parameter is greater than the value of the parameter.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={1.9cm 0 2.0cm 0},clip]{images/explainer.eps}
+  \caption{\small A schematic explaining the origin of the 12 Normal Burst parameters used in this study, as well as showing the functional forms of both the skewed Gaussian fit to a burst and the `dipper function' (Equation \ref{eq:dipper}) fit to a dip.  Note that we do not fit a function to the plateau, and we calculate its fluence by summing the persistent rate-subtracted counts.  Diagram is for explanation only and the burst pictured is neither based on real data nor to scale.}
+  \label{fig:explain}
+\end{figure}
+
+\par We only extract these parameters from Normal Bursts observed by \textit{RXTE} during Outbursts 1 \& 2.  This ensures that the resultant parameter distributions we extracted are not affected by differences between instruments.
+
+\subsubsection{Parameter Distributions}
+
+\label{sec:hists}
+
+\par We extracted a total of ten parameters from our fit to each burst: the parameters $a_d$, $d$ and $\lambda$ of the fit to the dip, the missing fluence $\phi_D$ of the dip, the parameters $a_b$, $\sigma_B$ and $c$ of the skewed Gaussian fit to the main burst, the main burst fluence $\phi_B$, the maximum persistent emission-subtracted rate in the plateau $a_p$ and the plateau fluence $\phi_P$.
+\par Using our \textit{RXTE} sample of Normal Bursts, we can construct distributions for all of the burst parameters described in Section \ref{sec:struc} for bursts in Outbursts 1 \& 2.  We give the mean and standard deviation for each parameter in each outburst in Table \ref{tab:params_perob}, and histograms for each can be found in Appendix \ref{app:hists}.
+
+\begin{table}
+\centering
+\begin{tabular}{r c c c c c c}
+\hline
+\hline
+ & \multicolumn{2}{c}{\scriptsize Outburst 1} & \multicolumn{2}{c}{\scriptsize Outburst 2} & \multicolumn{2}{c}{\scriptsize Outbursts 1\&2}  \\
+ &Mean&S.D.&Mean&S.D.&Mean&S.D.\\
+\hline
+$\phi_B$&2.74e6&7.8e5&2.25e6&7.6e5&$2.43\mathrm{e}6$&$8.0\mathrm{e}5$\\
+$a_B$&3.18e5&8.4e4&2.72e5&9.9e4&$2.90\mathrm{e}5$&$9.6\mathrm{e}4$\\
+$\sigma_B$&3.39&0.35&3.42&0.59&3.41&0.52\\
+$c$&2.68&1.9&2.79&2.0&2.75&2.0\\
+$\phi_d$&1.74e6&1.3e6&1.17e6&3.6e5&$1.38\mathrm{e}6$&$8.7\mathrm{e}5$\\
+$a_d$&550&335&536&307&541&318\\
+$d$&49&46&20&22&31&36\\
+$\lambda$&294&176&229&124&254&150\\
+$\phi_p$&1.89e5&2.3e5&7577&5707&1.4e5&1.8e5\\
+$a_p$&1289&1113&767&463&1063&928\\
+\hline
+\hline
+\end{tabular}
+\caption{A table showing the mean and standard deviation of 10 Normal Burst parameters of \textit{RXTE}-sampled bursts.  In each case, we give the values for populations from only Outburst 1, from only Outburst 2 and from the combined population from both outbursts.  Histograms for each parameter can be found in Appendix \ref{app:hists}.}
+\label{tab:params_perob}
+\end{table}
+
+\par The mean value of most parameters differs by no more than $\sim50$\% between outbursts.  Notable exceptions are $d$, $\phi_p$ and $a_p$, which are $\sim2.5$, $\sim2.5$ and $\sim1.7$ times greater in Outburst 1 than in Outburst 2 respectively.
+
+\subsubsection{Correlations}
+
+\label{sec:NormCorr}
+
+\par In total, we extracted 12 parameters for each Normal Burst in our \textit{RXTE} sample: the 10 burst parameters listed in Section \ref{sec:hists}, the recurrence time $s_t$ until the next burst and the persistent emission rate $k$ at the time of the burst.  %We show the covariance matrix of these parameters Appendix \ref{app:corr}, and list pairings of parameters with $\geq5\,\sigma$ correlations.
+\par As the amplitude of all 3 components in a burst scale with the persistent level, we rescaled our values of $a_b$, $a_d$, $\phi_B$, $\phi_D$ and $\phi_P$ by a factor $\frac{1}{k}$.  We show the covariance matrix with all 66 possible pairings of these normalised parameters in Figure \ref{fig:corr_n} (we present the covariance matrix of these parameters before being rescaled in Appendix \ref{app:corr}).  Using the Spearman's Rank Correlation Coefficient, we find the following $\geq5\,\sigma$ correlations which are highlighted in Figure \ref{fig:corr_n}:
+
+\begin{itemize}
+\item Persistent emission $k$ anticorrelates with normalised burst fluence $\phi_B/k$ ($>10\,\sigma$) and normalised burst amplitude $a_b/k$ ($>10\,\sigma$).
+\item Normalised burst fluence $\phi_B/k$ correlates with normalised burst amplitude $a_B/k$ ($8.0\,\sigma$).
+\item Normalised dip fluence $\phi_d/k$ correlates with dip recovery timescale $\lambda$ ($6.3\,\sigma$).
+\item Normalised dip amplitude $a_d/k$ anticorrelates with dip falltime $d$ ($5.7\,\sigma$) and dip recovery timescale $\lambda$ ($7.1\,\sigma$).
+\item Normalised plateau fluence $\phi_p/k$ correlates with normalised plateau amplitude $a_p$ ($6.4\,\sigma$).
+\end{itemize}
+
+As $\phi_B$ can be approximated to first order as a product of $a_B$ and $\sigma$, the correlation between $\phi_B$ and $a_B$ is expected as they are not independent parameters.  Similarly, the correlations between $\phi_d$ \& $\lambda$ and $\phi_p$ and $a_p$ are likely due to these pairs of parameters not being independent.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=\linewidth, trim={2.1cm 2cm 3.5cm 3cm},clip]{images/corrplot_normed.eps}
+  \caption{\small Covariance Matrix with a scatter plot of each of the 66 pairings of the 12 Normal Burst parameters listed in section \ref{sec:NormCorr}.  Amplitudes and fluences have been normalised by dividing by the persistent count rate $k$.  Pairings which show a correlation using the Spearman Rank metric with a significance $\geq5\,\sigma$ are highlighted in red.}
+  \label{fig:corr_n}
+\end{figure*}
+
+\subsubsection{Colour Evolution}
+
+\par To explore the spectral behaviour of Normal Bursts, we studied the evolution of the hardness (the ratio between count rate in the energy bands $\sim2$--$7$ and $\sim8$--$60$\,keV energy bands) as a function of count rate during the individual bursts.  These `hardness-intensity diagrams' allow us to check for spectral evolution in a model-independent way.  We do not correct them for background as the count rates in both bands are very high.
+\par We find evidence of hysteretic loops in hardness-intensity space in some, but not all, of the Normal Bursts in our sample; see Figure \ref{fig:loop} for an example of such a loop.  The existence of such a loop suggests significant spectral evolution throughout the burst.  This finding is at odds with results from previous studies based on smaller samples (e.g. \citealp{Woods_OB2}) which suggested no spectral evolution during Type II bursts in this source. % Similar loops have been seen during bursts from the black hole binaries GRS 1915+105 and IGR J17091-3624 when using the hardness ratio between the 2-6 and 6-16\,keV energy bands (e.g. \citealp{Belloni_GRS_MI,Altamirano_IGR_FH}).  While the loops we find in the Bursting Pulsar execute in the opposite direction to those seen in GRS 1915+105, they execute in the same direction as some of the loops found in IGR J17091-3624 (e.g. \citealp{Court_IGRClasses}).  A more detailed spectral study of these features is beyond the scope of this paper and will be reported elsewhere.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.4cm 1cm 1.1cm 1cm},clip]{images/Loop1.png}
+  \caption{\small A 1\,s-binned hardness-intensity diagram of a Normal Burst from \textit{RXTE}/PCA observation 10401-01-08-00, with an inset 2--60\,keV lightcurve.  Significant colour evolution can be seen during the burst, taking the form of a loop.}
+  \label{fig:loop}
+\end{figure}
+
+\subsection{Minibursts}
+
+\par We define Minibursts as the set of all bursts with a peak 1\,s binned \textit{RXTE}/PCA-equivalent count rate of $<300\%$ of the persistent rate.  Minibursts account for 48 out of the 190 bursts identified for this study.  They are observed during all 3 Outbursts, and occur during the same times that Normal Bursts are present.  Minibursts occurred between MJDs 50117 and 50200 in Outburst 1, and between 50466 and 50542 in Outburst 2; during these intervals, \textit{RXTE} observed the source for a total of 192\,ks.  These intervals correspond to the times between the peak of each outburst and and the time that the persistent intensity falls below $\sim0.1$\,Crab.
+
+\subsubsection{Recurrence Time}
+
+\par There are only 10 observations with \textit{RXTE} which contain multiple Minibursts.  Using these, we find minimum and maximum Miniburst recurrence times of 116 and 1230\,s.
+\par We find 17 \textit{RXTE} observations which contain both a Miniburst with a preceding Normal Burst, and find minimum and maximum Normal Burst $\rightarrow$ Miniburst recurrence times of 461 and 1801\,s.
+
+\subsubsection{Structure}
+
+\par In Figure \ref{fig:a_mini}, we show a representative Miniburst, and we show all Minibursts overplotted on each other in Figure \ref{fig:mini_over}.  These bursts are roughly Gaussian in shape with a large variation in peak count rate; as can be seen in Figure \ref{fig:mini_over}, however, the persistent-normalised peak count rates of Minibursts are all roughly consistent with 2.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0cm 0 0cm 0},clip]{images/mini.png}
+  \caption{\small  A representative \textit{RXTE} lightcurve of a Miniburst from OBSID 20077-01-03-00 in Outburst 2.}
+  \label{fig:a_mini}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.1cm 0},clip]{images/1000mini.pdf}
+  \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.1cm 0},clip]{images/1000mini_renormed.pdf}
+  \caption{\small  \textbf{Top:} a plot of every Miniburst, centred by the time of its peak, overlaid on top of each other.  \textbf{Bottom:} a plot of every Miniburst in which count rates have been normalised by the persistent emission count rate during the observation from which each burst was observed.}
+  \label{fig:mini_over}
+\end{figure}
+
+\par Minibursts are all $\sim5$\,s in duration, and some show signs of a `dip' feature similar to those seen in Normal Bursts.  We find that the timescales of these dips are all $\lesssim10$\,s.  We estimate the fluence of these dips as being equal to the integrated counts of the median-subtracted between the end of the burst and a point 10\,s later.  If the `missing fluence' is less than half of the standard deviation in count rate multiplied by 5\,s, which represents the smallest triangular dip which would be visible in a given dataset, we treat the dip in that outburst as not being detected.
+\par Due to the relatively short duration and low peak count rates of Minibursts, we are unable to reliably discern whether they contain a single peak or multiple peaks.  For this reason we also do not fit them mathematically.
+
+\subsubsection{Parameters \& Correlations}
+
+\par For each Miniburst, we are able to extract the same parameters that we extracted from Mesobursts (see list in Section \ref{sec:mesostruc}).  The mean and standard deviation of each of these parameters, calculated from \textit{RXTE} data, is presented in Table \ref{tab:mini_param} for Outburst 1, Outburst 2 and the combined population of Minibursts from Outbursts 1 \& 2.  The standard deviations on the fluence and peak rates of Minibursts are very large, suggesting that these parameters are distributed broadly.
+
+\begin{table}
+\centering
+\begin{tabular}{r c c c c c c}
+\hline
+\hline
+ & \multicolumn{2}{c}{\scriptsize Outburst 1} & \multicolumn{2}{c}{\scriptsize Outburst 2} & \multicolumn{2}{c}{\scriptsize Outbursts 1\&2}  \\
+ &Mean&S.D.&Mean&S.D.&Mean&S.D.\\
+\hline
+\scriptsize Fluence&6792&5776&4474&3307&5422&4627\\
+\scriptsize Peak Rate&3501&2851&2473&1664&2902&2293\\
+\scriptsize Fluence/$k$&3.67&1.13&3.58&1.47&3.61&1.34\\
+\scriptsize Peak Rate/$k$&1.90&0.37&1.76&0.28&1.82&0.32\\
+\scriptsize Rise Time&2.33&0.8&2.03&1.1&2.15&1.0\\
+\scriptsize Fall Time&2.32&0.9&2.35&1.0&2.32&0.9\\
+\scriptsize Tot. Time&4.61&1.0&4.38&01.0&4.47&1.0\\
+\hline
+\hline
+\end{tabular}
+\caption{A table showing the mean and standard deviation of 7 parameters of \textit{RXTE}-sampled Minibursts from Outburst 1, Outburst 2 and both outbursts combined.  Fluence is given in cts\,PCU$^{-1}$, peak rate is given in cts\,s$^{-1}$\,PCU$^{-1}$ and rise, fall and total time are given in s.  $k$ is the persistent emission rate during the observation in which a given burst was detected.}
+\label{tab:mini_param}
+\end{table}
+
+\par Using the Spearman's Rank metric, we find only two correlations above the 5$\,\sigma$ level:
+\begin{itemize}
+\item Fluence is correlated with peak rate ($7.3\,\sigma$).
+\item Fluence divided by persistent rate is correlated with peak rate divided by persistent rate ($7.1\,\sigma$).
+\end{itemize}
+Due to the poor statstics associated with Miniburst parameters, it is likely that other parameter pairs are also correlated.
+
+\subsubsection{Colour Evolution}
+
+\par Minibursts show the greatest magnitude of evolution in colour of all the classes of burst.  In Figure \ref{fig:minihard}, we show how the hardness ratio between the 4--10 and 2--4\,keV energy bands changes during an observation containing both a Miniburst and a Normal Burst.  We find that the hardness ratio increases by $\sim50\%$ in a Miniburst, significantly more than the change in hardness during Normal or Mesobursts.  The statistics in minibursts were too poor to check for the presence of hysteresis.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.7cm 1.4cm 0.2cm 1.4cm},clip]{images/hardness_mini.eps}
+  \caption{\small A portion of observation 10401-01-16-00, featuring a Normal Burst ($\sim100$\,s) and a Miniburst ($\sim500$\,s).  The top panel shows the total 2--10\,keV lightcurve.  The middle panel shows lightcurves from two different energy bands; the count rates from the soft energy band have been multiplied by 5.4 so they can more easily be compared with the hard energy band.  The bottom panel shows the evolution over time of the ratio between the rates in the two bands.   As can be seen in panels 2 and 3, the Miniburst has a significantly higher fractional amplitude in the 4--10\,keV energy band than in the 2--4\,keV band.}
+  \label{fig:minihard}
+\end{figure}
+
+\subsection{Mesobursts}
+
+\par We define Mesobursts as the set of all bursts with a persistent-emission-subtracted peak 1\,s binned \textit{RXTE}/PCA-equivalent count rate below 3000\,cts\,s$^{-1}$\,PCU$^{-1}$ in which the peak of the burst reaches at least $300\%$ of the persistent rate.  Mesobursts account for 43 out of the 190 bursts identified for this study.  They are observed in \textit{RXTE} data from both Outbursts 1 \& 2; in both cases they occur after the main outburst and before or during a rebrightening event.  Mesobursts occurred between MJDs 50238 and 50248 in Outburst 1, and between 50562 and 50577 in Outburst 2; during these intervals, \textit{RXTE} observed the source for a total of 44\,ks.  As no soft X-ray instrument monitored the Bursting Pulsar during the latter stages of Outburst 3, it is unclear whether Mesobursts occurred during this outburst.  The one pointed observation of \textit{NuSTAR} made during this time did not detect any Mesobursts.
+
+\subsubsection{Recurrence Time}
+
+\par Only 6 \textit{RXTE} observations in Outburst 1, and 4 in Outburst 2, contain multiple Mesobursts.  From our limited sample we find minimum and maximum recurrence times of $\sim230$ and $\sim1550$\,s in Outburst 1 and minimum and maximum recurrence times of $\sim310$ and $\sim2280$\,s in Outburst 2.
+
+\subsubsection{Structure}
+
+\par The structure of the main part of a Mesoburst is significantly more complex than in Normal Bursts, consisting of a large number of secondary peaks near the main peak of the burst.  Mesobursts never show the post-burst `dip' feature that we see in Normal Bursts, but they can show `plateaus'.  In Figure \ref{fig:mesoplateau} we show an example of a Mesoburst with a plateau similar to those seen after Normal Bursts, suggesting a connection between the two classes.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.1cm 0},clip]{images/mesoplat.eps}
+  \caption{\small A lightcurve from \textit{RXTE} observation 20078-01-17-00 from Outburst 2, showing an apparent `plateau' feature after a Mesoburst.}
+  \label{fig:mesoplateau}
+\end{figure}
+
+\par In Figure \ref{fig:meso_over} we show the plot of all Mesobursts observed by \textit{RXTE} overlayed on top of each other before (top panel) and after (bottom panel) being renormalised by persistent emission rate.  It can be seen that the intensity and structure of these bursts is much more variable than in Normal Bursts (see Figure \ref{fig:norm_overlay}).  However, each Mesoburst has a fast rise followed by a slow decay, and they occur over similar timescales of $\sim10$--$30$\,s.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.1cm 0},clip]{images/1000meso.pdf}
+  \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.1cm 0},clip]{images/1000meso_renormed.pdf}
+  \caption{\small  \textbf{Top:} a plot of every Mesoburst, centred by the time of its peak, overlaid on top of each other.  \textbf{Bottom:} a plot of every Mesoburst in which count rates have been normalised by the persistent emission count rate during the observation from which each burst was observed.}
+  \label{fig:meso_over}
+\end{figure}
+
+\subsubsection{Parameters \& Correlations}
+
+\label{sec:mesostruc}
+
+\par Due to the complexity structure of Mesobursts, we do not fit them mathematically as we did for Normal Bursts.  Instead we define a number of different parameters for each Mesoburst, listed below:
+\begin{itemize}
+\item Total burst fluence and burst fluence divided by persistent emission.
+\item Peak 1\,s binned rate and peak rate divided by persistent emission.
+\item Rise time, fall time and total time.
+\end{itemize}
+\par The mean and standard deviation of each of these parameters, calculated from \textit{RXTE} data, is presented in Table \ref{tab:meso_param}.  Due to the relative low number of Mesobursts compared to Normal Bursts, we only present the results from the combined set of bursts in both Outbursts 1 \& 2.  In general, Mesobursts are longer in duration than Normal Bursts, and have significantly smaller amplitudes and fluences (compare e.g. Table \ref{tab:params_perob}).
+
+\begin{table}
+\centering
+\begin{tabular}{l c c}
+\hline
+\hline
+&Mean&Standard Deviation\\
+\hline
+Fluence \scriptsize(cts\,PCU$^{-1}$)&6067&6707\\
+Peak Rate \scriptsize(cts\,s$^{-1}$\,PCU$^{-1}$)&665.4&658.4\\
+Fluence/$k$&48.6&32.8\\
+Peak Rate/$k$&5.32&4.0\\
+Rise Time \scriptsize(s)&6.95&4.9\\
+Fall Time \scriptsize(s)&18.28&10.8\\
+Total Time \scriptsize(s)&25.88&13.3\\
+\hline
+\hline
+\end{tabular}
+\caption{A table showing the mean and standard deviation of 7 burst parameters of \textit{RXTE}-sampled Mesobursts from Outbursts 1 \& 2.  $k$ is the persistent emission rate during the observation in which a given burst was detected.}
+\label{tab:meso_param}
+\end{table}
+
+\par Using the Spearman's Rank metric, we find a number correlations above the 5$\,\sigma$ level:
+\begin{itemize}
+\item Fluence is correlated with peak rate ($>10\,\sigma$), peak rate divided by persistent rate ($6.7\,\sigma$), fall time ($6.8\,\sigma$), total time ($6.0\,\sigma$).
+\item Fluence divided by persistent rate is correlated with peak rate divided by persistent rate ($7.3\,\sigma$).
+\item Peak rate is also correlated with peak rate divided by persistent rate ($7.4\,\sigma$), fall time ($5.8\,\sigma$) and persistent level ($6.2\,\sigma$).
+\item Rise time correlates with total time ($5.4\,\sigma$).
+\item Fall time correlates with total time ($>10\,\sigma$).
+\end{itemize}
+
+\subsubsection{Colour Evolution}
+
+\par The hardness ratio of the emission from the source decreases significantly during Mesobursts, with the PCA 8--60/2--7\,keV colour decreases from $\sim0.6$ between bursts to $\sim0.2$ at the peak of a burst.  Due to the poor statistics of these features compared with Normal Bursts, we were unable to check for evidence of hardness-intensity hysteresis.
+
+\subsection{Structured ``Bursts''}
+
+\par We define Structured Burst observations as observations in which the recurrence time between bursts is less than, or approximately the same as, the duration of a single burst.  Structured Bursts constitute the most complex behaviour we find in our dataset.  Unlike the other classes of burst we identify, Structured Bursts are not easily described as discrete phenomena.  We find Structured Bursts in 54 observations which are listed in Appendix \ref{app:obs}.
+\par In both outbursts covered by \textit{RXTE}, Structured Bursts occur in the time between the end of the main outburst and the start of a rebrightening event.  In both cases these periods of structured outbursts are preceded by a period populated by Mesobursts.  Mesobursts occurred between MJDs 50248 and 50261 in Outburst 1, and between 50577 and 50618 in Outburst 2; during these intervals, \textit{RXTE} observed the source for a total of 81\,ks.  Notably, as we show in Figure \ref{fig:meso_in_struc}, one Outburst 1 \textit{RXTE} lightcurve containing Structured Bursting also contains a bright Mesoburst.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.1cm 0},clip]{images/meso_in_struc.eps}
+  \caption{\small A lightcurve from \textit{RXTE}/PCA observation 10401-01-57-03, showing a Mesoburst occuring during a period of Structured Bursting.}
+  \label{fig:meso_in_struc}
+\end{figure}
+
+\par In both outbursts, the amplitude of Structured Bursting behaviour decreases as the outburst approaches the peak of the rebrightening event.  This amplitude continues to decrease as the Structured Burst behaviour evolves into the low-amplitude noisy behaviour associated with the source's evolution towards the hard state.
+%\par It is difficult to separate individual bursts from each other in a Structured Burst observation, and hence we do not collect parameters for individual bursts.  Instead we treat `Structured Bursting' in a similar way to the variability classes seen in a number black hole X-ray binaries, using methods employed by \citealp{Belloni_GRS_MI} and \citealp{Court_IGRClasses}.
+
+\subsubsection{Colour Evolution}
+
+\par We produce hardness-intensity diagrams for a number of Structured Burst observations; we show a representative example in Figure \ref{fig:struc_hard}.  We find that hardness is strongly correlated with count rate during this class of bursting, but that the magnitude of the change in hardness is no greater than $\sim15\%$.  This is significantly less than the change in hardness that we see during Normal or Minibursts.  We also find no evidence of hysteretic hardness-intensity loops from Structured Bursts.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.4cm 0 1.cm 0},clip]{images/struc_hard.eps}
+  \caption{\small A 1\,s-binned hardness-intensity diagram from \textit{RXTE} observation 20078-01-23-00, showing that hardness tends to correlate with intensity during Structured Bursting.  Data are binned to 8\,s, and background has been estimated by subtracting mean count rates in the relevant energy bands from \textit{RXTE} OBSID 30075-01-26-00.}
+  \label{fig:struc_hard}
+\end{figure}
+
+\subsubsection{Types of Structured Bursting}
+\label{sec:struc_var}
+
+\par In Figure \ref{fig:Types_Struc}, we present a selection of lightcurves which show the different types of variability that can be seen during periods of Structured Bursting.  These consist of a variety of patterns of peaks and flat-bottomed dips, and both \textit{RXTE}-observed outbursts show several of these different patterns of Structured Bursting.  As all types of Structured Bursting have similar amplitudes and occur in the same part of each outburst, we consider them to be generated by the same physical process.  We do not seperate these patterns into separate subclasses in this paper.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.8cm 0 1.5cm 0},clip]{images/many_struc.eps}
+  \caption{\small A selection of \textit{RXTE} lightcurves from Structured Bursting observations of the Bursting Pulsar.  \textbf{Top:} a lightcurve from Outburst 1 showing flaring on timescales of $\sim10$\,s.  \textbf{Middle:} a lightcurve from Outburst 1 showing the same flaring behaviour with an additional slower modulation over $\sim50$\,s.  \textbf{Bottom:} a lightcurve from Outburst 2 showing a regular sequence of flat-bottomed dips and multi-peaked flaring.  These show the wide variety of variability patterns that we classify as `Structured Bursting'.}
+  \label{fig:Types_Struc}
+\end{figure}
+
+\section{Discussion}
+
+\par We analyse all available X-ray data from the first 3 outbursts of the Bursting Pulsar.  The bursting behaviour evolves in a similar way during these outbursts, strongly associating them with the Bursting Pulsar and suggesting an underlying connection between the classes of burst.  We also find that both Outbursts 1 \& 2 showed `rebrightening events' similar to those seen in a number of other LMXBs (e.g. \citealp{Wijnands_1808,Patruno_Reflares2})
+\par We find that the Type II X-ray bursts from these data can be best described as belonging to four phenomenological classes: Normal Bursts, Minibursts, Mesobursts and Structured Bursts.  For each of these four classes, we collect a number of statistics to shed light on the physical mechanisms that generate these lightcurve features.
+\par Normal Bursts and Minibursts both represent the ``Type II'' bursting behaviour which is observed most commonly from this source.   Mesobursts occur much later on in the outburst and show fast-rise slow-decay profiles; they are generally much fainter and more structured than Normal Bursts.  Finally, Structured Bursts form continuous highly structured regions of bursting over timescales of days.  All Normal Bursts and some Minibursts show count rate `dips' after the main burst, while Mesobursts and Structured Bursts do not.  In addition to this, some Normal and Mesobursts show count rate `plateaus'; regions of roughly stable count rate above the persistent level which last for $\sim10$s of seconds.  These features are also sometimes seen in Mesobursts, while Minibursts and Structured Bursts never show these structures.
+\par Here we discuss these results in the context of models proposed to explain Type II bursting.  We also compare our results with those of previous studies on bursting in both the Bursting Pulsar and the Rapid Burster.
+
+\subsection{Evolution of Outburst and Bursting Behaviour}
+
+\par In Figure \ref{fig:global_ob} we have shown that Outbursts 1 \& 2 evolve in a similar way.  In both outbursts, the intensity of the Bursting Pulsar reaches a peak of order $\sim1$\,Crab before decreasing over the next $\sim100$ days to a level of a few tens of mCrab.  A few 10s of days after reaching this level, the lightcurves of both outbursts show a pronounced `rebrightening' event, during which the intensity increases to $\sim100$\,mCrab for $\sim10$ days.  Outburst 1 shows a second rebrightening event $\sim50$ days after the first.  It is unclear whether any rebrightening events occurred in Outburst 3 due to a lack of late-time observations with soft X-ray telescopes.  X-ray `rebrightening' events have been seen after the outbursts of a number of other LMXBs with both neutron star and black hole primaries: including SAX J1808.4-3658 \citep{Wijnands_1808}, XTE J1650-500 \citep{Tomsick_MiniOutbursts} and IGR J17091-3625 \citep{Court_IGRClasses}.
+
+%========
+
+\par As we have shown in Figures \ref{fig:ob_evo1} \& \ref{fig:ob_evo2}, the nature of bursts from the Bursting Pulsar also evolves in a similar way in both Outbursts 1 \& 2.  Starting from around the peak of each outburst, both Normal and Minibursts are observed.  The fluence of these bursts decrease over time as the X-ray intensity of the source decreases, before bursting shuts off entirely when the 2--16\,keV flux falls below $\sim0.1$\,Crab.  After a few 10\,s of days with no bursts, bursting switches back on in the form of Mesobursts; this occurs during the tail of a rebrightening event in Outburst 1, but in the tail of the main outburst in Outburst 2.  Mesobursting continues until the 2--16\,keV source flux falls below $\sim0.03$\,Crab, at which point we observe the onset of Structured Bursting.  In both Outbursts, Structured Bursting stops being visible a few 10s of days later during the start of a rebrightening event.  Because this evolution is common to both of the outbursts observed by \textit{RXTE}, this strongly indicates that the nature of bursting in the Bursting Pulsar is connected with the evolution of its outbursts.  Additionally, with the exceptions of Normal and Minibursts, we show that each class of burst is mostly found in a distinct part of the outburst corresponding to a different level of persistent emission.
+\par In Figure \ref{fig:meso_to_struc}, we show lightcurves from Outburst 2 taken a few days before and after the transition from Mesobursts to Structured Bursting.  We can see that, as the system approaches this transition, Mesobursts become more frequent and decrease in amplitude.  Additionally in Figure \ref{fig:meso_in_struc} we show a lightcurve which contains both a Mesoburst and Structured Bursting.  We find that, instead of a well-defined transition between these bursting classes, there is a more gradual change as Mesobursting evolves into Structured Bursting.  This suggests that the same mechanism is likely to be responsible for both of these types of burst.
+\par The transition between Normal Bursts and Mesobursts, however, is not smooth; in both outbursts these two classes of bursting are separated by $\sim10$ day gaps in which no bursts of any kind were observed at all.  If all our classes of burst are caused by the same or similar processes, any model to explain them will also have to explain these periods with no bursts.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={3.7cm 0cm 4.2cm 0cm},clip]{images/meso_evo.eps}
+  \caption{\small A series of lightcurves from \textit{RXTE}/PCA observations of Outburst 2, showing a gradual evolution from Mesobursts to Structured Bursting over a period of $\sim30$ days.  Each inset lightcurve is plotted with the same $y$-scaling, and each corresponds to 2\,ks of data.}
+  \label{fig:meso_to_struc}
+\end{figure*}
+
+\subsection{Parameter Correlations}
+
+\par We extracted a number of phenomenological parameters from each Normal Burst, Miniburst and Mesoburst.  For Normal Bursts, we extracted a large number of parameters by fitting a phenomenological model described in Section \ref{sec:struc}.  For Minibursts and Mesobursts we extracted recurrence times and persistent emission-subtracted peak rates; we also calculated burst fluences by integrating the persistent emission-subtracted rate over the duration of the burst.  We do not extract similar parameters for Structured Bursts due to their complex nature.
+\par  In all three of the classes of burst we consider, we found that fluence and peak rate correlate strongly with persistent emission.  For each type of burst case, the slope of these correlations is consistent with being equal during Outbursts 1 \& 2.
+\par We also compared the Normal Bursts in Outburst 1 with the Normal Bursts in Outburst 2.  The only significant statistical differences we found between these two populations were in the burst peak rate and the burst fluence; both of these parameters are generally higher for Normal Bursts in Outburst 1.  As both of these parameters strongly depend on the persistent emission, both of these differences can be attributed to the fact that Outburst 1 was significantly brighter at peak than Outburst 2.
+\par For Normal Bursts, we found additional correlations.  Of particular note, we found that both the fall time and the recovery timescale of a `dip' is proportional to its amplitude, which has implications for the possible mechanism behind these features.  We discuss this further in Section \ref{sec:mod}.
+\par These findings strongly suggest that the properties of Normal, Mini and Mesobursts depend on the persistent luminosity of the Bursting Pulsar.  Assuming that this persistent luminosity is proportional to $\dot{M}$, this suggests that all classes of bursting are sensitive to the accretion rate of the system.  Additionally, with the exceptions of Normal and Minibursts, we find that each class of burst is mostly found in a distinct part of the outburst corresponding to a different level of persistent emission.  We suggest that Normal, Meso and Structured Bursts may in fact be manifestations of the same physical instability but at different accretion rates.  This is supported by the observation of a Mesoburst during a period of Structured Bursting, which we show in the lightcurve in Figure \ref{fig:meso_in_struc}.  This shows that the conditions for both Meso and Structured Bursting can be met at the same time.
+
+\subsection{Comparison with Previous Studies}
+
+\par In their study of bursts in the Bursting Pulsar, \citet{Giles_BP} found evidence for three distinct classes of Type II bursts in the Bursting Pulsar:
+
+\begin{itemize}
+\item ``Bursts'' (hereafter G$_1$ bursts to avoid confusion), the common Type II bursts seen from the source.
+\item ``Minibursts'' (hereafter G$_2$  Bursts), with smaller amplitudes up to $\sim2$ times the persistent emission level.
+\item ``Microbursts'' (hereafter G$_3$  Bursts), second-scale bursts with amplitudes of $\sim50$--$100\%$ of the persistent level.
+\end{itemize}
+
+We find that Giles et al's G$_1$ category contains the bursts that we identify as Normal Bursts, while our Miniburst category contains the same bursts as Giles' G$_2$ category.  \citet{Giles_BP} only consider bursts up to MJD 50204 in their classification, and they could not classify any bursts that we identify as Mesobursts; under their framework, we find that Mesobursts would also be categorised as G$_1$.  We present the full mapping between Giles classes and our classes in a schematic way in Table \ref{tab:classcomp}.
+
+\begin{table}
+\centering
+\begin{tabular}{c c}
+\hline
+\hline
+ \scriptsize Our Class & \scriptsize Giles et al. Class  \\
+\hline
+Normal Bursts & G$_1$ \\
+Mesobursts & G$_1$ \\
+Minibursts & G$_2$ \\
+Structured Bursts & - \\
+ - & G$_3$ \\
+\hline
+\hline
+\end{tabular}
+\caption{A table showing how our burst classes map to those described in \citet{Giles_BP}.  Giles et al. do not consider the times during the outburst when Structured Bursts appear, and we consider G$_3$ bursts described by Giles et al. to be consistent with flicker noise.}
+\label{tab:classcomp}
+\end{table}
+
+\par \citet{Giles_BP} note the presence of both dips and plateaus in Normal Bursts.  To calculate the fluence of each main burst and its associated dip, Giles et al. integrate the total persistent-emission-subtracted counts in each feature.  They calculate that ratio between burst fluence and `missing' dip fluence ($\phi_{B}/\phi_{d}$) is between 0.26 and 0.56 in Outburst 1 before correcting for dead-time effects.  Using bursts in which our mathematical fit gave well-constrained ($>5\,\sigma$) values for both burst and dip fluence, we find that $\phi_{B}/\phi_{d}$ is between 1.3 and 2.0 in Outburst 1 and between 1.3 and 2.9 in Outburst 2.  Our values differ significantly from those reported from Giles et al.; this is likely due to differing definitions of the persistent emission level and the start and end times of each dip, as Giles et al. do not report how they define these features.
+\par Our values for the ratios between burst and dip fluences, as well as those of Giles et al., are significantly affected by dead-time effects.  These effects cause the fluence of bursts to be under-reported, as can be inferred from Figure \ref{fig:minidips}, but the integrated counts in dips are not significantly affected \citep{Giles_BP}.  Therefore correcting for dead time can only increase the value of $\phi_{B}/\phi_{d}$, and our results shows that the fluence of a burst is always greater than the fluence `missing' from a dip.
+\par We find evidence of significant colour evolution during both Normal Bursts and Minibursts, which is strongly indicative of a spectral evolution.  This contrasts with previous studies (e.g. \citealp{Woods_OB2}) which have found no significant spectral evolution during a Normal Burst in the Bursting pulsar.  Further work on the time-resolved spectra of this source will likely allow us to better understand the underlying physics of its behaviour.
+\par Using data from the KONUS experiments aboard the GGS-Wind and Kosmos-2326 satellites, \citet{Aptekar_Recur} have previously found that the recurrence times between consecutive bursts in Outburst 1 are distributed with a constant mean of $\sim1776$\,s.  This is substantially longer than our value of 1209\,s that we find for Outburst 1, but our value is likely an underestimate due to a selection bias caused by the relatively short pointings of \textit{RXTE}.
+\par Using \textit{Chandra} and \textit{XMM-Newton} data, we find a mean recurrence time for Outburst 3 of 1986\,s; as pointings with these instruments are significantly longer than the burst recurrence timescale, windowing effects are negligible.  As this value is close to the value that \citet{Aptekar_Recur} find for mean recurrence time, our result is consistent with the burst rate in all three outbursts being approximately the same.
+\par Previous studies with \textit{CGRO}/BATSE have found that the burst rate during the first few days of Outbursts 1 \& 2 was significantly higher than during the rest of each outburst \citep{Kouveliotou_BP,Woods_OB2}.  As \textit{RXTE} did not observe either of these times, we are unable to test this result.
+
+\subsection{Comparison with other objects}
+
+\par In \citet{Court_BPTMSP} we discuss the possibility that some of the behaviour in the Bursting Pulsar could be due to fluctuations in the magnetospheric radius of the system close to the corotation radius.  This behaviour (e.g. \citealp{Bogdanov_TMSPVar,Ferrigno_TMSPVar}) is also seen in `Transitional Millisecond Pulsars' (TMSPs): objects which alternate between appearing as X-ray pulsars and radio pulsars (see e.g. \citealp{Archibald_Link,Papitto_Swings}).
+\par Another natural comparison to the Bursting Pulsar is the Rapid Burster \citep{Lewin_RBDiscovery}, a neutron star LMXB in the globular cluster Liller I.  This object is the only LMXB other than the Bursting Pulsar known to unambiguously exhibit Type II bursting behaviour during outbursts.  \citet{Rappaport_BPHistory} have previously proposed that the Bursting Pulsar, the Rapid Burster and other neutron star LMXBs form a continuum of objects with different magnetic field strengths.
+\par We compare our study of bursts in the Bursting Pulsar with studies of Type II bursts in the Rapid Burster, particularly the detailed population study performed by \citet{Bagnoli_PopStudy}.  \citet{Bagnoli_PopStudy} found that Type II bursting begins during the decay of an outburst in the Rapid Burster.  This is the same as what we see in the Bursting Pulsar, where we find Normal Bursting behaviour starts during the outburst decay.  \citet{Bagnoli_PopStudy} found that all bursting in the Rapid Burster shuts off above an Eddington Fraction of $\gtrsim0.05$, whereas we find bursting in the Bursting Pulsar shuts off below a 2--16\,keV flux of Eddington fraction of $\sim0.1\,Crab$: assuming that the peak persistent luminosity of the Bursting Pulsar was approximately Eddington Limited (e.g. \citealp{Sazonov_BPGranat}), this value corresponds to an Eddington fraction of order $\sim0.1$.  This suggests that Type II bursting in these two objects happen in very different accretion regimes.
+\par Bagnoli et al. showed that bursting behaviour in the Rapid Burster falls into a number of `bursting modes', defined by the morphology of individual Type II bursts.  In particular, they find that Type II bursts in the Bursting Pulsar fall into two classes (see also \citealp{Marshall_2types}), lightcurves of which we reproduce in Figure \ref{fig:bagnoli_lcs}:
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0.8cm 0 1.4cm 0},clip]{images/bagnoli_bursts.eps}
+  \caption{\small  \textit{RXTE} lightcurves of representative Long (top) and Short (bottom) bursts from the Rapid Burster.  These bursts were identified and classified by \citet{Bagnoli_PopStudy}.}
+  \label{fig:bagnoli_lcs}
+\end{figure}
+
+\begin{itemize}
+\item Short near-symmetric Bursts with timescales of $\sim10s$ of seconds and peak rates near the Eddington Limit.
+\item Long bursts with a fast rise, a long $\sim100$\,s plateau at peak rate followed by a fast decay.  The level of the plateau is generally at or near the Eddington Limit.
+\end{itemize}
+
+\par Short bursts are very similar in shape to Normal Bursts in the Bursting Pulsar, but we find no analogue of long bursts in our study.  \citet{Bagnoli_PopStudy} suggests that the `flat-top' profile of long bursts could be due to the effects of near-Eddington accretion, and they show that the intensity at the `flat top' of these bursts is close to Eddington limit.  Previous works have shown that the persistent emission of the Bursting Pulsar is Eddington-limited at peak, and therefore bursts from the Bursting Pulsar are significantly super-Eddington \citep{Sazonov_BPGranat}.   We suggest, therefore, that Long Bursts cannot occur in systems with a persistent rate approaching the Eddington Limit.  This could explain why Long Bursts are not seen during periods of Normal Bursting in the Bursting Pulsar (during which the persistent emission is $\gtrsim{20}$\% of Eddington), but it remains unclear why these features are not seen later in each outburst when the Bursting Pulsar is fainter.  Alternatively, all the differences we see between bursts produced by the Rapid Burster and the Bursting Pulsar could be explained if the physical mechanisms behind these bursts are indeed different between the objects.
+\par \citet{Bagnoli_PopStudy} also find a number of correlations between burst parameters in the Rapid Burster, which we can compare with our results for the Bursting Pulsar.  We find a number of similarities between the two objects:
+
+\begin{itemize}
+\item The fluence of a burst correlates with its amplitude.
+\item The duration of a burst does not correlate\footnote{We state two parameters do not correlate if their Spearman Rank score corresponds to a significance $<3\sigma$.} with the persistent emission.
+\item The recurrence time between consecutive bursts does not depend on the persistent emission.
+ \end{itemize}
+
+\par There are also a number of differences between the set of correlations between burst parameters in these two systems:
+
+\begin{itemize}
+\item Burst duration is correlated with burst fluence in the Rapid Burster, but these have not been seen to correlate in the Bursting Pulsar.
+\item Burst duration, peak rate and burst fluence are all correlated with burst recurrence time in the Rapid Burster.  We have not found any of these parameters to correlate with burst recurrence time in the Bursting Pulsar.
+\item Peak rate and burst fluence correlate with persistent emission in the Bursting Pulsar, but this has not been seen in the Rapid Burster.
+\end{itemize}
+
+\par As the fluence of a burst in the Rapid Burster does not depend on persistent emission, which can be used as a proxy for $\dot{M}$, this suggests that the process that triggers Type-II bursts in this source is not strongly dependent on the global accretion rate.  However the strong correlations between persistent emission and burst peak and fluence we find in the Bursting Pulsar show that the energetics of individual bursts strongly depend global accretion rate at that time.
+\par It has previously been noted that consecutive Normal Bursts in the Bursting pulsar do not show a strong correlation between recurrence time and fluence (\citealp{Taam_Evo,Lewin_BP}, however see \citealp{Aptekar_OscRel}).  This correlation would be expected if the instability took the form of a relaxation oscillator, as it does in the Rapid Burster \citep{Lewin_TypeII}.  However, we also find that the arrival times of Normal Bursts from the Bursting Pulsar are not consistent with a Poisson distribution with constant mean.  This implies either that bursts are also not independent events in the Bursting Pulsar, or that the frequency of these bursts is not constant throughout an outburst as reported by \citet{Aptekar_Recur}.
+
+\subsection{Comparison with Models of Type II Bursts}
+
+\label{sec:mod}
+
+\par To our knowledge no models have been proposed which can fully explain Type II bursting behaviour, but several models have been proposed in the context of Type II bursting from the Rapid Burster MXB 1730-33.  A number of models invoke viscous instabilities in the inner disk as the source of cyclical bursting (e.g. \citealp{Taam_Evo,Hayakawa_Type2Mod}), but these fail to explain why the majority of Neutron Star LMXBs do not show this behaviour.
+\par \citet{Spruit_Type2Mod} use a different approach.  They show that, in some circumstances, the interaction between an accretion disk and a rapidly rotating magnetospheric boundary can naturally set up a cycle of discrete accretion events rather than a continuous flow  (see also \citealp{Dangelo_Episodic1,Dangelo_Episodic2,vandenEijnden_RB,Scaringi_Gating}).  \citet{Walker_Type2Mod} suggests that, for a neutron star with a radius less than its ISCO, a similar cycle of accretion can be set up when considering the effects of a high radiative torque.  All of these models suggest that Type II bursts are caused by sporadic accretion events onto the neutron star, which in turn are caused by instabilities that originate in the inner part of the accretion disk.  For a more detailed review of these models, see \citet{Lewin_Bursts}.
+\par All of the models discussed above are able to reproduce some of the features we see from bursts in the Bursting Pulsar.  In particular, the `dip' we see after Normal Bursts has previously been interpreted as being caused by the inner disk refilling after a sudden accretion event (e.g. \citealp{Younes_Expo}).  As these dips are also seen after some Minibursts, we could also interpret Minibursts as being caused by a similar cycle.  To test this idea, in Figure \ref{fig:minidips} we present a scatter plot of the burst and dip fluences for all Normal Bursts and Minibursts.  In both classes of burst, there is a strong correlation between these two parameters.  We find that a power law fit to the Normal Bursts in this parameter space also describes the Minibursts.  This suggests that the same relationship between burst fluence and missing dip fluence holds for both types of burst, although the two populations are not continuous.  This suggests that Minibursts are energetically consistent with being significantly fainter versions of Normal Bursts.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim={0cm 0 0cm 0},clip]{images/minidips.eps}
+  \caption{\small A scatter plot showing the relationship between burst fluence and `missing' dip fluence for Normal Bursts (black) and Minibursts (Red), with the best fit power law plotted in solid blue.  A power law fit to just the Normal Bursts (blue dashed line) also approaches the Minibursts.  Note that the Normal Bursts plotted in grey were not used to calculate this latter fit, as the effects of instrumental dead-time cause high burst fluences to be under-reported.  Upper limits on Miniburst dip fluences are shown with arrows.}
+  \label{fig:minidips}
+\end{figure}
+
+\par The models of \citet{Spruit_Type2Mod} and \citet{Walker_Type2Mod} also have shortcomings when used to describe the Bursting Pulsar.  \citet{Walker_Type2Mod} state that their model only produces Type II bursts for a very specific set of criteria on the system parameters.   One of these criteria is an essentially non-magnetic ($B=0$) neutron star.  This is inconsistent with observations of cyclotron lines from the Bursting Pulsar, which suggest a surface field strength of order 10$^{11}$\,G \citep{Doroshenko_NBFlash}.
+\par Unlike models based on viscous instability, the model of \citet{Spruit_Type2Mod} does not impose a correlation between burst fluence and burst recurrence time.  However, it does predict a strong correlation between burst recurrence time and mean accretion rate, which is not consistent with our results for the Bursting Pulsar.
+\par In general, we find that models established to explain bursting in the Rapid Burster are poor at explaining bursting in the Bursting Pulsar.  Any model which can produce Type II bursting in both systems fails to explain why other systems do not also show this behaviour.  Our results suggest that Type II bursts in the Rapid Burster and the Bursting Pulsar may require two separate models to be explained.
+%\par In Court et al. (submitted) we discuss the possibility that some of the behaviour in the Bursting Pulsar could be due to processes seen in `Transitional Millisecond Pulsars' (TMSPs): objects which alternate between appearing as accretion-powered X-ray pulsars and spin down-powered radio pulsars.  In particular we find that Structured Bursting is consistent with so-called `hiccup accretion', in which the X-ray flux fluctuates between two quasi-stable levels due to the system oscillating between an accretion regime and a `propellor' regime \citep{Illarionov_Propellor} in which accretion is magnetically suppressed \citep[e.g.][]{Ferrigno_TMSPVar,Bogdanov_TMSPVar}.  See Court et al. (submitted) for further discussion.
+
+\subsubsection{Evidence of Thermonuclear Burning}
+
+\par We also consider the possibility that some of our observations could be explained by thermonuclear burning in the Bursting Pulsar.  A thermonuclear origin for the main part of Normal Type II X-ray bursts has been ruled out by previous authors (e.g. \citealp{Lewin_BP}), but it is less clear that associated features could not be explained by this process.
+\par \citet{Bildsten_Nuclear} have previously analysed whether thermonuclear burning in the Bursting Pulsar could be stable.  They find that the presence and profile of a thermonuclear burning event on the Bursting Pulsar would be strongly dependent on both the accretion rate $\dot{M}$ and the magnetic field strength $B$.  They predict that, for $B\gtrsim3\times10^{10}$\,G, burning events would take the form of a slowly propagating burning front which would result in a low-amplitude X-ray burst with a timescale of several minutes.  Measurements of the Bursting Pulsar taken during Outburst 3 suggest a surface field strength of $>10^{11}$\,G, in turn suggesting that the Bursting Pulsar exists in the regime in which this burning behaviour is possible.
+\par The `plateau' events after Normal Bursts are consistent with the slow burning predicted by \citet{Bildsten_Nuclear}.  This picture is consistent with models for Type II X-ray bursts involving spasmodic accretion events (e.g. \citealp{Spruit_Type2Mod,Walker_Type2Mod}), as plateaus always occur after a Type II burst has deposited a large amount of ignitable material onto the neutron star surface.  However in this picture it would be unclear why many Normal Bursts do not show this plateau feature.  Mesobursts can also exhibit plateaus, and are therefore likely to also be products of spasmodic accretion onto the neutron star.
+\par However, the interpretation of Mesobursts as being caused by discrete accretion events is difficult to reconcile with the fact that these features never show dips.  \citet{Bildsten_Nuclear} show that, at smaller values of $\dot{M}$, nuclear burning on the Bursting Pulsar could become unstable.  Mesobursts are only seen during the latter stages of Outbursts 1 \& 2, when the accretion rate is well below 0.1 Eddington.  An interesting alternative possibility is that Mesobursts are a hybrid event, consisting of a flash of unstable thermonuclear X-ray burning followed by a slower quasi-stable burning of residual material in the form of a propagating burning front.  Additional studies of the spectral evolution of these phenomena will be required to explore this possibility.
+\par Previous authors have discussed the possibility of a marginally stable burning regime on the surface of neutron stars (not to be confused with the previously mentioned quasi-stable burning).  In this regime, which occurs close to the boundary between stable and unstable burning, \citet{Heger_MargStab} showed that an oscillatory mode of burning may occur.  They associated this mode of burning with the mHz QPOs which have been observed in a number of neutron star LMXBs (e.g. \citealp{Revnivtsev_MargStab,Altamirano_MargStab}).  These QPOs only occur over a narrow range of source luminosities, show a strong decrease in amplitude at higher energies, and they disappear after a Type I burst (e.g. \citealp{Altamirano_MargStab}).
+\par Lightcurves of objects undergoing marginally stable burning qualitatively resemble those of Structured Bursting in the Bursting Pulsar, raising the possibility of a thermonuclear explanation for Structured Bursting.  However, as we show in Figure \ref{fig:ob_evo1}, Structured Bursting during Outburst 1 occurred during a period of time in which the Bursting Pulsar's luminosity changed by $\sim1$ order of magnitude.  In addition to this, in Figure \ref{fig:meso_in_struc} we show an example of a Mesoburst during a period of Structured Bursting.  If Mesobursts can be associated with Type I bursts, any marginally stable burning on the surface of the Bursting Pulsar should have stopped after this event.  Due to these inconsistencies with observations of marginally stable burning on other sources, it is unlikely that Structured Bursting is a manifestation of marginally stable burning on the Bursting Pulsar.
+\par \citet{Linares_MargStab} observed yet another mode of thermonuclear burning during the 2010 outburst of the LMXB Terzan 5 X-2.  They observed a smooth evolution from discrete Type I bursts into a period of quasi-periodic oscillations resembling Structured Bursting.  This behaviour resembles the evolution we observe between Mesobursts and Structured Bursting in Outbursts 1 \& 2 of the Bursting Pulsar (as shown in Figure \ref{fig:meso_to_struc}; compare with Figure 1 in \citealp{Linares_MargStab}).  However there are a number of differences between the evolutions seen in both objects.  In Terzan 5 X-2 the recurrence timescale of Type I bursts during the evolution is strongly related to the accretion rate of the source at the time, whereas there is no such strong relation between the two in Mesobursts from the Bursting Pulsar.  Additionally, the quasi-periodic oscillations in Terzan X-2 evolved smoothly back into Type I bursts later in the outburst, whereas Structured Bursting does not evolve back into Mesobursts in the Bursting Pulsar.  As such, it is unclear that Mesobursts and Structured Bursting can be associated with the unusual burning mode seen on Terzan 5 X-2.
+
+\section{Conclusions}
+
+\par We analyse all X-ray bursts from the Rapid Burster seen by \textit{RXTE}/PCA during its first and second outbursts, as well as bursts seen by other missions during the third outburst of the source.  We conclude that these bursts are best described as belonging to four separate classes of burst: Normal Bursts, Mesobursts, Minibursts and Structured Bursts.  We find that the bursting behaviour in these four classes evolves in a similar way throughout the first two outbursts of the Bursting Pulsar.  We present a new semi-mathematical model to fit to the Normal Bursts in this object.  Using this new framework, we will be able better quantify Bursting-Pulsar-like X-ray bursts when they are observed in other objects in the future.
+\par As so-called ``Type II'' bursts are extremely varied, both between different objects and from the same objects, we find that ``Type II burst'' is ill-defined as a phenomenological class.  Specifically, we find that the differences between bursts in the Rapid Burster and the Bursting Pulsar to be different in burst profile, peak Eddington ratio, and durations.  While the fluence of Type II bursts in the Bursting Pulsar depend strongly on the persistent emission at the time, this is not the case in the Rapid Burster.  Additionally the waiting time between bursts in the Rapid Burster depend heavily on the fluence of the preceding burst, but we do not find this in the Bursting Pulsar.  Therefore, it is reasonable to conclude that the bursting in these two objects is generated by two very different mechanisms or in two very different physical regimes.
