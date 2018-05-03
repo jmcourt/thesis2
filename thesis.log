@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.5)  26 APR 2018 16:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.5)  3 MAY 2018 18:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -890,17 +890,14 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-)
-Underfull \vbox (badness 1024) has occurred while \output is active []
+) [1
 
- [1
-
-]
-[2])
+] [2])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [3] [4
+ [3]
+[4
 
 ] (./thesis.lof
 Overfull \hbox (8.64897pt too wide) in paragraph at lines 8--8
@@ -1047,7 +1044,7 @@ erted-to.pdf images/Wind_Model1.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/Wind_Model1-eps-converted-to.pdf, id=1286, 3330.4425pt x 3588.40625pt>
+<images/Wind_Model1-eps-converted-to.pdf, id=1281, 3330.4425pt x 3588.40625pt>
 File: images/Wind_Model1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/Wind_Model1-eps-converted-to.pdf>
@@ -1075,9 +1072,21 @@ LaTeX Font Info:    Try loading font information for TS1+txr on input line 19.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [12]
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[][][][]$\T1/txtt/m/n/9 http : / / heasarc . gsfc . nasa . gov / FTP / xte / ca
+lib _ data / pca _ bkgd / Faint / pca _ bkgd _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[][][][]$\T1/txtt/m/n/9 http : / / heasarc . gsfc . nasa . gov / FTP / xte / ca
+lib _ data / pca _ bkgd / Sky _ VLE / pca _ bkgd _
+ []
+
+[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [14]
 Package epstopdf Info: Source file: <images/steps.eps>
 (epstopdf)                    date: 2018-02-14 15:56:10
 (epstopdf)                    size: 82177 bytes
@@ -1086,22 +1095,22 @@ Package epstopdf Info: Source file: <images/steps.eps>
 (epstopdf)                    size: 22246 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/steps-eps-converted-
 to.pdf images/steps.eps>
-(epstopdf)             \includegraphics on input line 68.
+(epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/steps-eps-converted-to.pdf, id=1400, 578.16pt x 867.24pt>
+<images/steps-eps-converted-to.pdf, id=1425, 578.16pt x 867.24pt>
 File: images/steps-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/steps-eps-converted-to.pdf>
-Package pdftex.def Info: images/steps-eps-converted-to.pdf used on input line 6
-8.
+Package pdftex.def Info: images/steps-eps-converted-to.pdf used on input line 7
+7.
 (pdftex.def)             Requested size: 402.37912pt x 488.71776pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
-[14] [15 <./images/steps-eps-converted-to.pdf>]
+[15] [16 <./images/steps-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/HSS_J.eps>
 (epstopdf)                    date: 2018-02-14 15:56:05
 (epstopdf)                    size: 2254116 bytes
@@ -1110,25 +1119,22 @@ Package epstopdf Info: Source file: <images/HSS_J.eps>
 (epstopdf)                    size: 74152 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/HSS_J-eps-converted-
 to.pdf images/HSS_J.eps>
-(epstopdf)             \includegraphics on input line 95.
+(epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/HSS_J-eps-converted-to.pdf, id=1454, 578.16pt x 433.62pt>
+<images/HSS_J-eps-converted-to.pdf, id=1480, 578.16pt x 433.62pt>
 File: images/HSS_J-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/HSS_J-eps-converted-to.pdf>
-Package pdftex.def Info: images/HSS_J-eps-converted-to.pdf used on input line 9
-5.
+Package pdftex.def Info: images/HSS_J-eps-converted-to.pdf used on input line 1
+04.
 (pdftex.def)             Requested size: 402.37912pt x 262.18083pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
-) [16] [17 <./images/HSS_J-eps-converted-to.pdf>] [18
-
-
-]
+) [17 <./images/HSS_J-eps-converted-to.pdf>] [18]
 \openout2 = `IGRJ17091Paper.aux'.
 
  (./IGRJ17091Paper.tex
@@ -1143,7 +1149,7 @@ Package epstopdf Info: Source file: <images/allmis.eps>
 -to.pdf images/allmis.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
-<images/allmis-eps-converted-to.pdf, id=1537, 722.7pt x 794.97pt>
+<images/allmis-eps-converted-to.pdf, id=1557, 722.7pt x 794.97pt>
 File: images/allmis-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/allmis-eps-converted-to.pdf>
@@ -1166,6 +1172,8 @@ LaTeX Warning: Float too large for page by 342.1234pt on input line 38.
 [19
 
 
+
+
 ] [20 <./images/allmis-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
 [][][][]$\T1/txtt/m/n/9 http : / / heasarc . gsfc . nasa . gov / FTP / xte / ca
@@ -1184,7 +1192,7 @@ Package epstopdf Info: Source file: <images/all_lc.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/all_lc-eps-converted-to.pdf, id=1827, 722.7pt x 1011.78pt>
+<images/all_lc-eps-converted-to.pdf, id=1845, 722.7pt x 1011.78pt>
 File: images/all_lc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/all_lc-eps-converted-to.pdf>
@@ -1214,7 +1222,7 @@ Package epstopdf Info: Source file: <images/all_ccd.eps>
 d-to.pdf images/all_ccd.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
-<images/all_ccd-eps-converted-to.pdf, id=1831, 505.89pt x 325.215pt>
+<images/all_ccd-eps-converted-to.pdf, id=1849, 505.89pt x 325.215pt>
 File: images/all_ccd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/all_ccd-eps-converted-to.pdf>
@@ -1233,7 +1241,7 @@ s-converted-to.pdf images/all_shid_colorful.eps>
 (epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/all_shid_colorful-eps-converted-to.pdf, id=1833, 505.89pt x 325.215pt>
+<images/all_shid_colorful-eps-converted-to.pdf, id=1851, 505.89pt x 325.215pt>
 File: images/all_shid_colorful-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/all_shid_colorful-eps-converted-to.pdf>
@@ -1252,7 +1260,7 @@ s-converted-to.pdf images/all_hhid_colorful.eps>
 (epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/all_hhid_colorful-eps-converted-to.pdf, id=1835, 505.89pt x 325.215pt>
+<images/all_hhid_colorful-eps-converted-to.pdf, id=1853, 505.89pt x 325.215pt>
 File: images/all_hhid_colorful-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/all_hhid_colorful-eps-converted-to.pdf>
@@ -1270,13 +1278,13 @@ LaTeX Warning: Float too large for page by 161.66719pt on input line 140.
 [27] [28 <./images/all_lc-eps-converted-to.pdf>] [29 <./images/all_ccd-eps-conv
 erted-to.pdf> <./images/all_shid_colorful-eps-converted-to.pdf> <./images/all_h
 hid_colorful-eps-converted-to.pdf>]
-<images/Bmulti.png, id=2012, 578.16pt x 433.62pt>
+<images/Bmulti.png, id=2030, 578.16pt x 433.62pt>
 File: images/Bmulti.png Graphic file (type png)
  <use images/Bmulti.png>
 Package pdftex.def Info: images/Bmulti.png used on input line 201.
 (pdftex.def)             Requested size: 321.90451pt x 310.11534pt.
 
-<images/Emulti.png, id=2015, 578.16pt x 433.62pt>
+<images/Emulti.png, id=2033, 578.16pt x 433.62pt>
 File: images/Emulti.png Graphic file (type png)
  <use images/Emulti.png>
 Package pdftex.def Info: images/Emulti.png used on input line 212.
@@ -1285,7 +1293,7 @@ Package pdftex.def Info: images/Emulti.png used on input line 212.
 Underfull \vbox (badness 1400) has occurred while \output is active []
 
  [30]
-[31 <./images/Bmulti.png>] <images/Gmulti.png, id=2027, 578.16pt x 433.62pt>
+[31 <./images/Bmulti.png>] <images/Gmulti.png, id=2045, 578.16pt x 433.62pt>
 File: images/Gmulti.png Graphic file (type png)
 
 <use images/Gmulti.png>
@@ -1303,7 +1311,7 @@ Package epstopdf Info: Source file: <images/LSVIII.eps>
 (epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/LSVIII-eps-converted-to.pdf, id=2044, 578.16pt x 433.62pt>
+<images/LSVIII-eps-converted-to.pdf, id=2062, 578.16pt x 433.62pt>
 File: images/LSVIII-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/LSVIII-eps-converted-to.pdf>
@@ -1315,7 +1323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
 
-<images/Gloop.png, id=2045, 578.16pt x 578.16pt>
+<images/Gloop.png, id=2063, 578.16pt x 578.16pt>
 File: images/Gloop.png Graphic file (type png)
  <use images/Gloop.png>
 Package pdftex.def Info: images/Gloop.png used on input line 242.
@@ -1325,7 +1333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--244
 
  []
 
-<images/Jmulti.png, id=2047, 578.16pt x 433.62pt>
+<images/Jmulti.png, id=2065, 578.16pt x 433.62pt>
 File: images/Jmulti.png Graphic file (type png)
  <use images/Jmulti.png>
 Package pdftex.def Info: images/Jmulti.png used on input line 252.
@@ -1335,19 +1343,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
  []
 
-<images/Jloop.png, id=2053, 578.16pt x 578.16pt>
+<images/Jloop.png, id=2071, 578.16pt x 578.16pt>
 File: images/Jloop.png Graphic file (type png)
  <use images/Jloop.png>
 Package pdftex.def Info: images/Jloop.png used on input line 262.
 (pdftex.def)             Requested size: 402.37912pt x 402.38023pt.
 
-<images/Jloop4.png, id=2054, 361.35pt x 361.35pt>
+<images/Jloop4.png, id=2072, 361.35pt x 361.35pt>
 File: images/Jloop4.png Graphic file (type png)
  <use images/Jloop4.png>
 Package pdftex.def Info: images/Jloop4.png used on input line 263.
 (pdftex.def)             Requested size: 201.18956pt x 201.19122pt.
 
-<images/Jloop3.png, id=2055, 361.35pt x 361.35pt>
+<images/Jloop3.png, id=2073, 361.35pt x 361.35pt>
 File: images/Jloop3.png Graphic file (type png)
  <use images/Jloop3.png>
 Package pdftex.def Info: images/Jloop3.png used on input line 263.
@@ -1361,13 +1369,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 262--265
 LaTeX Warning: Float too large for page by 14.11838pt on input line 267.
 
 [34 <./images/LSVIII-eps-converted-to.pdf>] [35 <./images/Gloop.png>] [36 <./im
-ages/Jmulti.png>] <images/Kmulti.png, id=2121, 578.16pt x 433.62pt>
+ages/Jmulti.png>] <images/Kmulti.png, id=2140, 578.16pt x 433.62pt>
 File: images/Kmulti.png Graphic file (type png)
 
 <use images/Kmulti.png>
 Package pdftex.def Info: images/Kmulti.png used on input line 276.
 (pdftex.def)             Requested size: 321.90451pt x 310.11534pt.
- <images/KBurstTypes.png, id=2127, 578.16pt x 433.62pt>
+ <images/KBurstTypes.png, id=2146, 578.16pt x 433.62pt>
 File: images/KBurstTypes.png Graphic file (type png)
 
 <use images/KBurstTypes.png>
@@ -1378,7 +1386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--289
 
  []
 
-<images/KBurst.png, id=2128, 578.16pt x 433.62pt>
+<images/KBurst.png, id=2147, 578.16pt x 433.62pt>
 File: images/KBurst.png Graphic file (type png)
  <use images/KBurst.png>
 Package pdftex.def Info: images/KBurst.png used on input line 294.
@@ -1388,19 +1396,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--296
 
  []
 
-<images/Kloop.png, id=2129, 578.16pt x 578.16pt>
+<images/Kloop.png, id=2148, 578.16pt x 578.16pt>
 File: images/Kloop.png Graphic file (type png)
  <use images/Kloop.png>
 Package pdftex.def Info: images/Kloop.png used on input line 301.
 (pdftex.def)             Requested size: 402.37912pt x 402.38023pt.
 
-<images/Kloop2.png, id=2130, 361.35pt x 361.35pt>
+<images/Kloop2.png, id=2149, 361.35pt x 361.35pt>
 File: images/Kloop2.png Graphic file (type png)
  <use images/Kloop2.png>
 Package pdftex.def Info: images/Kloop2.png used on input line 302.
 (pdftex.def)             Requested size: 201.18956pt x 201.19122pt.
 
-<images/Kloop3.png, id=2131, 361.35pt x 361.35pt>
+<images/Kloop3.png, id=2150, 361.35pt x 361.35pt>
 File: images/Kloop3.png Graphic file (type png)
  <use images/Kloop3.png>
 Package pdftex.def Info: images/Kloop3.png used on input line 302.
@@ -1413,7 +1421,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--304
 
 LaTeX Warning: Float too large for page by 14.11838pt on input line 306.
 
-<images/Lmulti.png, id=2134, 578.16pt x 433.62pt>
+<images/Lmulti.png, id=2153, 578.16pt x 433.62pt>
 File: images/Lmulti.png Graphic file (type png)
  <use images/Lmulti.png>
 Package pdftex.def Info: images/Lmulti.png used on input line 311.
@@ -1422,19 +1430,19 @@ Package pdftex.def Info: images/Lmulti.png used on input line 311.
 [37] [38 <./images/Jloop.png> <./images/Jloop4.png> <./images/Jloop3.png>]
 [39 <./images/Kmulti.png>] [40 <./images/KBurstTypes.png>] [41 <./images/KBurst
 .png>] [42 <./images/Kloop.png> <./images/Kloop2.png> <./images/Kloop3.png>]
-[43 <./images/Lmulti.png>] <images/Lloop2.png, id=2186, 578.16pt x 578.16pt>
+[43 <./images/Lmulti.png>] <images/Lloop2.png, id=2204, 578.16pt x 578.16pt>
 File: images/Lloop2.png Graphic file (type png)
 
 <use images/Lloop2.png>
 Package pdftex.def Info: images/Lloop2.png used on input line 323.
 (pdftex.def)             Requested size: 402.37912pt x 402.38023pt.
- <images/Lloop.png, id=2187, 361.35pt x 361.35pt>
+ <images/Lloop.png, id=2205, 361.35pt x 361.35pt>
 File: images/Lloop.png Graphic file (type png)
 
 <use images/Lloop.png>
 Package pdftex.def Info: images/Lloop.png used on input line 324.
 (pdftex.def)             Requested size: 201.18956pt x 201.19122pt.
- <images/Lloop4.png, id=2188, 361.35pt x 361.35pt>
+ <images/Lloop4.png, id=2206, 361.35pt x 361.35pt>
 File: images/Lloop4.png Graphic file (type png)
 
 <use images/Lloop4.png>
@@ -1448,19 +1456,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--326
 
 LaTeX Warning: Float too large for page by 14.11838pt on input line 328.
 
-<images/Nmulti.png, id=2191, 578.16pt x 433.62pt>
+<images/Nmulti.png, id=2209, 578.16pt x 433.62pt>
 File: images/Nmulti.png Graphic file (type png)
  <use images/Nmulti.png>
 Package pdftex.def Info: images/Nmulti.png used on input line 333.
 (pdftex.def)             Requested size: 321.90451pt x 310.11534pt.
 
-<images/N_sgram.png, id=2195, 578.16pt x 433.62pt>
+<images/N_sgram.png, id=2213, 578.16pt x 433.62pt>
 File: images/N_sgram.png Graphic file (type png)
  <use images/N_sgram.png>
 Package pdftex.def Info: images/N_sgram.png used on input line 345.
 (pdftex.def)             Requested size: 321.90451pt x 310.11534pt.
 
-<images/Omulti.png, id=2197, 578.16pt x 433.62pt>
+<images/Omulti.png, id=2215, 578.16pt x 433.62pt>
 File: images/Omulti.png Graphic file (type png)
  <use images/Omulti.png>
 Package pdftex.def Info: images/Omulti.png used on input line 354.
@@ -1471,14 +1479,14 @@ Underfull \vbox (badness 2680) has occurred while \output is active []
  [44]
 [45 <./images/Lloop2.png> <./images/Lloop.png> <./images/Lloop4.png>] [46 <./im
 ages/Nmulti.png>] [47 <./images/N_sgram.png>] [48 <./images/Omulti.png>]
-<images/Qmulti.png, id=2230, 578.16pt x 433.62pt>
+<images/Qmulti.png, id=2248, 578.16pt x 433.62pt>
 File: images/Qmulti.png Graphic file (type png)
  <use images/Qmulti.png>
 Package pdftex.def Info: images/Qmulti.png used on input line 366.
 (pdftex.def)             Requested size: 321.90451pt x 310.11534pt.
 
 [49 <./images/Qmulti.png>] [50]
-<images/sigmap.png, id=2269, 526.1256pt x 529.7391pt>
+<images/sigmap.png, id=2288, 526.1256pt x 529.7391pt>
 File: images/sigmap.png Graphic file (type png)
  <use images/sigmap.png>
 Package pdftex.def Info: images/sigmap.png used on input line 406.
@@ -1494,7 +1502,7 @@ d-to.pdf images/Chandra.eps>
 (epstopdf)             \includegraphics on input line 417.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/Chandra-eps-converted-to.pdf, id=2272, 722.7pt x 722.7pt>
+<images/Chandra-eps-converted-to.pdf, id=2291, 722.7pt x 722.7pt>
 File: images/Chandra-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/Chandra-eps-converted-to.pdf>
@@ -1514,7 +1522,7 @@ to.pdf images/xmmlc.eps>
 (epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/xmmlc-eps-converted-to.pdf, id=2321, 578.16pt x 433.62pt>
+<images/xmmlc-eps-converted-to.pdf, id=2339, 578.16pt x 433.62pt>
 File: images/xmmlc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/xmmlc-eps-converted-to.pdf>
@@ -1532,7 +1540,7 @@ rted-to.pdf images/multipower.eps>
 (epstopdf)             \includegraphics on input line 441.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/multipower-eps-converted-to.pdf, id=2326, 578.16pt x 433.62pt>
+<images/multipower-eps-converted-to.pdf, id=2344, 578.16pt x 433.62pt>
 File: images/multipower-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/multipower-eps-converted-to.pdf>
@@ -1543,7 +1551,7 @@ ine 441.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54 <./images/xmmlc-eps-converted-to.pdf>] [55 <./images/multipower-eps-conver
-ted-to.pdf>] <images/mixJandK.png, id=2414, 578.16pt x 433.62pt>
+ted-to.pdf>] <images/mixJandK.png, id=2432, 578.16pt x 433.62pt>
 File: images/mixJandK.png Graphic file (type png)
 
 <use images/mixJandK.png>
@@ -1557,7 +1565,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56 <./images/mixJandK.png>] [57] <images/GJBurst.png, id=2466, 578.16pt x 433
+ [56 <./images/mixJandK.png>] [57] <images/GJBurst.png, id=2485, 578.16pt x 433
 .62pt>
 File: images/GJBurst.png Graphic file (type png)
 
@@ -1569,7 +1577,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 513--515
 
  []
 
-<images/classIIIsecpeak.png, id=2469, 578.16pt x 433.62pt>
+<images/classIIIsecpeak.png, id=2488, 578.16pt x 433.62pt>
 File: images/classIIIsecpeak.png Graphic file (type png)
 
 <use images/classIIIsecpeak.png>
@@ -1581,7 +1589,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 522--524
  []
 
 [58] [59 <./images/GJBurst.png>] [60 <./images/classIIIsecpeak.png>] [61]
-[62] [63] [64] [65] <images/MassDist.png, id=2628, 578.16pt x 433.62pt>
+[62] [63] [64] [65] <images/MassDist.png, id=2646, 578.16pt x 433.62pt>
 File: images/MassDist.png Graphic file (type png)
 
 <use images/MassDist.png>
@@ -1610,7 +1618,7 @@ Underfull \vbox (badness 1796) has occurred while \output is active []
 
  [70]
 [71] [72] [73] [74] [75]
-<images/lc_comp.pdf, id=2899, 988.19188pt x 743.77875pt>
+<images/lc_comp.pdf, id=2915, 988.19188pt x 743.77875pt>
 File: images/lc_comp.pdf Graphic file (type pdf)
 
 <use images/lc_comp.pdf>
@@ -1631,7 +1639,7 @@ erted-to.pdf images/comp_bursts.eps>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/comp_bursts-eps-converted-to.pdf, id=2998, 578.16pt x 977.6525pt>
+<images/comp_bursts-eps-converted-to.pdf, id=3014, 578.16pt x 977.6525pt>
 File: images/comp_bursts-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/comp_bursts-eps-converted-to.pdf>
@@ -1655,7 +1663,7 @@ nverted-to.pdf images/norm_meso_sep.eps>
 (epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/norm_meso_sep-eps-converted-to.pdf, id=3065, 578.16pt x 433.62pt>
+<images/norm_meso_sep-eps-converted-to.pdf, id=3081, 578.16pt x 433.62pt>
 File: images/norm_meso_sep-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/norm_meso_sep-eps-converted-to.pdf>
@@ -1674,7 +1682,7 @@ nverted-to.pdf images/norm_mini_sep.eps>
 (epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/norm_mini_sep-eps-converted-to.pdf, id=3067, 578.16pt x 433.62pt>
+<images/norm_mini_sep-eps-converted-to.pdf, id=3083, 578.16pt x 433.62pt>
 File: images/norm_mini_sep-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/norm_mini_sep-eps-converted-to.pdf>
@@ -1685,13 +1693,13 @@ t line 185.
 
 LaTeX Warning: Float too large for page by 81.49623pt on input line 190.
 
-<images/obevo1.pdf, id=3077, 1172.38pt x 746.28813pt>
+<images/obevo1.pdf, id=3093, 1172.38pt x 746.28813pt>
 File: images/obevo1.pdf Graphic file (type pdf)
  <use images/obevo1.pdf>
 Package pdftex.def Info: images/obevo1.pdf used on input line 197.
 (pdftex.def)             Requested size: 362.13875pt x 437.64153pt.
 
-<images/obevo2.pdf, id=3083, 1172.38pt x 746.28813pt>
+<images/obevo2.pdf, id=3099, 1172.38pt x 746.28813pt>
 File: images/obevo2.pdf Graphic file (type pdf)
  <use images/obevo2.pdf>
 Package pdftex.def Info: images/obevo2.pdf used on input line 204.
@@ -1714,7 +1722,7 @@ converted-to.pdf images/manyinst_stdist.eps>
 (epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/manyinst_stdist-eps-converted-to.pdf, id=3250, 462.72874pt x 346.29375p
+<images/manyinst_stdist-eps-converted-to.pdf, id=3266, 462.72874pt x 346.29375p
 t>
 File: images/manyinst_stdist-eps-converted-to.pdf Graphic file (type pdf)
  <use images/manyinst_stdist-eps-converted-to.pdf>
@@ -1732,7 +1740,7 @@ verted-to.pdf images/rinst_stdist.eps>
 (epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/rinst_stdist-eps-converted-to.pdf, id=3252, 462.72874pt x 346.29375pt>
+<images/rinst_stdist-eps-converted-to.pdf, id=3268, 462.72874pt x 346.29375pt>
 File: images/rinst_stdist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/rinst_stdist-eps-converted-to.pdf>
@@ -1740,13 +1748,13 @@ Package pdftex.def Info: images/rinst_stdist-eps-converted-to.pdf used on input
  line 239.
 (pdftex.def)             Requested size: 362.13875pt x 298.56242pt.
  [84]
-<images/1000norm.pdf, id=3267, 578.16pt x 433.62pt>
+<images/1000norm.pdf, id=3283, 578.16pt x 433.62pt>
 File: images/1000norm.pdf Graphic file (type pdf)
  <use images/1000norm.pdf>
 Package pdftex.def Info: images/1000norm.pdf used on input line 258.
 (pdftex.def)             Requested size: 362.13875pt x 293.2565pt.
 
-<images/1000norm_renormed.pdf, id=3269, 578.16pt x 433.62pt>
+<images/1000norm_renormed.pdf, id=3285, 578.16pt x 433.62pt>
 File: images/1000norm_renormed.pdf Graphic file (type pdf)
 
 <use images/1000norm_renormed.pdf>
@@ -1763,7 +1771,7 @@ ted-to.pdf images/w_woburst.eps>
 (epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/w_woburst-eps-converted-to.pdf, id=3274, 578.16pt x 433.62pt>
+<images/w_woburst-eps-converted-to.pdf, id=3290, 578.16pt x 433.62pt>
 File: images/w_woburst-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/w_woburst-eps-converted-to.pdf>
@@ -1784,7 +1792,7 @@ Package epstopdf Info: Source file: <images/explainer.eps>
 ted-to.pdf images/explainer.eps>
 (epstopdf)             \includegraphics on input line 296.
 Package epstopdf Info: Output file is already uptodate.
-<images/explainer-eps-converted-to.pdf, id=3507, 578.16pt x 433.62pt>
+<images/explainer-eps-converted-to.pdf, id=3523, 578.16pt x 433.62pt>
 File: images/explainer-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/explainer-eps-converted-to.pdf>
@@ -1804,7 +1812,7 @@ f>
 converted-to.pdf images/corrplot_normed.eps>
 (epstopdf)             \includegraphics on input line 356.
 Package epstopdf Info: Output file is already uptodate.
-<images/corrplot_normed-eps-converted-to.pdf, id=3587, 1084.05pt x 1011.78pt>
+<images/corrplot_normed-eps-converted-to.pdf, id=3603, 1084.05pt x 1011.78pt>
 File: images/corrplot_normed-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/corrplot_normed-eps-converted-to.pdf>
@@ -1815,7 +1823,7 @@ put line 356.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91 <./images/corrplot_normed-eps-converted-to.pdf>]
-<images/Loop1.png, id=3629, 578.16pt x 578.16pt>
+<images/Loop1.png, id=3646, 578.16pt x 578.16pt>
 File: images/Loop1.png Graphic file (type png)
  <use images/Loop1.png>
 Package pdftex.def Info: images/Loop1.png used on input line 368.
@@ -1823,20 +1831,20 @@ Package pdftex.def Info: images/Loop1.png used on input line 368.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92 <./images/Loop1.png>] <images/mini.png, id=3643, 578.16pt x 404.712pt>
+ [92 <./images/Loop1.png>] <images/mini.png, id=3659, 578.16pt x 404.712pt>
 File: images/mini.png Graphic file (type png)
 
 <use images/mini.png>
 Package pdftex.def Info: images/mini.png used on input line 388.
 (pdftex.def)             Requested size: 362.13875pt x 253.49399pt.
- <images/1000mini.pdf, id=3645, 578.16pt x 433.62pt>
+ <images/1000mini.pdf, id=3661, 578.16pt x 433.62pt>
 File: images/1000mini.pdf Graphic file (type pdf)
 
 <use images/1000mini.pdf>
 Package pdftex.def Info: images/1000mini.pdf used on input line 394.
 (pdftex.def)             Requested size: 362.13875pt x 293.2565pt.
 
-<images/1000mini_renormed.pdf, id=3647, 578.16pt x 433.62pt>
+<images/1000mini_renormed.pdf, id=3663, 578.16pt x 433.62pt>
 File: images/1000mini_renormed.pdf Graphic file (type pdf)
 
 <use images/1000mini_renormed.pdf>
@@ -1856,7 +1864,7 @@ nverted-to.pdf images/hardness_mini.eps>
 (epstopdf)             \includegraphics on input line 442.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/hardness_mini-eps-converted-to.pdf, id=3749, 462.72874pt x 643.40375pt>
+<images/hardness_mini-eps-converted-to.pdf, id=3765, 462.72874pt x 643.40375pt>
 File: images/hardness_mini-eps-converted-to.pdf Graphic file (type pdf)
 <use images/hardness_mini-eps-converted-to.pdf>
 Package pdftex.def Info: images/hardness_mini-eps-converted-to.pdf used on inpu
@@ -1874,7 +1882,7 @@ Package epstopdf Info: Source file: <images/mesoplat.eps>
 ed-to.pdf images/mesoplat.eps>
 (epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
-<images/mesoplat-eps-converted-to.pdf, id=3752, 578.16pt x 326.21875pt>
+<images/mesoplat-eps-converted-to.pdf, id=3768, 578.16pt x 326.21875pt>
 File: images/mesoplat-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/mesoplat-eps-converted-to.pdf>
@@ -1882,14 +1890,14 @@ Package pdftex.def Info: images/mesoplat-eps-converted-to.pdf used on input lin
 e 461.
 (pdftex.def)             Requested size: 362.13875pt x 220.6212pt.
  [96] [97 <./images/hardness_mini-eps-converted-to.pdf>] <images/1000meso.pdf, 
-id=3806, 578.16pt x 433.62pt>
+id=3822, 578.16pt x 433.62pt>
 File: images/1000meso.pdf Graphic file (type pdf)
 
 <use images/1000meso.pdf>
 Package pdftex.def Info: images/1000meso.pdf used on input line 470.
 (pdftex.def)             Requested size: 362.13875pt x 293.2565pt.
 
-<images/1000meso_renormed.pdf, id=3808, 578.16pt x 433.62pt>
+<images/1000meso_renormed.pdf, id=3824, 578.16pt x 433.62pt>
 File: images/1000meso_renormed.pdf Graphic file (type pdf)
 
 <use images/1000meso_renormed.pdf>
@@ -1910,7 +1918,7 @@ nverted-to.pdf images/meso_in_struc.eps>
 (epstopdf)             \includegraphics on input line 529.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/meso_in_struc-eps-converted-to.pdf, id=3938, 462.72874pt x 346.29375pt>
+<images/meso_in_struc-eps-converted-to.pdf, id=3954, 462.72874pt x 346.29375pt>
 File: images/meso_in_struc-eps-converted-to.pdf Graphic file (type pdf)
 <use images/meso_in_struc-eps-converted-to.pdf>
 Package pdftex.def Info: images/meso_in_struc-eps-converted-to.pdf used on inpu
@@ -1928,7 +1936,7 @@ rted-to.pdf images/struc_hard.eps>
 (epstopdf)             \includegraphics on input line 543.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/struc_hard-eps-converted-to.pdf, id=3946, 462.72874pt x 346.29375pt>
+<images/struc_hard-eps-converted-to.pdf, id=3962, 462.72874pt x 346.29375pt>
 File: images/struc_hard-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/struc_hard-eps-converted-to.pdf>
@@ -1946,7 +1954,7 @@ rted-to.pdf images/many_struc.eps>
 (epstopdf)             \includegraphics on input line 555.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/many_struc-eps-converted-to.pdf, id=3949, 578.16pt x 747.79375pt>
+<images/many_struc-eps-converted-to.pdf, id=3965, 578.16pt x 747.79375pt>
 File: images/many_struc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/many_struc-eps-converted-to.pdf>
@@ -1967,7 +1975,7 @@ Package epstopdf Info: Source file: <images/meso_evo.eps>
 ed-to.pdf images/meso_evo.eps>
 (epstopdf)             \includegraphics on input line 579.
 Package epstopdf Info: Output file is already uptodate.
-<images/meso_evo-eps-converted-to.pdf, id=4088, 1224.575pt x 488.82625pt>
+<images/meso_evo-eps-converted-to.pdf, id=4104, 1224.575pt x 488.82625pt>
 File: images/meso_evo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/meso_evo-eps-converted-to.pdf>
@@ -1990,7 +1998,7 @@ onverted-to.pdf images/bagnoli_bursts.eps>
 (epstopdf)             \includegraphics on input line 639.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/bagnoli_bursts-eps-converted-to.pdf, id=4218, 578.16pt x 433.62pt>
+<images/bagnoli_bursts-eps-converted-to.pdf, id=4234, 578.16pt x 433.62pt>
 File: images/bagnoli_bursts-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/bagnoli_bursts-eps-converted-to.pdf>
@@ -2009,7 +2017,7 @@ Package epstopdf Info: Source file: <images/minidips.eps>
 ed-to.pdf images/minidips.eps>
 (epstopdf)             \includegraphics on input line 679.
 Package epstopdf Info: Output file is already uptodate.
-<images/minidips-eps-converted-to.pdf, id=4305, 578.16pt x 433.62pt>
+<images/minidips-eps-converted-to.pdf, id=4321, 578.16pt x 433.62pt>
 File: images/minidips-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/minidips-eps-converted-to.pdf>
@@ -2044,7 +2052,7 @@ df>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/manylc_ann_diego-eps-converted-to.pdf, id=4580, 576.1525pt x 352.31625p
+<images/manylc_ann_diego-eps-converted-to.pdf, id=4597, 576.1525pt x 352.31625p
 t>
 File: images/manylc_ann_diego-eps-converted-to.pdf Graphic file (type pdf)
  <use images/manylc_ann_diego-eps-converted-to.pdf>
@@ -2066,7 +2074,7 @@ Package epstopdf Info: Source file: <images/hist_bo.eps>
 d-to.pdf images/hist_bo.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
-<images/hist_bo-eps-converted-to.pdf, id=4588, 578.16pt x 361.35pt>
+<images/hist_bo-eps-converted-to.pdf, id=4605, 578.16pt x 361.35pt>
 File: images/hist_bo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/hist_bo-eps-converted-to.pdf>
@@ -2086,7 +2094,7 @@ pdf images/hr.eps>
 (epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/hr-eps-converted-to.pdf, id=4713, 462.72874pt x 346.29375pt>
+<images/hr-eps-converted-to.pdf, id=4729, 462.72874pt x 346.29375pt>
 File: images/hr-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/hr-eps-converted-to.pdf>
@@ -2105,7 +2113,7 @@ d-to.pdf images/propeff.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/propeff-eps-converted-to.pdf, id=4769, 462.72874pt x 346.29375pt>
+<images/propeff-eps-converted-to.pdf, id=4785, 462.72874pt x 346.29375pt>
 File: images/propeff-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/propeff-eps-converted-to.pdf>
@@ -2188,7 +2196,7 @@ ence_hist-eps-converted-to.pdf images/appendix_burst_aafluence_hist.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_burst_aafluence_hist-eps-converted-to.pdf, id=5143, 578.16pt x
+<images/appendix_burst_aafluence_hist-eps-converted-to.pdf, id=5158, 578.16pt x
  433.62pt>
 File: images/appendix_burst_aafluence_hist-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2208,7 +2216,7 @@ st-eps-converted-to.pdf images/appendix_burst_pa_hist.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_burst_pa_hist-eps-converted-to.pdf, id=5145, 578.16pt x 433.62
+<images/appendix_burst_pa_hist-eps-converted-to.pdf, id=5160, 578.16pt x 433.62
 pt>
 File: images/appendix_burst_pa_hist-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2228,7 +2236,7 @@ _hist-eps-converted-to.pdf images/appendix_burst_sigma_hist.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_burst_sigma_hist-eps-converted-to.pdf, id=5147, 578.16pt x 433
+<images/appendix_burst_sigma_hist-eps-converted-to.pdf, id=5162, 578.16pt x 433
 .62pt>
 File: images/appendix_burst_sigma_hist-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2248,7 +2256,7 @@ hist-eps-converted-to.pdf images/appendix_burst_skew_hist.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_burst_skew_hist-eps-converted-to.pdf, id=5149, 578.16pt x 433.
+<images/appendix_burst_skew_hist-eps-converted-to.pdf, id=5164, 578.16pt x 433.
 62pt>
 File: images/appendix_burst_skew_hist-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2268,7 +2276,7 @@ ce_hist-eps-converted-to.pdf images/appendix_dip_aafluence_hist.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_dip_aafluence_hist-eps-converted-to.pdf, id=5151, 578.16pt x 4
+<images/appendix_dip_aafluence_hist-eps-converted-to.pdf, id=5166, 578.16pt x 4
 33.62pt>
 File: images/appendix_dip_aafluence_hist-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2288,7 +2296,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_dip_pa_hist-eps-converted-to.pdf, id=5153, 578.16pt x 433.62pt
+<images/appendix_dip_pa_hist-eps-converted-to.pdf, id=5168, 578.16pt x 433.62pt
 >
 File: images/appendix_dip_pa_hist-eps-converted-to.pdf Graphic file (type pdf)
  <use images/appendix_dip_pa_hist-eps-converted-to.pdf>
@@ -2307,7 +2315,7 @@ s-converted-to.pdf images/appendix_div_hist.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_div_hist-eps-converted-to.pdf, id=5155, 578.16pt x 433.62pt>
+<images/appendix_div_hist-eps-converted-to.pdf, id=5170, 578.16pt x 433.62pt>
 File: images/appendix_div_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/appendix_div_hist-eps-converted-to.pdf>
@@ -2326,7 +2334,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_lambda_hist-eps-converted-to.pdf, id=5157, 578.16pt x 433.62pt
+<images/appendix_lambda_hist-eps-converted-to.pdf, id=5172, 578.16pt x 433.62pt
 >
 File: images/appendix_lambda_hist-eps-converted-to.pdf Graphic file (type pdf)
  <use images/appendix_lambda_hist-eps-converted-to.pdf>
@@ -2345,7 +2353,7 @@ nce_hist-eps-converted-to.pdf images/appendix_plat_aafluence_hist.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_plat_aafluence_hist-eps-converted-to.pdf, id=5159, 578.16pt x 
+<images/appendix_plat_aafluence_hist-eps-converted-to.pdf, id=5174, 578.16pt x 
 433.62pt>
 File: images/appendix_plat_aafluence_hist-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2365,7 +2373,7 @@ t-eps-converted-to.pdf images/appendix_plat_pa_hist.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_plat_pa_hist-eps-converted-to.pdf, id=5161, 578.16pt x 433.62p
+<images/appendix_plat_pa_hist-eps-converted-to.pdf, id=5176, 578.16pt x 433.62p
 t>
 File: images/appendix_plat_pa_hist-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2386,7 +2394,7 @@ ence_n_hist-eps-converted-to.pdf images/appendix_burst_aafluence_n_hist.eps>
 (epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_burst_aafluence_n_hist-eps-converted-to.pdf, id=5163, 578.16pt
+<images/appendix_burst_aafluence_n_hist-eps-converted-to.pdf, id=5178, 578.16pt
  x 433.62pt>
 File: images/appendix_burst_aafluence_n_hist-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2406,7 +2414,7 @@ hist-eps-converted-to.pdf images/appendix_burst_pa_n_hist.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_burst_pa_n_hist-eps-converted-to.pdf, id=5165, 578.16pt x 433.
+<images/appendix_burst_pa_n_hist-eps-converted-to.pdf, id=5180, 578.16pt x 433.
 62pt>
 File: images/appendix_burst_pa_n_hist-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2426,7 +2434,7 @@ ce_n_hist-eps-converted-to.pdf images/appendix_dip_aafluence_n_hist.eps>
 (epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_dip_aafluence_n_hist-eps-converted-to.pdf, id=5167, 578.16pt x
+<images/appendix_dip_aafluence_n_hist-eps-converted-to.pdf, id=5182, 578.16pt x
  433.62pt>
 File: images/appendix_dip_aafluence_n_hist-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2446,7 +2454,7 @@ st-eps-converted-to.pdf images/appendix_dip_pa_n_hist.eps>
 (epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_dip_pa_n_hist-eps-converted-to.pdf, id=5169, 578.16pt x 433.62
+<images/appendix_dip_pa_n_hist-eps-converted-to.pdf, id=5184, 578.16pt x 433.62
 pt>
 File: images/appendix_dip_pa_n_hist-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2467,7 +2475,7 @@ nce_n_hist-eps-converted-to.pdf images/appendix_plat_aafluence_n_hist.eps>
 (epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_plat_aafluence_n_hist-eps-converted-to.pdf, id=5171, 578.16pt 
+<images/appendix_plat_aafluence_n_hist-eps-converted-to.pdf, id=5186, 578.16pt 
 x 433.62pt>
 File: images/appendix_plat_aafluence_n_hist-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2487,7 +2495,7 @@ ist-eps-converted-to.pdf images/appendix_plat_pa_n_hist.eps>
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/appendix_plat_pa_n_hist-eps-converted-to.pdf, id=5173, 578.16pt x 433.6
+<images/appendix_plat_pa_n_hist-eps-converted-to.pdf, id=5188, 578.16pt x 433.6
 2pt>
 File: images/appendix_plat_pa_n_hist-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2507,7 +2515,7 @@ Package epstopdf Info: Source file: <images/corrplot.eps>
 ed-to.pdf images/corrplot.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
-<images/corrplot-eps-converted-to.pdf, id=5176, 1084.05pt x 1011.78pt>
+<images/corrplot-eps-converted-to.pdf, id=5191, 1084.05pt x 1011.78pt>
 File: images/corrplot-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/corrplot-eps-converted-to.pdf>
@@ -2713,7 +2721,46 @@ runsystem(pygmentize -l python -f latex -F tokenmerge             -P "verboptio
 ns= ,fontsize=\scriptsize " -o thesis.out.pyg thesis.pyg)...executed.
 
 
-(./thesis.out.pyg)
+(./thesis.out.pyg [219]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [220]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [221]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [222]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [223]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [224]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [225]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [226]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [227]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [228]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [229]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [230]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [231]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [232])
 runsystem(rm thesis.out.pyg)...executed.
 
 runsystem(rm thesis.pyg)...executed.
@@ -2723,7 +2770,14 @@ runsystem(rm thesis.pyg)...executed.
 runsystem(pygmentize -l python -f latex -F tokenmerge             -P "verboptio
 ns= ,fontsize=\scriptsize " -o thesis.out.pyg thesis.pyg)...executed.
 
- (./thesis.out.pyg)
+
+(./thesis.out.pyg [233]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [234]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [235])
 runsystem(rm thesis.out.pyg)...executed.
 
 runsystem(rm thesis.pyg)...executed.
@@ -2733,7 +2787,119 @@ runsystem(rm thesis.pyg)...executed.
 runsystem(pygmentize -l python -f latex -F tokenmerge             -P "verboptio
 ns= ,fontsize=\scriptsize " -o thesis.out.pyg thesis.pyg)...executed.
 
- (./thesis.out.pyg)
+
+(./thesis.out.pyg [236]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [237]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [238]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [239]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [240]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [241]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [242]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [243]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [244]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [245]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [246]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [247]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [248]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [249]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [250]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [251]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [252]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [253]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [254]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [255]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [256]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [257]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [258]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [259]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [260]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [261]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [262]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [263]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [264]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [265]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [266]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [267]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [268]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [269]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [270]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [271]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [272]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [273])
 runsystem(rm thesis.out.pyg)...executed.
 
 runsystem(rm thesis.pyg)...executed.
@@ -2743,23 +2909,42 @@ runsystem(rm thesis.pyg)...executed.
 runsystem(pygmentize -l python -f latex -F tokenmerge             -P "verboptio
 ns= ,fontsize=\scriptsize " -o thesis.out.pyg thesis.pyg)...executed.
 
- (./thesis.out.pyg)
+
+(./thesis.out.pyg [274]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [275]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [276]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [277]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [278]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [279]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [280])
 runsystem(rm thesis.out.pyg)...executed.
 
 runsystem(rm thesis.pyg)...executed.
 
 \openout3 = `thesis.pyg'.
 
-runsystem(pygmentize -l bash -f latex -F tokenmerge             -P "verboptions
-= ,fontsize=\scriptsize " -o thesis.out.pyg thesis.pyg)...executed.
+runsystem(pygmentize -l python -f latex -F tokenmerge             -P "verboptio
+ns= ,fontsize=\scriptsize " -o thesis.out.pyg thesis.pyg)...executed.
 
 
-(./thesis.out.pyg [219])
+(./thesis.out.pyg [281])
 runsystem(rm thesis.out.pyg)...executed.
 
 runsystem(rm thesis.pyg)...executed.
 
-) [220]
+) [282]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
  (./thesis.aux (./titlepage.aux) (./abstract.aux) (./dedication.aux) (./acknowl
@@ -2770,7 +2955,7 @@ edgements.aux) (./Introduction.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 95DAA447F5F5D3B7A5CA883E46D2E8B6;6657.
+(rerunfilecheck)             Checksum: B3D7AEA38D23F328147A5A953CDDB3F4;6591.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2778,10 +2963,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
- 14025 strings out of 495028
- 218854 string characters out of 6181498
- 422608 words of memory out of 5000000
- 15889 multiletter control sequences out of 15000+600000
+ 14088 strings out of 495028
+ 219352 string characters out of 6181498
+ 423757 words of memory out of 5000000
+ 15888 multiletter control sequences out of 15000+600000
  99387 words of font info for 164 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  36i,12n,49p,2179b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2799,10 +2984,10 @@ onts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (243 pages, 6263775 bytes).
+Output written on thesis.pdf (305 pages, 6380478 bytes).
 PDF statistics:
- 6175 PDF objects out of 6186 (max. 8388607)
- 4059 compressed objects within 41 object streams
- 836 named destinations out of 1000 (max. 500000)
- 1528 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6464 PDF objects out of 7423 (max. 8388607)
+ 4284 compressed objects within 43 object streams
+ 900 named destinations out of 1000 (max. 500000)
+ 1520 words of extra memory for PDF output out of 10000 (max. 10000000)
 
