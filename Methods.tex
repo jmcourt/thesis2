@@ -14,7 +14,7 @@
 
 \subsubsection{Data Formatting}
 
-\par Much of the work in this thesis is based largely on data from PCA, which is freely available through the HEASARC archive maintained by NASA's Goddard Flight Centre\footnote{\url{https://heasarc.gsfc.nasa.gov/cgi-bin/W3Browse/w3browse.pl}}.  In PCA, as well as in other X-ray instruments, this data takes one of two forms:
+\par Much of the work in this thesis is based largely on data from PCA, which is freely available through the HEASARC archive maintained by NASA's Goddard Space Flight Centre\footnote{\url{https://heasarc.gsfc.nasa.gov/cgi-bin/W3Browse/w3browse.pl}}.  In PCA, as well as in other X-ray instruments, this data takes one of two forms:
 \begin{itemize}
 \item \textbf{Event-Mode Data:} A list of photon arrival times.  Depending on the instrument and observing mode, each of these times will have an associated channel, information about where in the detector the photon hit and a flag indicating the pattern that the photon made on the detector.
 \item \textbf{Binned Data:} A list of evenly space time bins with the number of photons which arrived during each.  Depending on the instrument and observing mode, this may be accompanied by some information on the channel distribution of photons arriving in each bin.
@@ -25,7 +25,7 @@
 
 \subsubsection{Data Extraction \& Background Correction}
 
-\par To perform science with PCA or other instruments, we must extract science products (such as lightcurves, power spectra and energy spectra) from the raw data.  Tools to create lightcurves and power spectra from PCA data are available as part of \texttt{FTOOLS} \footnote{\url{https://heasarc.gsfc.nasa.gov/ftools/}}, a free NASA-maintained suite of software for manipulating \texttt{.fits} formatted data.  I also wrote my own software \texttt{PANTHEON} (\citealp{Court_PANTHEON}, presented in Appendix \ref{app:PAN}) to extract a number of additional products, such as power spectra and spectrograms.
+\par To perform science with PCA or other instruments, we must extract science products (such as lightcurves, power spectra and energy spectra) from the raw data.  Tools to create lightcurves and power spectra from PCA data are available as part of \texttt{FTOOLS} \footnote{\url{https://heasarc.gsfc.nasa.gov/ftools/}}, a free NASA-maintained suite of software for manipulating \texttt{.fits} formatted data.  These scripts make use of CALDB: a freely available database of calibration files provided by NASA for a number of active and historical X-ray telescopes \citep{}.  I also wrote my own software \texttt{PANTHEON} (Python ANalytical Tools for High-energy Event-data manipulatiON, \citealp{Court_PANTHEON}, presented in Appendix \ref{app:PAN}) to extract a number of additional products, such as power spectra and spectrograms.
 \par In astronomy, the general way to subtract background from data is by selecting an empty piece of sky from the same observation as the source of interest, and then subtract one from the other.  However as PCA had no imaging capability, this is not possible to do with PCA data.  Instead, the \textit{RXTE} Guest Observatory Facility provides background models, which estimate the background of an observation based on the known X-ray background near the pointing direction and how the environment of the spacecraft changes over its orbit.  Two background models are available, for faint\footnote{\url{http://heasarc.gsfc.nasa.gov/FTP/xte/calib_data/pca_bkgd/Faint/pca_bkgd_cmfaintl7_eMv20051128.mdl}} ($<40$\,cts\,s$^{-1}$\,PCU$^{-1}$) and bright\footnote{\url{http://heasarc.gsfc.nasa.gov/FTP/xte/calib_data/pca_bkgd/Sky_VLE/pca_bkgd_cmbrightvle_eMv20051128.mdl}} ($>40$\,cts\,s$^{-1}$\,PCU$^{-1}$) sources; these can be used in conjunction with the \texttt{pcabackest} tool in \texttt{FTOOLS} to automatically subtract the estimated background from binned PCA data.
 \par As the PCA background models do not subtract the contributions from other sources in the field of view, we also use a different technique to subtract background from observations of GRO J1744-28 (which is in a very crowded region of the sky near the Galactic centre).  To try and account for these other sources, we instead choose an observation of the region of GRO J1744-28 taken while this source was in quiescence; we assume that all photons in this observation must be from the particle background, the cosmic background or another source in the field of view.  Although this method does subtract some of the background contributed from other sources in the field, it must be treated with caution as these other sources are likely also variable.
 \par To compare photometry data from PCA with data from other instruments, we normalise our data by the flux from the Crab nebula.  The Crab is a commonly used reference source in astronomy due to its apparent brightness and low variability across a wide portion of the electromagnetic spectrum.  To Crab-normalise PCA data from a given observation, we take the PCA observation of the Crab which is closest in time to the observation of interest and in the same gain epoch.  This follows the method employed in \citet{Altamirano_CrabNorm}.
@@ -40,21 +40,52 @@
 \item Windowed Timing (WT) Mode: a 1-dimensional image every 2.8\,ms.
 \end{enumerate}
 Both PC and WT modes also contain full energy information.
-\par The main purpose of the wide area BAT telescope is to identify gamma ray bursts as soon as possible after they begin, so that \textit{Swift} can then slew to them for follow-up observation with XRT.  Due to its large field of view (1.4\,sr) and effective energy range of 15--150\,keV, BAT also provides us with long-term hard X-ray lightcurves of many bright sources in the X-ray sky.
+\par The main purpose of the wide area BAT telescope is to identify gamma ray bursts as soon as possible after they begin, so that \textit{Swift} can then slew to them for follow-up observation with XRT.  Due to its large field of view (1.4\,sr) and effective energy range of 15--150\,keV, BAT also provides us with long-term hard X-ray lightcurves of many bright sources in the X-ray sky.  It has a detecting area of 5200\,cm$^2$ and, when operating in survey mode, a time resolution of 5 minutes.
+\par The final instrument, UVOT, is intended to take simultaneous optical and ultraviolet observations of sources observed with XRT.  It observes in the wavelength range between 170-650\,nm, and has 7 filters.
 
-\subsection{\textit{XMM-Newton}}
+\subsubsection{Data Extraction}
+
+\par XRT and ASM data on non-GRB transients are available via online portals maintained by the University of Leicester\footnote{\url{http://www.swift.ac.uk/user_objects/}} and the Goddard Space Flight Centre\footnote{\url{https://swift.gsfc.nasa.gov/results/transients/}} respectively.  The University of Leicester portal automatically extracts data lightcurves, spectra, images and source positions from raw XRT data of a given target, using the \texttt{xrtpipeline} provided in \texttt{FTOOLS}.  The Goddard Space Flight Centre provides ready-made 15--50\,keV lightcurves of 1019\footnote{Count as of May 2018.} X-ray transients, with cadences of either 1 per day or 1 per \textit{Swift} orbit.
+
+\subsection{The \textit{X-Ray Multi-Mirror Mission}}
+
+\par The \textit{X-Ray-Multi Mirror Mission} (\textit{XMM-Newton}, \citealp{Jansen_XMM}) is an ESA-operated satellite which was launched from Kourou, French Guiana on December 10, 1999, and is still operating almost 20 years later.  Like \textit{RXTE} and \textit{Swift}, \textit{XMM-Newton} also carries a number of separate instruments: namely the European Photon Imaging Camera (EPIC, \citealp{Bignami_EPIC}), the Reflection Grating Spectrometer (RGS, \citealp{denHerder_RGS}) and an Optical Monitor (OM, \citealp{Mason_OM}).  In the research presented in this thesis, I only make use of data from EPIC.
+\par EPIC consists of three CCD cameras which work independently: two metal-oxide semiconductor CCD cameras (EPIC-MOS1 and EPIC-MOS2) and a single pn CCD camera at the focus of the telescope (EPIC-pn).  All cameras observe in the energy range 0.15--15\,keV, with a Field of View of 30', an angular resolution of 6'' and a maximum energy resolution of $\sim5$\%.  These can be operated in full frame, partial window or timing mode, each of which has a greater time resolution but narrower field of view than the last.  The maximum time resolution achievable by EPIC is 7\,$\mu$s which EPIC-pn is operated in burst mode; a special pn-only variant of timing mode.
+
+\subsubsection{Data Extraction \& Processing}
+
+\par \textit{XMM-Newton} data is extracted and processed using the \texttt{SAS} software \citep{Ibarra_sas} provided by ESA\footnote{\url{https://www.cosmos.esa.int/web/xmm-newton/sas}}.  These make use of the continuously updated Current Calibration Files provided by ESA.
+\par The process of extracting basic data products from the EPIC instruments can be reduced to a number of steps:
+\begin{itemize}
+\item Use the \texttt{SAS} command \texttt{cifbuild} to create a Calibration Index File (CIF), containing pointers to the information in the CCF needed to reduce the chosen dataset.
+\item Use the \texttt{SAS} command \texttt{odfingest} to create a summary file, containing data corrected by the CCF and by the EPIC housekeeping files.
+\item Construct a photon event list from EPIC-MOS1 and EPIC-MOS2 using the \texttt{SAS} command \texttt{emproc}, or from EPIC-pn using the command \texttt{epproc}.
+\end{itemize}
+The event lists that result from this process can then be filtered using \texttt{evselect}, which allows the user to sort photons by arrival time, spatial co-ordinate and energy, among other parameters.  These filtered event lists can then be used to create science data products, such as lightcurves and energy spectra.
 
 \subsection{\textit{Chandra}}
 
 \subsection{\textit{Suzaku}}
 
-\subsection{\textit{NuStar}}
+\subsection{\textit{NuSTAR}}
 
 \subsection{\textit{INTEGRAL}}
 
-\section{Lightcurve Analysis}
+\section{Methods \& Techniques}
 
-\subsection{Flare-Finding Algorithm}
+\par To extract meaningful physics from the data provided by the space-based observatories described above, we use a number of mathematical and analytical techniques.  We analyse three main properties of the data:
+\begin{enumerate}
+\item \textbf{Lightcurve Morphology:} Measuring the luminosity of an object, particularly in relation to its Eddington luminosity, and describing how this luminosity changes over time.
+\item \textbf{Timing Analysis:} Using Fourier and Lomb-Scargle spectroscopy to identify periodic and quasi-periodic features in the data, and how these change with energy and time.
+\item \textbf{Energy Spectral Analysis:}
+\end{enumerate}
+\par Some of the techniques we used to explore these properties are detailed in this section.
+
+\subsection{Lightcurve Morphology}
+
+\subsubsection{Lightcurve Folding}
+
+\subsubsection{Flare-Finding Algorithm}
 \label{sec:Flares}
 
 \par The algorithm used to find flares is performed as such (see also Figure \ref{fig:BurstAlg}):
@@ -107,10 +138,12 @@ We show an example of Heidke skill score grid for this algorithm, applied to a C
    \label{fig:Heidke}
 \end{figure}
 
-\section{Timing Analysis}
+\subsubsection{Variable Period Lightcurve Folding}
 
-\section{Spectral Analysis}
+\subsection{Timing Analysis}
 
-\subsection{Phase-Resolved Spectroscopy}
+\subsection{Energy Spectral Analysis}
+
+\subsubsection{Phase-Resolved Spectroscopy}
 \label{sec:phasresspec}
 

@@ -15,81 +15,80 @@
 \BOOKMARK [1][-]{section.3.1}{Instrumentation}{chapter.3}% 15
 \BOOKMARK [2][-]{subsection.3.1.1}{The Rossi X-Ray Timing Experiment}{section.3.1}% 16
 \BOOKMARK [2][-]{subsection.3.1.2}{The Neil Gehrels Swift Observatory}{section.3.1}% 17
-\BOOKMARK [2][-]{subsection.3.1.3}{XMM-Newton}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.3}{The X-Ray Multi-Mirror Mission}{section.3.1}% 18
 \BOOKMARK [2][-]{subsection.3.1.4}{Chandra}{section.3.1}% 19
 \BOOKMARK [2][-]{subsection.3.1.5}{Suzaku}{section.3.1}% 20
-\BOOKMARK [2][-]{subsection.3.1.6}{NuStar}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.6}{NuSTAR}{section.3.1}% 21
 \BOOKMARK [2][-]{subsection.3.1.7}{INTEGRAL}{section.3.1}% 22
-\BOOKMARK [1][-]{section.3.2}{Lightcurve Analysis}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.2.1}{Flare-Finding Algorithm}{section.3.2}% 24
-\BOOKMARK [1][-]{section.3.3}{Timing Analysis}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.4}{Spectral Analysis}{chapter.3}% 26
-\BOOKMARK [2][-]{subsection.3.4.1}{Phase-Resolved Spectroscopy}{section.3.4}% 27
-\BOOKMARK [0][-]{chapter.4}{Variability in IGR J17091-3624: Classification}{}% 28
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.2}{Data and Data Analysis}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.2.1}{RXTE}{section.4.2}% 31
-\BOOKMARK [2][-]{subsection.4.2.2}{Swift}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.3}{INTEGRAL}{section.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.2.4}{XMM-Newton}{section.4.2}% 34
-\BOOKMARK [2][-]{subsection.4.2.5}{Chandra}{section.4.2}% 35
-\BOOKMARK [2][-]{subsection.4.2.6}{Suzaku}{section.4.2}% 36
-\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 37
-\BOOKMARK [2][-]{subsection.4.3.1}{Outburst Evolution}{section.4.3}% 38
-\BOOKMARK [2][-]{subsection.4.3.2}{RXTE}{section.4.3}% 39
-\BOOKMARK [2][-]{subsection.4.3.3}{Swift}{section.4.3}% 40
-\BOOKMARK [2][-]{subsection.4.3.4}{INTEGRAL}{section.4.3}% 41
-\BOOKMARK [2][-]{subsection.4.3.5}{Chandra}{section.4.3}% 42
-\BOOKMARK [2][-]{subsection.4.3.6}{XMM-Newton}{section.4.3}% 43
-\BOOKMARK [2][-]{subsection.4.3.7}{Suzaku}{section.4.3}% 44
-\BOOKMARK [1][-]{section.4.4}{Discussion}{chapter.4}% 45
-\BOOKMARK [2][-]{subsection.4.4.1}{Variability Classes: IGR J17091 vs. GRS 1915}{section.4.4}% 46
-\BOOKMARK [2][-]{subsection.4.4.2}{General Comparison with GRS 1915+105}{section.4.4}% 47
-\BOOKMARK [2][-]{subsection.4.4.3}{Comparison with the Rapid Burster}{section.4.4}% 48
-\BOOKMARK [2][-]{subsection.4.4.4}{Comparison with Altamirano et al. 2011}{section.4.4}% 49
-\BOOKMARK [2][-]{subsection.4.4.5}{New Constraints on Accretion Rate, Mass \046 Distance}{section.4.4}% 50
-\BOOKMARK [2][-]{subsection.4.4.6}{Implications for Models of `Heartbeat' Variability}{section.4.4}% 51
-\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 52
-\BOOKMARK [0][-]{chapter.5}{The Evolution of X-ray Bursts in the ``Bursting Pulsar'' GRO J1744\20528}{}% 53
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.2}{Data and Data Analysis}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.2.1}{RXTE}{section.5.2}% 56
-\BOOKMARK [2][-]{subsection.5.2.2}{Swift}{section.5.2}% 57
-\BOOKMARK [2][-]{subsection.5.2.3}{INTEGRAL}{section.5.2}% 58
-\BOOKMARK [2][-]{subsection.5.2.4}{Chandra}{section.5.2}% 59
-\BOOKMARK [2][-]{subsection.5.2.5}{XMM-Newton}{section.5.2}% 60
-\BOOKMARK [2][-]{subsection.5.2.6}{Suzaku}{section.5.2}% 61
-\BOOKMARK [2][-]{subsection.5.2.7}{NuSTAR}{section.5.2}% 62
-\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 63
-\BOOKMARK [2][-]{subsection.5.3.1}{Outburst Evolution}{section.5.3}% 64
-\BOOKMARK [2][-]{subsection.5.3.2}{Categorizing Bursts}{section.5.3}% 65
-\BOOKMARK [2][-]{subsection.5.3.3}{Normal Bursts}{section.5.3}% 66
-\BOOKMARK [2][-]{subsection.5.3.4}{Minibursts}{section.5.3}% 67
-\BOOKMARK [2][-]{subsection.5.3.5}{Mesobursts}{section.5.3}% 68
-\BOOKMARK [2][-]{subsection.5.3.6}{Structured ``Bursts''}{section.5.3}% 69
-\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 70
-\BOOKMARK [2][-]{subsection.5.4.1}{Evolution of Outburst and Bursting Behaviour}{section.5.4}% 71
-\BOOKMARK [2][-]{subsection.5.4.2}{Parameter Correlations}{section.5.4}% 72
-\BOOKMARK [2][-]{subsection.5.4.3}{Comparison with Previous Studies}{section.5.4}% 73
-\BOOKMARK [2][-]{subsection.5.4.4}{Comparison with other objects}{section.5.4}% 74
-\BOOKMARK [2][-]{subsection.5.4.5}{Comparison with Models of Type II Bursts}{section.5.4}% 75
-\BOOKMARK [1][-]{section.5.5}{Conclusions}{chapter.5}% 76
-\BOOKMARK [0][-]{chapter.6}{The Bursting Pulsar GRO J1744-28: the Slowest Transitional Pulsar?}{}% 77
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 78
-\BOOKMARK [1][-]{section.6.2}{GRO J1744-28: The Bursting Pulsar}{chapter.6}% 79
-\BOOKMARK [1][-]{section.6.3}{Comparison}{chapter.6}% 80
-\BOOKMARK [1][-]{section.6.4}{Discussion}{chapter.6}% 81
-\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 82
-\BOOKMARK [0][-]{Appendix.a.A}{Model-Independent Classification of each Observation of IGR J17091-3624}{}% 83
-\BOOKMARK [0][-]{Appendix.a.B}{List of RXTE Observations of the Bursting Pulsar}{}% 84
-\BOOKMARK [0][-]{Appendix.a.C}{Normal Burst Histograms}{}% 85
-\BOOKMARK [1][-]{section.a.C.1}{Parameter Correlations in Normal Bursts}{Appendix.a.C}% 86
-\BOOKMARK [0][-]{Appendix.a.D}{Parameter Correlations in Normal Bursts}{}% 87
-\BOOKMARK [0][-]{Appendix.a.E}{PANTHEON suite}{}% 88
-\BOOKMARK [1][-]{section.a.E.1}{FITS Genie}{Appendix.a.E}% 89
-\BOOKMARK [1][-]{section.a.E.2}{Plot Demon}{Appendix.a.E}% 90
-\BOOKMARK [1][-]{section.a.E.3}{Spec Angel}{Appendix.a.E}% 91
-\BOOKMARK [1][-]{section.a.E.4}{Back Hydra}{Appendix.a.E}% 92
-\BOOKMARK [1][-]{section.a.E.5}{PAN Lib}{Appendix.a.E}% 93
-\BOOKMARK [1][-]{section.a.E.6}{XTE-PAN Lib}{Appendix.a.E}% 94
-\BOOKMARK [1][-]{section.a.E.7}{Mode Get}{Appendix.a.E}% 95
+\BOOKMARK [1][-]{section.3.2}{Methods \046 Techniques}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{Lightcurve Morphology}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{Timing Analysis}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.3}{Energy Spectral Analysis}{section.3.2}% 26
+\BOOKMARK [0][-]{chapter.4}{Variability in IGR J17091-3624: Classification}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{Data and Data Analysis}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.2.1}{RXTE}{section.4.2}% 30
+\BOOKMARK [2][-]{subsection.4.2.2}{Swift}{section.4.2}% 31
+\BOOKMARK [2][-]{subsection.4.2.3}{INTEGRAL}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.4}{XMM-Newton}{section.4.2}% 33
+\BOOKMARK [2][-]{subsection.4.2.5}{Chandra}{section.4.2}% 34
+\BOOKMARK [2][-]{subsection.4.2.6}{Suzaku}{section.4.2}% 35
+\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.3.1}{Outburst Evolution}{section.4.3}% 37
+\BOOKMARK [2][-]{subsection.4.3.2}{RXTE}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.3}{Swift}{section.4.3}% 39
+\BOOKMARK [2][-]{subsection.4.3.4}{INTEGRAL}{section.4.3}% 40
+\BOOKMARK [2][-]{subsection.4.3.5}{Chandra}{section.4.3}% 41
+\BOOKMARK [2][-]{subsection.4.3.6}{XMM-Newton}{section.4.3}% 42
+\BOOKMARK [2][-]{subsection.4.3.7}{Suzaku}{section.4.3}% 43
+\BOOKMARK [1][-]{section.4.4}{Discussion}{chapter.4}% 44
+\BOOKMARK [2][-]{subsection.4.4.1}{Variability Classes: IGR J17091 vs. GRS 1915}{section.4.4}% 45
+\BOOKMARK [2][-]{subsection.4.4.2}{General Comparison with GRS 1915+105}{section.4.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.3}{Comparison with the Rapid Burster}{section.4.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.4}{Comparison with Altamirano et al. 2011}{section.4.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.5}{New Constraints on Accretion Rate, Mass \046 Distance}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.6}{Implications for Models of `Heartbeat' Variability}{section.4.4}% 50
+\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 51
+\BOOKMARK [0][-]{chapter.5}{The Evolution of X-ray Bursts in the ``Bursting Pulsar'' GRO J1744\20528}{}% 52
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.2}{Data and Data Analysis}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.2.1}{RXTE}{section.5.2}% 55
+\BOOKMARK [2][-]{subsection.5.2.2}{Swift}{section.5.2}% 56
+\BOOKMARK [2][-]{subsection.5.2.3}{INTEGRAL}{section.5.2}% 57
+\BOOKMARK [2][-]{subsection.5.2.4}{Chandra}{section.5.2}% 58
+\BOOKMARK [2][-]{subsection.5.2.5}{XMM-Newton}{section.5.2}% 59
+\BOOKMARK [2][-]{subsection.5.2.6}{Suzaku}{section.5.2}% 60
+\BOOKMARK [2][-]{subsection.5.2.7}{NuSTAR}{section.5.2}% 61
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 62
+\BOOKMARK [2][-]{subsection.5.3.1}{Outburst Evolution}{section.5.3}% 63
+\BOOKMARK [2][-]{subsection.5.3.2}{Categorizing Bursts}{section.5.3}% 64
+\BOOKMARK [2][-]{subsection.5.3.3}{Normal Bursts}{section.5.3}% 65
+\BOOKMARK [2][-]{subsection.5.3.4}{Minibursts}{section.5.3}% 66
+\BOOKMARK [2][-]{subsection.5.3.5}{Mesobursts}{section.5.3}% 67
+\BOOKMARK [2][-]{subsection.5.3.6}{Structured ``Bursts''}{section.5.3}% 68
+\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.4.1}{Evolution of Outburst and Bursting Behaviour}{section.5.4}% 70
+\BOOKMARK [2][-]{subsection.5.4.2}{Parameter Correlations}{section.5.4}% 71
+\BOOKMARK [2][-]{subsection.5.4.3}{Comparison with Previous Studies}{section.5.4}% 72
+\BOOKMARK [2][-]{subsection.5.4.4}{Comparison with other objects}{section.5.4}% 73
+\BOOKMARK [2][-]{subsection.5.4.5}{Comparison with Models of Type II Bursts}{section.5.4}% 74
+\BOOKMARK [1][-]{section.5.5}{Conclusions}{chapter.5}% 75
+\BOOKMARK [0][-]{chapter.6}{The Bursting Pulsar GRO J1744-28: the Slowest Transitional Pulsar?}{}% 76
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 77
+\BOOKMARK [1][-]{section.6.2}{GRO J1744-28: The Bursting Pulsar}{chapter.6}% 78
+\BOOKMARK [1][-]{section.6.3}{Comparison}{chapter.6}% 79
+\BOOKMARK [1][-]{section.6.4}{Discussion}{chapter.6}% 80
+\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 81
+\BOOKMARK [0][-]{Appendix.a.A}{Model-Independent Classification of each Observation of IGR J17091-3624}{}% 82
+\BOOKMARK [0][-]{Appendix.a.B}{List of RXTE Observations of the Bursting Pulsar}{}% 83
+\BOOKMARK [0][-]{Appendix.a.C}{Normal Burst Histograms}{}% 84
+\BOOKMARK [1][-]{section.a.C.1}{Parameter Correlations in Normal Bursts}{Appendix.a.C}% 85
+\BOOKMARK [0][-]{Appendix.a.D}{Parameter Correlations in Normal Bursts}{}% 86
+\BOOKMARK [0][-]{Appendix.a.E}{PANTHEON suite}{}% 87
+\BOOKMARK [1][-]{section.a.E.1}{FITS Genie}{Appendix.a.E}% 88
+\BOOKMARK [1][-]{section.a.E.2}{Plot Demon}{Appendix.a.E}% 89
+\BOOKMARK [1][-]{section.a.E.3}{Spec Angel}{Appendix.a.E}% 90
+\BOOKMARK [1][-]{section.a.E.4}{Back Hydra}{Appendix.a.E}% 91
+\BOOKMARK [1][-]{section.a.E.5}{PAN Lib}{Appendix.a.E}% 92
+\BOOKMARK [1][-]{section.a.E.6}{XTE-PAN Lib}{Appendix.a.E}% 93
+\BOOKMARK [1][-]{section.a.E.7}{Mode Get}{Appendix.a.E}% 94
