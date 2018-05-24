@@ -304,6 +304,13 @@
 \newblock {The X-ray Timing Explorer}.
 \newblock {\em Advances in Space Research}, 10:297--310.
 
+\bibitem[{Brinkman} et~al., 1986]{Brinkman_LETG}
+{Brinkman}, A.~C., {van Rooijen}, J.~J., {Bleeker}, J.~A.~M., {Dijkstra},
+  J.~H., and {Heise}, J. (1986).
+\newblock {Low energy X-ray transmission grating spectrometer for AXAF}.
+\newblock In {Culhane}, J.~L., editor, {\em X-ray instrumentation in
+  astronomy}, volume 597 of {\em \procspie}, pages 232--240.
+
 \bibitem[{Burrows} et~al., 2003]{Burrows_XRT}
 {Burrows}, D.~N., {Hill}, J.~E., {Nousek}, J.~A., {Wells}, A.~A., {Short},
   A.~T., {Ambrosi}, R.~M., {Chincarini}, G., {Citterio}, O., and {Tagliaferri},
@@ -556,6 +563,14 @@ Court, J. (2017).
   bursts}.
 \newblock {\em \aap}, 469:379--385.
 
+\bibitem[{Fanson} et~al., 1998]{Fanson_Spitzer}
+{Fanson}, J.~L., {Fazio}, G.~G., {Houck}, J.~R., {Kelly}, T., {Rieke}, G.~H.,
+  {Tenerelli}, D.~J., and {Whitten}, M. (1998).
+\newblock {Space Infrared Telescope Facility (SIRTF)}.
+\newblock In {Bely}, P.~Y. and {Breckinridge}, J.~B., editors, {\em Space
+  Telescopes and Instruments V}, volume 3356 of {\em \procspie}, pages
+  478--491.
+
 \bibitem[{Fender}, 2006]{Fender_Jets}
 {Fender}, R. (2006).
 \newblock {\em {Jets from X-ray binaries}}, pages 381--419.
@@ -602,6 +617,11 @@ Court, J. (2017).
   (1995).
 \newblock {Galactic Center}.
 \newblock {\em \iaucirc}, 6272.
+
+\bibitem[Fourier, 1822]{Fourier}
+Fourier, J. (1822).
+\newblock {\em Th{\'e}orie analytique de la chaleur}.
+\newblock Chez Firmin Didot, p{\`e}re et fils.
 
 \bibitem[{Frank} et~al., 2002]{Frank_Timescales}
 {Frank}, J., {King}, A., and {Raine}, D.~J. (2002).
@@ -716,7 +736,7 @@ Court, J. (2017).
 \newblock In {\em ESA Special Publication}, volume 622 of {\em ESA Special
   Publication}, page 353.
 
-\bibitem[{Harrison} et~al., 2013]{Harrison_NuSTAR}
+\bibitem[{Harrison} et~al., 2013]{Harrison_NuStar}
 {Harrison}, F.~A., {Craig}, W.~W., {Christensen}, F.~E., {Hailey}, C.~J.,
   {Zhang}, W.~W., {Boggs}, S.~E., {Stern}, D., {Cook}, W.~R., {Forster}, K.,
   {Giommi}, P., {Grefenstette}, B.~W., {Kim}, Y., {Kitaguchi}, T., {Koglin},
@@ -775,6 +795,16 @@ Court, J. (2017).
 \newblock {Dual character of the rapid burster and a classification of X-ray
   bursts}.
 \newblock {\em \nat}, 271:630--633.
+
+\bibitem[{Holtzman} et~al., 1995]{Holtzman_Hubble}
+{Holtzman}, J.~A., {Hester}, J.~J., {Casertano}, S., {Trauger}, J.~T.,
+  {Watson}, A.~M., {Ballester}, G.~E., {Burrows}, C.~J., {Clarke}, J.~T.,
+  {Crisp}, D., {Evans}, R.~W., {Gallagher}, III, J.~S., {Griffiths}, R.~E.,
+  {Hoessel}, J.~G., {Matthews}, L.~D., {Mould}, J.~R., {Scowen}, P.~A.,
+  {Stapelfeldt}, K.~R., and {Westphal}, J.~A. (1995).
+\newblock {The performance and calibration of WFPC2 on the Huble Space
+  Telescope}.
+\newblock {\em \pasp}, 107:156--178.
 
 \bibitem[{Hunter}, 2007]{Hunter_MatPlotLib}
 {Hunter}, J.~D. (2007).
@@ -892,6 +922,16 @@ Court, J. (2017).
 \bibitem[{Jones} et~al., 2001]{NumPy}
 {Jones}, E., {Oliphant}, T., {Peterson}, P., et~al. (2001).
 \newblock {{SciPy}: Open source scientific tools for {Python}}.
+
+\bibitem[{Kelley} et~al., 1999]{Kelley_XRS}
+{Kelley}, R.~L., {Audley}, M.~D., {Boyce}, K.~R., {Breon}, S.~R., {Fujimoto},
+  R., {Gendreau}, K.~C., {Holt}, S.~S., {Ishisaki}, Y., {McCammon}, D.,
+  {Mihara}, T., {Mitsuda}, K., {Moseley}, S.~H., {Mott}, D.~B., {Porter},
+  F.~S., {Stahle}, C.~K., and {Szymkowiak}, A.~E. (1999).
+\newblock {ASTRO-E high-resolution x-ray spectrometer}.
+\newblock In {Siegmund}, O.~H. and {Flanagan}, K.~A., editors, {\em EUV, X-Ray,
+  and Gamma-Ray Instrumentation for Astronomy X}, volume 3765 of {\em
+  \procspie}, pages 114--127.
 
 \bibitem[{Kennea} and {Capitanio}, 2007]{Kennea_NH}
 {Kennea}, J.~A. and {Capitanio}, F. (2007).
@@ -1054,6 +1094,15 @@ Kenney, J. (1939).
   years}.
 \newblock {\em \aap}, 466:595--618.
 
+\bibitem[{Labanti} et~al., 1996]{Labanti_Picsit}
+{Labanti}, C., {Di Cocco}, G., {Malaguti}, G., {Mauri}, A., {Rossi}, E.,
+  {Schiavone}, F., and {Traci}, A. (1996).
+\newblock {PICsIT: the high-energy detection plane of the IBIS instrument
+  onboard INTEGRAL}.
+\newblock In {Ramsey}, B.~D. and {Parnell}, T.~A., editors, {\em Gamma-Ray and
+  Cosmic-Ray Detectors, Techniques, and Missions}, volume 2806 of {\em
+  \procspie}, pages 269--279.
+
 \bibitem[{Lam} et~al., 2015]{Numba}
 {Lam}, S.~K., {Pitrou}, A., and {Seibert}, S. (2015).
 \newblock Numba: a llvm-based python jit compiler.
@@ -1201,6 +1250,15 @@ Kenney, J. (1939).
 {Manchester}, R.~N., {Hobbs}, G.~B., {Teoh}, A., and {Hobbs}, M. (2005).
 \newblock {The Australia Telescope National Facility Pulsar Catalogue}.
 \newblock {\em \aj}, 129:1993--2006.
+
+\bibitem[{Markert} et~al., 1994]{Markert_HETG}
+{Markert}, T.~H., {Canizares}, C.~R., {Dewey}, D., {McGuirk}, M., {Pak}, C.~S.,
+  and {Schattenburg}, M.~L. (1994).
+\newblock {High-Energy Transmission Grating Spectrometer for the Advanced X-ray
+  Astrophysics Facility (AXAF)}.
+\newblock In {Siegmund}, O.~H. and {Vallerga}, J.~V., editors, {\em EUV, X-Ray,
+  and Gamma-Ray Instrumentation for Astronomy V}, volume 2280 of {\em
+  \procspie}, pages 168--180.
 
 \bibitem[{Markwardt} et~al., 1999]{Markwardt_FluxFreqGRS}
 {Markwardt}, C.~B., {Swank}, J.~H., and {Taam}, R.~E. (1999).
@@ -2036,6 +2094,11 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 {Wilms}, J., {Allen}, A., and {McCray}, R. (2000).
 \newblock {On the Absorption of X-Rays in the Interstellar Medium}.
 \newblock {\em \apj}, 542:914--924.
+
+\bibitem[{Winkler}, 1996]{Winkler_INTEGRAL}
+{Winkler}, C. (1996).
+\newblock {INTEGRAL. The international gamma-ray astrophysics laboratory.}
+\newblock {\em \aaps}, 120:637--640.
 
 \bibitem[{Winkler} et~al., 2003]{Winkler_IBIS}
 {Winkler}, C., {Courvoisier}, T.~J.-L., {Di Cocco}, G., {Gehrels}, N.,

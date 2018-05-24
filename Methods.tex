@@ -54,7 +54,7 @@ Both PC and WT modes also contain full energy information.
 
 \subsubsection{Data Extraction \& Processing}
 
-\par \textit{XMM-Newton} data is extracted and processed using the \texttt{SAS} software \citep{Ibarra_sas} provided by ESA\footnote{\url{https://www.cosmos.esa.int/web/xmm-newton/sas}}.  These make use of the continuously updated Current Calibration Files provided by ESA.
+\par \textit{XMM-Newton} data is extracted and processed using the \texttt{SAS} software \citep{Ibarra_sas} provided by ESA\footnote{\url{https://www.cosmos.esa.int/web/xmm-newton/sas}}.  These make use of the continuously updated Current Calibration Files (CCF) provided by ESA.
 \par The process of extracting basic data products from the EPIC instruments can be reduced to a number of steps:
 \begin{itemize}
 \item Use the \texttt{SAS} command \texttt{cifbuild} to create a Calibration Index File (CIF), containing pointers to the information in the CCF needed to reduce the chosen dataset.
@@ -65,11 +65,32 @@ The event lists that result from this process can then be filtered using \texttt
 
 \subsection{\textit{Chandra}}
 
+\par The \textit{Chandra X-Ray Observatory} (\textit{Chandra}, \citealp{Weisskopf_Chandra}) is a NASA-operated satellite which was launched from Cape Canaveral on July 23, 1999 aboard Space Shuttle \textit{Columbia}.  The mission is considered to be one of NASA's `Great Observatories', along with the Hubble Space Telescope (HST, e.g. \citealp{Holtzman_Hubble}), the \textit{Compton Gamma Ray Observatory} (\textit{CGRO}, \citealp{Gehrels_CGRO}) and the \textit{Spitzer Space Telescope} (\textit{Spitzer}, \citealp{Fanson_Spitzer}), which collectively observed the sky between infrared and gamma-ray wavelengths.  \textit{Chandra} was designed to study the X-ray sky between $\sim$0.1--10\,keV, and contains two instruments: the High Resolution Camera (HRC, \citealp{Kenter_HRCI}) and the Advanced CCD Imaging Spectrometer (ACIS, \citealp{Nousek_ACIS}).  The spacecraft also carries High and Low Energy Transmission Gratings (HETGS and LETGS respectively, \citealp{Markert_HETG,Brinkman_LETG}), which can be used in conjunction with the aforementioned detectors to produce high-resolution energy spectra.
+\par HRC contains two detectors: the HRC Imager (HRC-I) and the HRC Spectrogram (HRC-S).  HRC-I has the largest field of view of any instrument aboard Chandra (30$\times$30'), but no time resolution and only poor spectral resolution.  HRC-S is a long-thin detector strip which is intended to be used as the readout for the LETG.  This detector can also be used in Fast Timing mode, in which it has no energy resolution but a timing resolution of 16\,$\mu$s.
+\par ACIS is intended for use either as an imaging camera or as a detector for the output of the HETG.  It has a primary field of view of $16.9\times16.9$', and operates at a maximum time resolution of 2.85\,ms.
+
+\subsubsection{Data Extraction \& Processing}
+\par Like \textit{XMM-Newton}, \textit{Chandra} data is analysed using a purpose-built suite of tools.  The software for \textit{Chandra} analysis is named \texttt{Ciao} \citep{Fruscione_Ciao}, and is freely provided by Harvard University\footnote{\url{http://cxc.harvard.edu/ciao/}}.  \texttt{Ciao} filters and bins data based on any of the four possible parameters stored for a photon event (time, energy and two spatial co-ordinates), and facilitates the production of lightcurves, images and energy spectra.
+
 \subsection{\textit{Suzaku}}
+
+\par \textit{Suzaku} \citep{Mitsuda_Suzaku} was a JAXA-operated satellite which operated from its launch from the Uchinoura Space Center on July 10, 2005 until being decomissioned on September 2, 2015.  The mission was intended for X-ray spectroscopy; however the satellite's primary instrument, the X-Ray Spectrometer (XRS, \citealp{Kelley_XRS}), lost all of its liquid helium coolant within the first month of operation, rendering it effectively unusable.  The remaining instruments aboard \textit{Suzaku}, namely the X-Ray Imaging Spectrometers (XIS, \citealp{Koyama_XIS}) and the Hard X-Ray Detector (HXD, \citealp{Takahashi_HXD}) were unaffected by the malfunction and continued to operate normally throughout the spacecraft's lifetime.
+\par XIS 
+\par HXD 
+\par Reduction 
 
 \subsection{\textit{NuSTAR}}
 
+\par The \textit{Nuclear Spectroscopic Telescope Array} (\textit{NuSTAR}, \citealp{Harrison_NuStar}) is a NASA-operated satellite launched from the \textit{Stargazer} aircraft off the coast of the Marshall Islands on June 13, 2012.  The satellite carries two co-pointing X-ray telescopes, which are matched with Focal Plane Modules referred to as FPMA and FPMB.  These detectors are sensetive and calibrated in the range 3--78\,keV, and each has an effective are which maximises at $\sim450$\,cm$^2$ at $\sim10$\,keV.  The telescopes have a field of view of $12.2\times12.2$', and a full-width half-maximum angular resolution of $\gtrsim18$''.  Events are detected by \textit{NuSTAR} with an arrival time error of $\sim\pm3$\,ms, while the energy resolution at 50\,keV is around 0.4\,keV.
+\par For the research presented in this thesis, we reduce data from \textit{NuSTAR} using the \texttt{nupipeline} script from the freely available \textit{NuSTAR} Data Analysis Software (NuSTARDAS\footnote{\url{https://heasarc.gsfc.nasa.gov/docs/nustar/analysis/nustar_swguide.pdf}}).  This script automatically runs all of the relevant tasks required to reduce \textit{NuSTAR} data, including flagging of events, flagging of bad pixels and correcting for detector gain.  It also calculates sky co-ordinates and energy for each event.
+
 \subsection{\textit{INTEGRAL}}
+
+\par The \textit{INTernational Gamma-Ray Astrophysics Laboratory} (\textit{INTEGRAL}, \citealp{Winkler_INTEGRAL}) is an ESA-operated satellite which was launched from Kazakhstan's Baikonur Cosmodrome on October 17, 2002.  The primary purpose of the mission is the spectroscopy of astrophysical sources in the hard X-ray and soft gamma-ray bands, between $\sim4$--10,000\,keV.
+\par \textit{INTEGRAL} carries two main scientific instruments: the SPectrometer on \textit{INTEGRAL} (SPI, \citealp{Vedrenne_SPI}) and the Imager on-Board \textit{INTEGRAL} (IBIS, \citealp{Winkler_IBIS}).  The spacecraft also carries an X-ray monitor (JEM-X, \citealp{Schnopper_JEMX}) and an optical camera (OMC, \citealp{Gimenez_OMC}).
+\par SPI is a high-resolution gamma-ray spectrometer, with an energy resolution of $\sim$2.2\,keV at 1.33\,MeV and an energy range of 18\,keV to 8\,MeV.  It has a field of view of $>14^\circ$, an angular resolution of 2.5$^\circ$, a time resolution of 0.129\,ms and a collecting area of 500\,cm$^2$.
+\par IBIS has a larger energy range than SPI, from 15\,keV to 10\,MeV, and a larger collecting area at 3100\,cm$^2$.  The timing accuracy is 61\,$\mu$s, but the energy resolution peaks at only 8\% at $\sim100$\,keV.  As IBIS is an imager, it has a good angular resolution of $\sim12$' and a field of view of $>8\times8$''.  IBIS contains two detector plains stacked on top of each other; the top layer (ISGRI, \citealp{Lebrun_ISGRI}) is designed to detect low-energy gamma rays, while the lower layer (PICsIT, \citealp{Labanti_Picsit}) is designed to detect the higher-energy gamma rays which pass through ISGRI undetected.
+\par Data products from all four instruments are available via the \textit{INTEGRAL} Heavens portal \citep{Lubinski_Heavens} maintained by the \textit{INTEGRAL} Science Data Centre \footnote{\url{https://www.isdc.unige.ch/heavens/}}.  This portal provides images, lightcurves and spectra of data taken from archived \textit{INTEGRAL} observations.
 
 \section{Methods \& Techniques}
 
@@ -83,15 +104,33 @@ The event lists that result from this process can then be filtered using \texttt
 
 \subsection{Lightcurve Morphology}
 
+\par The morphology of a lightcurve, how the brightness of a source varies over time, can tell us about the physical process at work behind this variability.  For example, the rise and fall-times of an X-ray burst can be matched with characteristic physical timescales of an accreting system to better understand the physical nature of the process behind the burst. xxxxx
+
 \subsubsection{Lightcurve Folding}
+
+\par In systems with periodic or quasi-periodic behaviour, it is important to understand the morphology of a single cycle of the behaviour.  If the system is bright enough that there are good statistics on timescales shorter than that of the oscillation, this is trivial; however it is often the case that the behaviour of a single oscillation in faint systems is difficult to discern.  Instead, we can take the average of many cycles, greatly increasing the signal-to-noise ratio of our data.  The process of obtaining this average cycle is known as `folding' data.
+\par To fold a periodic dataset with a known period $p$, the time $t$ associated with each datapoint must be converted into a phase $\phi$ (for $0\leq\phi<1$) such that datapoints at the same stage of different oscillations have the same $\phi$.  This can be done using the formula:
+\begin{equation}
+\phi(t)=\Phi(t)\mod1=(t-t_0)/p\mod1
+\label{eq:simfold}
+\end{equation}
+Where $\Phi(t)$ is the fractional number of cycles which have elapsed between times $t_0$ and $t$ for an arbitrary start time $t_0$.  This is equivalent to $\phi(t)=(t-t_0)/p-N_t$, where $N_t$ is the integer number of complete cycles which have occured between times $t_0$ and $t$.
+\par This procedure can also be thought of as cutting a lightcurve into a number of pieces each of length $p$, and finding fractionally how far along each point is along the piece in which it falls.  Once this information has been found for all datapoints, the data can be rebinned in $\phi$-space to `stack` every cycle on top of one another.  We illustrate this process visually in Figure \ref{fig:Folding}.  This method is useful for finding mean oscillation profiles when $p$ is very close to a constant, such as finding the mean pulse profile of a pulsar over a small number of rotations.  However in many cases, such as in quasi-periodic oscillations (QPOs), $p$ is not a constant.  More complex methods must then be used to find the mean pulse profile.
+
+\begin{figure}
+    \includegraphics[width=\columnwidth, trim = 0mm 20mm 0mm 28mm]{images/folding.eps}
+    \captionsetup{singlelinecheck=off}
+    \caption{A diagram explaining the process of folding a periodic lightcurve with a known period.  \textbf{1:} a simulated lightcurve with errors.  \textbf{2:} Divide the lightcurve into sections by cutting it at every time coordinate $Np$, where $p$ is the known period and $N$ is any integer.  Each data point may now be given a phase coordinate $\phi$ in addition to its time coordinate $t$, where $\phi=(t/p)-N$ for $N$ such that $0\leq\phi<1$.  \textbf{3:} The lightcurve segments can be realigned in phase-space, such that points with the same value of $\phi$ sit at the same $x$-coordinate.  \textbf{4:} All points within given bins in $\phi$-space are averaged to create a lightcurve corresponding to the averaged oscillations of the original lightcurve.  The folding has revealed a peak at $\phi=0.75$ which was not apparent in the unfolded data.}
+   \label{fig:Folding}
+\end{figure}
 
 \subsubsection{Flare-Finding Algorithm}
 \label{sec:Flares}
 
-\par The algorithm used to find flares is performed as such (see also Figure \ref{fig:BurstAlg}):
+\par To fold a quasi-periodic oscillation, such as the `heartbeat' flares seen in GRS 1915+105 and IGR J17091-3624, it is first important to find the $t$-values which characterise each flare.  To this end, I have created an algorithm to locate individual flares in a dataset containing non-periodic high-amplitude flares. The algorithm is performed as such (see also Figure \ref{fig:BurstAlg}):
 
 \begin{enumerate}
-  \item Choose some threshold values $T_L$ and $T_H$.  Set the value of all datapoints below $T_L$ to zero.
+  \item Choose some threshold values $T_L$ and $T_H$.  Set the y-value of all datapoints with $y<T_L$ to zero.
   \item Retrieve the x-co-ordinate of the highest value remaining in the dataset.  Call this value $x_m$ and store it in a list.
   \item Set the value of point at $x_m$ to zero.
   \item Scan forwards from $x_m$.  If the selected point has a nonzero value, set it to zero and move to the next point.  If the selected point has a zero value, move to step (v).
@@ -138,9 +177,43 @@ We show an example of Heidke skill score grid for this algorithm, applied to a C
    \label{fig:Heidke}
 \end{figure}
 
+\par Using this algorithm on a lightcurve from an astrophysical source returns a list of flare peak times $x_m$, and a list of trough times $x_c$.
+
 \subsubsection{Variable Period Lightcurve Folding}
 
+\par With the values $x_m$ and $x_c$ found using the algorithm described above, it is possible to recast Equation \ref{eq:simfold} to fold data over a high-amplitude but quasi-periodic oscillation.  I detail my method below:
+
+\begin{enumerate}
+  \item Take the ascending list of $t$-coordinates $x_m$.  Assign the first element a value $\Phi=0$.
+  \item Assign each other point in $x_m$ an integer value $\Phi(t)$, such that the $\Phi$ value of the $i$th value of $x_m$ is defined as:
+  \begin{equation}
+  \Phi(x_m^{i})=\Phi(x_m^{i-1})+1, i\geq2
+  \end{equation}
+  \item If the troughs between bursts are well-defined, proceed to step 4.  Otherwise, skip to step 6.
+  \item If the $t$-coordinate of the first datapoint in $x_c$ is less than the $t$-coordinate of the first datapoint in $x_m$, assign $\Phi(x_c^1)=-0.5$.  Otherwise, assign $\Phi(x_c^1)=-0.5$.
+  \item Assign each other point in $x_m$ a value $\Phi(x)$, such that the $\Phi$ value of the $i$th value of $x_c$ is defined as:
+  \begin{equation}
+  \Phi(x_c^{i})=\Phi(x_c^{i-1})+1, i\geq2
+  \end{equation}
+  \item Create a general function defining $\Phi$ for all $t$ by fitting the $t$ and $\Phi$ values of $x_m$ (and $x_c$, if used) with a monotonically increasing univariate cubic spline\footnote{Computationaly realised as \texttt{PchipInterpolator} in the \texttt{Scipy} package for Python \citep{NumPy}.} $S(t)$.
+  \item Define the phase $\phi(t)$ of an arbitrary time $t$ as $\phi(t)=S(t)\mod1$.
+\end{enumerate}
+
+\par With a phase defined for all points in time, the data can be manipulated as if it had been folded in the usual way.  If the trough times in addition to the peak times are used to construct the spline, then the folded data is more accurate: however, by definition the rising part of each flare will occupy phases 0.5--1.0, while the falling part will occupy 0.0--0.5, so any assymetry in the rise and fall times of the average flare is lost.
+
 \subsection{Timing Analysis}
+
+\par Another way of looking at the variability of an astrophysical source is by looking in the frequency domain.  Well-established mathematical techniques, in particular Fourier spectroscopy, are able to deconvolve a time series into series of sine waves.  The amplitudes of these sine waves indicate how much variability in the system takes place at a given frequency.
+
+\subsubsection{Fourier Spectroscopy}
+
+\par Fourier Spectroscopy \citep{Fourier} is the most common way to perform frequency analysis on a time series.  The Fourier transform $\hat{f}(\nu)$ of a time series $f(t)$ is defined as:
+\begin{equation}
+\hat{f}(\nu)=\int_\infty^\infty f(t)e^{-2\pi it\nu} dt
+\end{equation}
+Where $\nu$ is the frequency to be probed and $i\equiv\sqrt{-1}$.  The magnitudes of the complex values $\hat{f}(\nu)$ describe the amplitude of the sine wave deconvolution at frequency $\nu$, while the arguments describe the relative phase of each of these sine waves.  As such, a plot of $|\hat{f}(\nu)|$ against $\nu$, known as a Fourier spectrum, highlights the frequencies at which the time series shows oscillations.  A strictly periodic oscillation shows up in a Fourier spectrum as a delta spike at a single frequency $\nu_p$; if the oscillation is not strictly sinusoidal, then there may also be spikes present at the harmonic frequencies $N\nu_p$
+
+\subsubsection{Lomb-Scargle Periodograms}
 
 \subsection{Energy Spectral Analysis}
 
