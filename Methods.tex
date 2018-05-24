@@ -75,9 +75,9 @@ The event lists that result from this process can then be filtered using \texttt
 \subsection{\textit{Suzaku}}
 
 \par \textit{Suzaku} \citep{Mitsuda_Suzaku} was a JAXA-operated satellite which operated from its launch from the Uchinoura Space Center on July 10, 2005 until being decomissioned on September 2, 2015.  The mission was intended for X-ray spectroscopy; however the satellite's primary instrument, the X-Ray Spectrometer (XRS, \citealp{Kelley_XRS}), lost all of its liquid helium coolant within the first month of operation, rendering it effectively unusable.  The remaining instruments aboard \textit{Suzaku}, namely the X-Ray Imaging Spectrometers (XIS, \citealp{Koyama_XIS}) and the Hard X-Ray Detector (HXD, \citealp{Takahashi_HXD}) were unaffected by the malfunction and continued to operate normally throughout the spacecraft's lifetime.
-\par XIS 
-\par HXD 
-\par Reduction 
+\par XIS xxxxx
+\par HXD xxxxx
+\par Reduction xxxxx
 
 \subsection{\textit{NuSTAR}}
 
@@ -211,7 +211,26 @@ We show an example of Heidke skill score grid for this algorithm, applied to a C
 \begin{equation}
 \hat{f}(\nu)=\int_\infty^\infty f(t)e^{-2\pi it\nu} dt
 \end{equation}
-Where $\nu$ is the frequency to be probed and $i\equiv\sqrt{-1}$.  The magnitudes of the complex values $\hat{f}(\nu)$ describe the amplitude of the sine wave deconvolution at frequency $\nu$, while the arguments describe the relative phase of each of these sine waves.  As such, a plot of $|\hat{f}(\nu)|$ against $\nu$, known as a Fourier spectrum, highlights the frequencies at which the time series shows oscillations.  A strictly periodic oscillation shows up in a Fourier spectrum as a delta spike at a single frequency $\nu_p$; if the oscillation is not strictly sinusoidal, then there may also be spikes present at the harmonic frequencies $N\nu_p$
+Where $\nu$ is the frequency to be probed and $i\equiv\sqrt{-1}$.  The magnitudes of the complex values $\hat{f}(\nu)$ describe the amplitude of the sine wave deconvolution at frequency $\nu$, while the arguments describe the relative phase of each of these sine waves.  As such, a plot of $|\hat{f}(\nu)|$ against $\nu$, known as a Fourier spectrum, highlights the frequencies at which the time series shows oscillations.  A strictly periodic oscillation shows up in a Fourier spectrum as a delta spike at a single frequency $\nu_p$; if the oscillation is not strictly sinusoidal, then there may also be spikes present at the harmonic frequencies $N\nu_p$ for any natural number $N$.  A quasi-periodic oscillation shows up in a Fourier spectrum as a Lorentzian, defined by its amplitude and its quality factor $q$, defined as peak frequency divided by full-width half-maximum frequency width, which is approximately the number of oscillations over which the QPO remains coherent.
+\par Fourier Spectroscopy was envisioned to analyse continuous, infinite data.  However, physical data differs from this ideal case in two important ways:
+\begin{enumerate}
+\item Physical data is discrete rather than continuous, consisting of samples taken at a finite rate $r$.
+\item Physical data is finite rather than infinite, being taken in some window of length $w$.
+\end{enumerate}
+As such, as we show in Figure \ref{fig:convolve}, physical data consists of a time series convolved with both a windowing function and a sampling function.  Each of these convolutions adds spurious features to the power spectrum produced by the data.
+
+\begin{figure}
+    \includegraphics[width=\columnwidth, trim = 0mm 10mm 0mm 10mm]{images/convolve.eps}
+    \captionsetup{singlelinecheck=off}
+    \caption{A representation of a continuous variable $y(t)$ is convolved with a windowing function $w(t)$ and a sampling function $s(t)$ to yield physical data.  The bottom panel shows how aliasing arises, showing that sine waves of two different frequencies can be fit to the data: one with a frequency $\nu$ equal to that in the original dataset, and one of frequency $\sigma-\nu$ where $\sigma$ is the sampling frequency.}
+   \label{fig:convolve}
+\end{figure}
+
+\par The convolution with a sampling function adds so-called `aliased' peaks to the power spectrum of a given dataset.  For each peak in the power spectrum at frequency $\nu$, there will also be a peak present at a frequency of $\sigma-\nu$, where $\sigma$ is the sampling frequency.  This peak can be understood as the beat frequency between the oscillation in the data and the sampling frequency (see also the lower panel of Figure \ref{fig:convolve} for a visual explanation), and contains no additional information on the system.  To avoid these aliased peaks, values of $\hat{f}(\nu)$ outside of the range $0<\nu\leq\sigma/2$ are discarded.  The frequency $\sigma/2$, the maximum frequency at which one can extract useful information on a parameter sampled at constant frequency $\sigma$, is known as the Nyquist frequency.
+\par The convolution with the windowing function, on the other hand, causes peaks in the power spectrum to be broadened.  The form of this broadening depends on the windowing function which is being used.  Generally, physical data has been convolved with a so-called `boxcar' window; i.e., a function which takes a value of 1 during the period of measurement and 0 elsewhere.  A convolution with a boxcar window causes each peak in the power spectrum to be accompanied by a number of lower-amplitude sidelobes either side of it in frequency space; this serves to smear out a power spectrum and causes some information to be lost.  Other windows can be applied to data to attempt to lessen this effect; for example, convolving a dataset with a triangular window by multiplying each datapoint in the time series by its absolute distance in time from the midpoint of the observation.  Many non-boxcar windows have been formulated to lessen the effect of sidelobing, but it is impossible to remove the effect completely when working with a finite dataset.
+\par FFT
+\par errors
+
 
 \subsubsection{Lomb-Scargle Periodograms}
 
