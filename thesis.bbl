@@ -154,6 +154,11 @@
   Mission}.
 \newblock {\em \apj}, 697:1071--1102.
 
+\bibitem[Azzalini, 1985]{Azzalini_Dist}
+Azzalini, A. (1985).
+\newblock A class of distributions which includes the normal ones.
+\newblock {\em Scandinavian Journal of Statistics}, 12(2):171--178.
+
 \bibitem[{Backer} et~al., 1982]{Backer_MSP}
 {Backer}, D.~C., {Kulkarni}, S.~R., {Heiles}, C., {Davis}, M.~M., and {Goss},
   W.~M. (1982).
@@ -245,6 +250,12 @@
 \newblock In {Siegmund}, O.~H.~W. and {Hudson}, H.~S., editors, {\em EUV,
   X-ray, and Gamma-ray instrumentation for astronomy}, volume 1344 of {\em
   \procspie}, pages 144--153.
+
+\bibitem[{Bildsten}, 1995]{Bildsten_Regimes}
+{Bildsten}, L. (1995).
+\newblock {Propagation of nuclear burning fronts on accreting neutron stars:
+  X-ray bursts and sub-hertz noise}.
+\newblock {\em \apj}, 438:852--875.
 
 \bibitem[{Bildsten} and {Brown}, 1997]{Bildsten_Nuclear}
 {Bildsten}, L. and {Brown}, E.~F. (1997).
@@ -379,19 +390,21 @@
 \newblock {Optical/Near-Infrared Observations of GRO J1744-28}.
 \newblock {\em \apj}, 480:377--382.
 
+\bibitem[Cooley and Tukey, 1965]{Cooley_FFT}
+Cooley, J.~W. and Tukey, J.~W. (1965).
+\newblock {An algorithm for the machine calculation of complex Fourier series}.
+\newblock {\em Mathematics of Computation}, 19:297--301.
+\newblock URL: {\tt http://cr.yp.to/\allowbreak bib/\allowbreak
+  entries.html\#\allowbreak 1965/\allowbreak cooley}.
+
 \bibitem[Court, 2017]{Court_PANTHEON}
 Court, J. (2017).
 \newblock jmcourt/pantheon: Zenodo release.
 
-\bibitem[{Court} et~al., 2018a]{Court_BPTMSP}
-{Court}, J., {Altamirano}, D., and {Sanna}, A. (2018a).
-\newblock {The Bursting Pulsar GRO J1744-28: the Slowest Transitional Pulsar?}
-\newblock {\em ArXiv e-prints}.
-
-\bibitem[{Court} et~al., 2018b]{Court_BPClasses}
+\bibitem[{Court} et~al., 2018a]{Court_BPClasses}
 {Court}, J.~M.~C., {Altamirano}, D., {Albayati}, A.~C., {Overton}, T., {Sanna},
   A., {Degenaar}, N., {Yamaoka}, K., {Belloni}, T., and {Blaes}, O. ((in prep)
-  2018b).
+  2018a).
 \newblock {A Population Study of X-Ray bursts in the "Bursting Pulsar" GRO
   J1744-28}.
 \newblock {\em \mnras}.
@@ -402,6 +415,11 @@ Court, J. (2017).
 \newblock {An atlas of exotic variability in IGR J17091-3624: a comparison with
   GRS 1915+105}.
 \newblock {\em \mnras}, 468:4748--4771.
+
+\bibitem[{Court} et~al., 2018b]{Court_BPTMSP}
+{Court}, J.~M.~C., {Altamirano}, D., and {Sanna}, A. (2018b).
+\newblock {The Bursting Pulsar GRO J1744-28: the slowest transitional pulsar?}
+\newblock {\em \mnras}, 477:L106--L110.
 
 \bibitem[{Courvoisier} et~al., 2003]{Courvoisier_ISDC}
 {Courvoisier}, T.~J.-L., {Walter}, R., {Beckmann}, V., {Dean}, A.~J., {Dubath},
@@ -543,6 +561,11 @@ Court, J. (2017).
 \newblock {IGR J18245-2452: a new hard X-ray transient discovered by INTEGRAL}.
 \newblock {\em The Astronomer's Telegram}, 4925.
 
+\bibitem[{Einstein}, 1916]{Einstein_GR}
+{Einstein}, A. (1916).
+\newblock {Die Grundlage der allgemeinen Relativit{\"a}tstheorie}.
+\newblock {\em Annalen der Physik}, 354:769--822.
+
 \bibitem[{Evans} et~al., 2009]{Evans_Swift2}
 {Evans}, P.~A., {Beardmore}, A.~P., {Page}, K.~L., {Osborne}, J.~P., {O'Brien},
   P.~T., {Willingale}, R., {Starling}, R.~L.~C., {Burrows}, D.~N., {Godet}, O.,
@@ -670,6 +693,13 @@ Fourier, J. (1822).
 {Gehrels}, N., {Chipman}, E., and {Kniffen}, D. (1994).
 \newblock {The Compton Gamma Ray Observatory}.
 \newblock {\em \apjs}, 92:351--362.
+
+\bibitem[{Gendreau} et~al., 2012]{Gendreau_Nicer}
+{Gendreau}, K.~C., {Arzoumanian}, Z., and {Okajima}, T. (2012).
+\newblock {The Neutron star Interior Composition ExploreR (NICER): an Explorer
+  mission of opportunity for soft x-ray timing spectroscopy}.
+\newblock In {\em Space Telescopes and Instrumentation 2012: Ultraviolet to
+  Gamma Ray}, volume 8443 of {\em \procspie}, page 844313.
 
 \bibitem[{Ghosh} and {Chakrabarti}, 2014]{Ghosh_Eccentric}
 {Ghosh}, A. and {Chakrabarti}, S.~K. (2014).
@@ -1188,6 +1218,11 @@ Kenney, J. (1939).
 \newblock {A review of quasi-periodic oscillations in low-mass X-ray binaries}.
 \newblock {\em \ssr}, 46:273--378.
 
+\bibitem[{Li}, 2007]{Li_HXMT}
+{Li}, T.-P. (2007).
+\newblock {HXMT: A Chinese High-Energy Astrophysics Mission}.
+\newblock {\em Nuclear Physics B Proceedings Supplements}, 166:131--139.
+
 \bibitem[{Lightman} and {Eardley}, 1974]{Lightman_Instability}
 {Lightman}, A.~P. and {Eardley}, D.~M. (1974).
 \newblock {Black Holes in Binary Systems: Instability of Disk Accretion}.
@@ -1572,6 +1607,7 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 
 \bibitem[{Poisson}, 1837]{Poisson_Distribution}
 {Poisson}, S. (1837).
+\newblock Mathematics of Statistics. Bachelier.
 
 \bibitem[{Poutanen} and {Svensson}, 1996]{Poutanen_Hybrid}
 {Poutanen}, J. and {Svensson}, R. (1996).
@@ -1813,6 +1849,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 {Steiner}, J.~F., {Narayan}, R., {McClintock}, J.~E., and {Ebisawa}, K. (2009).
 \newblock {A Simple Comptonization Model}.
 \newblock {\em \pasp}, 121:1279.
+
+\bibitem[{Stirling} et~al., 2001]{Stirling_Jet}
+{Stirling}, A.~M., {Spencer}, R.~E., {de la Force}, C.~J., {Garrett}, M.~A.,
+  {Fender}, R.~P., and {Ogley}, R.~N. (2001).
+\newblock {A relativistic jet from Cygnus X-1 in the low/hard X-ray state}.
+\newblock {\em \mnras}, 327:1273--1278.
 
 \bibitem[{Strader} et~al., 2016]{Strader_6}
 {Strader}, J., {Li}, K.-L., {Chomiuk}, L., {Heinke}, C.~O., {Udalski}, A.,
