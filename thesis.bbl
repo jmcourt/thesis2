@@ -478,6 +478,11 @@ Court, J. (2017).
   gamma-ray Fermi-LAT association}.
 \newblock {\em \aap}, 550:A89.
 
+\bibitem[{Deegan} et~al., 2009]{Deegan_1915}
+{Deegan}, P., {Combet}, C., and {Wynn}, G.~A. (2009).
+\newblock {The outburst duration and duty cycle of GRS1915+105}.
+\newblock {\em \mnras}, 400:1337--1346.
+
 \bibitem[{Degenaar} et~al., 2014a]{Degenaar_BPSpec}
 {Degenaar}, N., {Miller}, J.~M., {Harrison}, F.~A., {Kennea}, J.~A.,
   {Kouveliotou}, C., and {Younes}, G. (2014a).
@@ -604,6 +609,11 @@ Court, J. (2017).
   Systems}.
 \newblock {\em \araa}, 42:317--364.
 
+\bibitem[{Fender} et~al., 2004]{Fender_UniJets}
+{Fender}, R.~P., {Belloni}, T.~M., and {Gallo}, E. (2004).
+\newblock {Towards a unified model for black hole X-ray binary jets}.
+\newblock {\em \mnras}, 355:1105--1118.
+
 \bibitem[{Ferrigno} et~al., 2014]{Ferrigno_TMSPVar}
 {Ferrigno}, C., {Bozzo}, E., {Papitto}, A., {Rea}, N., {Pavan}, L., {Campana},
   S., {Wieringa}, M., {Filipovi{\'c}}, M., {Falanga}, M., and {Stella}, L.
@@ -693,6 +703,14 @@ Fourier, J. (1822).
 {Gehrels}, N., {Chipman}, E., and {Kniffen}, D. (1994).
 \newblock {The Compton Gamma Ray Observatory}.
 \newblock {\em \apjs}, 92:351--362.
+
+\bibitem[{Geldzahler} et~al., 1983]{Geldzahler_Jet}
+{Geldzahler}, B.~J., {Johnston}, K.~J., {Spencer}, J.~H., {Klepczynski}, W.~J.,
+  {Josties}, F.~J., {Angerhofer}, P.~E., {Florkowski}, D.~R., {McCarthy},
+  D.~D., {Matsakis}, D.~N., and {Hjellming}, R.~M. (1983).
+\newblock {The 1982 September radio outburst of Cygnus X-3 - Evidence for
+  jetlike emission expanding at not less than about 0.35 C}.
+\newblock {\em \apjl}, 273:L65--L69.
 
 \bibitem[{Gendreau} et~al., 2012]{Gendreau_Nicer}
 {Gendreau}, K.~C., {Arzoumanian}, Z., and {Okajima}, T. (2012).
@@ -1047,6 +1065,11 @@ Kenney, J. (1939).
 \newblock {X-Ray Imaging Spectrometer (XIS) on Board Suzaku}.
 \newblock {\em \pasj}, 59:23--33.
 
+\bibitem[{Kozlowski} et~al., 1978]{Kozlowski_ISCO}
+{Kozlowski}, M., {Jaroszynski}, M., and {Abramowicz}, M.~A. (1978).
+\newblock {The analytic theory of fluid disks orbiting the Kerr black hole}.
+\newblock {\em \aap}, 63:209--220.
+
 \bibitem[{Kraft} et~al., 2000]{Kraft_HRCS}
 {Kraft}, R.~P., {Chappell}, J.~H., {Kenter}, A.~T., {Meehan}, G.~R., {Murray},
   S.~S., {Zombeck}, M.~V., {Donnelly}, R.~H., {Drake}, J.~J., {Johnson}, C.~O.,
@@ -1392,6 +1415,11 @@ Kenney, J. (1939).
   oscillations in GRS 1915+105}.
 \newblock {\em \mnras}, 457:2999--3005.
 
+\bibitem[{Mirabel} and {Rodr{\'{\i}}guez}, 1994]{Mirabel_Microquasar}
+{Mirabel}, I.~F. and {Rodr{\'{\i}}guez}, L.~F. (1994).
+\newblock {A superluminal source in the Galaxy}.
+\newblock {\em \nat}, 371:46--48.
+
 \bibitem[{Misner} et~al., 1973]{Misner_GravBook}
 {Misner}, C.~W., {Thorne}, K.~S., and {Wheeler}, J.~A. (1973).
 \newblock {\em {Gravitation}}.
@@ -1429,6 +1457,14 @@ Kenney, J. (1939).
   D., and {Yoshida}, A. (2007).
 \newblock {The X-Ray Observatory Suzaku}.
 \newblock {\em \pasj}, 59:1--7.
+
+\bibitem[{Mitsuda} et~al., 1984]{Mitsuda_diskbb}
+{Mitsuda}, K., {Inoue}, H., {Koyama}, K., {Makishima}, K., {Matsuoka}, M.,
+  {Ogawara}, Y., {Shibazaki}, N., {Suzuki}, K., {Tanaka}, Y., and {Hirano}, T.
+  (1984).
+\newblock {Energy spectra of low-mass binary X-ray sources observed from
+  TENMA}.
+\newblock {\em \pasj}, 36:741--759.
 
 \bibitem[{Morgan} et~al., 1997]{Morgan_QPO}
 {Morgan}, E.~H., {Remillard}, R.~A., and {Greiner}, J. (1997).
@@ -1746,6 +1782,13 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
   Binary to a Redback Millisecond Pulsar}.
 \newblock {\em \apjl}, 800:L12.
 
+\bibitem[{R{\'o}{\.z}a{\'n}ska} et~al., 2002]{Rozanska_Lamppost}
+{R{\'o}{\.z}a{\'n}ska}, A., {Dumont}, A.-M., {Czerny}, B., and {Collin}, S.
+  (2002).
+\newblock {The structure and radiation spectra of illuminated accretion discs
+  in active galactic nuclei - I. Moderate illumination}.
+\newblock {\em \mnras}, 332:799--813.
+
 \bibitem[{Russell} et~al., 2017]{Russell_BPRad}
 {Russell}, T., {Degenaar}, N., {Miller-Jones}, J., and {Tudor}, V. (2017).
 \newblock {Radio luminosity upper limits of the transient neutron star low-mass
@@ -1825,6 +1868,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 {Shakura}, N.~I. and {Sunyaev}, R.~A. (1973).
 \newblock {Black holes in binary systems. Observational appearance.}
 \newblock {\em \aap}, 24:337--355.
+
+\bibitem[{Skipper} et~al., 2013]{Skipper_CoronaGeo}
+{Skipper}, C.~J., {McHardy}, I.~M., and {Maccarone}, T.~J. (2013).
+\newblock {Very fast X-ray spectral variability in Cygnus X-1: origin of the
+  hard- and soft-state emission components}.
+\newblock {\em \mnras}, 434:574--584.
 
 \bibitem[{Spruit} and {Taam}, 1993]{Spruit_Type2Mod}
 {Spruit}, H.~C. and {Taam}, R.~E. (1993).
