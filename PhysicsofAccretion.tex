@@ -4,11 +4,93 @@
 
 \section{The Shakura-Sunyaev Disk Model}
 
-\section{The Propellor Effect}
-
 \section{The Eddington Limit}
 
-\subsection{Disk Instabilities}
+\par The next two sections will deal with effects which tend to limit the amount of matter that can be accreted in extreme conditions.  First I will derive the Eddington Limit \citep{xxxxx}, the theoretical maximum luminosity of a system powered by spherical accretion.
+\par Consider an element of gas at distance $r$ from a compact object, with mass $m$.  This element of gas is acted on by a inwards-pointing gravitational force given by:
+\begin{equation}
+F_G=\frac{GMm}{r^2}
+\end{equation}
+Where $M$ is the mass of the compact object.
+\par The X-ray Binary is of course bright in electromagnetic radiation, emitting a luminosity $L$.  If we assume that this luminosity is emitted isotropically, then the electromagnetic flux at distance $r$ is given by:
+\begin{equation}
+\phi(r)=\frac{L}{4\pi r^2}
+\end{equation}
+Electromagnetic radiation exerts a pressure on material corresponding to $\phi/c$.  As such, the radiation from the X-ray binary exerts an outwards force on our gas element corresponding to:
+\begin{equation}
+F_L=\frac{\kappa m\phi(r)}{c}=\frac{L\kappa m}{4\pi r^2c}
+\end{equation}
+Where $\kappa$ is the opacity of the cloud, or its surface area per unit mass.
+\par If $F_G$ and $F_L$ are equal, then no net force is exerted on our cloud of matter and it will not accrete onto the compact object.  This happens when:
+\begin{eqnarray}
+F_G&=&F_L\\ \nonumber \\
+\frac{GMm}{r^2}&=&\frac{L\kappa m}{4\pi r^2c} \\ \nonumber \\
+L&=&\frac{GMm}{r^2}\frac{4\pi r^2c}{\kappa m} \\ \nonumber \\
+L&=&\frac{4\pi GMc}{\kappa}
+\end{eqnarray}
+This luminosity, denoted as $L_E$, is the Eddington luminosity of the source; the maximum luminosity an object can be and still have accretion take place.  It only depends on the mass of the compact object $M$ and the opacity of the accreting material $\kappa$, which in turn depends on the chemical make-up of the accretion disk.  As accretion disks tend to be dominated by ionised hydrogen, $\kappa$ is usually assumed to be $\sigma_T/m_p$, where $\sigma_T$ is the Thomson scattering cross section of an electron and $m_p$ is the mass of a proton.  This assumption yields the final formula which only depends on the mass of the compact object:
+\begin{equation}
+L_E=\frac{4\pi GMm_pc}{\sigma_T}
+\end{equation}
+\par From \citet{Shakura_Disk}, it can be shown that the luminosity of an X-ray binary is proportional to its accretion rate to the power xxxxx.  As such, the theoretical maximum luminosity of an XRB $L_E$ also corresponds to a theoretical maximum accretion rate $\dot{M}_E$.
+\par However, a number of X-ray binaries have been seen to shine at luminosities above this limit; in one of the most extreme cases, the confirmed neutron star XRB M82 X-1 has a luminosity of $\sim100L_E$ \citep{Bachetti_M82X1}.  This is possible due to the fact that a number of assumptions made when calculating the Eddington limit do not apply to physical XRBs.  In particular, the calculation performed above assumes that both accretion on to the compact object, as well as electromagnetic emission from it, are isotropic.  An object which appears to exceed the Eddington limit may do so if it is not isotropically accreting, which is the case for XRBs as these systems accrete from near-planar disks.  A system may further exceed the Eddington limit if its emission is beamed; an XRB beamed in the direction of the Earth would lead us to infer an artificially high value of $L$, and thus overestimate its luminosity with respect to the Eddington Limit.
+\par Despite these setbacks, the Eddington Luminosity is a useful tool to compare XRBs with different compact object masses.  By expressing the luminosity of an object as a fraction of its Eddington Limit, often referred to as its Eddington fraction, objects can be rescaled in such a way that we can compare how dominant photon pressure must be in each accretion disk.
+
+\section{The Propellor Effect}
+
+\par Another limit on accretion rate arises when one considers the effect of a strong neutron star magnetic field.  To understand this effect, we must first define two characteristic radii of such a system.
+\par First, assume that the magnetic field of the neutron star can be approximated as a set of rigid field lines which are anchored to points on the neutron star surface.  The magnetic field can then be thought of as a `cage' which rotates with the neutron star at its centre.  The straight-line speed of a point on this rotating cage is given by:
+\begin{equation}
+v_\nu(r)=2\pi r\nu
+\end{equation}
+Where $r$ is the distance from the neutron star centre and $\nu$ is the rotation frequency of the neutron star.  This can be compared with the Keplerian speed, or the speed of a particle in a Keplerian orbit around the compact object.  This is given by:
+\begin{equation}
+v_K(r)=\sqrt{\frac{GM}{r}}
+\end{equation}
+Where $M$ is the mass of the neutron star.  By setting these equal, we can find the radius at which the magnetic field is rotating at the same speed as a particle in a Keplerian orbit:
+\begin{eqnarray}
+v_\nu(r)&=&v_K(r)\\ \nonumber \\
+2\pi r\nu&=&\sqrt{\frac{GM}{r}}\\ \nonumber \\
+r^3&=&\frac{GM}{4\pi^2\nu^2}\\ \nonumber \\
+r&=&\sqrt[3]{\frac{GM}{4\pi^2\nu^2}}
+\end{eqnarray}
+This radius is denoted as $r_c$, the co-rotation radius.  Inside of this radius, an particle in an equatorial Keplerian orbit has a greater velocity than the magnetic field lines; outside this radius, the magnetic field lines are moving faster.  To understand the significance of this radius, we must define another characteristic radius of the system.
+\par In a neutron star accretion disk, there are three significant sources of pressure: gas (or ram) pressure $P_g$, photon pressure $P_\gamma$ and magnetic pressure $P_\mu$.  Whichever pressure is dominant in a given location will govern the physics of matter in that region.
+\par Photon pressure falls off sharply outwards from the inner disk, so I will assume it is negligible in the region of the disk considered here.  Assuming that the field of the neutron star is a dipole, the magnetic pressure at its equator can be given as:
+\begin{eqnarray}
+P_\mu&=&\frac{B^2}{2\mu_0}\\ \nonumber \\
+B(r)&=&B_0\left(\frac{R_{NS}}{r}\right)^3\label{eq:NS}\\ \nonumber \\
+\therefore\quad P_\mu&=&\frac{B_0^2}{2\mu_0}\left(\frac{R_{NS}}{r}\right)^6
+\end{eqnarray}
+Where $\mu_0$ is the vacuum permeability, $B_0$ is the equatorial magnetic field strength at the neutron star surface, $R_{NS}$ is the radius of the neutron star and Equation \ref{eq:NS} is the equation for the magnetic field strength above the equator of a dipole.
+\par The functional form of the ram pressure depends on the assumed accretion geometry of the system.  As I did when calculating the Eddington, I will assume the simplest possible case of spherically accreting free-falling matter.  The ram pressure is then given by:
+\begin{equation}
+P_g=\frac{\dot{M}}{4\pi r^2}\sqrt{\frac{2GM}{r}}
+\end{equation}
+When $P_\mu>P_g$, accreting material is dominated by magnetic pressure in such a way that material is `frozen' onto magnetic field lines \citep{Alfven_Waves}; this results in material flowing onto the neutron star surface along magnetic field lines onto the poles, as described in section \ref{sec:NSintro}.  It is possible to express the region of the accretion disk within which matter is magnetically dominated:
+\begin{eqnarray}
+P_g&<&P_\mu\\ \nonumber \\
+\frac{\dot{M}}{4\pi r^2}\sqrt{\frac{2GM}{r}}&<&\frac{B_0^2}{2\mu_0}\left(\frac{R_{NS}}{r}\right)^6\\ \nonumber \\
+\frac{GM\dot{M}^2}{8\pi^2 r^5}&<&\frac{B_0^4}{4\mu_0^2}\left(\frac{R_{NS}}{r}\right)^{12}\\ \nonumber \\
+r^7&<&\frac{2\pi^2}{G\mu_0^2}\frac{B_0^4R_{NS}^{12}}{M\dot{M}^2}\\ \nonumber \\
+r&<&\sqrt[7]{\frac{2\pi^2}{G\mu_0^2}\frac{B_0^4R_{NS}^{12}}{M\dot{M}^2}}
+\end{eqnarray}
+This radius, the magnetospheric or Alfv\'en radius, is denoted as $r_\mu$.
+\par Now it is possible to consider what happens to matter approaching $r_\mu$ in two different physical regimes.  First of all, consider a system in which $r_c>r_\mu$.  In this case, magnetic field lines at $r_\mu$ are moving slower than the Keplerian speed.  An element of matter approaching this radius from a Keplerian orbit will experience a torque slowing it down as it freezes onto the field lines.  By Kepler's laws of planetary motion, this necessarily decreases the altitude of this element of matter.  This pulls the element further into the magnetically-dominated regime and allows it to accrete freely along the field line onto the neutron star.
+\par Now consider what happens when $r_c<r_\mu$.  In this case, field lines at $r_\mu$ are moving faster than Keplerian speed.  An element of matter approaching $r_\mu$ will therefore experience a torque speeding it up as it becomes frozen onto magnetic field lines.  This will increase its altitude, driving it back away from $r_\mu$.  In this case, the magnetospheric radius acts as a barrier to infalling matter, repelling any gas that approaches it and stopping accretion onto the neutron star surface.  This set of circumstances is known as the `propellor regime', due to the rapidly rotating field lines acting like a `propellor' which blow the inner part of the disk away.
+\par As the propellor regime is expected to occur for $r_c<r_\mu$, it is possible to work out what kind of system this should be observed in:
+\begin{eqnarray}
+r_c&<&r_\mu\\ \nonumber \\
+\left(\frac{GM}{4\pi^2\nu^2}\right)^{1/3}&<&\left(\frac{2\pi^2}{G\mu_0^2}\frac{B_0^4R_{NS}^{12}}{M\dot{M}^2}\right)^{1/7}\\ \nonumber \\
+M^{10/21}\dot{M}^{2/7}&<&k\nu^{2/3}B_0^{4/7}R_{NS}^{12/7}
+\end{eqnarray}
+Where $k$ is a constant.  Assuming that the radius and mass of neutron stars does not vary much, this inequality tells us that the propellor regime is more likely to be observed in neutron star XRBs with a high spin frequency and a high magnetic field.  It also tells us that the propellor effect places a \textit{lower} limit on accretion in such systems: accretion is not possible unless infalling matter can apply enough ram pressure to push the magnetospheric radius inside the corotation radius.
+\par There are numerous problems with this relatively simplistic view of accretion in a highly magnetic regime.  Much as in our calculation of the Eddington Limit, it is not clear that all the assumptions are physical.  This calculation again depends on an unphysical spherical accretion geometry, and makes the assumption that the magnetic field lines can in no way be warped by the movement of ionised matter on them.  Additionally \citet{White_MRad} show that the magnetospheric radius calculated for neutron stars may fall close enough to the inner edge of the disk that photon pressure cannot be safely ignored.  In this scenario, calculating the magnetospheric radius becomes much less straightforward.
+\par Despite these problems, an effect observationally similar to the propellor effect is observed in a number of astrophysical neutron star XRBs. xxxxx
+
+\section{Disk Instabilities}
+
+\par A number of additional effects can be observed in the accretion disks of systems near or above the Eddington limit. xxxxx
 
 \label{sec:diskinstab}
 

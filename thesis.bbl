@@ -14,6 +14,11 @@
 \newblock {Slim accretion disks}.
 \newblock {\em \apj}, 332:646--658.
 
+\bibitem[{Alfv{\'e}n}, 1942]{Alfven_Waves}
+{Alfv{\'e}n}, H. (1942).
+\newblock {Existence of Electromagnetic-Hydrodynamic Waves}.
+\newblock {\em \nat}, 150:405--406.
+
 \bibitem[{Allen} et~al., 2015]{Allen_1750}
 {Allen}, J.~L., {Linares}, M., {Homan}, J., and {Chakrabarty}, D. (2015).
 \newblock {Spectral Softening Between Outburst and Quiescence In The Neutron
@@ -158,6 +163,16 @@
 Azzalini, A. (1985).
 \newblock A class of distributions which includes the normal ones.
 \newblock {\em Scandinavian Journal of Statistics}, 12(2):171--178.
+
+\bibitem[{Bachetti} et~al., 2014]{Bachetti_M82X1}
+{Bachetti}, M., {Harrison}, F.~A., {Walton}, D.~J., {Grefenstette}, B.~W.,
+  {Chakrabarty}, D., {F{\"u}rst}, F., {Barret}, D., {Beloborodov}, A., {Boggs},
+  S.~E., {Christensen}, F.~E., {Craig}, W.~W., {Fabian}, A.~C., {Hailey},
+  C.~J., {Hornschemeier}, A., {Kaspi}, V., {Kulkarni}, S.~R., {Maccarone}, T.,
+  {Miller}, J.~M., {Rana}, V., {Stern}, D., {Tendulkar}, S.~P., {Tomsick}, J.,
+  {Webb}, N.~A., and {Zhang}, W.~W. (2014).
+\newblock {An ultraluminous X-ray source powered by an accreting neutron star}.
+\newblock {\em \nat}, 514:202--204.
 
 \bibitem[{Backer} et~al., 1982]{Backer_MSP}
 {Backer}, D.~C., {Kulkarni}, S.~R., {Heiles}, C., {Davis}, M.~M., and {Goss},
@@ -2151,6 +2166,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 {Weisskopf}, M.~C. (1999).
 \newblock {The Chandra X-Ray Observatory (CXO): An Overview}.
 \newblock {\em ArXiv Astrophysics e-prints}.
+
+\bibitem[{White} and {Stella}, 1988]{White_MRad}
+{White}, N.~E. and {Stella}, L. (1988).
+\newblock {The radius of a magnetosphere in the radiation pressure dominated
+  region of an accretion disk}.
+\newblock {\em \mnras}, 231:325--331.
 
 \bibitem[{White} and {Zhang}, 1997]{White_Radiation}
 {White}, N.~E. and {Zhang}, W. (1997).

@@ -23,9 +23,10 @@ A level-1 auxiliary file: xtelist.aux
 A level-1 auxiliary file: bursthists.aux
 A level-1 auxiliary file: paramcorr.aux
 A level-1 auxiliary file: pantheon.aux
-Reallocated field_info (elt_size=4) to 10214 items from 5000.
+Reallocated field_info (elt_size=4) to 10302 items from 5000.
 Database file #1: /home/jamie/Documents/Bibliographies/refs.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--I didn't find a database entry for "xxxxx"
 Warning--can't use both author and editor fields in Fender_Jets
 Warning--empty publisher in Fender_Jets
 Warning--empty publisher in Frank_Timescales
@@ -36,45 +37,45 @@ Warning--empty title in Poisson_Distribution
 Warning--can't use both author and editor fields in Strohmayer_TypeI
 Warning--empty publisher in Strohmayer_TypeI
 Warning--empty publisher in vonMises_Poptest
-You've used 325 entries,
+You've used 328 entries,
             1935 wiz_defined-function locations,
-            2435 strings with 89370 characters,
-and the built_in function-call counts, 182313 in all, are:
-= -- 15863
-> -- 13744
-< -- 176
-+ -- 5105
-- -- 5084
-* -- 17737
-:= -- 32754
-add.period$ -- 969
-call.type$ -- 325
-change.case$ -- 4117
-chr.to.int$ -- 306
-cite$ -- 335
-duplicate$ -- 5147
-empty$ -- 9251
-format.name$ -- 5491
-if$ -- 34295
+            2455 strings with 90217 characters,
+and the built_in function-call counts, 184115 in all, are:
+= -- 16019
+> -- 13887
+< -- 178
++ -- 5159
+- -- 5138
+* -- 17918
+:= -- 33081
+add.period$ -- 978
+call.type$ -- 328
+change.case$ -- 4159
+chr.to.int$ -- 309
+cite$ -- 338
+duplicate$ -- 5189
+empty$ -- 9338
+format.name$ -- 5550
+if$ -- 34629
 int.to.chr$ -- 20
 int.to.str$ -- 0
-missing$ -- 330
-newline$ -- 1620
-num.names$ -- 1039
-pop$ -- 3744
+missing$ -- 333
+newline$ -- 1635
+num.names$ -- 1048
+pop$ -- 3778
 preamble$ -- 2
-purify$ -- 4127
+purify$ -- 4169
 quote$ -- 0
-skip$ -- 3830
+skip$ -- 3862
 stack$ -- 0
-substring$ -- 8828
-swap$ -- 828
+substring$ -- 8927
+swap$ -- 831
 text.length$ -- 92
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1930
+type$ -- 1948
 warning$ -- 10
-while$ -- 985
+while$ -- 994
 width$ -- 0
-write$ -- 4229
+write$ -- 4268
 (There was 1 error message)
