@@ -199,6 +199,12 @@ Azzalini, A. (1985).
   thermonuclear bursting behaviour}.
 \newblock {\em \mnras}, 431:1947--1955.
 
+\bibitem[{Balbus} and {Hawley}, 1991]{Balbus_MRI}
+{Balbus}, S.~A. and {Hawley}, J.~F. (1991).
+\newblock {A powerful local shear instability in weakly magnetized disks. I -
+  Linear analysis. II - Nonlinear evolution}.
+\newblock {\em \apj}, 376:214--233.
+
 \bibitem[{Barthelmy}, 2000]{Barthelmy_BAT}
 {Barthelmy}, S.~D. (2000).
 \newblock {Burst Alert Telescope (BAT) on the Swift MIDEX mission}.
@@ -395,6 +401,10 @@ Azzalini, A. (1985).
 \newblock {Chandra Localization and Detection of a Burst and Pulsations from
   GRO J1744-28}.
 \newblock {\em The Astronomer's Telegram}, 5895.
+
+\bibitem[{Chandrasekhar}, 1961]{Chandrasekhar_MRI}
+{Chandrasekhar}, S. (1961).
+\newblock {\em {Hydrodynamic and hydromagnetic stability}}.
 
 \bibitem[{Chen} et~al., 1996]{Chen_QPOs}
 {Chen}, X., {Swank}, J.~H., and {Taam}, R.~E. (1996).
@@ -690,6 +700,11 @@ Fourier, J. (1822).
 \newblock In {\em Society of Photo-Optical Instrumentation Engineers (SPIE)
   Conference Series}, volume 6270 of {\em \procspie}, page 62701V.
 
+\bibitem[{Fujimoto} et~al., 1981]{Fujimoto_Shellstab}
+{Fujimoto}, M.~Y., {Hanawa}, T., and {Miyaji}, S. (1981).
+\newblock {Shell flashes on accreting neutron stars and X-ray bursts}.
+\newblock {\em \apj}, 247:267--278.
+
 \bibitem[{Galloway} and {in't Zand}, 2010]{Galloway_NewTypeII}
 {Galloway}, D.~K. and {in't Zand}, J.~J.~M. (2010).
 \newblock {Type-II bursts from the new Terzan 5 transient: a GRO J1744-28
@@ -790,6 +805,12 @@ Fourier, J. (1822).
   building, planning, and improving}.
 \newblock In {\em Society of Photo-Optical Instrumentation Engineers (SPIE)
   Conference Series}, volume 6270 of {\em \procspie}, page 62701X.
+
+\bibitem[{Greiner} et~al., 2001]{Greiner_BigDisk}
+{Greiner}, J., {Cuby}, J.~G., {McCaughrean}, M.~J., {Castro-Tirado}, A.~J., and
+  {Mennickent}, R.~E. (2001).
+\newblock {Identification of the donor in the X-ray binary GRS 1915+105}.
+\newblock {\em \aap}, 373:L37--L40.
 
 \bibitem[{Gruber} et~al., 1996]{Gruber_HEXTE}
 {Gruber}, D.~E., {Blanco}, P.~R., {Heindl}, W.~A., {Pelling}, M.~R.,
@@ -1186,6 +1207,10 @@ Kenney, J. (1939).
 {Lamb}, D.~Q., {Miller}, M.~C., and {Taam}, R.~E. (1996).
 \newblock {GRO J1744-28: Last Gasps of a Dying Low-mass X-ray Binary}.
 \newblock {\em ArXiv Astrophysics e-prints}.
+
+\bibitem[{Landau} and {Lifshitz}, 1959]{Landau_Tensor}
+{Landau}, L.~D. and {Lifshitz}, E.~M. (1959).
+\newblock {\em {Fluid mechanics}}.
 
 \bibitem[{Leahy} et~al., 1983]{Leahy_Norm}
 {Leahy}, D.~A., {Darbro}, W., {Elsner}, R.~F., {Weisskopf}, M.~C., {Kahn}, S.,
@@ -2119,6 +2144,14 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 \newblock {A review of rapid X-ray variability in X-ray binaries}.
 \newblock {\em ArXiv Astrophysics e-prints}.
 
+\bibitem[{van Oers} et~al., 2010]{VanOers_GRSHard}
+{van Oers}, P., {Markoff}, S., {Rahoui}, F., {Maitra}, D., {Nowak}, M.,
+  {Wilms}, J., {Castro-Tirado}, A.~J., {Rodriguez}, J., {Dhawan}, V., and
+  {Harlaftis}, E. (2010).
+\newblock {Is the plateau state in GRS 1915+105 equivalent to canonical hard
+  states?}
+\newblock {\em \mnras}, 409:763--776.
+
 \bibitem[{Vaughan} et~al., 2003]{Vaughan_RMS}
 {Vaughan}, S., {Edelson}, R., {Warwick}, R.~S., and {Uttley}, P. (2003).
 \newblock {On characterizing the variability properties of X-ray light curves
@@ -2135,6 +2168,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
   M.~A., and {Andr{\'e}}, Y. (2003).
 \newblock {SPI: The spectrometer aboard INTEGRAL}.
 \newblock {\em \aap}, 411:L63--L70.
+
+\bibitem[{Velikhov}, 1959]{Velikhov_MRI}
+{Velikhov}, E. (1959).
+\newblock {Stability of an Ideally Conducting Liquid Flowing between Cylinders
+  Rotating in a Magnetic Field }.
+\newblock {\em Journal of Experimental and Theoretical Physics}, 36:1398.
 
 \bibitem[{Vignarca} et~al., 2003]{Vignarca_FluxFreqGRS}
 {Vignarca}, F., {Migliari}, S., {Belloni}, T., {Psaltis}, D., and {van der
@@ -2292,6 +2331,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 \newblock {Multitemperature Blackbody Spectra of Thin Accretion Disks with and
   without a Zero-Torque Inner Boundary Condition}.
 \newblock {\em \apj}, 618:832--844.
+
+\bibitem[{Zi{\'o}{\l}kowski} and {Zdziarski}, 2017]{Ziolkowski_GRSDonor}
+{Zi{\'o}{\l}kowski}, J. and {Zdziarski}, A.~A. (2017).
+\newblock {The mass, luminosity and mass-loss rate of the donor of the V1487
+  Aql/GRS 1915+105 binary system}.
+\newblock {\em \mnras}, 469:3315--3321.
 
 \bibitem[{Zoghbi} et~al., 2016]{Zoghbi_Bulge}
 {Zoghbi}, A., {Miller}, J.~M., {King}, A.~L., {Miller}, M.~C., {Proga}, D.,

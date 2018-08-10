@@ -23,12 +23,14 @@ A level-1 auxiliary file: xtelist.aux
 A level-1 auxiliary file: bursthists.aux
 A level-1 auxiliary file: paramcorr.aux
 A level-1 auxiliary file: pantheon.aux
-Reallocated field_info (elt_size=4) to 10302 items from 5000.
+Reallocated field_info (elt_size=4) to 10632 items from 5000.
 Database file #1: /home/jamie/Documents/Bibliographies/refs.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--empty publisher in Chandrasekhar_MRI
 Warning--can't use both author and editor fields in Fender_Jets
 Warning--empty publisher in Fender_Jets
 Warning--empty publisher in Frank_Timescales
+Warning--empty publisher in Landau_Tensor
 Warning--can't use both author and editor fields in McClintock_BHBs
 Warning--empty publisher in McClintock_BHBs
 Warning--empty publisher in Misner_GravBook
@@ -36,45 +38,45 @@ Warning--empty title in Poisson_Distribution
 Warning--can't use both author and editor fields in Strohmayer_TypeI
 Warning--empty publisher in Strohmayer_TypeI
 Warning--empty publisher in vonMises_Poptest
-You've used 329 entries,
+You've used 337 entries,
             1935 wiz_defined-function locations,
-            2462 strings with 90345 characters,
-and the built_in function-call counts, 184463 in all, are:
-= -- 16054
-> -- 13894
-< -- 179
-+ -- 5161
-- -- 5140
-* -- 17945
-:= -- 33142
-add.period$ -- 981
-call.type$ -- 329
-change.case$ -- 4165
-chr.to.int$ -- 310
-cite$ -- 339
-duplicate$ -- 5203
-empty$ -- 9367
-format.name$ -- 5553
-if$ -- 34699
+            2507 strings with 91863 characters,
+and the built_in function-call counts, 187681 in all, are:
+= -- 16353
+> -- 14046
+< -- 184
++ -- 5213
+- -- 5192
+* -- 18230
+:= -- 33713
+add.period$ -- 1003
+call.type$ -- 337
+change.case$ -- 4229
+chr.to.int$ -- 318
+cite$ -- 349
+duplicate$ -- 5315
+empty$ -- 9586
+format.name$ -- 5619
+if$ -- 35321
 int.to.chr$ -- 20
 int.to.str$ -- 0
-missing$ -- 334
-newline$ -- 1640
-num.names$ -- 1051
-pop$ -- 3781
+missing$ -- 344
+newline$ -- 1678
+num.names$ -- 1075
+pop$ -- 3838
 preamble$ -- 2
-purify$ -- 4175
+purify$ -- 4241
 quote$ -- 0
-skip$ -- 3873
+skip$ -- 3956
 stack$ -- 0
-substring$ -- 8960
-swap$ -- 832
+substring$ -- 9179
+swap$ -- 840
 text.length$ -- 92
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1954
-warning$ -- 10
-while$ -- 997
+type$ -- 1998
+warning$ -- 12
+while$ -- 1019
 width$ -- 0
-write$ -- 4281
+write$ -- 4379
 (There was 1 error message)
