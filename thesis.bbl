@@ -406,6 +406,13 @@ Azzalini, A. (1985).
 {Chandrasekhar}, S. (1961).
 \newblock {\em {Hydrodynamic and hydromagnetic stability}}.
 
+\bibitem[{Chaty} et~al., 2008]{Chaty_IGRCompanion}
+{Chaty}, S., {Rahoui}, F., {Foellmi}, C., {Tomsick}, J.~A., {Rodriguez}, J.,
+  and {Walter}, R. (2008).
+\newblock {Multi-wavelength observations of Galactic hard X-ray sources
+  discovered by INTEGRAL. I. The nature of the companion star}.
+\newblock {\em \aap}, 484:783--800.
+
 \bibitem[{Chen} et~al., 1996]{Chen_QPOs}
 {Chen}, X., {Swank}, J.~H., and {Taam}, R.~E. (1996).
 \newblock {The Pattern of Correlated X-ray Timing and Spectral Behavior in GRS
@@ -621,6 +628,11 @@ Court, J. (2017).
   bursts}.
 \newblock {\em \aap}, 469:379--385.
 
+\bibitem[{Fabian}, 1975]{Fabian_Propex}
+{Fabian}, A.~C. (1975).
+\newblock {Slowly rotating neutron stars and transient X-ray sources}.
+\newblock {\em \mnras}, 173:161--165.
+
 \bibitem[{Fanson} et~al., 1998]{Fanson_Spitzer}
 {Fanson}, J.~L., {Fazio}, G.~G., {Houck}, J.~R., {Kelly}, T., {Rieke}, G.~H.,
   {Tenerelli}, D.~J., and {Whitten}, M. (1998).
@@ -704,6 +716,15 @@ Fourier, J. (1822).
 {Fujimoto}, M.~Y., {Hanawa}, T., and {Miyaji}, S. (1981).
 \newblock {Shell flashes on accreting neutron stars and X-ray bursts}.
 \newblock {\em \apj}, 247:267--278.
+
+\bibitem[{F{\"u}rst} et~al., 2017]{Furst_Propex}
+{F{\"u}rst}, F., {Kretschmar}, P., {Kajava}, J.~J.~E., {Alfonso-Garz{\'o}n},
+  J., {K{\"u}hnel}, M., {Sanchez-Fernandez}, C., {Blay}, P., {Wilson-Hodge},
+  C.~A., {Jenke}, P., {Kreykenbohm}, I., {Pottschmidt}, K., {Wilms}, J., and
+  {Rothschild}, R.~E. (2017).
+\newblock {Studying the accretion geometry of EXO 2030+375 at luminosities
+  close to the propeller regime}.
+\newblock {\em \aap}, 606:A89.
 
 \bibitem[{Galloway} and {in't Zand}, 2010]{Galloway_NewTypeII}
 {Galloway}, D.~K. and {in't Zand}, J.~J.~M. (2010).
@@ -1776,6 +1797,11 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
   accretion disk instabilities?}
 \newblock {\em \aap}, 372:138--144.
 
+\bibitem[{Reynolds} et~al., 2016]{Reynolds_2016HB}
+{Reynolds}, M., {Miller}, J., and {King}, A. (2016).
+\newblock {Heartbeat Oscillation detected in IGR J17091-3624}.
+\newblock {\em The Astronomer's Telegram}, 8948.
+
 \bibitem[{Robitaille} and {Bressert}, 2012]{Robitaille_APLpy}
 {Robitaille}, T. and {Bressert}, E. (2012).
 \newblock {APLpy: Astronomical Plotting Library in Python}.
@@ -2151,6 +2177,11 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 \newblock {Is the plateau state in GRS 1915+105 equivalent to canonical hard
   states?}
 \newblock {\em \mnras}, 409:763--776.
+
+\bibitem[{van Paradijs}, 1978]{vanParadijs_TypeI}
+{van Paradijs}, J. (1978).
+\newblock {Average properties of X-ray burst sources}.
+\newblock {\em \nat}, 274:650--653.
 
 \bibitem[{Vaughan} et~al., 2003]{Vaughan_RMS}
 {Vaughan}, S., {Edelson}, R., {Warwick}, R.~S., and {Uttley}, P. (2003).

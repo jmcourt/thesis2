@@ -86,8 +86,7 @@ r_c&<&r_\mu\\ \nonumber \\
 M^{10/21}\dot{M}^{2/7}&<&k\nu^{2/3}B_0^{4/7}R_{NS}^{12/7}
 \end{eqnarray}
 Where $k$ is a constant.  Assuming that the radius and mass of neutron stars does not vary much, this inequality tells us that the propellor regime is more likely to be observed in neutron star XRBs with a high spin frequency and a high magnetic field.  It also tells us that the propellor effect places a \textit{lower} limit on accretion in such systems: accretion is not possible unless infalling matter can apply enough ram pressure to push the magnetospheric radius inside the corotation radius.
-\par There are numerous problems with this relatively simplistic view of accretion in a highly magnetic regime.  Much as in our calculation of the Eddington Limit, it is not clear that all the assumptions are physical.  This calculation again depends on an unphysical spherical accretion geometry, and makes the assumption that the magnetic field lines can in no way be warped by the movement of ionised matter on them.  Additionally \citet{White_MRad} show that the magnetospheric radius calculated for neutron stars may fall close enough to the inner edge of the disk that photon pressure cannot be safely ignored.  In this scenario, calculating the magnetospheric radius becomes much less straightforward.
-\par Despite these problems, an effect observationally similar to the propellor effect is observed in a number of astrophysical neutron star XRBs. xxxxx
+\par There are numerous problems with this relatively simplistic view of accretion in a highly magnetic regime.  Much as in our calculation of the Eddington Limit, it is not clear that all the assumptions are physical.  This calculation again depends on an unphysical spherical accretion geometry, and makes the assumption that the magnetic field lines can in no way be warped by the movement of ionised matter on them.  Additionally \citet{White_MRad} show that the magnetospheric radius calculated for neutron stars may fall close enough to the inner edge of the disk that photon pressure cannot be safely ignored.  In this scenario, calculating the magnetospheric radius becomes much less straightforward.  Despite this difficulty, an effect observationally similar to the propellor effect is observed in a number of astrophysical neutron star XRBs (e.g. \citealp{Fabian_Propex,Furst_Propex}) and other systems (e.g. \citep{Campana_PropBorder}).
 
 \section{The Shakura-Sunyaev Disk Model}
 
@@ -127,13 +126,13 @@ We can average the density term on left-hand side of Equation \label{eq:ssc} in 
 Therefore the rate of inwards matter flow $\dot{M}$ is constant at all $r$.
 \par Using the fact that the angular velocity $\omega$ of an element in the gas can be written as $\omega=v_\theta/r$, we can re-write Equation \ref{eq:ssrs} as:
 \begin{equation}
-\rho\left(v_r\frac{\partial v_r}{\partial r}-\omega^2r\right)=-\frac{\partial p}{\partial r}-\rho v_z\frac{\partial v_r}{\partial z}
+\rho\left(v_r\frac{\partial v_r}{\partial r}-\omega^2r\right)=-\frac{\partial p}{\partial r}-\rho v_z\frac{GM}{r^2}
 \end{equation}
-We can rewrite $v_z\frac{\partial v_r}{\partial z}$ as $\frac{\partial v_r}{\partial z}\frac{\partial z}{\partial t}$, which is equal to the inwards acceleration of a gas element moving in the $z$-direction.  As the disk is assumed to be in a cylindrically symmetric gravitational potential, this acceleration can be given by $\dot{v}_r=\frac{GM}{r^2}$.  This leads to:
-\begin{eqnarray}
-\rho\left(v_r\frac{\partial v_r}{\partial r}-\omega^2r\right)&=&-\frac{\partial p}{\partial r}-\rho\frac{GM}{r^2}\\\nonumber\\
-\rho\left(v_r\frac{\partial v_r}{\partial r}-\omega^2r\right)&=&-\frac{\partial p}{\partial r}-\rho\omega_k^2r
-\end{eqnarray}
+Where the term $\frac{GM}{r^2}$ has been introduced to account for the fact that the gradient of the gravitational field in the $r$ direction is non-zero.  This leads to:
+%We can rewrite $v_z\frac{\partial v_r}{\partial z}$ as $\frac{\partial v_r}{\partial z}\frac{\partial z}{\partial t}$, which is equal to the inwards acceleration of a gas element moving in the $z$-direction.  As the disk is assumed to be in a cylindrically symmetric gravitational potential, this acceleration can be given by $\dot{v}_r=\frac{GM}{r^2}$.
+\begin{equation}
+\rho\left(v_r\frac{\partial v_r}{\partial r}-\omega^2r\right)=-\frac{\partial p}{\partial r}-\rho\omega_k^2r
+\end{equation}
 Assuming that is thin and angular momentum is only transferred slowly, i.e. $v_r\frac{\partial v_r}{\partial r}\ll\omega$, this leads to:
 \begin{equation}
 \omega\approx\omega_k
@@ -174,11 +173,11 @@ As such, they define their dimensionless viscosity parameter $\alpha$ as:
 \subsection{The source of Turbulence}
 
 \par \citet{Shakura_Disk} do not answer the question of what physical process causes the turbulence required to stabilise accretion disks.  \citet{Balbus_MRI} were among the first to propose the Magnetorotational Instability \citep[MRI,][]{Velikhov_MRI,Chandrasekhar_MRI} as the source of this turbulence.  MRI is a process which occurs in an ionised and differentially rotating disk.  Fluctuations in the material in the disk generate internal magnetic fields.  The field lines associated with these fields, in general, extend a finite distance in the radial direction, thus connecting gas elements at different radii.  As gas elements in a Shakura-Sunyaev accretion disk orbit the compact object at Keplerian speeds, elements of gas at different radii move at different orbital speeds.  As such, these internal magnetic field lines become stretched as gas orbits the compact object.  This field line stretching imparts a torque on the gas elements, causing the outer, slower element to speed up and the inner, faster element to slow down.  As such, the net result of this process is an outwards transfer of angular momentum.
-\par \citet{Balbus_MRI} found that the angular momentum transfer due to MRI was more significant than that due to friction, hydrodynamic turbulence or other sources in an accretion disks.  They suggest therefore that MRI is the main component of outwards angular momentum transfer, and thus of $\alpha$, in astrophysical accretion disks.
+\par \citet{Balbus_MRI} found that the angular momentum transfer due to MRI was more significant than that due to friction, hydrodynamic turbulence or other sources in an accretion disk.  They suggest therefore that MRI is the main component of outwards angular momentum transfer, and thus of $\alpha$, in astrophysical accretion disks.
 
 \section{Disk Instabilities}
 
-\par A number of additional effects can be observed in the accretion disks of systems near or above the Eddington limit. xxxxx
+\par A number of additional effects can be observed in the accretion disks of systems, especially those near or above the Eddington limit. xxxxx
 
 \label{sec:diskinstab}
 
@@ -198,9 +197,10 @@ L-E xxxxx Using the assumptions present in the thin disk models of \citealp{Shak
 \end{figure}
 
 \par The variability classes of GRS 1915 consist of a number of different types of variability, with a range of amplitudes and timescales.  Variability classes in GRS 1915 are usually denoted by the Greek letter names assigned to them by \citet{Belloni_GRS_MI}.  In general the variability associated with these classes takes the form of complex patterns of flares and dips, and it occurs over timescales of 10s to 100s of seconds.  In some classes, the variability is somewhat regular.  The $\rho$ class, also referred to as the `heartbeat' class due to the similarity of its lightcurve to the output of an electrocardiagram, consists of sharp quasiperiodic flares with a recurrence time of a few tens of seconds (Middle-right panel of Figure \ref{fig:GRSsample}).  Other classes, such as class $\kappa$ shown in the top-left panel of Figure \ref{fig:GRSsample}, consist of quasiperiodic fluctuations between two quasistable count rates: in the case of class $\kappa$, there is also a period of highly structured sub-second variability at each transition between these two classes.  Finally, two classes ($\chi$ and $\phi$, an example of the latter is shown in the bottom-right panel of Figure \ref{fig:GRSsample}) show no significant variability other than red noise; these classes are separated based on their spectral properties.  It has been suggested they they may be equivalent to the hard state seen in other outbursting LMXBs \citep{VanOers_GRSHard}, providing a possible link between the behaviour of GRS 1915 and the behaviour of more typical LMXBs.
-\par The dramatic variability seen in GRS 1915 was long thought to be unique, driven either by its unusually high accretion rate or by its unusually large accretion disk.  However in 2011, \citet{Altamirano_IGR_FH} identified GRS 1915-like variability in a second object: the black hole LMXB IGR J17091-3624. xxxxx
-
-
+\par The dramatic variability seen in GRS 1915 was long thought to be unique, driven by its unusually high accretion rate (e.g. \citealp{Belloni_Timescales}).  However in 2011, \citet{Altamirano_IGR_FH} identified GRS 1915-like variability in a second object: the black hole LMXB IGR J17091-3624 (hereafter IGR J17091).  This object is much fainter than GRS 1915: \citet{Altamirano_IGR_FH} showed that, assuming that this object accretes at its Eddington Limit by analogy with GRS 1915, the object may either be out in the halo of the Galaxy (at $\gtrsim20$\,kpc) or harbour the smallest mass black hole known to science ($\lesssim3$\,M$_\odot$).  The companion star to the black hole in this system has not been definitively identified \citep{Chaty_IGRCompanion}.
+\par Much like GRS 1915, IGR J17091 displays a number of distinct classes of variability over time, and a number of these have been identified as being similar to the classes seen in GRS 1915 (e.g. \citealp{Altamirano_IGR_FH,Zhang_IGR}).  Unlike GRS 1915, IGR J17091 displays the pattern of outbursts and quiescence more commonly seen in LMXBs; known outbursts of IGR J17091 occurred in 2011 and 2016, and GRS 1915-like variability was observed in both \citep{Reynolds_2016HB}.
+\par There are a number of notable differences between variability classes in GRS 1915 and IGR J17091.  In general, variability classes in IGR J17091 occur over shorter timescales than their counterparts in GRS 1915.  In addition to this, hard emission tends to lag soft emission in the variability classes of GRS 1915 (e.g. \citealp{Janiuk_Lag}), while the opposite trend has been found in the `heartbeat'-like class of IGR J17091 \citep{Altamirano_IGR_FH}.
+\par In addition to GRS 1915 and IGR J17091, there have been claims that a third LMXB displays GRS 1915-like variability.  \citet{Bagnoli_RB} report on two observations of MXB 1730-335, also known as the `Rapid Burster', which show lightcurve patterns remarkably similar to those seen in the $\rho$ and $\theta$ classes of GRS 1915.  The presence of GRS 1915-like variability in the Rapid Burster is significant for a number of reasons: unlike GRS 1915 or IGR J17091, the Rapid Burster is known to contain a neutron star accreting at no more than 20\% of its Eddington Limit, thereby ruling out any black hole-specific or near-Eddington-specific explanations for this behaviour.  In addition to this, the Rapid Burster is one of only 2 objects known to undergo so-called Type II X-Ray bursts (see Section \ref{sec:TypeII}), suggesting a possible link between these two phenomena.  However, as it has only been observed twice in the $\sim30$ years since the object was discovered, the true nature of the apparent GRS 1915-like variability in the Rapid Burster remains unclear.
 
 \subsection{A History of Models of GRS 1915-like Variability}
 
@@ -236,12 +236,12 @@ L-E xxxxx Using the assumptions present in the thin disk models of \citealp{Shak
 They find that the first of these models (Model 1) is the best fit to the data.
 \par \citealp{Mineo_PhasRes} also performed psuedo-phase-resolved spectroscopy of the $\rho$ class in GRS 1915, using a number of different spectral models to \citealp{Neilsen_GRSModel} but a significantly lower phase resolution.  In this work, the authors consider six models:
 \begin{enumerate}
-\item A multi-temperature disk black body plus a corona containing both thermal and non-thermal electrons (as forumlated by \citealp{Poutanen_Hybrid})
-\item A multi-temperature disk black body plus a multi-temperature disk black body plus a power law
-\item A multi-temperature disk black body plus an independent Compton component
-\item A multi-temperature disk black body plus a power law plus reflection from the outer disk
-\item A model of Comptonization due to the bulk-motion of matter in the disk
-\item A multi-temperature disk black body plus a power law plus a standard black body
+\item A multi-temperature disk black body plus a corona containing both thermal and non-thermal electrons (as forumlated by \citealp{Poutanen_Hybrid}).
+\item A multi-temperature disk black body plus a multi-temperature disk black body plus a power law.
+\item A multi-temperature disk black body plus an independent Compton component.
+\item A multi-temperature disk black body plus a power law plus reflection from the outer disk.
+\item A model of Comptonization due to the bulk-motion of matter in the disk.
+\item A multi-temperature disk black body plus a power law plus a standard black body.
 \end{enumerate}
 With the exception of Models \textit{i} and \textit{vi}, the authors find that none of these models are able to satisfactorily fit the data in each of their phase bins independently.  As there is no reasonable physical explanation behind Model \textit{vi}, the authors only consider Model \textit{i}.  Their results suggest a large reduction of the corona luminosity during each heartbeat flare, which they interpret as the corona condensing onto the disk.  They also find that their results are consistent with GRS 1915 having a slim disk, but inconsistent with the hard lag being caused by photon upscattering in the corona.
 \par \citealp{Massa_MoveLag} found that the magnitude of the lag between hard and soft photons in the $\rho$-class of GRS 1915 is not constant.  They found that the lag varies between $\sim3$--$10$\,s, and correlates strongly with count rate.  The magnitude of the lag, therefore, is too large to be simply due to a light travel time to the corona from the disk.  The authors suggest that their results are instead consistent the thermal adjustment of the inner disk itself as part of the instability limit cycle invoked to explain the flares.
@@ -251,6 +251,18 @@ With the exception of Models \textit{i} and \textit{vi}, the authors find that n
 
 \section{Type II Burst Sources}
 
-xxxxx
+\label{sec:TypeII}
+
+\par Type II Bursts are another dramatic form of second-to-minute scale X-Ray variability which are thought to be caused by disk instabilities (e.g. \citealp{Lewin_TypeII}).  They are named by analogy to Type I X-Ray bursts; second-scale flashes of X-rays which are caused by thermonuclear explosions on the surface of neutron stars \citep{vanParadijs_TypeI,Lewin_Bursts}.
+\par In general, Type II bursts can be defined as second-to-minute scale X-ray bursts from neutron star LMXBs which cannot be identified as Type I X-Ray bursts; specifically, they lack the power-law-like decay profile \citep{intZand_Decay} and spectral cooling \citep{Hoffman_T1Cool} seen in Type I bursts.  In Figure \ref{fig:BgB}, we show lightcurves of a number of Type II bursts from the LMXB MXB 1730-335 \citep{Bagnoli_PopStudy}.  Type II bursts have a fast rise and a slow decay, and occur with separation times from tens of seconds to hours.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.9\linewidth, trim= 0mm 0mm 0mm 80mm,clip]{images/bagnoli_bursts.eps}
+  \caption{\small An \textit{RXTE}/PCA lightcurve of MXB 1730-335 (also known at the `Rapid Burster', showing a number of typical Type II X-ray bursts.}
+  \label{fig:BgB}
+\end{figure}
+
+\par Type II bursts have definitively been observed in only two objects: the neutron star LMXBs MXB 1730-335 (also known as the `Rapid Burster', \citealp{xxxxx}) and GRO J1744-28 (also known as the `Bursting Pulsar', \citealp{xxxxx}). xxxxx
 
 \subsection{A History of Models of Type II Bursts}
