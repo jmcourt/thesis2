@@ -12,11 +12,11 @@
 \contentsline {section}{\numberline {2.2}The Propellor Effect}{11}{section.2.2}
 \contentsline {section}{\numberline {2.3}The Shakura-Sunyaev Disk Model}{14}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}The source of Turbulence}{17}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Disk Instabilities}{17}{section.2.4}
-\contentsline {section}{\numberline {2.5}GRS 1915+105 and IGR J17091-3624}{18}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}A History of Models of GRS 1915-like Variability}{20}{subsection.2.5.1}
-\contentsline {section}{\numberline {2.6}Type II Burst Sources}{26}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}A History of Models of Type II Bursts}{27}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.3.2}Disk Instabilities}{17}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}GRS 1915+105 and IGR J17091-3624}{18}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}A History of Models of GRS 1915-like Variability}{21}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}Type II Burst Sources}{26}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}A History of Models of Type II Bursts}{27}{subsection.2.5.1}
 \contentsline {chapter}{\numberline {3}Tools \& Methods}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Instrumentation}{29}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}The \textit {Rossi X-Ray Timing Experiment}}{29}{subsection.3.1.1}
@@ -27,11 +27,11 @@
 \contentsline {subsection}{\numberline {3.1.3}The \textit {X-Ray Multi-Mirror Mission}}{33}{subsection.3.1.3}
 \contentsline {subsubsection}{Data Extraction \& Processing}{33}{section*.18}
 \contentsline {subsection}{\numberline {3.1.4}\textit {Chandra}}{34}{subsection.3.1.4}
-\contentsline {subsubsection}{Data Extraction \& Processing}{34}{section*.19}
+\contentsline {subsubsection}{Data Extraction \& Processing}{35}{section*.19}
 \contentsline {subsection}{\numberline {3.1.5}\textit {Suzaku}}{35}{subsection.3.1.5}
 \contentsline {subsection}{\numberline {3.1.6}\textit {NuSTAR}}{35}{subsection.3.1.6}
 \contentsline {subsection}{\numberline {3.1.7}\textit {INTEGRAL}}{36}{subsection.3.1.7}
-\contentsline {section}{\numberline {3.2}Methods \& Techniques}{36}{section.3.2}
+\contentsline {section}{\numberline {3.2}Methods \& Techniques}{37}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Lightcurve Morphology}{37}{subsection.3.2.1}
 \contentsline {subsubsection}{Lightcurve Folding}{37}{section*.20}
 \contentsline {subsubsection}{Flare-Finding Algorithm}{38}{section*.22}
@@ -56,31 +56,31 @@
 \contentsline {section}{\numberline {4.3}Results}{57}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Outburst Evolution}{57}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}{\textit {RXTE}}}{58}{subsection.4.3.2}
-\contentsline {subsubsection}{Class I -- Figure \ref {fig:Bmulti}}{62}{section*.40}
+\contentsline {subsubsection}{Class I -- Figure \ref {fig:Bmulti}}{64}{section*.40}
 \contentsline {subsubsection}{Class II -- Figure \ref {fig:Emulti}}{64}{section*.42}
 \contentsline {subsubsection}{Class III -- Figure \ref {fig:Gmulti}}{64}{section*.44}
 \contentsline {subsubsection}{Class IV -- Figure \ref {fig:Jmulti}}{66}{section*.48}
 \contentsline {subsubsection}{Class V -- Figure \ref {fig:Kmulti}}{69}{section*.51}
-\contentsline {subsubsection}{Class VI -- Figure \ref {fig:Lmulti}}{69}{section*.56}
+\contentsline {subsubsection}{Class VI -- Figure \ref {fig:Lmulti}}{75}{section*.56}
 \contentsline {subsubsection}{Class VII -- Figure \ref {fig:Nmulti}}{76}{section*.59}
-\contentsline {subsubsection}{Class VIII -- Figure \ref {fig:Omulti}}{81}{section*.62}
+\contentsline {subsubsection}{Class VIII -- Figure \ref {fig:Omulti}}{76}{section*.62}
 \contentsline {subsubsection}{Class IX -- Figure \ref {fig:Qmulti}}{81}{section*.64}
 \contentsline {subsection}{\numberline {4.3.3}Swift}{82}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}INTEGRAL}{82}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Chandra}{83}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}XMM-Newton}{86}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}\textit {Suzaku}}{87}{subsection.4.3.7}
+\contentsline {subsection}{\numberline {4.3.5}Chandra}{84}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}XMM-Newton}{85}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}\textit {Suzaku}}{85}{subsection.4.3.7}
 \contentsline {section}{\numberline {4.4}Discussion}{87}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Variability Classes: IGR J17091 vs. GRS 1915}{89}{subsection.4.4.1}
 \contentsline {subsubsection}{Classes I and II -- Figures \ref {fig:Bmulti}, \ref {fig:Emulti}}{89}{section*.73}
 \contentsline {subsubsection}{Classes III and IV -- Figures \ref {fig:Gmulti}, \ref {fig:Jmulti}}{90}{section*.74}
-\contentsline {subsubsection}{Class V -- Figure \ref {fig:Kmulti}}{93}{section*.77}
+\contentsline {subsubsection}{Class V -- Figure \ref {fig:Kmulti}}{92}{section*.77}
 \contentsline {subsubsection}{Class VI -- Figure \ref {fig:Lmulti}}{93}{section*.78}
-\contentsline {subsubsection}{Class VII -- Figure \ref {fig:Nmulti}}{94}{section*.79}
+\contentsline {subsubsection}{Class VII -- Figure \ref {fig:Nmulti}}{93}{section*.79}
 \contentsline {subsubsection}{Class VIII -- Figure \ref {fig:Omulti}}{94}{section*.80}
 \contentsline {subsubsection}{Class IX - Figure \ref {fig:Qmulti}}{94}{section*.81}
-\contentsline {subsection}{\numberline {4.4.2}General Comparison with GRS 1915+105}{95}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Comparison with the Rapid Burster}{96}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.2}General Comparison with GRS 1915+105}{94}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Comparison with the Rapid Burster}{95}{subsection.4.4.3}
 \contentsline {subsection}{\numberline {4.4.4}Comparison with Altamirano \textit {et al.} 2011}{96}{subsection.4.4.4}
 \contentsline {subsection}{\numberline {4.4.5}New Constraints on Accretion Rate, Mass \& Distance}{97}{subsection.4.4.5}
 \contentsline {subsection}{\numberline {4.4.6}Implications for Models of `Heartbeat' Variability}{99}{subsection.4.4.6}
@@ -136,16 +136,16 @@
 \contentsline {section}{\numberline {6.3}Comparison}{152}{section.6.3}
 \contentsline {section}{\numberline {6.4}Discussion}{155}{section.6.4}
 \contentsline {chapter}{\numberline {7}Conclusions}{159}{chapter.7}
-\contentsline {chapter}{\numberline {A}Model-Independent Classification of each Observation of IGR J17091-3624}{191}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}List of \textit {RXTE} Observations of the Bursting Pulsar}{194}{Appendix.a.B}
-\contentsline {chapter}{\numberline {C}Normal Burst Histograms}{196}{Appendix.a.C}
-\contentsline {section}{\numberline {C.1}Parameter Correlations in Normal Bursts}{196}{section.a.C.1}
-\contentsline {chapter}{\numberline {D}Parameter Correlations in Normal Bursts}{206}{Appendix.a.D}
-\contentsline {chapter}{\numberline {E}PANTHEON suite}{207}{Appendix.a.E}
-\contentsline {section}{\numberline {E.1}FITS Genie}{207}{section.a.E.1}
-\contentsline {section}{\numberline {E.2}Plot Demon}{217}{section.a.E.2}
-\contentsline {section}{\numberline {E.3}Spec Angel}{254}{section.a.E.3}
-\contentsline {section}{\numberline {E.4}Back Hydra}{268}{section.a.E.4}
-\contentsline {section}{\numberline {E.5}PAN Lib}{271}{section.a.E.5}
-\contentsline {section}{\numberline {E.6}XTE-PAN Lib}{309}{section.a.E.6}
-\contentsline {section}{\numberline {E.7}Mode Get}{316}{section.a.E.7}
+\contentsline {chapter}{\numberline {A}Model-Independent Classification of each Observation of IGR J17091-3624}{192}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}List of \textit {RXTE} Observations of the Bursting Pulsar}{195}{Appendix.a.B}
+\contentsline {chapter}{\numberline {C}Normal Burst Histograms}{197}{Appendix.a.C}
+\contentsline {section}{\numberline {C.1}Parameter Correlations in Normal Bursts}{197}{section.a.C.1}
+\contentsline {chapter}{\numberline {D}Parameter Correlations in Normal Bursts}{207}{Appendix.a.D}
+\contentsline {chapter}{\numberline {E}PANTHEON suite}{208}{Appendix.a.E}
+\contentsline {section}{\numberline {E.1}FITS Genie}{208}{section.a.E.1}
+\contentsline {section}{\numberline {E.2}Plot Demon}{218}{section.a.E.2}
+\contentsline {section}{\numberline {E.3}Spec Angel}{255}{section.a.E.3}
+\contentsline {section}{\numberline {E.4}Back Hydra}{269}{section.a.E.4}
+\contentsline {section}{\numberline {E.5}PAN Lib}{272}{section.a.E.5}
+\contentsline {section}{\numberline {E.6}XTE-PAN Lib}{310}{section.a.E.6}
+\contentsline {section}{\numberline {E.7}Mode Get}{317}{section.a.E.7}

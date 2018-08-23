@@ -1,0 +1,67 @@
+import numpy as np
+from matplotlib import pyplot as pl
+import numpy.random as rn
+
+class branch(object):
+   def __init__(self,xfunc,yfunc,scatter=0.5):
+      self.xfunc=xfunc
+      self.yfunc=yfunc
+      self.scatter=scatter
+
+   def plot(self,t=np.arange(0,1,0.005)):
+      tlen=len(t)
+      t=np.array(t)
+      xs=self.xfunc(t)+rn.normal(scale=self.scatter,size=tlen)
+      ys=self.yfunc(t)+rn.normal(scale=self.scatter,size=tlen)
+      pl.plot(xs,ys,'r.')
+
+f=pl.figure()
+
+def ax(t):
+   return t*0+25
+def ay(t):
+   return t*20
+ab=branch(ax,ay)
+
+def rx(t):
+   return t*20+5
+def ry(t):
+   return 7-7*(np.exp(t*6-6))
+rb=branch(rx,ry)
+
+def hx(t):
+   #return t*0
+   return (25-25*np.cos(np.pi*t))/2.
+def hy(t):
+   #return t*0
+   return 20+5*np.sin(np.pi*t)
+hb=branch(hx,hy)
+
+def dx(t):
+   return 5*t**2
+def dy(t):
+   return 7+1/(t**2*1+1/13.)
+db=branch(dx,dy)
+
+ab.plot()
+rb.plot()
+hb.plot()
+db.plot()
+
+pl.axvline(5,color='b',ls='--',zorder=-99)
+pl.arrow(27.5,2,0,18,head_width=0.5,color='k')
+pl.arrow(20,27,-14.5,0,head_width=0.5,color='k')
+pl.arrow(-2.0,20,0,-10,head_width=0.5,color='k')
+pl.arrow(6,3.5,10.2,0,head_width=0.5,color='k')
+pl.text(0,25,'H/S',size=18)
+pl.text(21,-1,'L/H',size=18)
+pl.text(5,15,'Jet Line',rotation=270)
+pl.xticks([])
+pl.yticks([])
+pl.ylabel('X-Ray Intensity')
+pl.xlabel('X-Ray Hardness')
+
+pl.xlim(-3,29)
+pl.ylim(-3,29)
+
+pl.show()

@@ -900,6 +900,14 @@ Fourier, J. (1822).
 \newblock {Radiation-Dominated Disks are Thermally Stable}.
 \newblock {\em \apj}, 691:16--31.
 
+\bibitem[{Hoffman} et~al., 1979]{Hoffman_T1Cool}
+{Hoffman}, J.~A., {Lewin}, W.~H.~G., {Primini}, F.~A., {Wheaton}, W.~A.,
+  {Swank}, J.~H., {Boldt}, E.~A., {Holt}, S.~S., {Serlemitsos}, P.~J., {Share},
+  G.~H., {Wood}, K., {Yentis}, D., {Evans}, W.~D., {Matteson}, J.~L., {Gruber},
+  D.~E., and {Peterson}, L.~E. (1979).
+\newblock {HEAO 1 observation of a type I burst from MXB 1728-34}.
+\newblock {\em \apjl}, 233:L51--L55.
+
 \bibitem[{Hoffman} et~al., 1978]{Hoffman_RB}
 {Hoffman}, J.~A., {Marshall}, H.~L., and {Lewin}, W.~H.~G. (1978).
 \newblock {Dual character of the rapid burster and a classification of X-ray
@@ -915,6 +923,12 @@ Fourier, J. (1822).
 \newblock {The performance and calibration of WFPC2 on the Huble Space
   Telescope}.
 \newblock {\em \pasp}, 107:156--178.
+
+\bibitem[{Homer} et~al., 2001]{Homer_RBNoSec}
+{Homer}, L., {Deutsch}, E.~W., {Anderson}, S.~F., and {Margon}, B. (2001).
+\newblock {The Rapid Burster in Liller 1: The Chandra X-Ray Position and a
+  Search for an Infrared Counterpart}.
+\newblock {\em \aj}, 122:2627--2633.
 
 \bibitem[{Hunter}, 2007]{Hunter_MatPlotLib}
 {Hunter}, J.~D. (2007).
@@ -967,6 +981,13 @@ Fourier, J. (1822).
 {Illarionov}, A.~F. and {Sunyaev}, R.~A. (1975).
 \newblock {Why the Number of Galactic X-ray Stars Is so Small?}
 \newblock {\em \aap}, 39:185.
+
+\bibitem[{in't Zand} et~al., 2014]{intZand_Decay}
+{in't Zand}, J.~J.~M., {Cumming}, A., {Triemstra}, T.~L., {Mateijsen},
+  R.~A.~D.~A., and {Bagnoli}, T. (2014).
+\newblock {The cooling rate of neutron stars after thermonuclear shell
+  flashes}.
+\newblock {\em \aap}, 562:A16.
 
 \bibitem[{Irwin} et~al., 1989]{Irwin_LombScargle}
 {Irwin}, A.~W., {Campbell}, B., {Morbey}, C.~L., {Walker}, G.~A.~H., and
@@ -1105,10 +1126,17 @@ Kenney, J. (1939).
   Rapid Burster}.
 \newblock {\em \apjl}, 482:L53--L56.
 
-\bibitem[{Kouveliotou} et~al., 1996]{Kouveliotou_BP}
+\bibitem[{Kouveliotou} et~al., 1996a]{Kouveliotou_BPPulse}
+{Kouveliotou}, C., {Kommers}, J., {Lewin}, W.~H.~G., {van Paradijs}, J.,
+  {Fishman}, G.~J., {Briggs}, M.~S., {Hurley}, K., {Harmon}, A., {Finger},
+  M.~H., and {Wilson}, R.~B. (1996a).
+\newblock {GRO J1744-28}.
+\newblock {\em \iaucirc}, 6286.
+
+\bibitem[{Kouveliotou} et~al., 1996b]{Kouveliotou_BP}
 {Kouveliotou}, C., {van Paradijs}, J., {Fishman}, G.~J., {Briggs}, M.~S.,
   {Kommers}, J., {Harmon}, B.~A., {Meegan}, C.~A., and {Lewin}, W.~H.~G.
-  (1996).
+  (1996b).
 \newblock {A new type of transient high-energy source in the direction of the
   Galactic Centre}.
 \newblock {\em \nat}, 379:799--801.
@@ -1597,6 +1625,13 @@ Negri, L.~H. and Vestri, C. (2017).
 \newblock In {Dewitt}, C. and {Dewitt}, B.~S., editors, {\em Black Holes (Les
   Astres Occlus)}, pages 343--450.
 
+\bibitem[{Ortolani} et~al., 2007]{Ortolani_LillerD}
+{Ortolani}, S., {Barbuy}, B., {Bica}, E., {Zoccali}, M., and {Renzini}, A.
+  (2007).
+\newblock {Distances of the bulge globular clusters Terzan 5, Liller 1, UKS 1,
+  and Terzan 4 based on HST NICMOS photometry}.
+\newblock {\em \aap}, 470:1043--1049.
+
 \bibitem[{Paciesas} et~al., 1996]{Paciesas_BPDiscovery}
 {Paciesas}, W.~S., {Harmon}, B.~A., {Fishman}, G.~J., {Zhang}, S.~N., and
   {Robinson}, C.~R. (1996).
@@ -1939,6 +1974,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 {Shakura}, N.~I. and {Sunyaev}, R.~A. (1973).
 \newblock {Black holes in binary systems. Observational appearance.}
 \newblock {\em \aap}, 24:337--355.
+
+\bibitem[{Shakura} and {Sunyaev}, 1976]{Shakura_Instab}
+{Shakura}, N.~I. and {Sunyaev}, R.~A. (1976).
+\newblock {A theory of the instability of disk accretion on to black holes and
+  the variability of binary X-ray sources, galactic nuclei and quasars}.
+\newblock {\em \mnras}, 175:613--632.
 
 \bibitem[{Skipper} et~al., 2013]{Skipper_CoronaGeo}
 {Skipper}, C.~J., {McHardy}, I.~M., and {Maccarone}, T.~J. (2013).

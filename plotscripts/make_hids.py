@@ -1,0 +1,88 @@
+import numpy as np
+from matplotlib import pyplot as pl
+from matplotlib import gridspec as gs
+
+h=6.6E-34
+c=3E8
+k=1.38E-23
+
+grid=gs.GridSpec(20,2)
+
+def B(T,n):
+   # T in keV
+   nu=np.arange(0.1,60,0.01)*2.4E17
+   return (nu,n*(2*h*(nu**3)) / (c**2*(np.exp((h*nu)/(k*T*1.16E7))-1)))
+
+def band(T,n,l,u):
+   # l and u in keV
+   l=l*2.4E17
+   u=u*2.4E17
+   x,y=B(T,n)
+   #print l,u
+   #print x
+   return np.sum(y[np.logical_and(x>=l,x<u)])
+
+def experiment(nfunc,Tfunc,numb):
+   if numb>1:
+      ya=11
+   else:
+      ya=0
+   xa=numb%2
+   h=[]
+   i=[]
+   aT=[]
+   an=[]
+   t=np.arange(0,100,0.1)
+   for ix in t:
+      T=Tfunc(ix)
+      n=nfunc(ix)
+      aT.append(T)
+      an.append(n)
+      lband=band(T,n,2,15)
+      uband=band(T,n,15,60)
+      h.append(uband/lband)
+      i.append(uband+lband)
+   cap=100000*(1+max(i)//100000)
+   ax1=fig.add_subplot(grid[ya:ya+6,xa])
+   ax1.set_xlabel('Hardness')
+   ax1.set_ylabel('Intensity')
+   ax1.set_xticks([])
+   ax1.set_yticks([])
+   ax1.plot(h,i,'k')
+   ax1.set_xlim(0,0.012)
+   ax1.set_ylim(0,cap)
+   ax1.text(0.00049,cap*0.85,str(numb+1)+')',size=12)
+   ax2=fig.add_subplot(grid[ya+7:ya+9,xa])
+   ax2.set_xticks([])
+   ax2.set_yticks([])
+   ax2.plot(t,aT,label=r'$T(t)$')
+   ax2.plot(t,an,label=r'$n(t)$')
+   ax2.set_xlabel('Time')
+   ax2.set_xlim(0,99)
+   ax2.set_ylim(0,2)
+   if numb==0:
+      ax2.legend()
+   pl.show(block=False)
+
+def const(ix):
+   return 1
+
+def sine(ix):
+   return (np.sin(2*np.pi*ix/30.)+1)/2.0+0.5
+
+def antisine(ix):
+   return (np.sin(2*np.pi*(ix-15)/30.)+1)/2.0+0.5
+
+def sineoff(ix):
+   return (np.sin(2*np.pi*(ix-5)/30.)+1)/2.0+0.5
+
+fig=pl.figure()
+
+experiment(sine,const,0)
+experiment(const,sine,1)
+experiment(sine,antisine,2)
+experiment(sine,sineoff,3)
+
+raw_input()
+
+

@@ -23,7 +23,7 @@ A level-1 auxiliary file: xtelist.aux
 A level-1 auxiliary file: bursthists.aux
 A level-1 auxiliary file: paramcorr.aux
 A level-1 auxiliary file: pantheon.aux
-Reallocated field_info (elt_size=4) to 10764 items from 5000.
+Reallocated field_info (elt_size=4) to 10896 items from 5000.
 Database file #1: /home/jamie/Documents/Bibliographies/refs.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in Chandrasekhar_MRI
@@ -38,45 +38,45 @@ Warning--empty title in Poisson_Distribution
 Warning--can't use both author and editor fields in Strohmayer_TypeI
 Warning--empty publisher in Strohmayer_TypeI
 Warning--empty publisher in vonMises_Poptest
-You've used 342 entries,
+You've used 348 entries,
             1935 wiz_defined-function locations,
-            2535 strings with 92881 characters,
-and the built_in function-call counts, 189909 in all, are:
-= -- 16556
-> -- 14179
-< -- 186
-+ -- 5261
-- -- 5240
-* -- 18434
-:= -- 34120
-add.period$ -- 1018
-call.type$ -- 342
-change.case$ -- 4278
-chr.to.int$ -- 323
-cite$ -- 354
-duplicate$ -- 5384
-empty$ -- 9718
-format.name$ -- 5672
-if$ -- 35741
-int.to.chr$ -- 20
+            2567 strings with 94337 characters,
+and the built_in function-call counts, 193035 in all, are:
+= -- 16834
+> -- 14402
+< -- 187
++ -- 5344
+- -- 5322
+* -- 18739
+:= -- 34688
+add.period$ -- 1036
+call.type$ -- 348
+change.case$ -- 4349
+chr.to.int$ -- 328
+cite$ -- 360
+duplicate$ -- 5467
+empty$ -- 9883
+format.name$ -- 5762
+if$ -- 36324
+int.to.chr$ -- 21
 int.to.str$ -- 0
-missing$ -- 349
-newline$ -- 1703
-num.names$ -- 1090
-pop$ -- 3875
+missing$ -- 355
+newline$ -- 1733
+num.names$ -- 1108
+pop$ -- 3933
 preamble$ -- 2
-purify$ -- 4290
+purify$ -- 4361
 quote$ -- 0
-skip$ -- 4009
+skip$ -- 4070
 stack$ -- 0
-substring$ -- 9311
-swap$ -- 845
+substring$ -- 9488
+swap$ -- 851
 text.length$ -- 92
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2028
+type$ -- 2064
 warning$ -- 12
-while$ -- 1033
+while$ -- 1050
 width$ -- 0
-write$ -- 4444
+write$ -- 4522
 (There was 1 error message)
