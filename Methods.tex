@@ -123,7 +123,7 @@ Where $\Phi(t)$ is the fractional number of cycles which have elapsed between ti
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 20mm 0mm 28mm]{images/folding.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{A cartoon illustrating the process of folding a periodic lightcurve with a known period.  \textbf{1:} a simulated lightcurve with errors.  \textbf{2:} Divide the lightcurve into sections by cutting it at every time coordinate $Np$, where $p$ is the known period and $N$ is any integer.  Each data point may now be given a phase coordinate $\phi$ in addition to its time coordinate $t$, where $\phi=(t/p)-N$ for $N$ such that $0\leq\phi<1$.  \textbf{3:} The lightcurve segments can be realigned in phase-space, such that points with the same value of $\phi$ sit at the same $x$-coordinate.  \textbf{4:} All points within given bins in $\phi$-space are averaged to create a lightcurve corresponding to the averaged oscillations of the original lightcurve.  The folding has revealed a peak at $\phi=0.75$ which was not apparent in the unfolded data.}
+    \caption[A cartoon illustrating the process of folding a periodic lightcurve with a known period.]{A cartoon illustrating the process of folding a periodic lightcurve with a known period.  \textbf{1:} a simulated lightcurve with errors.  \textbf{2:} Divide the lightcurve into sections by cutting it at every time coordinate $Np$, where $p$ is the known period and $N$ is any integer.  Each data point may now be given a phase coordinate $\phi$ in addition to its time coordinate $t$, where $\phi=(t/p)-N$ for $N$ such that $0\leq\phi<1$.  \textbf{3:} The lightcurve segments can be realigned in phase-space, such that points with the same value of $\phi$ sit at the same $x$-coordinate.  \textbf{4:} All points within given bins in $\phi$-space are averaged to create a lightcurve corresponding to the averaged oscillations of the original lightcurve.  The folding has revealed a peak at $\phi=0.75$ which was not apparent in the unfolded data.}
    \label{fig:Folding}
 \end{figure}
 
@@ -149,7 +149,7 @@ Where $\Phi(t)$ is the fractional number of cycles which have elapsed between ti
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 30mm 0mm 28mm]{images/steps.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{From top-left: (i) An untouched data-set.  (ii) The dataset with all $y<T_L$ removed.  (iii) The dataset with all contiguous nonzero regions with $\max(y)<T_H$ removed.  (iv) The $t$-coordinates of peak $y$-values $t_m$.  (v) The restored dataset with the $t_m$ highlighted.  (vi) The boundaries between adjacent peaks.}
+    \caption[A cartoon illustrating the procedure of the algorithm described in Section \ref{sec:Flares}.]{From top-left: (i) An untouched data-set.  (ii) The dataset with all $y<T_L$ removed.  (iii) The dataset with all contiguous nonzero regions with $\max(y)<T_H$ removed.  (iv) The $t$-coordinates of peak $y$-values $t_m$.  (v) The restored dataset with the $t_m$ highlighted.  (vi) The boundaries between adjacent peaks.}
    \label{fig:BurstAlg}
 \end{figure}
 
@@ -176,7 +176,7 @@ I show an example of Heidke skill score grid for this algorithm, applied to a Cl
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 10mm 0mm 10mm]{images/HSS_J.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{The Heidke Skill score of a Class IV observation of IGR J17091-3624 for a selection of different values $P_L$ and $P_H$ (low and high threshold respectively).}
+    \caption[The Heidke Skill score of a Class IV observation of IGR J17091-3624 for a selection of different values $P_L$ and $P_H$ (low and high threshold respectively).]{The Heidke Skill score of a Class IV observation of IGR J17091-3624 for a selection of different values $P_L$ and $P_H$ (low and high threshold respectively).}
    \label{fig:Heidke}
 \end{figure}
 
@@ -223,7 +223,7 @@ As such, as I show in Figure \ref{fig:convolve}, physical data consists of a tim
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 10mm 0mm 10mm]{images/convolve.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{A representation of a continuous variable $y(t)$ is convolved with a windowing function $w(t)$ and a sampling function $s(t)$ to yield physical data.  The bottom panel shows how aliasing arises, showing that sine waves of two different frequencies can be fit to the data: one with a frequency $\nu$ equal to that in the original dataset, and one of frequency $\sigma-\nu$ where $\sigma$ is the sampling frequency.}
+    \caption[A representation of how a continuous variable is convolved with a windowing function and a sampling function to yield physical data.]{A representation of how a continuous variable $y(t)$ is convolved with a windowing function $w(t)$ and a sampling function $s(t)$ to yield physical data.  The bottom panel shows how aliasing arises, showing that sine waves of two different frequencies can be fit to the data: one with a frequency $\nu$ equal to that in the original dataset, and one of frequency $\sigma-\nu$ where $\sigma$ is the sampling frequency.}
    \label{fig:convolve}
 \end{figure}
 
@@ -280,7 +280,7 @@ R(\nu)=\frac{(L(\nu)-2)r_s}{(r_s-r_b)^2}=\frac{2\left(|\hat{f}(\nu)|^2-Tr_s\righ
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 25mm 0mm 25mm]{images/hidexp.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{Hardness-Intensity diagrams of a black bodies with temperatures and normalisations described by various functional forms $T(t)$ and $n(t)$.  The plots show how HIDs differ between sources with \textbf{1)} changing brightness but no spectral change, \textbf{2)} changing temperature, \textbf{3)} changing temperature and normalisation in antiphase, and \textbf{4)} changing temperature and normalisation out of phase.}
+    \caption[Hardness-Intensity diagrams of black bodies with temperatures and normalisations described by various functional forms.]{Hardness-Intensity diagrams of black bodies with temperatures and normalisations described by various functional forms $T(t)$ and $n(t)$.  The plots show how HIDs differ between sources with \textbf{1)} changing brightness but no spectral change, \textbf{2)} changing temperature, \textbf{3)} changing temperature and normalisation in antiphase, and \textbf{4)} changing temperature and normalisation out of phase.}
    \label{fig:HIDexp}
 \end{figure}
 \item $T(t)=\sin(t), n(t)=1$: in this example, the spectrum of the source changes over time, resulting in a curved track in hardness-intensity space (Figure \ref{fig:HIDexp}, Panel 2).

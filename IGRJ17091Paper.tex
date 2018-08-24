@@ -4,38 +4,20 @@
 
 \section{Introduction}
 
-%\par X-ray binaries are systems in which a black hole or neutron star accretes matter from a stellar companion, and they provide us with opportunities to test how accretion takes place in the most extreme physical regimes.  Some X-ray Binaries are believed to be accreting at very close to the Eddington limit, the limit at which the radiation pressure on accreting material is equal to the force due to gravity.  As such, these objects can also provide a laboratory with which to explore accretion in radiation pressure-dominated systems \citep{White_Radiation}.
-%\par Low Mass X-ray Binaries (hereafter LMXBs) are a subclass of X-ray binary in which the compact object accretes matter transferred to it due to a Roche-lobe overflow from the companion star (e.g. \citealp{Paczynski_Roche}).  In general, accretion in LMXBs is a variable process, with variability seen on timescales from milliseconds to decades.  On the shortest timescales the X-ray lightcurves of these objects can show band-limited noise and low-frequency quasi-periodic oscillations (QPOs) at frequencies from $\sim$mHz to $\sim$200\,Hz (e.g. \citealp{vanderKlis_QPOs}).  Black hole binaries also show so-called `high frequency QPOs' (e.g. \citealp{Remillard_HHz1,Remillard_HHz2,Belloni_QPOs,Belloni_Review}),  thought to be caused by motion of matter in the innermost region of the accretion disk (e.g. \citealp{Stefanov_HFQPOs}).
-%\par Three sources -- GRS 1915+105, IGR J17091-3624 and the neutron star `Rapid Burster' (MXB 1730-335) -- also show a variety of exotic variability on timescales of seconds to minutes in addition to the kinds of variability seen in other LMXBs.  This exotic variability consists of quasi-periodic flares, dips and other high-amplitude behaviours (e.g \citealp{Belloni_GRS_MI,Altamirano_IGR_FH,Bagnoli_RB}).  The second-to-minute-scale lightcurve profiles of these sources change over timescales of days.  In GRS 1915+105 and IGR J17091-3624, this behaviour can be described as a set of `variability classes'.  These classes themselves vary widely in terms of flux, structure, periodicity and spectral properties.
-%\par  GRS 1915+105 \citep{CastroTirado_GRS1915}, hereafter GRS 1915, is a black hole LMXB which accretes at between a few tens and 100\% of its Eddington Limit (e.g. \citealp{Vilhu_SupEd,Done_GRS_HighAcc,Fender_DiskJet,Reid_Parallax}).  Most LMXBs go through periods of low-intensity `quiescence' and high-intensity `outbursts', the latter consisting of black-body dominated `soft' and power-law dominated `hard' spectral states.  However, GRS 1915 has been in outburst since its discovery in 1992 \citep{CastroTirado_GRS1915}.  GRS 1915 is also notable for the incredible variety and complexity of variability classes it exhibits (e.g. \citealp{Yadav_GRSBursts,Belloni_GRS_MI}) in addition to the less exotic variability seen in other black hole binary systems.  GRS 1915 additionally shows high-frequency and low frequency QPOs similar to those seen in other black hole LMXBs \citep{Morgan_QPO}.  In total, 15 distinct variability classes have been observed \citep{Belloni_GRS_MI,KleinWolt_OmegaClass,Hannikainen_NewClass, Pahari_NewClass}.  This remarkable range of behaviour is believed to be caused by instability in the inner accretion disc (e.g. \citealp{Janiuk_RadInstab,Nayakshin_GRSModel}), which is in turn caused by the existence of a radiation pressure dominated regime in the inner disc (e.g. \citealp{Done_GRS_HighAcc}).   Accounting for this complexity could be key to our understanding of radiation-dominated accretion regimes.
-%\par One of the best-studied variability classes of GRS 1915 is the highly regular flaring $\rho$, or `heartbeat', class, so named for the similarity of its lightcurve to an electrocardiogram. It has been shown that hard X-ray photons tend to lag soft ones in this class (e.g. \citealp{Janiuk_Lag,Massaro_Lag}).  Numerical models derived from \citealp{Shakura_Disk} which reproduce this lag can also reproduce other flaring classes seen in GRS 1915 (e.g \citealp{Nayakshin_GRSModel,Massaro_Numerical}).  These numerical models predict that GRS 1915-like variability should be seen in systems accreting with a global Eddington fraction of $\gtrsim0.26$ \citep{Nayakshin_GRSModel}.  However, other LMXBs (e.g. GX 17+2, \citealp{Kuulkers_GX17}, and V404 Cyg, \citealp{Huppenkothen_V404}) have been observed to exceed this Eddington fraction without displaying GRS 1915-like variability.
-%\par \citet{Neilsen_GRSModel} proposed a physical scenario, based on the mathematical model proposed by \citet{Nayakshin_GRSModel}, to explain the presence of the hard lag in the flaring classes of GRS 1915.  This is outlined schematically in Figure \ref{fig:WindsModel}.  First, an overdensity of matter forms via the thermal-viscous Lightman-Eardley Instability \citep{Lightman_Instability} and propagates inwards through the accretion disc.  This destabilises the disc, collapsing its inner radius and vastly increasing photon emission.  If the local Eddington Limit in the inner accretion disc is then approached, extreme outflows are triggered that deplete the inner accretion disc and allow the cycle to begin again.  As the matter ejected from the disc collides with the non-thermal `corona' above the central object, a flash of hard Bremsstrahlung radiation is produced.  This causes a hardening of the spectrum and an apparent lag between soft and hard photons.  \citet{Janiuk_Lag} instead propose that the lag is caused by the corona smoothly adjusting to the changing brightness of the disc after a light travel time.
-
-%\pagebreak
-%\begin{figure}
-%  \centering
-%  \includegraphics[width=.9\linewidth, trim= 25mm 0mm 0mm 0mm]{images/Wind_Model1.eps}
-%  \caption{\small A schematic diagram illustrating the the process described by \citet{Neilsen_GRSModel} to describe the $\rho$ variability class in GRS 1915+105.  1) The X-ray emission from the system originates from both the accretion disc truncated at an inner radius $r_{in}$ (grey) and a cloud of non-thermal electrons (white ellipse).  At some time $t$, an overdensity in the accretion disc (formed by the Lightman-Eardley Instability) propagates inwards towards $r_{in}$.  2) As the inner disc heats up, $r_{in}$ begins to slowly increase due to an increase in photon pressure.  This destabilises the disc.  3) At some critical density, the disc becomes too unstable and collapses inwards, greatly decreasing $r_{in}$ and raising the inner disc temperature.  4) The sudden increase in emission exceeds the local Eddington limit at $r_{in}$, ejecting matter from the inner accretion disc in the form of extreme winds.  5) Having been excited by matter in the winds passing through it, the non-thermal electron cloud emits a hard Brehmsstrahlung `pulse'.}
-%  \label{fig:WindsModel}
-%\end{figure}
-%\pagebreak
-
-%\par The black hole candidate LMXB IGR J17091-3624 (hereafter J17091) was discovered in outburst by \textit{INTEGRAL} in 2003 \citep{Kuulkers_IGRDiscovery}.  In 2011, it again went into outburst \citep{Krimm_IGROutburst}.  GRS 1915-like variability was discovered in its lightcurve, as well as high-frequency QPOs which behave much like the QPOs seen in GRS 1915 %\citep{Altamirano_IGR_FH,Altamirano_Discovery,Altamirano_HFQPO}.  As IGR J17091 is around a factor of 20 fainter at 2--25\,keV than GRS 1915, this object has either a lower black hole mass $M$, a lower accretion rate $\dot{m}$ or lies at a larger distance $D$ than GRS 1915.  Assuming by analogy with GRS 1915 that IGR J17091 is accreting at its Eddington rate, the black hole must have a mass of $M\lesssim3$\ms\ or lie at a distance of $D\gtrsim20$ kpc \citep{Altamirano_IGR_FH}.  However, independent estimates based on empirical relationships between black hole mass and high-frequency QPOs have suggested values of $M$ between $\sim8.7$ and $15.6$ \ms\ \citep{Rebusco_IGRMass,Iyer_Bayes,Iyer_IGRMass}, while multi-wavelength observations of the hard-to-soft state transition have suggested values of $D$ between $\sim$11 and $\sim$17 kpc \citep{Rodriguez_D}.  This implies that IGR J17091 may have an accretion rate $\dot{m}$ that is significantly below its Eddington rate.
-%\par The suggestion that IGR J17091 accretes at significantly below the Eddington Limit raises several questions.  Despite evidence of disc winds in IGR J17091 faster than 0.03c \citep{King_IGRWinds}, the wind generation procedure described in \citet{Neilsen_GRSModel} cannot take place without near-Eddington-limited accretion.   Additionally, it makes it increasingly unclear what differentiates IGR J17091 and GRS 1915 from the vast majority of LMXBs which do not display such complex behaviour, and what physical system properties are required for GRS 1915-like variability to be observed.  This latter point was further complicated by the observation of GRS 1915-like variability in 2 out of 155 \rxte\ observations of the Rapid Burster \citep{Bagnoli_RB}.  As thermonuclear (Type I) X-ray bursts are also seen in the Rapid Burster \citep{Hoffman_RB}, it is known to contain a neutron star.  As such, the presence of variability classes in this object rules out any black hole-specific effects as the cause of the complex variability.  In addition to this, the persistent luminosity of the Rapid Burster during periods of GRS 1915-like variability is known to be no greater than $\sim10\%$ of its Eddington limit \citep{Bagnoli_PopStudy}.
-%\par Accounting for GRS 1915-like variability is required for a complete understanding of the physics of accretion in LMXBs.  As such, \citet{Belloni_GRS_MI} performed a complete model-independent analysis of variability classes in GRS 1915.  This work highlighted the breadth and diversity of variability in GRS 1915, and allowed these authors to search for features common to all variability classes.  For example, \citet{Belloni_GRS_MI} also found that every variability class can be expressed as a pattern of transitions between three quasi-stable phenomenological states.
-%\par Previous works have noted that some of the variability classes seen in IGR J17091-3624 appear very similar to those seen in GRS 1915 (e.g. \citealp{Altamirano_IGR_FH, Zhang_IGR}).  However, although $\rho$-like classes in the two objects both show lags between hard and soft X-rays photons, these lags appear to possess different signs \citep{Altamirano_IGR_FH}.  Additionally, at least two variability classes have been reported in IGR J17091 which have not yet been reported in GRS 1915 \citep{Pahari_IGRClasses}.  Previous works have described some of the behaviour seen in IGR J17091 in the context of the variability classes described by \citealt{Belloni_GRS_MI} for GRS 1915 (e.g. \citealp{Altamirano_IGR_FH,Pahari_RhoDiff}).  To further explore the comparison between GRS 1915 and IGR J17091, here we perform the first comprehensive model-independent analysis of variability classes in IGR J17091 using the complete set of \rxte\ \citep{Bradt_RXTE} data taken of the 2011-2013 outburst of the object.  We also use data from all other X-ray missions that observed the source during this time to analyse the long-term evolution of the outburst.
+\par Accounting for GRS 1915-like variability is required for a complete understanding of the physics of accretion in LMXBs.  As such, \citet{Belloni_GRS_MI} performed a complete model-independent analysis of variability classes in GRS 1915.  This work highlighted the breadth and diversity of variability in GRS 1915, and allowed these authors to search for features common to all variability classes.  For example, \citet{Belloni_GRS_MI} also found that every variability class can be expressed as a pattern of transitions between three quasi-stable phenomenological states.
+\par Previous works have noted that some of the variability classes seen in IGR J17091-3624 appear very similar to those seen in GRS 1915 (e.g. \citealp{Altamirano_IGR_FH, Zhang_IGR}).  However, although $\rho$-like classes in the two objects both show lags between hard and soft X-rays photons, these lags appear to possess different signs \citep{Altamirano_IGR_FH}.  Additionally, at least two variability classes have been reported in IGR J17091 which have not yet been reported in GRS 1915 \citep{Pahari_IGRClasses}.  Previous works have described some of the behaviour seen in IGR J17091 in the context of the variability classes described by \citealt{Belloni_GRS_MI} for GRS 1915 (e.g. \citealp{Altamirano_IGR_FH,Pahari_RhoDiff}).  To further explore the comparison between GRS 1915 and IGR J17091, here we perform the first comprehensive model-independent analysis of variability classes in IGR J17091 using the complete set of \rxte\ \citep{Bradt_RXTE} data taken of the 2011-2013 outburst of the object.  We also use data from all other X-ray missions that observed the source during this time to analyse the long-term evolution of the outburst.
 
 \section{Data and Data Analysis}
 
 \label{sec:dex}
 
-\par In this paper, we report data from \rxte , \textit{INTEGRAL}, \textit{Swift}, \textit{Chandra}, \textit{XMM-Newton} and \textit{Suzaku} covering the 2011-2013 outburst of IGR J17091.  Unless stated otherwise, all errors are quoted at the 1$\sigma$ level.
+\par In this chapter, we report data from \rxte , \textit{INTEGRAL}, \textit{Swift}, \textit{Chandra}, \textit{XMM-Newton} and \textit{Suzaku} covering the 2011-2013 outburst of IGR J17091.  Unless stated otherwise, all errors are quoted at the 1$\sigma$ level.
 \par In Figure \ref{fig:allmissions} we present long-term lightcurves from \rxte ,  \textit{INTEGRAL} and \textit{Swift} with one datapoint per observation, as well as indicating when during the outburst \textit{Chandra}, \textit{XMM-Newton} and \textit{Suzaku} observations were made.
 
 \begin{figure}
-    \includegraphics[width=1.8\columnwidth, trim = {0.75cm 1.0cm 1.0cm 0.8cm},clip]{images/allmis.eps}
+    \includegraphics[width=\columnwidth, trim = {0.75cm 1.0cm 1.0cm 0.8cm},clip]{images/allmis.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{\rxte\ (Panel a), \textit{Swift/XRT} (Panel b), \textit{Swift/BAT} (Panel b) and \textit{INTEGRAL}/IBIS (Panel d) lightcurves of IGR J17091-3624 during its 2011-2013 outburst.  Arrows mark times at which \textit{XMM-Newton} (blue), \textit{Chandra} (red) or \textit{Suzaku} (magenta) observed IGR J17091-3624.  The cyan line represents MJD 55963, the approximate time IGR J17091-3624 transitions from the soft to the hard state \citep{Drave_Return}.  \rxte \textit{/PCA} \citep{Jahoda_PCA} data are for the 2--16\,keV energy band and taken from \citep{Altamirano_IGR_FH}, \textit{Swift/BAT} \citep{Barthelmy_BAT} data are for 15--50\,keV, \textit{Swift/XRT} \citep{Burrows_XRT}  data are for 0.3--10\,keV and \textit{INTEGRAL/ISGRI} \citep{Ubertini_IBIS} data are for 20-40\,keV.  Note that the data from \textit{Swift/XRT} (Panel B) are shown with a logarithmic $y$-axis to better show the late time progression of the outburst.  Data points are coloured according to the observing mode used.  The \textit{Swift/XRT} data from times later than MJD 56422 are shown to a different scale to better represent the post-outburst evolution of the source.  All data are presented in 1 day bins, except for data from \textit{Swift/BAT} which is presented in 4 day bins.  See also Figure \ref{fig:WhereCls}, in which data from \rxte \textit{/PCA} is presented on a smaller scale.  The Crab count rates used to normalise these data were 2300 cts s$^{-1}$ PCU$^{-1}$, 747.5 cts s$^{-1}$, 0.214 cts s$^{-1}$ and 183.5 cts s$^{-1}$ for \rxte , \textit{Swift/XRT}, \textit{Swift/BAT} and \textit{INTEGRAL/ISGRI} respectively.  \rxte\ data have not been corrected for the 25' offset to avoid contamination from GX 349+2, and for all instruments we implicitly assume that IGR J17091 presents a Crab-like spectrum.}
+    \caption[Lightcurves of IGR J17091-3624, from a number of instruments, during its 2011-2013 outburst.]{\rxte\ (Panel a), \textit{Swift/XRT} (Panel b), \textit{Swift/BAT} (Panel b) and \textit{INTEGRAL}/IBIS (Panel d) lightcurves of IGR J17091-3624 during its 2011-2013 outburst.  Arrows mark times at which \textit{XMM-Newton} (blue), \textit{Chandra} (red) or \textit{Suzaku} (magenta) observed IGR J17091-3624.  The cyan line represents MJD 55963, the approximate time IGR J17091-3624 transitions from the soft to the hard state \citep{Drave_Return}.  \rxte \textit{/PCA} \citep{Jahoda_PCA} data are for the 2--16\,keV energy band and taken from \citep{Altamirano_IGR_FH}, \textit{Swift/BAT} \citep{Barthelmy_BAT} data are for 15--50\,keV, \textit{Swift/XRT} \citep{Burrows_XRT}  data are for 0.3--10\,keV and \textit{INTEGRAL/ISGRI} \citep{Ubertini_IBIS} data are for 20-40\,keV.  Note that the data from \textit{Swift/XRT} (Panel B) are shown with a logarithmic $y$-axis to better show the late time progression of the outburst.  Data points are coloured according to the observing mode used.  The \textit{Swift/XRT} data from times later than MJD 56422 are shown to a different scale to better represent the post-outburst evolution of the source.  All data are presented in 1 day bins, except for data from \textit{Swift/BAT} which is presented in 4 day bins.  See also Figure \ref{fig:WhereCls}, in which data from \rxte \textit{/PCA} is presented on a smaller scale.  The Crab count rates used to normalise these data were 2300 cts s$^{-1}$ PCU$^{-1}$, 747.5 cts s$^{-1}$, 0.214 cts s$^{-1}$ and 183.5 cts s$^{-1}$ for \rxte , \textit{Swift/XRT}, \textit{Swift/BAT} and \textit{INTEGRAL/ISGRI} respectively.  \rxte\ data have not been corrected for the 25' offset to avoid contamination from GX 349+2, and for all instruments we implicitly assume that IGR J17091 presents a Crab-like spectrum.}
    \label{fig:allmissions}
 \end{figure}
 
@@ -54,7 +36,7 @@
 
 \subsection{\textit{Swift}}
 
-\par In this paper, we consider data from the Burst Alert Telescope (\textit{BAT}, \citealt{Barthelmy_BAT}), and the X-ray Telescope (\textit{XRT}, \citealt{Burrows_XRT}) aboard Swift Gamma-ray Burst Mission \citep{Gehrels_Swift}.  IGR J17091-3624 was observed with \textit{XRT} for a total of 172 pointed XRT observations between MJDs 55575 and 56600, corresponding to Target IDs 31921, 34543, 30967, 30973, 31920, 35096, 67137, 81917, 522245, 677582 and 677981.  These observations were interrupted during sun constraints centred on MJDs 55907 and 56272.  We created a long-term 0.3--10\,keV \textit{Swift/XRT} light curve, with one bin per pointed observation, using the online light-curve generator provided by the UK Swift Science Data Centre (UKSSDC; \citealp{Evans_Swift1}).  We have also created a long-term 15--50\,keV lightcurve using the publicly available \textit{Swift/BAT} daily-averaged light curve\footnote{\url{http://swift.gsfc.nasa.gov/results/transients/weak/IGRJ17091-3624/}}.  These are shown in Figure \ref{fig:allmissions} Panels (b) and (c) respectively.
+\par In this chapter, we consider data from the Burst Alert Telescope (\textit{BAT}, \citealt{Barthelmy_BAT}), and the X-ray Telescope (\textit{XRT}, \citealt{Burrows_XRT}) aboard Swift Gamma-ray Burst Mission \citep{Gehrels_Swift}.  IGR J17091-3624 was observed with \textit{XRT} for a total of 172 pointed XRT observations between MJDs 55575 and 56600, corresponding to Target IDs 31921, 34543, 30967, 30973, 31920, 35096, 67137, 81917, 522245, 677582 and 677981.  These observations were interrupted during sun constraints centred on MJDs 55907 and 56272.  We created a long-term 0.3--10\,keV \textit{Swift/XRT} light curve, with one bin per pointed observation, using the online light-curve generator provided by the UK Swift Science Data Centre (UKSSDC; \citealp{Evans_Swift1}).  We have also created a long-term 15--50\,keV lightcurve using the publicly available \textit{Swift/BAT} daily-averaged light curve\footnote{\url{http://swift.gsfc.nasa.gov/results/transients/weak/IGRJ17091-3624/}}.  These are shown in Figure \ref{fig:allmissions} Panels (b) and (c) respectively.
 
 \subsection{\textit{INTEGRAL}}
 
@@ -64,14 +46,14 @@
 \subsection{\textit{XMM-Newton}}
 \label{sec:xmmdata}
 
-\par In this paper we only consider data from the European Photon Imaging Camera (\textit{EPIC} \citealp{Bignami_EPIC}) aboard \textit{XMM-Newton} \citep{Jansen_XMM}.   \textit{EPIC} consists of one telescope with a pn-type CCD (\textit{EPIC-pn}, \citealp{Struder_PN}) and two telescopes with MOS CCDs (\textit{EPIC-MOS1} and \textit{-MOS2}, \citealp{Turner_MOS}).
+\par In this chapter we only consider data from the European Photon Imaging Camera (\textit{EPIC} \citealp{Bignami_EPIC}) aboard \textit{XMM-Newton} \citep{Jansen_XMM}.   \textit{EPIC} consists of one telescope with a pn-type CCD (\textit{EPIC-pn}, \citealp{Struder_PN}) and two telescopes with MOS CCDs (\textit{EPIC-MOS1} and \textit{-MOS2}, \citealp{Turner_MOS}).
 \par \textit{XMM/Newton} observed IGR J17091 thrice during the period from 2011--2013 (represented by the blue arrows in Figure \ref{fig:allmissions}).  One of these (OBSID 0721200101) was made on 12 September 2013; we do not consider this observation further as IGR J17091 had returned to quiescence by this time \citep{Altamirano_Quiescence}.  The remaining two observations, corresponding to OBSIDs 0677980201 and 0700381301 respectively, were taken on March 27 2011 (MJD 55647) and September 29 2012 (MJD 56199).
 \par During observation 0677980201, \textit{EPIC-pn} was operating in burst mode and \textit{EPIC-MOS} was operating in timing mode.  Given the low efficiency of burst mode, we only consider data from \textit{EPIC-MOS} for this observation.  During observation 0700381301, \textit{EPIC-pn} was operating in timing mode, and thus we use data from \textit{EPIC-pn} for this observation.
 \par We used the \textit{XMM-Newton} Science Analysis Software version 15.0.0 (\texttt{SAS}, see \citealp{Ibarra_sas}) to extract calibrated event lists from \textit{EPIC} in both observations.  We used these to construct lightcurves to study the X-ray variability, following standard analysis threads\footnote{\url{http://www.cosmos.esa.int/web/xmm-newton/sas-threads}}.
 
 \subsection{\textit{Chandra}}
 
-\par In this paper we consider data from the Advanced CCD Imaging Camera (\textit{ACIS}, \citealp{Nousek_ACIS}) and the High Resolution Camera (\textit{HRC}, \citealp{Murray_HRC}) aboard \textit{Chandra} \citep{Weisskopf_Chandra}.  \textit{Chandra} made 7 observations of IGR J17091 during the period 2011--2013.  Four of these observations were taken after IGR J17091 returned to quiescence, and we do not consider these further in this paper.  The Chandra observations log is reported in Table \ref{tab:Chandra}. 
+\par In this chapter we consider data from the Advanced CCD Imaging Camera (\textit{ACIS}, \citealp{Nousek_ACIS}) and the High Resolution Camera (\textit{HRC}, \citealp{Murray_HRC}) aboard \textit{Chandra} \citep{Weisskopf_Chandra}.  \textit{Chandra} made 7 observations of IGR J17091 during the period 2011--2013.  Four of these observations were taken after IGR J17091 returned to quiescence, and we do not consider these further in this chapter.  The Chandra observations log is reported in Table \ref{tab:Chandra}. 
 
 \begin{table}
 \centering
@@ -86,7 +68,7 @@
 \hline
 \hline
 \end{tabular}
-\caption{Chandra observations log covering the three observations considered in this paper.  $I$ refers to Imaging mode, $C$ refers to CC33\_Graded mode and $T$ refers to Timed Exposure Faint mode.  HETG refers to the High Energy Transmission Grating.}
+\caption[\textit{Chandra} observations log covering the three observations considered in this chapter.]{\textit{Chandra} observations log covering the three observations considered in this chapter.  $I$ refers to Imaging mode, $C$ refers to CC33\_Graded mode and $T$ refers to Timed Exposure Faint mode.  HETG refers to the High Energy Transmission Grating.}
 \label{tab:Chandra}
 \end{table}
 
@@ -96,7 +78,7 @@
 
 \subsection{\textit{Suzaku}}
 
-\par In this paper, we only consider data from the X-ray Imaging Spectrometer (\textit{XIS}, \citealp{Koyama_XIS}) aboard \textit{Suzaku} \citep{Mitsuda_Suzaku}.  \textit{Suzaku} observed IGR J17091 twice during the period 2011--2013; a 42.1\,ks observation on October 2--3, 2012 (MJD 56202--56203, ObsID: 407037010) and an 81.9\,ks observation on February 19--21, 2013 (MJD 56342--56344, ObsID: 407037020). \textit{XIS} consists of four X-ray CCDs (\textit{XIS} 0, 1, 2 and 3), and all them except for XIS 2 were operating in the 1/4 window mode which has a minimum time resolution of 2 seconds.
+\par In this chapter, we only consider data from the X-ray Imaging Spectrometer (\textit{XIS}, \citealp{Koyama_XIS}) aboard \textit{Suzaku} \citep{Mitsuda_Suzaku}.  \textit{Suzaku} observed IGR J17091 twice during the period 2011--2013; a 42.1\,ks observation on October 2--3, 2012 (MJD 56202--56203, ObsID: 407037010) and an 81.9\,ks observation on February 19--21, 2013 (MJD 56342--56344, ObsID: 407037020). \textit{XIS} consists of four X-ray CCDs (\textit{XIS} 0, 1, 2 and 3), and all them except for XIS 2 were operating in the 1/4 window mode which has a minimum time resolution of 2 seconds.
 \par We analysed the \textit{Suzaku} data using {\it HEASOFT} 6.19 in the following standard procedures after reprocessing the data with \texttt{aepipeline} and the latest calibration database (version 20160607).  We extracted \textit{XIS} light curves in the 0.7--10 keV range, and subtracted background individually for XIS 0, 1 and 3 and then summed these to obtain the total background.  We created Power density spectra (PDS) using {\tt powspec} in the {\tt XRONOS} package.
 
 \section{Results}
@@ -126,18 +108,19 @@
 \par In Figure \ref{fig:IIIisHarder} Panel (a), we see that IGR J17091-3624 traces a two branched pattern in colour-colour space corresponding to a branch which is soft ($\sim0.9$) in $H_{A1}$ and variable in $H_{A2}$ and a branch which is soft ($\sim0.5$) in $H_{A2}$ and variable in $H_{A1}$.  The `soft' HID shown in Figure \ref{fig:IIIisHarder} Panel (b) is dominated by a branch with a wide spread in $H_{A1}$ and intensities between $\sim40\mbox{--}60$\,mCrab.  A second branch exists at lower intensities, and shows an anticorrelation between intensity and $H_{A1}$.  Finally, the `hard' HID shown in Figure \ref{fig:IIIisHarder} Panel (c) shows an obvious anticorrelation between $H_{A2}$ and intensity, but there is also a secondary branch between $H_{A2}\approx 0.7\mbox{--}0.9$ at a constant intensity of $\sim40$\,mCrab.
 
 \begin{figure}
-    \includegraphics[width=1.8\columnwidth, trim = {1.3cm 2.0cm 1.8cm 1.8cm},clip]{images/all_lc.eps}
+    \includegraphics[width=\columnwidth, trim = {1.3cm 2.0cm 1.8cm 1.8cm},clip]{images/all_lc.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{Global 2--3.5\,keV Lightcurves of IGR J17091-3524 during the 2011-2013 outburst, with each point corresponding to the mean Crab-normalised count rate of a single \rxte\ observation of the object (in turn corresponding to between 0.4 and 3.6 ks of data).  In each lightcurve, every observation identified as belonging to a particular class (indicated on the plot) is highlighted.  These are presented along with a characteristic lightcurve (inset) from an observation belonging to the relevant class.  Each lightcurve is 250\,s in length, and has a $y$-scale from 0 to 250\spcu .  Data taken from \citealt{Altamirano_IGR_FH}.}
+    \caption[Lightcurves of IGR J17091-3524 during the 2011-2013 outburst, showing when each of variability classes I-IX were observed.]{Global 2--3.5\,keV Lightcurves of IGR J17091-3524 during the 2011-2013 outburst, with each point corresponding to the mean Crab-normalised count rate of a single \rxte\ observation of the object (in turn corresponding to between 0.4 and 3.6 ks of data).  In each lightcurve, every observation identified as belonging to a particular class (indicated on the plot) is highlighted.  These are presented along with a characteristic lightcurve (inset) from an observation belonging to the relevant class.  Each lightcurve is 250\,s in length, and has a $y$-scale from 0 to 250\spcu .  Data taken from \citealt{Altamirano_IGR_FH}.}
    \label{fig:WhereCls}
 \end{figure}
 
 \begin{figure}
-\subfloat[\textit{Colour-Colour Diagram}]{\includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 8mm,clip]{images/all_ccd.eps}}\\
-\subfloat[\textit{"Soft" ($H_{A1}$) Hardness-Intensity Diagram}]{\includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 8mm,clip]{images/all_shid_colorful.eps}}\\
-\subfloat[\textit{"Hard" ($H_{A2}$) Hardness-Intensity Diagram}]{\includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 8mm,clip]{images/all_hhid_colorful.eps}}\\
+\centering
+\subfloat[\textit{Colour-Colour Diagram}]{\includegraphics[width=0.8\columnwidth, trim = 0mm 0mm 0mm 8mm,clip]{images/all_ccd.eps}}\\
+\subfloat[\textit{"Soft" ($H_{A1}$) Hardness-Intensity Diagram}]{\includegraphics[width=0.8\columnwidth, trim = 0mm 0mm 0mm 8mm,clip]{images/all_shid_colorful.eps}}\\
+\subfloat[\textit{"Hard" ($H_{A2}$) Hardness-Intensity Diagram}]{\includegraphics[width=0.8\columnwidth, trim = 0mm 0mm 0mm 8mm,clip]{images/all_hhid_colorful.eps}}\\
 \captionsetup{singlelinecheck=off}
-\caption{A global colour-colour diagram (a), "soft" hardness-intensity diagram (b) and "hard" hardness-intensity diagram (c) of the 2011-2013 outburst of IGR J17091, using the colours $H_{A1}$ and $H_{A2}$ defined previously.  Observations belonging to different classes have been highlighted in different colours.  Data taken from \citealt{Altamirano_IGR_FH}.}
+\caption[Hardness-Intensity diagrams of IGR J17091-3524 during the 2011-2013 outburst, showing when each of variability classes I-IX were observed.]{A global colour-colour diagram (a), "soft" hardness-intensity diagram (b) and "hard" hardness-intensity diagram (c) of the 2011-2013 outburst of IGR J17091, using the colours $H_{A1}$ and $H_{A2}$ defined previously.  Observations belonging to different classes have been highlighted in different colours.  Data taken from \citealt{Altamirano_IGR_FH}.}
 \label{fig:IIIisHarder}
 \end{figure}
 
@@ -165,7 +148,7 @@ IX&87--111&114--144&0.16--0.24&0.42-0.6\\
 \hline
 \hline
 \end{tabular}
-\caption{Lower and upper quartile count rates, fractional RMS and median colour averaged across all observations belonging to each class.  Count rates and fractional RMS are taken from the full energy range of \rxte\textit{/PCA}, and fractional RMS values are 2--60\,keV taken from lightcurves binned to 0.5\,s.  Count rates are normalised for the number of PCUs active during each observation.  All values are quoted as $1\sigma$ ranges.}
+\caption[A number of statistics averaged across all observations belonging to each IGR J17091 variability class.]{Lower and upper quartile count rates, fractional RMS and median colour averaged across all observations belonging to each class.  Count rates and fractional RMS are taken from the full energy range of \rxte\textit{/PCA}, and fractional RMS values are 2--60\,keV taken from lightcurves binned to 0.5\,s.  Count rates are normalised for the number of PCUs active during each observation.  All values are quoted as $1\sigma$ ranges.}
 \label{tab:basicparams}
 \end{table}
 
@@ -190,7 +173,7 @@ IX & 50 &  81037 & 17.3\%\\
 \hline
 \hline
 \end{tabular}
-\caption{A tally of the number of times we assigned each of our nine Variability Classes to an \rxte\ orbit.  We have also calculated the amount of observation time corresponding to each class, and thus inferred the fraction of the time that IGR J17091 spent in each class.  Note: the values in the Total Time column assume that each orbit only corresponds to a single variability Class.}
+\caption[A tally of the number of times we assigned each of our nine Variability Classes to an \rxte\ orbit observing IGR J17091.]{A tally of the number of times we assigned each of our nine Variability Classes to an \rxte\ orbit.  We have also calculated the amount of observation time corresponding to each class, and thus inferred the fraction of the time that IGR J17091 spent in each class.  Note: the values in the Total Time column assume that each orbit only corresponds to a single variability Class.}
 \label{tab:CPopD}
 \end{table}
 
@@ -202,7 +185,7 @@ IX & 50 &  81037 & 17.3\%\\
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/Bmulti.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Plots of the Class I observation 96420-01-01-00, orbit 0.  \textit{Top-left}: 1000\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: 500\,s lightcurve binned on 2 seconds.}
+    \caption[Characteristic lightcurves and a power spectrum of Type I variability.]{Plots of the Class I observation 96420-01-01-00, orbit 0.  \textit{Top-left}: 1000\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: 500\,s lightcurve binned on 2 seconds.}
    \label{fig:Bmulti}
 \end{figure}
 
@@ -213,7 +196,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/Emulti.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Plots of the Class II observation 96420-01-11-00, orbit 0.  \textit{Top-left}:  1000\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 2 seconds.}
+    \caption[Characteristic lightcurves and a power spectrum of Type II variability.]{Plots of the Class II observation 96420-01-11-00, orbit 0.  \textit{Top-left}:  1000\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 2 seconds.}
    \label{fig:Emulti}
 \end{figure}
 
@@ -225,7 +208,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/Gmulti.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Plots of the Class III observation 96420-01-04-01, orbit 0.  \textit{Top-left}: 1000\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 2 seconds.  Note that, to emphasise the behaviour of the lightcurve in this class, we have magnified the 500\,s lightcurve y-scale by a factor of 2 compared with the lightcurves presented for other classes.}
+    \caption[Characteristic lightcurves and a power spectrum of Type III variability.]{Plots of the Class III observation 96420-01-04-01, orbit 0.  \textit{Top-left}: 1000\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 2 seconds.  Note that, to emphasise the behaviour of the lightcurve in this class, we have magnified the 500\,s lightcurve y-scale by a factor of 2 compared with the lightcurves presented for other classes.}
    \label{fig:Gmulti}
 \end{figure}
 
@@ -236,14 +219,14 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/LSVIII.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{The Lomb-Scargle periodogram of observation 96420-19-01, orbit 0, with significance levels of 1, 2 and 3$\sigma$ plotted.  The peak at 0.31\,Hz was used to define a QPO frequency when folding the data from this observation.}
+    \caption[The Lomb-Scargle periodogram of Class III observation 96420-01-19-01]{The Lomb-Scargle periodogram of observation 96420-01-19-01, orbit 0, with significance levels of 1, 2 and 3$\sigma$ plotted.  The peak at 0.31\,Hz was used to define a QPO frequency when folding the data from this observation.}
    \label{fig:IIILS}
 \end{figure}
 
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/Gloop.png}
     \captionsetup{singlelinecheck=off}
-    \caption{The hardness-intensity diagram (HID$_1$) of the Class III observation 96420-01-04-01, orbit 0.  The data have been folded over a period of 79.61 s, corresponding to the peak frequency in the Lomb-Scargle spectrum of this observation.  Inset is the folded lightcurve of the same data.}
+    \caption[A hardness-intensity diagram of the Class III observation 96420-01-04-01.]{The hardness-intensity diagram (HID$_1$) of the Class III observation 96420-01-04-01, orbit 0.  The data have been folded over a period of 79.61 s, corresponding to the peak frequency in the Lomb-Scargle spectrum of this observation.  Inset is the folded lightcurve of the same data.}
    \label{fig:LoopIII}
 \end{figure}
 
@@ -253,7 +236,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/Jmulti.png}\\
     \captionsetup{singlelinecheck=off}
-    \caption{Plots of the Class IV observation 96420-01-05-00, orbit 0.  \textit{Top-left}: 1000\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 0.5 seconds.}
+    \caption[Characteristic lightcurves and a power spectrum of Type IV variability.]{Plots of the Class IV observation 96420-01-05-00, orbit 0.  \textit{Top-left}: 1000\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 0.5 seconds.}
    \label{fig:Jmulti}
 \end{figure}
 
@@ -264,7 +247,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
     \includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/Jloop.png}\\
     \includegraphics[width=0.5\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/Jloop4.png}\includegraphics[width=0.5\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/Jloop3.png}
     \captionsetup{singlelinecheck=off}
-    \caption{\textit{Top}: The hardness-intensity diagram (HID$_1$) of the Class IV observation 96420-01-05-00, orbit 0 showing an anticlockwise loop.  The data have been folded over a variable period found with the algorithm described in Section \ref{sec:Flares}.  Inset is the folded lightcurve of the same data.  \textit{Bottom Left}: The hardness-intensity diagram of Class IV observations 96420-01-24-02 orbit 0, an example of a clockwise loop.  \textit{Bottom Right}: The hardness-intensity diagram of Class IV observation 96420-01-06-00 orbit 0, in which we were unable to ascertain the presence of a loop.}
+    \caption[The hardness-intensity diagram of the Class IV observation 96420-01-05-00, showing an anticlockwise loop.]{\textit{Top}: The hardness-intensity diagram (HID$_1$) of the Class IV observation 96420-01-05-00, orbit 0 showing an anticlockwise loop.  The data have been folded over a variable period found with the algorithm described in Section \ref{sec:Flares}.  Inset is the folded lightcurve of the same data.  \textit{Bottom Left}: The hardness-intensity diagram of Class IV observations 96420-01-24-02 orbit 0, an example of a clockwise loop.  \textit{Bottom Right}: The hardness-intensity diagram of Class IV observation 96420-01-06-00 orbit 0, in which we were unable to ascertain the presence of a loop.}
    \label{fig:LoopIV}
 \end{figure}
 
@@ -277,25 +260,25 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/Kmulti.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Plots of the Class V observation 96420-01-06-03, orbit 0.  \textit{Top-left}: 750\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum. \textit{Bottom}: Lightcurve binned on 0.5 seconds.}
+    \caption[Characteristic lightcurves and a power spectrum of Type V variability.]{Plots of the Class V observation 96420-01-06-03, orbit 0.  \textit{Top-left}: 750\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum. \textit{Bottom}: Lightcurve binned on 0.5 seconds.}
    \label{fig:Kmulti}
 \end{figure}
 
 \par The lightcurves in this class, like in Classes III and IV, show flaring behaviour, with flares separated by a few tens of seconds.  At higher frequencies, the PDS shows a prominent QPO centred at $\sim4$Hz with as $q$-value of $\sim3$.  There is also significant broad band noise between $\sim0.1$--$1$Hz
 \par In Figure \ref{fig:id_flares_V} we show that the flaring in this class is more complex than that seen in Classes III and IV.  Class V lightcurves consist of short strongly peaked symmetrical flares (hereafter Type $V_1$) and a longer more complex type of flare (hereafter Type $V_2$).  The Type $V_2$ flare consists of a fast rise to a local maximum in count rate, followed by a $\sim10$\,s period in which this count rate gradually reduces by $\sim50\%$ and then a much faster peak with a maximum count rate between 1 and 2 times that of the initial peak.  In both types of flare, we find that the increase in count rate corresponds with an increase in soft colour.  The two-population nature of flares in Class V can also clearly be seen in Figure \ref{fig:two_popV}, where we show a two-dimensional histogram of flare peak count rate against flare duration.
-\par We folded all individual Class V lightcurves, in each case cropping out regions of $V_2$ flaring.  We find clockwise hysteretic loops in the HID$_1$ of 30 out of 33 Class V observations, suggesting a lag in the aforementioned relation between count rate and soft colour.  In the upper panel Figure \ref{fig:LoopV} we present an example of one of these loops.  In one observation however, we found an anticlockwise loop in the HID$_1$ (shown in Figure \ref{fig:LoopV} lower-left panel).  We were unable to ascertain the presence of loops in the remaining 2 orbits; for the sake of completeness, we show one of these in the lower-right panel of Figure \ref{fig:LoopV}.
+\par We folded all individual Class V lightcurves, in each case cropping out periods of $V_2$ flaring.  We find clockwise hysteretic loops in the HID$_1$ of 30 out of 33 Class V observations, suggesting a lag in the aforementioned relation between count rate and soft colour.  In the upper panel Figure \ref{fig:LoopV} we present an example of one of these loops.  In one observation however, we found an anticlockwise loop in the HID$_1$ (shown in Figure \ref{fig:LoopV} lower-left panel).  We were unable to ascertain the presence of loops in the remaining 2 orbits; for the sake of completeness, we show one of these in the lower-right panel of Figure \ref{fig:LoopV}.
 
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/KBurstTypes.png}
     \captionsetup{singlelinecheck=off}
-    \caption{A portion of the lightcurve of observation 96420-01-06-03, orbit 0, showing Type $V_1$ flares (highlighted in cyan) and Type $V_2$ flares (highlighted in red).}
+    \caption[A portion of the lightcurve of observation 96420-01-06-03 showing Type $V_1$ flares and Type $V_2$ flares.]{A portion of the lightcurve of observation 96420-01-06-03, orbit 0, showing Type $V_1$ flares (highlighted in cyan) and Type $V_2$ flares (highlighted in red).}
    \label{fig:id_flares_V}
 \end{figure}
 
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/KBurst.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Every flare in all observations identified as Class V, plotted in a two-dimensional histogram of flare peak count rate against flare duration to show the two-population nature of these events.}
+    \caption[Every flare in all observations identified as Class V, plotted in a two-dimensional histogram of flare peak count rate against flare duration to show the two-population nature of these events.]{Every flare in all observations identified as Class V, plotted in a two-dimensional histogram of flare peak count rate against flare duration to show the two-population nature of these events.}
    \label{fig:two_popV}
 \end{figure}
 
@@ -303,7 +286,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
     \includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/Kloop.png}\\
     \includegraphics[width=0.5\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/Kloop2.png}\includegraphics[width=0.5\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/Kloop3.png}
     \captionsetup{singlelinecheck=off}
-    \caption{\textit{Top}: The hardness-intensity diagram (HID$_1$) of a type $V_1$ flaring region in Class V observation 96420-01-07-00, orbit 0 showing a clockwise loop.  The data have been folded over a variable period found with the algorithm described in Section \ref{sec:Flares}.  Inset is the folded lightcurve of the same data. \textit{Bottom Left}: The hardness-intensity diagram of Class V observation 96420-01-25-05 orbit 0, an example of an anticlockwise loop.  \textit{Bottom Right}: The hardness-intensity diagram of Class V observation 96420-01-25-06 orbit 0, in which we were unable to ascertain the presence of a loop.}
+    \caption[The hardness-intensity diagram of a type $V_1$ flaring period in Class V observation 96420-01-07-00 showing a clockwise loop.]{\textit{Top}: The hardness-intensity diagram (HID$_1$) of a type $V_1$ flaring period in Class V observation 96420-01-07-00, orbit 0 showing a clockwise loop.  The data have been folded over a variable period found with the algorithm described in Section \ref{sec:Flares}.  Inset is the folded lightcurve of the same data. \textit{Bottom Left}: The hardness-intensity diagram of Class V observation 96420-01-25-05 orbit 0, an example of an anticlockwise loop.  \textit{Bottom Right}: The hardness-intensity diagram of Class V observation 96420-01-25-06 orbit 0, in which we were unable to ascertain the presence of a loop.}
    \label{fig:LoopV}
 \end{figure}
 
@@ -312,7 +295,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/Lmulti.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Plots of the Class VI observation 96420-01-09-00, orbit 0.  \textit{Top-left}: 750\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 1 second.}
+    \caption[Characteristic lightcurves and a power spectrum of Type VI variability.]{Plots of the Class VI observation 96420-01-09-00, orbit 0.  \textit{Top-left}: 750\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 1 second.}
    \label{fig:Lmulti}
 \end{figure}
 
@@ -325,7 +308,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
     \includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/Lloop2.png}\\
     \includegraphics[width=0.5\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/Lloop.png}\includegraphics[width=0.5\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/Lloop4.png}
     \captionsetup{singlelinecheck=off}
-    \caption{\textit{Top}: The hardness-intensity diagram (HID$_1$) of the Class VI observation 96420-01-30-03, orbit 0 showing a clockwise loop.  The data have been folded over a variable period found with the algorithm described in Section \ref{sec:Flares}.  Inset is the folded lightcurve of the same data. \textit{Bottom Left}: The hardness-intensity diagram of Class VI observation 96420-01-30-04 orbit 0, an example of an anticlockwise loop.  \textit{Bottom Right}: The hardness-intensity diagram of Class VI observation 96420-01-09-03 orbit 0, in which we were unable to ascertain the presence of a loop.}
+    \caption[The hardness-intensity diagram of the Class VI observation 96420-01-30-03, showing a clockwise loop.]{\textit{Top}: The hardness-intensity diagram (HID$_1$) of the Class VI observation 96420-01-30-03, orbit 0 showing a clockwise loop.  The data have been folded over a variable period found with the algorithm described in Section \ref{sec:Flares}.  Inset is the folded lightcurve of the same data. \textit{Bottom Left}: The hardness-intensity diagram of Class VI observation 96420-01-30-04 orbit 0, an example of an anticlockwise loop.  \textit{Bottom Right}: The hardness-intensity diagram of Class VI observation 96420-01-09-03 orbit 0, in which we were unable to ascertain the presence of a loop.}
    \label{fig:LoopVI}
 \end{figure}
 
@@ -334,7 +317,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/Nmulti.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Plots of the Class VII observation 96420-01-18-05, orbit 0.  \textit{Top-left}: 750\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 0.5 seconds.}
+    \caption[Characteristic lightcurves and a power spectrum of Type VII variability.]{Plots of the Class VII observation 96420-01-18-05, orbit 0.  \textit{Top-left}: 750\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 0.5 seconds.}
    \label{fig:Nmulti}
 \end{figure}
 
@@ -346,7 +329,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/N_sgram.png}
     \captionsetup{singlelinecheck=off}
-    \caption{A sliding window  Lomb-Scargle spectrogram of Class VII observation 96420-01-18-05, showing power density spectra from an overlapping 32\,s window moved 1\,s at a time.  The peak frequency of this low frequency QPO itself appears to oscillate with a frequency of $\sim5$mHz.}
+    \caption[A sliding window Lomb-Scargle spectrogram of Class VII observation 96420-01-18-05.]{A sliding window Lomb-Scargle spectrogram of Class VII observation 96420-01-18-05, showing power density spectra from an overlapping 32\,s window moved 1\,s at a time.  The peak frequency of this low frequency QPO itself appears to oscillate with a frequency of $\sim5$mHz.}
    \label{fig:spect}
 \end{figure}
 
@@ -355,7 +338,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/Omulti.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Plots of the Class VIII observation 96420-01-19-03, orbit 0.  \textit{Top-left}: 300\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 0.5 seconds.  Inset is a zoom of the 25\,s portion of the lightcurve highlighted in cyan, to show the second-scale structure in the lightcurve.}
+    \caption[Characteristic lightcurves and a power spectrum of Type VIII variability.]{Plots of the Class VIII observation 96420-01-19-03, orbit 0.  \textit{Top-left}: 300\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 0.5 seconds.  Inset is a zoom of the 25\,s portion of the lightcurve highlighted in cyan, to show the second-scale structure in the lightcurve.}
    \label{fig:Omulti}
 \end{figure}
 
@@ -367,7 +350,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/Qmulti.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Plots of the Class IX observation 96420-01-35-02, orbit 1.  \textit{Top-left}: 1200\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 2 seconds.}
+    \caption[Characteristic lightcurves and a power spectrum of Type IX variability.]{Plots of the Class IX observation 96420-01-35-02, orbit 1.  \textit{Top-left}: 1200\,s lightcurve binned on 2 seconds to show lightcurve evolution.  \textit{Top-right}: Fourier Power Density Spectrum.  \textit{Bottom}: Lightcurve binned on 2 seconds.}
    \label{fig:Qmulti}
 \end{figure}
 
@@ -377,7 +360,7 @@ In the 2\,s binned lightcurve of a Class I observation, there is no structured s
 
 \subsection{Swift}
 
-\par Observations with \textit{Swift} took place throughout the 2011-2013 outburst of IGR J17091-3624.  Between MJDs 55622 and 55880, 17 \textit{Swift/XRT} were at least partly simultaneous with an \rxte\ observation, corresponding to at least one observation of all 9 classes.  In each case, the \textit{Swift} and \rxte\ lightcurves were similar.  The remainder of the \textit{Swift/XRT} observations during this time were also consistent with belonging to one of our nine classes.  Given that the \rxte\ data have higher count rate and time resolution, we do not further discuss the \textit{Swift} observations taken before MJD 55880.  A more detailed comparison of \rxte\ and \textit{Swift} data is beyond the scope of this paper.
+\par Observations with \textit{Swift} took place throughout the 2011-2013 outburst of IGR J17091-3624.  Between MJDs 55622 and 55880, 17 \textit{Swift/XRT} were at least partly simultaneous with an \rxte\ observation, corresponding to at least one observation of all 9 classes.  In each case, the \textit{Swift} and \rxte\ lightcurves were similar.  The remainder of the \textit{Swift/XRT} observations during this time were also consistent with belonging to one of our nine classes.  Given that the \rxte\ data have higher count rate and time resolution, we do not further discuss the \textit{Swift} observations taken before MJD 55880.  A more detailed comparison of \rxte\ and \textit{Swift} data is beyond the scope of this thesis.
 \par Between MJD 55952 and 56445, \textit{Swift} observations showed IGR J17091-3624 decreasing in flux.  For all observations longer than 500 s, we rebinned the lightcurves to 10\,s and calculated the RMS.  We find the lower and upper quartiles of the fractional RMS in these measurements to be 18.3\% and 21.7\% respectively.  \textit{INTEGRAL} observations taken as part of a scan programme of the Galactic Plane \citep{Fiocchi_PlaneScan} and reported by \citet{Drave_Return} suggest that IGR J17091-3624 returned to the hard state between MJDs 55952 and 55989.  Therefore these observations sample IGR J17091-3624 the hard state.
 
 \subsection{INTEGRAL}
@@ -398,7 +381,7 @@ Energy 		& Intensity 		& Significance 	& Exposure 	& Flux 				& Flux					\\
 \hline
 \hline
 \end{tabular}
-\caption{Results from the IBIS/ISGRI analysis of the 2011--2013 Outburst of IGR J17091. The 20--40\,keV flux is given in units of mCrab and (10$^{-11}$\ergf ). Conversion between counts and mCrab was obtained using an observation of the Crab taken during Revolution 1597 between MJD 57305.334 and 57305.894 and the conversion factors of \citet{Bird_Survey} and \citet{Bazzano_Survey}.}
+\caption[Results from the IBIS/ISGRI analysis of the 2011--2013 Outburst of IGR J17091.]{Results from the IBIS/ISGRI analysis of the 2011--2013 Outburst of IGR J17091. The 20--40\,keV flux is given in units of mCrab and (10$^{-11}$\ergf ). Conversion between counts and mCrab was obtained using an observation of the Crab taken during Revolution 1597 between MJD 57305.334 and 57305.894 and the conversion factors of \citet{Bird_Survey} and \citet{Bazzano_Survey}.}
 \label{tab:IBIS_results}
 \end{table*}
 
@@ -407,18 +390,18 @@ Energy 		& Intensity 		& Significance 	& Exposure 	& Flux 				& Flux					\\
 \begin{figure}
     \includegraphics[width=0.7\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/sigmap.png}
     \captionsetup{singlelinecheck=off}
-    \caption{\textit{INTEGRAL}/ISGRI 150--300\,keV significance map of a $2^\circ$ region centred on the position of IGR J17091-3624, showing the first significant detection of this source above 150\,keV.  The detection significance is 7.6 $\sigma$.}
+    \caption[\textit{INTEGRAL}/ISGRI 150--300\,keV significance map of a $2^\circ$ region centred on the position of IGR J17091-3624.]{\textit{INTEGRAL}/ISGRI 150--300\,keV significance map of a $2^\circ$ region centred on the position of IGR J17091-3624, showing the first significant detection of this source above 150\,keV.  The detection significance is 7.6 $\sigma$.}
    \label{fig:sigmap}
 \end{figure}
 
 \subsection{Chandra}
 
-\par In Figure \ref{fig:Cha_lc}, we present lightcurves from the three \textit{Chandra} observations considered in this paper (see also Table \ref{tab:Chandra} for details of these observations).
+\par In Figure \ref{fig:Cha_lc}, we present lightcurves from the three \textit{Chandra} observations considered in this chapter (see also Table \ref{tab:Chandra} for details of these observations).
 
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/Chandra.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{1 ks segments of lightcurves taken from \textit{Chandra} observations 12505, 12405 and 12406, showing Class I, Class VII and Class IX variability respectively.  The lightcurve presented for observation 12505 is for the energy range 0.06-10\,keV, while the other two lightcurves are for the energy range 0.5-10\,keV.  All three lightcurves are binned to 0.5\,s.}
+    \caption[\textit{Chandra} lightcurves showing examples of Class I, VII and IX variability.]{1 ks segments of lightcurves taken from \textit{Chandra} observations 12505, 12405 and 12406, showing Class I, Class VII and Class IX variability respectively.  The lightcurve presented for observation 12505 is for the energy range 0.06-10\,keV, while the other two lightcurves are for the energy range 0.5-10\,keV.  All three lightcurves are binned to 0.5\,s.}
    \label{fig:Cha_lc}
 \end{figure}
 
@@ -433,7 +416,7 @@ Energy 		& Intensity 		& Significance 	& Exposure 	& Flux 				& Flux					\\
 \begin{figure}
     \includegraphics[width=0.8\columnwidth, trim = 0.6cm 0 3.9cm 0]{images/xmmlc.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{Lightcurves of \textit{XMM-Newton} observations 0677980201 and 0700381301, showing Class IV variability and the hard state respectively.  Both lightcurves binned to 2\,s.  Data for observation 0677980201 is taken from \textit{EPIC-MOS2} and data for observation 0700381301 is taken from \textit{EPIC-pn}.}
+    \caption[\textit{XMM-Newton} lightcurves showing an example of Class IV variability and the hard state.]{Lightcurves of \textit{XMM-Newton} observations 0677980201 and 0700381301, showing Class IV variability and the hard state respectively.  Both lightcurves binned to 2\,s.  Data for observation 0677980201 is taken from \textit{EPIC-MOS2} and data for observation 0700381301 is taken from \textit{EPIC-pn}.}
    \label{fig:XMM}
 \end{figure}
 
@@ -442,7 +425,7 @@ Energy 		& Intensity 		& Significance 	& Exposure 	& Flux 				& Flux					\\
 \begin{figure}
     \includegraphics[width=0.9\columnwidth, trim = 0cm 0cm 0.5cm 1.0cm, clip]{images/multipower.eps}
     \captionsetup{singlelinecheck=off}
-    \caption{$\nu P(\nu)$-normalised co-added power density spectra of \textit{XMM-Newton} observation 0700381301 and \textit{Suzaku} observation 407037010.  Both observations were taken simultaneously on September 29 2012 (MJD 56199).  We sample observation 0700381301 up to a frequency of 10\,Hz, while the 2\,s time resolution of observation 407037010 results in a Nyquist frequency of 0.25\,Hz.}
+    \caption[$\nu P(\nu)$-normalised co-added power density spectra of \textit{XMM-Newton} observation 0700381301 and \textit{Suzaku} observation 407037010.]{$\nu P(\nu)$-normalised co-added power density spectra of \textit{XMM-Newton} observation 0700381301 and \textit{Suzaku} observation 407037010.  Both observations were taken simultaneously on September 29 2012 (MJD 56199).  We sample observation 0700381301 up to a frequency of 10\,Hz, while the 2\,s time resolution of observation 407037010 results in a Nyquist frequency of 0.25\,Hz.}
    \label{fig:xmmqpo}
 \end{figure}
 
@@ -459,7 +442,7 @@ Energy 		& Intensity 		& Significance 	& Exposure 	& Flux 				& Flux					\\
 \begin{figure}
     \includegraphics[width=\columnwidth, trim =0cm 0 0cm 0]{images/mixJandK.png}
     \captionsetup{singlelinecheck=off}
-    \caption{A lightcurve of observation 96420-01-06-02, orbit 0, showing a transition in behaviour between Class IV (in cyan, see Section \ref{sec:classIV}) and Class V (in red, see Section \ref{sec:classV}).}
+    \caption[A lightcurve of observation 96420-01-06-02, showing a transition in behaviour between Classes IV and V.]{A lightcurve of observation 96420-01-06-02, orbit 0, showing a transition in behaviour between Class IV (in cyan, see Section \ref{sec:classIV}) and Class V (in red, see Section \ref{sec:classV}).}
    \label{fig:HybridClasses}
 \end{figure}
 
@@ -473,7 +456,7 @@ Energy 		& Intensity 		& Significance 	& Exposure 	& Flux 				& Flux					\\
 
 \begin{table}
 \centering
-\caption{The nine variability classes of IGR J17091-3624, showing the name of the closest corresponding variability class in GRS 1915+105.  The names of GRS 1915+105 classes are taken from \citet{Belloni_GRS_MI}, where more detailed descriptions can be found.  Eight additional classes of GRS 1915+105 have been described; we do not find analogies to these classes in IGR J17091-3624.}
+\caption[The nine variability classes of IGR J17091-3624, showing the name of the closest corresponding variability class in GRS 1915+105.]{The nine variability classes of IGR J17091-3624, showing the name of the closest corresponding variability class in GRS 1915+105.  The names of GRS 1915+105 classes are taken from \citet{Belloni_GRS_MI}, where more detailed descriptions can be found.  Eight additional classes of GRS 1915+105 have been described; we do not find analogies to these classes in IGR J17091-3624.}
 \label{tab:class_assign}
 \begin{tabular}{cc} % four columns, alignment for each
 \hline
@@ -514,7 +497,7 @@ IX&$\gamma$\\
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/GJBurst.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Every flare in all observations identified as Class III or Class IV, plotted in a two-dimensional histogram of flare peak count rate against flare duration to show the two-population nature of these events.  Flares belonging to Class IV occupy the distribution at higher peak rate and lower duration, whereas flares belonging to Class III occupy the distribution at lower peak rate and higher duration.}
+    \caption[Every flare in all observations identified as Class III or Class IV, plotted in a two-dimensional histogram of flare peak count rate against flare duration to show the two-population nature of these events.]{Every flare in all observations identified as Class III or Class IV, plotted in a two-dimensional histogram of flare peak count rate against flare duration to show the two-population nature of these events.  Flares belonging to Class IV occupy the distribution at higher peak rate and lower duration, whereas flares belonging to Class III occupy the distribution at lower peak rate and higher duration.}
    \label{fig:III_IV_burst}
 \end{figure}
 
@@ -523,7 +506,7 @@ IX&$\gamma$\\
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/classIIIsecpeak.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Lightcurve from Class III observation 96420-01-10-01 of IGR J17091-3624, with pairs of primary and secondary count rate spikes highlighted in cyan and red respectively.  The yellow region highlights a primary count rate spike that did not produce a secondary.}
+    \caption[Lightcurve from Class III observation 96420-01-10-01 of IGR J17091-3624, with pairs of primary and secondary count rate spikes highlighted.]{Lightcurve from Class III observation 96420-01-10-01 of IGR J17091-3624, with pairs of primary and secondary count rate spikes highlighted in cyan and red respectively.  The yellow region highlights a primary count rate spike that did not produce a secondary.}
    \label{fig:III_IV_spike}
 \end{figure}
 
@@ -574,11 +557,11 @@ IX&$\gamma$\\
 \subsection{Comparison with Altamirano \textit{et al.} 2011}
 
 \label{sec:Alta}
-\par \citet{Altamirano_IGR_FH} identify 5 GRS 1915 variability classes in a subset of observations from the 2011-2013 outburst of IGR J17091: six of these observations are presented in Table \ref{tab:me_Diego} along with the best-fit GRS 1915 class that we assign it in this paper (see also Table \ref{tab:class_assign}).
+\par \citet{Altamirano_IGR_FH} identify 5 GRS 1915 variability classes in a subset of observations from the 2011-2013 outburst of IGR J17091: six of these observations are presented in Table \ref{tab:me_Diego} along with the best-fit GRS 1915 class that we assign it in this chapter (see also Table \ref{tab:class_assign}).
 
 \begin{table}
 \centering
-\caption{The six OBSIDs explicitly classified in \citet{Altamirano_IGR_FH}.  We also present the GRS 1915 class with which we implicitly label each OBSID in this paper.}
+\caption[The six OBSIDs explicitly classified in \citet{Altamirano_IGR_FH}.]{The six OBSIDs explicitly classified in \citet{Altamirano_IGR_FH}.  We also present the GRS 1915 class with which we implicitly label each OBSID in this chapter.}
 \label{tab:me_Diego}
 \begin{tabular}{ccc} % four columns, alignment for each
 \hline
@@ -598,7 +581,7 @@ OBSID & Altamirano \textit{et al.} Class & Court \textit{et al.} Class\\
 \end{tabular}
 \end{table}
 
-\par We acknowledge differences between the classifications assigned by this paper and by \citet{Altamirano_IGR_FH}.  We ascribe these differences to the different approaches we have used to construct our classes.  In particular while we have constructed an independent set of variability classes for IGR J17091 which we have then compared to the \citeauthor{Belloni_GRS_MI} classes for GRS 1915, \citeauthor{Altamirano_IGR_FH} applied the \citeauthor{Belloni_GRS_MI} classes for GRS 1915 directly to IGR J17091.
+\par We acknowledge differences between the classifications assigned by this chapter and by \citet{Altamirano_IGR_FH}.  We ascribe these differences to the different approaches we have used to construct our classes.  In particular while we have constructed an independent set of variability classes for IGR J17091 which we have then compared to the \citeauthor{Belloni_GRS_MI} classes for GRS 1915, \citeauthor{Altamirano_IGR_FH} applied the \citeauthor{Belloni_GRS_MI} classes for GRS 1915 directly to IGR J17091.
 \par In general, the variability classes we find to be present in IGR J17091 are broadly the same as those noted by \citet{Altamirano_IGR_FH}.  We do not associate any class with Class $\alpha$ in GRS 1915, but we find examples of all of the other variability classes posited by \citeauthor{Altamirano_IGR_FH} to exist in IGR J17091.
 \par \citealp{Altamirano_IGR_FH} noted the presence of an anticlockwise loop in the HID of `heartbeat'-like observations of IGR J17091, opposed to the clockwise loop seen in HID of $\rho$-class observations of GRS 1915.  This is consistent with our finding that hysteretic loops in classes III and IV also tend to execute in an anticlockwise direction.  However, we additionally find that hysteretic loops in classes V, VI, VII and VIII tend to execute in a clockwise direction.  This is also different from GRS 1915, in which the loop is executed in the same direction in all classes.  We also additionally report that clockwise loops tend to be more complex than anticlockwise loops seen in IGR J17091, with many showing a multi-lobed structure not seen in GRS 1915.  This apparent inconsistency between the objects strengthens the suggestion in \citealp{Altamirano_IGR_FH} that the heartbeat-like classes in GRS 1915 and IGR J17091 may be generated by physically different mechanisms.
 
@@ -612,7 +595,7 @@ OBSID & Altamirano \textit{et al.} Class & Court \textit{et al.} Class\\
 \begin{figure}
     \includegraphics[width=\columnwidth, trim = 0mm 0mm 0mm 0mm]{images/MassDist.png}
     \captionsetup{singlelinecheck=off}
-    \caption{Mass of the compact object in IGR J17091-3624 plotted against its distance, for values of peak Eddington fractions of $F_{Edd}=$0.05, 0.1, 0.2 and 0.33.}
+    \caption[Mass of the compact object in IGR J17091-3624 plotted against its distance, for values of peak Eddington fractions of $F_{Edd}=$0.05, 0.1, 0.2 and 0.33.]{Mass of the compact object in IGR J17091-3624 plotted against its distance, for values of peak Eddington fractions of $F_{Edd}=$0.05, 0.1, 0.2 and 0.33.}
    \label{fig:IGRMass}
 \end{figure}
 

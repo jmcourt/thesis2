@@ -1742,6 +1742,11 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 \newblock In {\em American Astronomical Society Meeting Abstracts \#180},
   volume~24 of {\em Bulletin of the American Astronomical Society}, page 750.
 
+\bibitem[Planck, 1914]{Planck}
+Planck, M. (1914).
+\newblock {\em The Theory of Heat Radiation}.
+\newblock Blakiston.
+
 \bibitem[{Poisson}, 1837]{Poisson_Distribution}
 {Poisson}, S. (1837).
 \newblock Mathematics of Statistics. Bachelier.
@@ -2246,6 +2251,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
 \newblock {Stability of an Ideally Conducting Liquid Flowing between Cylinders
   Rotating in a Magnetic Field }.
 \newblock {\em Journal of Experimental and Theoretical Physics}, 36:1398.
+
+\bibitem[{Verbunt} and {Rappaport}, 1988]{Verbunt_Instab}
+{Verbunt}, F. and {Rappaport}, S. (1988).
+\newblock {Mass transfer instabilities due to angular momentum flows in close
+  binaries}.
+\newblock {\em \apj}, 332:193--198.
 
 \bibitem[{Vignarca} et~al., 2003]{Vignarca_FluxFreqGRS}
 {Vignarca}, F., {Migliari}, S., {Belloni}, T., {Psaltis}, D., and {van der

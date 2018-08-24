@@ -1,0 +1,16 @@
+a=open(raw_input('file: '))
+
+delim='/'
+
+dump=[]
+for line in a:
+   #print line[:-3].split(delim)
+   dump.append(line[:-3].split(delim))
+a.close()
+d=len(dump)
+
+c=len(dump[0])
+
+for i in range(c):
+   for j in range(d):
+      print dump[j][i]
