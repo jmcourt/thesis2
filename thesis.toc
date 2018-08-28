@@ -13,14 +13,14 @@
 \contentsline {chapter}{\numberline {2}The Physics of Accretion}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}The Eddington Limit}{9}{section.2.2}
-\contentsline {section}{\numberline {2.3}The Propellor Effect}{11}{section.2.3}
+\contentsline {section}{\numberline {2.3}The Propeller Effect}{11}{section.2.3}
 \contentsline {section}{\numberline {2.4}The Shakura-Sunyaev Disk Model}{14}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}The source of Turbulence}{17}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Disk Instabilities}{17}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}GRS 1915+105 and IGR J17091-3624}{18}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}A History of Models of GRS 1915-like Variability}{21}{subsection.2.5.1}
-\contentsline {section}{\numberline {2.6}Type II Burst Sources}{26}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}A History of Models of Type II Bursts}{27}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.4.2}Disk Instabilities}{18}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}GRS 1915+105 and IGR J17091-3624}{19}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}A History of Models of GRS 1915-like Variability}{22}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}Type II Burst Sources}{27}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}A History of Models of Type II Bursts}{28}{subsection.2.6.1}
 \contentsline {chapter}{\numberline {3}Tools \& Methods}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Instrumentation}{29}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}The \textit {Rossi X-Ray Timing Experiment}}{29}{subsection.3.1.1}
@@ -29,17 +29,17 @@
 \contentsline {subsection}{\numberline {3.1.2}The \textit {Neil Gehrels Swift Observatory}}{32}{subsection.3.1.2}
 \contentsline {subsubsection}{Data Extraction}{33}{section*.18}
 \contentsline {subsection}{\numberline {3.1.3}The \textit {X-Ray Multi-Mirror Mission}}{33}{subsection.3.1.3}
-\contentsline {subsubsection}{Data Extraction \& Processing}{33}{section*.19}
+\contentsline {subsubsection}{Data Extraction \& Processing}{34}{section*.19}
 \contentsline {subsection}{\numberline {3.1.4}\textit {Chandra}}{34}{subsection.3.1.4}
 \contentsline {subsubsection}{Data Extraction \& Processing}{35}{section*.20}
 \contentsline {subsection}{\numberline {3.1.5}\textit {Suzaku}}{35}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}\textit {NuSTAR}}{35}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.6}\textit {NuSTAR}}{36}{subsection.3.1.6}
 \contentsline {subsection}{\numberline {3.1.7}\textit {INTEGRAL}}{36}{subsection.3.1.7}
 \contentsline {section}{\numberline {3.2}Methods \& Techniques}{37}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Lightcurve Morphology}{37}{subsection.3.2.1}
 \contentsline {subsubsection}{Lightcurve Folding}{37}{section*.21}
 \contentsline {subsubsection}{Flare-Finding Algorithm}{38}{section*.23}
-\contentsline {subsubsection}{Variable Period Lightcurve Folding}{41}{section*.26}
+\contentsline {subsubsection}{Variable Period Lightcurve Folding}{40}{section*.26}
 \contentsline {subsection}{\numberline {3.2.2}Timing Analysis}{43}{subsection.3.2.2}
 \contentsline {subsubsection}{Fourier Spectroscopy}{43}{section*.27}
 \contentsline {subsubsection}{Fast Fourier Transform}{45}{section*.29}
@@ -59,60 +59,60 @@
 \contentsline {subsection}{\numberline {4.2.6}\textit {Suzaku}}{57}{subsection.4.2.6}
 \contentsline {section}{\numberline {4.3}Results}{57}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Outburst Evolution}{57}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}{\textit {RXTE}}}{59}{subsection.4.3.2}
-\contentsline {subsubsection}{Class I -- Figure \ref {fig:Bmulti}}{60}{section*.41}
-\contentsline {subsubsection}{Class II -- Figure \ref {fig:Emulti}}{65}{section*.43}
-\contentsline {subsubsection}{Class III -- Figure \ref {fig:Gmulti}}{65}{section*.45}
-\contentsline {subsubsection}{Class IV -- Figure \ref {fig:Jmulti}}{67}{section*.49}
-\contentsline {subsubsection}{Class V -- Figure \ref {fig:Kmulti}}{70}{section*.52}
-\contentsline {subsubsection}{Class VI -- Figure \ref {fig:Lmulti}}{70}{section*.57}
-\contentsline {subsubsection}{Class VII -- Figure \ref {fig:Nmulti}}{77}{section*.60}
-\contentsline {subsubsection}{Class VIII -- Figure \ref {fig:Omulti}}{82}{section*.63}
+\contentsline {subsection}{\numberline {4.3.2}{\textit {RXTE}}}{58}{subsection.4.3.2}
+\contentsline {subsubsection}{Class I -- Figure \ref {fig:Bmulti}}{62}{section*.41}
+\contentsline {subsubsection}{Class II -- Figure \ref {fig:Emulti}}{64}{section*.43}
+\contentsline {subsubsection}{Class III -- Figure \ref {fig:Gmulti}}{64}{section*.45}
+\contentsline {subsubsection}{Class IV -- Figure \ref {fig:Jmulti}}{66}{section*.49}
+\contentsline {subsubsection}{Class V -- Figure \ref {fig:Kmulti}}{69}{section*.52}
+\contentsline {subsubsection}{Class VI -- Figure \ref {fig:Lmulti}}{69}{section*.57}
+\contentsline {subsubsection}{Class VII -- Figure \ref {fig:Nmulti}}{76}{section*.60}
+\contentsline {subsubsection}{Class VIII -- Figure \ref {fig:Omulti}}{80}{section*.63}
 \contentsline {subsubsection}{Class IX -- Figure \ref {fig:Qmulti}}{82}{section*.65}
-\contentsline {subsection}{\numberline {4.3.3}Swift}{83}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}INTEGRAL}{83}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Chandra}{84}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}XMM-Newton}{87}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}\textit {Suzaku}}{88}{subsection.4.3.7}
-\contentsline {section}{\numberline {4.4}Discussion}{88}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Variability Classes: IGR J17091 vs. GRS 1915}{90}{subsection.4.4.1}
-\contentsline {subsubsection}{Classes I and II -- Figures \ref {fig:Bmulti}, \ref {fig:Emulti}}{90}{section*.74}
-\contentsline {subsubsection}{Classes III and IV -- Figures \ref {fig:Gmulti}, \ref {fig:Jmulti}}{91}{section*.75}
-\contentsline {subsubsection}{Class V -- Figure \ref {fig:Kmulti}}{94}{section*.78}
-\contentsline {subsubsection}{Class VI -- Figure \ref {fig:Lmulti}}{94}{section*.79}
-\contentsline {subsubsection}{Class VII -- Figure \ref {fig:Nmulti}}{95}{section*.80}
-\contentsline {subsubsection}{Class VIII -- Figure \ref {fig:Omulti}}{95}{section*.81}
-\contentsline {subsubsection}{Class IX - Figure \ref {fig:Qmulti}}{95}{section*.82}
-\contentsline {subsection}{\numberline {4.4.2}General Comparison with GRS 1915+105}{96}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Comparison with the Rapid Burster}{97}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Comparison with Altamirano \textit {et al.} 2011}{97}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}New Constraints on Accretion Rate, Mass \& Distance}{98}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Implications for Models of `Heartbeat' Variability}{100}{subsection.4.4.6}
-\contentsline {section}{\numberline {4.5}Conclusions}{100}{section.4.5}
-\contentsline {chapter}{\numberline {5}The Evolution of X-ray Bursts in the ``Bursting Pulsar'' GRO J1744--28}{103}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{103}{section.5.1}
-\contentsline {section}{\numberline {5.2}Data and Data Analysis}{105}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}\textit {RXTE}}{105}{subsection.5.2.1}
-\contentsline {subsubsection}{Long-Term Evolution}{105}{section*.85}
-\contentsline {subsubsection}{Burst Identification and Analysis}{106}{section*.86}
-\contentsline {subsubsection}{Detecting Pulsations}{108}{section*.87}
-\contentsline {subsection}{\numberline {5.2.2}\textit {Swift}}{108}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}\textit {INTEGRAL}}{108}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}\textit {Chandra}}{108}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}\textit {XMM-Newton}}{109}{subsection.5.2.5}
-\contentsline {subsection}{\numberline {5.2.6}\textit {Suzaku}}{109}{subsection.5.2.6}
-\contentsline {subsection}{\numberline {5.2.7}\textit {NuSTAR}}{109}{subsection.5.2.7}
-\contentsline {section}{\numberline {5.3}Results}{110}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Outburst Evolution}{110}{subsection.5.3.1}
-\contentsline {subsubsection}{Pulsations}{111}{section*.91}
-\contentsline {subsubsection}{Bursting Behaviour}{112}{section*.93}
-\contentsline {subsection}{\numberline {5.3.2}Categorizing Bursts}{113}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Normal Bursts}{115}{subsection.5.3.3}
-\contentsline {subsubsection}{Recurrence Time}{119}{section*.99}
-\contentsline {subsubsection}{Burst Structure}{120}{section*.101}
-\contentsline {subsubsection}{Parameter Distributions}{123}{section*.105}
+\contentsline {subsection}{\numberline {4.3.3}Swift}{82}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}INTEGRAL}{82}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Chandra}{83}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}XMM-Newton}{86}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}\textit {Suzaku}}{87}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}Discussion}{87}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Variability Classes: IGR J17091 vs. GRS 1915}{89}{subsection.4.4.1}
+\contentsline {subsubsection}{Classes I and II -- Figures \ref {fig:Bmulti}, \ref {fig:Emulti}}{89}{section*.74}
+\contentsline {subsubsection}{Classes III and IV -- Figures \ref {fig:Gmulti}, \ref {fig:Jmulti}}{90}{section*.75}
+\contentsline {subsubsection}{Class V -- Figure \ref {fig:Kmulti}}{93}{section*.78}
+\contentsline {subsubsection}{Class VI -- Figure \ref {fig:Lmulti}}{93}{section*.79}
+\contentsline {subsubsection}{Class VII -- Figure \ref {fig:Nmulti}}{94}{section*.80}
+\contentsline {subsubsection}{Class VIII -- Figure \ref {fig:Omulti}}{94}{section*.81}
+\contentsline {subsubsection}{Class IX - Figure \ref {fig:Qmulti}}{94}{section*.82}
+\contentsline {subsection}{\numberline {4.4.2}General Comparison with GRS 1915+105}{95}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Comparison with the Rapid Burster}{96}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Comparison with Altamirano \textit {et al.} 2011}{96}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}New Constraints on Accretion Rate, Mass \& Distance}{97}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Implications for Models of `Heartbeat' Variability}{98}{subsection.4.4.6}
+\contentsline {section}{\numberline {4.5}Conclusions}{99}{section.4.5}
+\contentsline {chapter}{\numberline {5}The Evolution of X-ray Bursts in the ``Bursting Pulsar'' GRO J1744--28}{101}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{101}{section.5.1}
+\contentsline {section}{\numberline {5.2}Data and Data Analysis}{103}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}\textit {RXTE}}{103}{subsection.5.2.1}
+\contentsline {subsubsection}{Long-Term Evolution}{104}{section*.85}
+\contentsline {subsubsection}{Burst Identification and Analysis}{104}{section*.86}
+\contentsline {subsubsection}{Detecting Pulsations}{106}{section*.87}
+\contentsline {subsection}{\numberline {5.2.2}\textit {Swift}}{106}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}\textit {INTEGRAL}}{106}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}\textit {Chandra}}{107}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}\textit {XMM-Newton}}{107}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}\textit {Suzaku}}{107}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}\textit {NuSTAR}}{108}{subsection.5.2.7}
+\contentsline {section}{\numberline {5.3}Results}{108}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Outburst Evolution}{108}{subsection.5.3.1}
+\contentsline {subsubsection}{Pulsations}{110}{section*.91}
+\contentsline {subsubsection}{Bursting Behaviour}{111}{section*.93}
+\contentsline {subsection}{\numberline {5.3.2}Categorizing Bursts}{111}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Normal Bursts}{113}{subsection.5.3.3}
+\contentsline {subsubsection}{Recurrence Time}{117}{section*.99}
+\contentsline {subsubsection}{Burst Structure}{119}{section*.101}
+\contentsline {subsubsection}{Parameter Distributions}{122}{section*.105}
 \contentsline {subsubsection}{Correlations}{124}{section*.107}
-\contentsline {subsubsection}{Colour Evolution}{126}{section*.109}
+\contentsline {subsubsection}{Colour Evolution}{124}{section*.109}
 \contentsline {subsection}{\numberline {5.3.4}Minibursts}{127}{subsection.5.3.4}
 \contentsline {subsubsection}{Recurrence Time}{127}{section*.111}
 \contentsline {subsubsection}{Structure}{127}{section*.112}
@@ -125,10 +125,10 @@
 \contentsline {subsubsection}{Colour Evolution}{134}{section*.125}
 \contentsline {subsection}{\numberline {5.3.6}Structured ``Bursts''}{134}{subsection.5.3.6}
 \contentsline {subsubsection}{Colour Evolution}{135}{section*.127}
-\contentsline {subsubsection}{Types of Structured Bursting}{137}{section*.129}
+\contentsline {subsubsection}{Types of Structured Bursting}{135}{section*.129}
 \contentsline {section}{\numberline {5.4}Discussion}{137}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Evolution of Outburst and Bursting Behaviour}{139}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Parameter Correlations}{140}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.1}Evolution of Outburst and Bursting Behaviour}{137}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Parameter Correlations}{139}{subsection.5.4.2}
 \contentsline {subsection}{\numberline {5.4.3}Comparison with Previous Studies}{141}{subsection.5.4.3}
 \contentsline {subsection}{\numberline {5.4.4}Comparison with other objects}{142}{subsection.5.4.4}
 \contentsline {subsection}{\numberline {5.4.5}Comparison with Models of Type II Bursts}{145}{subsection.5.4.5}
