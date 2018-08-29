@@ -1,99 +1,99 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces A cartoon illustrating the basic geometry of a simple X-ray binary.}}{3}{figure.caption.8}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A cartoon illustrating the basic geometry of a simple X-ray binary.}}{4}{figure.caption.8}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces An 8\tmspace +\thinmuskip {.1667em}GHz radio image from \citet {Stirling_Jet} showing a jet from the HMXB Cyg X-1.}}{4}{figure.caption.9}
 \contentsline {figure}{\numberline {1.3}{\ignorespaces A simulated, simplified spectrum of an LMXB, showing the two main components visible in X-ray: the accretion disk and the corona.}}{5}{figure.caption.10}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces A cartoon hardness-intensity diagram adapted from \citet {Fender_UniJets}, showing the evolutionary path of a typical LMXB outburst.}}{7}{figure.caption.12}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces A cartoon hardness-intensity diagram adapted from \citet {Fender_UniJets}, showing the evolutionary path of a typical LMXB outburst.}}{8}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Typical lightcurves of a selection of variability classes seen in the LMXB GRS 1915+105.}}{20}{figure.caption.13}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces A schematic diagram illustrating the the process described by \citet {Neilsen_GRSModel} to describe the $\rho $ variability class in GRS 1915+105.}}{26}{figure.caption.14}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces An \textit {RXTE}/PCA lightcurve of the Rapid Burster, showing a number of typical Type II X-ray bursts.}}{27}{figure.caption.15}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Typical lightcurves of a selection of variability classes seen in the LMXB GRS 1915+105.}}{22}{figure.caption.13}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A schematic diagram illustrating the the process described by \citet {Neilsen_GRSModel} to describe the $\rho $ variability class in GRS 1915+105.}}{28}{figure.caption.14}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces An \textit {RXTE}/PCA lightcurve of the Rapid Burster, showing a number of typical Type II X-ray bursts.}}{29}{figure.caption.15}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A cartoon illustrating the process of folding a periodic lightcurve with a known period.}}{39}{figure.caption.22}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces A cartoon illustrating the procedure of the algorithm described in Section \ref {sec:Flares}.}}{41}{figure.caption.24}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The Heidke Skill score of a Class IV observation of IGR J17091-3624 for a selection of different values $P_L$ and $P_H$ (low and high threshold respectively).}}{42}{figure.caption.25}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces A representation of how a continuous variable is convolved with a windowing function and a sampling function to yield physical data.}}{44}{figure.caption.28}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Hardness-Intensity diagrams of black bodies with temperatures and normalisations described by various functional forms.}}{48}{figure.caption.33}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A cartoon illustrating the process of folding a periodic lightcurve with a known period.}}{43}{figure.caption.22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A cartoon illustrating the procedure of the algorithm described in Section \ref {sec:Flares}.}}{45}{figure.caption.24}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The Heidke Skill score of a Class IV observation of IGR J17091-3624 for a selection of different values $P_L$ and $P_H$ (low and high threshold respectively).}}{46}{figure.caption.25}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces A representation of how a continuous variable is convolved with a windowing function and a sampling function to yield physical data.}}{48}{figure.caption.28}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Hardness-Intensity diagrams of black bodies with temperatures and normalisations described by various functional forms.}}{52}{figure.caption.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Lightcurves of IGR J17091-3624, from a number of instruments, during its 2011-2013 outburst.}}{53}{figure.caption.35}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Lightcurves of IGR J17091-3524 during the 2011-2013 outburst, showing when each of variability classes I-IX were observed.}}{60}{figure.caption.37}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Hardness-Intensity diagrams of IGR J17091-3524 during the 2011-2013 outburst, showing when each of variability classes I-IX were observed.}}{61}{figure.caption.38}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textit {Colour-Colour Diagram}}}}{61}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textit {"Soft" ($H_{A1}$) Hardness-Intensity Diagram}}}}{61}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textit {"Hard" ($H_{A2}$) Hardness-Intensity Diagram}}}}{61}{subfigure.3.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Characteristic lightcurves and a power spectrum of Type I variability.}}{63}{figure.caption.42}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Characteristic lightcurves and a power spectrum of Type II variability.}}{64}{figure.caption.44}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Characteristic lightcurves and a power spectrum of Type III variability.}}{65}{figure.caption.46}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces The Lomb-Scargle periodogram of Class III observation 96420-01-19-01}}{66}{figure.caption.47}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces A hardness-intensity diagram of the Class III observation 96420-01-04-01.}}{67}{figure.caption.48}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Characteristic lightcurves and a power spectrum of Type IV variability.}}{68}{figure.caption.50}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces The hardness-intensity diagram of the Class IV observation 96420-01-05-00, showing an anticlockwise loop.}}{70}{figure.caption.51}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Characteristic lightcurves and a power spectrum of Type V variability.}}{71}{figure.caption.53}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces A portion of the lightcurve of observation 96420-01-06-03 showing Type $V_1$ flares and Type $V_2$ flares.}}{72}{figure.caption.54}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Every flare in all observations identified as Class V, plotted in a two-dimensional histogram of flare peak count rate against flare duration to show the two-population nature of these events.}}{73}{figure.caption.55}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces The hardness-intensity diagram of a type $V_1$ flaring period in Class V observation 96420-01-07-00 showing a clockwise loop.}}{74}{figure.caption.56}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Characteristic lightcurves and a power spectrum of Type VI variability.}}{75}{figure.caption.58}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces The hardness-intensity diagram of the Class VI observation 96420-01-30-03, showing a clockwise loop.}}{77}{figure.caption.59}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Characteristic lightcurves and a power spectrum of Type VII variability.}}{78}{figure.caption.61}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces A sliding window Lomb-Scargle spectrogram of Class VII observation 96420-01-18-05.}}{79}{figure.caption.62}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Characteristic lightcurves and a power spectrum of Type VIII variability.}}{80}{figure.caption.64}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Characteristic lightcurves and a power spectrum of Type IX variability.}}{81}{figure.caption.66}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces \textit {INTEGRAL}/ISGRI 150--300\tmspace +\thinmuskip {.1667em}keV significance map of a $2^\circ $ region centred on the position of IGR J17091-3624.}}{84}{figure.caption.68}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces \textit {Chandra} lightcurves showing examples of Class I, VII and IX variability.}}{85}{figure.caption.69}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces \textit {XMM-Newton} lightcurves showing an example of Class IV variability and the hard state.}}{86}{figure.caption.70}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces $\nu P(\nu )$-normalised co-added power density spectra of \textit {XMM-Newton} observation 0700381301 and \textit {Suzaku} observation 407037010.}}{87}{figure.caption.71}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces A lightcurve of observation 96420-01-06-02, showing a transition in behaviour between Classes IV and V.}}{88}{figure.caption.72}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Every flare in all observations identified as Class III or Class IV, plotted in a two-dimensional histogram of flare peak count rate against flare duration to show the two-population nature of these events.}}{91}{figure.caption.76}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Lightcurve from Class III observation 96420-01-10-01 of IGR J17091-3624, with pairs of primary and secondary count rate spikes highlighted.}}{92}{figure.caption.77}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Mass of the compact object in IGR J17091-3624 plotted against its distance, for values of peak Eddington fractions of $F_{Edd}=$0.05, 0.1, 0.2 and 0.33.}}{98}{figure.caption.84}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Lightcurves of IGR J17091-3624, from a number of instruments, during its 2011-2013 outburst.}}{57}{figure.caption.35}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Lightcurves of IGR J17091-3524 during the 2011-2013 outburst, showing when each of variability classes I-IX were observed.}}{64}{figure.caption.37}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Hardness-Intensity diagrams of IGR J17091-3524 during the 2011-2013 outburst, showing when each of variability classes I-IX were observed.}}{65}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textit {Colour-Colour Diagram}}}}{65}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textit {"Soft" ($H_{A1}$) Hardness-Intensity Diagram}}}}{65}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textit {"Hard" ($H_{A2}$) Hardness-Intensity Diagram}}}}{65}{subfigure.3.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Characteristic lightcurves and a power spectrum of Type I variability.}}{67}{figure.caption.42}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Characteristic lightcurves and a power spectrum of Type II variability.}}{68}{figure.caption.44}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Characteristic lightcurves and a power spectrum of Type III variability.}}{69}{figure.caption.46}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The Lomb-Scargle periodogram of Class III observation 96420-01-19-01}}{70}{figure.caption.47}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces A hardness-intensity diagram of the Class III observation 96420-01-04-01.}}{71}{figure.caption.48}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Characteristic lightcurves and a power spectrum of Type IV variability.}}{72}{figure.caption.50}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The hardness-intensity diagram of the Class IV observation 96420-01-05-00, showing an anticlockwise loop.}}{74}{figure.caption.51}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Characteristic lightcurves and a power spectrum of Type V variability.}}{75}{figure.caption.53}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces A portion of the lightcurve of observation 96420-01-06-03 showing Type $V_1$ flares and Type $V_2$ flares.}}{76}{figure.caption.54}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Every flare in all observations identified as Class V, plotted in a two-dimensional histogram of flare peak count rate against flare duration to show the two-population nature of these events.}}{77}{figure.caption.55}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces The hardness-intensity diagram of a type $V_1$ flaring period in Class V observation 96420-01-07-00 showing a clockwise loop.}}{78}{figure.caption.56}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Characteristic lightcurves and a power spectrum of Type VI variability.}}{79}{figure.caption.58}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces The hardness-intensity diagram of the Class VI observation 96420-01-30-03, showing a clockwise loop.}}{81}{figure.caption.59}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Characteristic lightcurves and a power spectrum of Type VII variability.}}{82}{figure.caption.61}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces A sliding window Lomb-Scargle spectrogram of Class VII observation 96420-01-18-05.}}{83}{figure.caption.62}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Characteristic lightcurves and a power spectrum of Type VIII variability.}}{84}{figure.caption.64}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Characteristic lightcurves and a power spectrum of Type IX variability.}}{85}{figure.caption.66}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces \textit {INTEGRAL}/ISGRI 150--300\tmspace +\thinmuskip {.1667em}keV significance map of a $2^\circ $ region centred on the position of IGR J17091-3624.}}{88}{figure.caption.68}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces \textit {Chandra} lightcurves showing examples of Class I, VII and IX variability.}}{89}{figure.caption.69}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces \textit {XMM-Newton} lightcurves showing an example of Class IV variability and the hard state.}}{90}{figure.caption.70}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces $\nu P(\nu )$-normalised co-added power density spectra of \textit {XMM-Newton} observation 0700381301 and \textit {Suzaku} observation 407037010.}}{91}{figure.caption.71}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces A lightcurve of observation 96420-01-06-02, showing a transition in behaviour between Classes IV and V.}}{92}{figure.caption.72}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Every flare in all observations identified as Class III or Class IV, plotted in a two-dimensional histogram of flare peak count rate against flare duration to show the two-population nature of these events.}}{95}{figure.caption.76}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Lightcurve from Class III observation 96420-01-10-01 of IGR J17091-3624, with pairs of primary and secondary count rate spikes highlighted.}}{96}{figure.caption.77}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Mass of the compact object in IGR J17091-3624 plotted against its distance, for values of peak Eddington fractions of $F_{Edd}=$0.05, 0.1, 0.2 and 0.33.}}{102}{figure.caption.84}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparisons of three outbursts of the Bursting Pulsar.}}{109}{figure.caption.90}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces \textit {RXTE}/PCA lightcurves of Outbursts 1 \& 2 of the Bursting Pulsar, overlaid with plots showing how the fractional RMS of the 2.4\tmspace +\thinmuskip {.1667em}Hz pulsation changes as a function of time.}}{110}{figure.caption.92}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Lightcurves for the four classes of bursting behaviour identified in the Bursting Pulsar.}}{112}{figure.caption.94}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogram of the peak 1\tmspace +\thinmuskip {.1667em}s binned peak count rates during Normal Bursts, Mesobursts and Minibursts as seen by \textit {RXTE}}}{114}{figure.caption.95}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Lightcurve of the 1995--1996 outburst of the Bursting Pulsar, highlighting periods of time during which Mesobursts, Structured Bursts or Normal and Mini bursts are observed.}}{115}{figure.caption.96}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Lightcurve of the 1997--1999 outburst of the Bursting Pulsar, highlighting periods of time during which Mesobursts, Structured Bursts or Normal and Mini bursts are observed.}}{116}{figure.caption.97}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces The distribution of recurrence times between consecutive Normal Bursts in Outburst 3.}}{118}{figure.caption.100}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces A plot of every Normal Burst, centred by the time of its peak, overlaid on top of each other to show the existence of a common pulse profile.}}{120}{figure.caption.102}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces \textit {RXTE} lightcurves of Normal Bursts with (top) and without (bottom) `plateau' features, showing the burst structure in each case.}}{121}{figure.caption.103}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces A schematic explaining the origin of the 12 Normal Burst parameters used in this study.}}{123}{figure.caption.104}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Covariance Matrix with a scatter plot of each pairing of the 12 normalised Normal Burst parameters listed in section \ref {sec:NormCorr}.}}{125}{figure.caption.108}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces A hardness-intensity diagram of a typical Normal Burst.}}{126}{figure.caption.110}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces A representative \textit {RXTE} lightcurve of a Miniburst.}}{128}{figure.caption.113}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces A plot of every Miniburst, centred by the time of its peak, overlaid on top of each other.}}{129}{figure.caption.114}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces A portion of observation 10401-01-16-00, featuring a Normal Burst and a Miniburst.}}{131}{figure.caption.118}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces A lightcurve from \textit {RXTE} observation 20078-01-17-00 from Outburst 2, showing an apparent `plateau' feature after a Mesoburst.}}{132}{figure.caption.121}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces A plot of every Mesoburst, centred by the time of its peak, overlaid on top of each other.}}{133}{figure.caption.122}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces A lightcurve from \textit {RXTE}/PCA observation 10401-01-57-03, showing a Mesoburst occuring during a period of Structured Bursting.}}{135}{figure.caption.126}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces A hardness-intensity diagram from \textit {RXTE} observation 20078-01-23-00, showing that hardness tends to correlate with intensity during Structured Bursting.}}{136}{figure.caption.128}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces A selection of \textit {RXTE} lightcurves from Structured Bursting observations of the Bursting Pulsar.}}{138}{figure.caption.130}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces A series of lightcurves from \textit {RXTE}/PCA observations of Outburst 2, showing a gradual evolution from Mesobursts to Structured Bursting over a period of $\sim 30$ days.}}{140}{figure.caption.131}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces \textit {RXTE} lightcurves of representative Long (top) and Short (bottom) bursts from the Rapid Burster.}}{143}{figure.caption.133}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces A scatter plot showing the relationship between burst fluence and `missing' dip fluence for Normal Bursts and Minibursts.}}{146}{figure.caption.134}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparisons of three outbursts of the Bursting Pulsar.}}{112}{figure.caption.90}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \textit {RXTE}/PCA lightcurves of Outbursts 1 \& 2 of the Bursting Pulsar, overlaid with plots showing how the fractional RMS of the 2.4\tmspace +\thinmuskip {.1667em}Hz pulsation changes as a function of time.}}{113}{figure.caption.92}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Lightcurves for the four classes of bursting behaviour identified in the Bursting Pulsar.}}{115}{figure.caption.94}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Histogram of the peak 1\tmspace +\thinmuskip {.1667em}s binned peak count rates during Normal Bursts, Mesobursts and Minibursts as seen by \textit {RXTE}}}{117}{figure.caption.95}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Lightcurve of the 1995--1996 outburst of the Bursting Pulsar, highlighting periods of time during which Mesobursts, Structured Bursts or Normal and Mini bursts are observed.}}{118}{figure.caption.96}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Lightcurve of the 1997--1999 outburst of the Bursting Pulsar, highlighting periods of time during which Mesobursts, Structured Bursts or Normal and Mini bursts are observed.}}{119}{figure.caption.97}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The distribution of recurrence times between consecutive Normal Bursts in Outburst 3.}}{121}{figure.caption.100}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces A plot of every Normal Burst, centred by the time of its peak, overlaid on top of each other to show the existence of a common pulse profile.}}{123}{figure.caption.102}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces \textit {RXTE} lightcurves of Normal Bursts with (top) and without (bottom) `plateau' features, showing the burst structure in each case.}}{124}{figure.caption.103}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces A schematic explaining the origin of the 12 Normal Burst parameters used in this study.}}{126}{figure.caption.104}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Covariance Matrix with a scatter plot of each pairing of the 12 normalised Normal Burst parameters listed in section \ref {sec:NormCorr}.}}{128}{figure.caption.108}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces A hardness-intensity diagram of a typical Normal Burst.}}{129}{figure.caption.110}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces A representative \textit {RXTE} lightcurve of a Miniburst.}}{131}{figure.caption.113}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces A plot of every Miniburst, centred by the time of its peak, overlaid on top of each other.}}{132}{figure.caption.114}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces A portion of observation 10401-01-16-00, featuring a fNormal Burst and a Miniburst.}}{134}{figure.caption.118}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces A lightcurve from \textit {RXTE} observation 20078-01-17-00 from Outburst 2, showing an apparent `plateau' feature after a Mesoburst.}}{135}{figure.caption.121}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces A plot of every Mesoburst, centred by the time of its peak, overlaid on top of each other.}}{136}{figure.caption.122}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces A lightcurve from \textit {RXTE}/PCA observation 10401-01-57-03, showing a Mesoburst occuring during a period of Structured Bursting.}}{138}{figure.caption.126}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces A hardness-intensity diagram from \textit {RXTE} observation 20078-01-23-00, showing that hardness tends to correlate with intensity during Structured Bursting.}}{139}{figure.caption.128}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces A selection of \textit {RXTE} lightcurves from Structured Bursting observations of the Bursting Pulsar.}}{141}{figure.caption.130}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces A series of lightcurves from \textit {RXTE}/PCA observations of Outburst 2, showing a gradual evolution from Mesobursts to Structured Bursting over a period of $\sim 30$ days.}}{143}{figure.caption.131}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces \textit {RXTE} lightcurves of representative Long (top) and Short (bottom) bursts from the Rapid Burster.}}{146}{figure.caption.133}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces A scatter plot showing the relationship between burst fluence and `missing' dip fluence for Normal Bursts and Minibursts.}}{148}{figure.caption.134}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Lightcurves from the Bursting Pulsar and from two TMSPs, showing similar patterns of variability.}}{154}{figure.caption.136}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Histograms of the 1\tmspace +\thinmuskip {.1667em}s binned count rates from all \textit {RXTE} observations of Structured Bursting in the 1996 and 1997 outbursts of the Bursting Pulsar.}}{155}{figure.caption.137}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces A 7--60/2--7\tmspace +\thinmuskip {.1667em}keV hardness-intensity diagram for \textit {RXTE} observation 10401-01-59-00 of the Bursting Pulsar.}}{157}{figure.caption.138}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces A plot of a number of objects ranging in scale from LMXBs and High-Mass X-ray Binaries (HMXBs) to Cataclysmic Variables (CVs) and Young Stellar Objects (YSOs). In each case, the object is plotted at the luminosity which defines its transition between propeller-mode accretion and free accretion.}}{158}{figure.caption.139}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Lightcurves from the Bursting Pulsar and from two TMSPs, showing similar patterns of variability.}}{156}{figure.caption.136}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Histograms of the 1\tmspace +\thinmuskip {.1667em}s binned count rates from all \textit {RXTE} observations of Structured Bursting in the 1996 and 1997 outbursts of the Bursting Pulsar.}}{157}{figure.caption.137}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces A 7--60/2--7\tmspace +\thinmuskip {.1667em}keV hardness-intensity diagram for \textit {RXTE} observation 10401-01-59-00 of the Bursting Pulsar.}}{158}{figure.caption.138}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces A plot of a number of objects ranging in scale from LMXBs and High-Mass X-ray Binaries (HMXBs) to Cataclysmic Variables (CVs) and Young Stellar Objects (YSOs). In each case, the object is plotted at the luminosity which defines its transition between propeller-mode accretion and free accretion.}}{160}{figure.caption.139}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Histogram showing the distribution of $\phi _B$ amongst Normal Bursts.}}{204}{figure.caption.148}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Histogram showing the distribution of $\_B$ amongst Normal Bursts.}}{204}{figure.caption.149}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Histogram showing the distribution of $\sigma _B$ amongst Normal Bursts.}}{205}{figure.caption.150}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Histogram showing the distribution of $c$ amongst Normal Bursts.}}{205}{figure.caption.151}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Histogram showing the distribution of $\phi _d$ amongst Normal Bursts.}}{206}{figure.caption.152}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Histogram showing the distribution of $a_d$ amongst Normal Bursts.}}{206}{figure.caption.153}
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Histogram showing the distribution of $d$ amongst Normal Bursts.}}{207}{figure.caption.154}
-\contentsline {figure}{\numberline {C.8}{\ignorespaces Histogram showing the distribution of $\lambda $ amongst Normal Bursts.}}{207}{figure.caption.155}
-\contentsline {figure}{\numberline {C.9}{\ignorespaces Histogram showing the distribution of $\phi _p$ amongst Normal Bursts.}}{208}{figure.caption.156}
-\contentsline {figure}{\numberline {C.10}{\ignorespaces Histogram showing the distribution of $a_p$ amongst Normal Bursts.}}{208}{figure.caption.157}
-\contentsline {figure}{\numberline {C.11}{\ignorespaces Histogram showing the distribution of $\phi _B/k$ amongst Normal Bursts.}}{209}{figure.caption.158}
-\contentsline {figure}{\numberline {C.12}{\ignorespaces Histogram showing the distribution of $a_B/k$ amongst Normal Bursts.}}{209}{figure.caption.159}
-\contentsline {figure}{\numberline {C.13}{\ignorespaces Histogram showing the distribution of $\phi _d/k$ amongst Normal Bursts.}}{210}{figure.caption.160}
-\contentsline {figure}{\numberline {C.14}{\ignorespaces Histogram showing the distribution of $a_d/k$ amongst Normal Bursts.}}{210}{figure.caption.161}
-\contentsline {figure}{\numberline {C.15}{\ignorespaces Histogram showing the distribution of $\phi _p/k$ amongst Normal Bursts.}}{211}{figure.caption.162}
-\contentsline {figure}{\numberline {C.16}{\ignorespaces Histogram showing the distribution of $a_p/k$ amongst Normal Bursts.}}{211}{figure.caption.163}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Covariance Matrix with a scatter plot of each of the 66 pairings of the 12 Normal Burst parameters listed in section \ref {sec:NormCorr}}}{213}{figure.caption.164}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Histogram showing the distribution of $\phi _B$ amongst Normal Bursts.}}{205}{figure.caption.148}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Histogram showing the distribution of $\_B$ amongst Normal Bursts.}}{205}{figure.caption.149}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Histogram showing the distribution of $\sigma _B$ amongst Normal Bursts.}}{206}{figure.caption.150}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Histogram showing the distribution of $c$ amongst Normal Bursts.}}{206}{figure.caption.151}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Histogram showing the distribution of $\phi _d$ amongst Normal Bursts.}}{207}{figure.caption.152}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Histogram showing the distribution of $a_d$ amongst Normal Bursts.}}{207}{figure.caption.153}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Histogram showing the distribution of $d$ amongst Normal Bursts.}}{208}{figure.caption.154}
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Histogram showing the distribution of $\lambda $ amongst Normal Bursts.}}{208}{figure.caption.155}
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Histogram showing the distribution of $\phi _p$ amongst Normal Bursts.}}{209}{figure.caption.156}
+\contentsline {figure}{\numberline {C.10}{\ignorespaces Histogram showing the distribution of $a_p$ amongst Normal Bursts.}}{209}{figure.caption.157}
+\contentsline {figure}{\numberline {C.11}{\ignorespaces Histogram showing the distribution of $\phi _B/k$ amongst Normal Bursts.}}{210}{figure.caption.158}
+\contentsline {figure}{\numberline {C.12}{\ignorespaces Histogram showing the distribution of $a_B/k$ amongst Normal Bursts.}}{210}{figure.caption.159}
+\contentsline {figure}{\numberline {C.13}{\ignorespaces Histogram showing the distribution of $\phi _d/k$ amongst Normal Bursts.}}{211}{figure.caption.160}
+\contentsline {figure}{\numberline {C.14}{\ignorespaces Histogram showing the distribution of $a_d/k$ amongst Normal Bursts.}}{211}{figure.caption.161}
+\contentsline {figure}{\numberline {C.15}{\ignorespaces Histogram showing the distribution of $\phi _p/k$ amongst Normal Bursts.}}{212}{figure.caption.162}
+\contentsline {figure}{\numberline {C.16}{\ignorespaces Histogram showing the distribution of $a_p/k$ amongst Normal Bursts.}}{212}{figure.caption.163}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Covariance Matrix with a scatter plot of each of the 66 pairings of the 12 Normal Burst parameters listed in section \ref {sec:NormCorr}}}{214}{figure.caption.164}
 \addvspace {10\p@ }
