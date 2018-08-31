@@ -4,9 +4,11 @@
 
 \vspace{1cm}
 
-\par\noindent xxxxx INTRO
+\par\noindent In this Chapter, I describe the tools and methods I employed as part of my studies.  In Section \ref{sec:sat} I describe the scientific instruments which were used to take the data I present in this thesis.  In Section \ref{sec:tec} I describe a number of methods and algorithms created by others which I make use of in my analysis.  I also present algorithms I have created as part of my studies.
 
 \section{Instrumentation}
+
+\label{sec:sat}
 
 \par The atmosphere of the Earth is opaque to X-rays and gamma-rays, so we must use space-based observatories in order to study high-energy astrophysical phenomena.  A number of satellites dedicated to the study of X-rays have been launched over the years, starting with \textit{UHURU} in 1970 \citep{Giacconi_Uhuru} and culminating, most recently, with \textit{NICER} \citep{Gendreau_Nicer} and \textit{Insight} \citep{Li_HXMT} in 2017.  I use data from a number of these missions in the research reported in this thesis; in particular I use data from the NASA satellites \textit{RXTE}, \textit{Swift}, \textit{Chandra} and \textit{NuSTAR}, the European satellites \textit{XMM-Newton} and \textit{INTEGRAL}, and the Japanese satellite \textit{Suzaku}.  This section introduces the instruments used in my studies, as well as the tools used to extract their data for further analysis.
 
@@ -98,6 +100,8 @@ The event lists that result from this process can then be filtered using \texttt
 \par Data products from all four instruments are available via the \textit{INTEGRAL} Heavens portal \citep{Lubinski_Heavens} maintained by the \textit{INTEGRAL} Science Data Centre \footnote{\url{https://www.isdc.unige.ch/heavens/}}.  This portal provides images, lightcurves and spectra of data taken from archived \textit{INTEGRAL} observations.
 
 \section{Methods \& Techniques}
+
+\label{sec:tec}
 
 \par To extract meaningful physics from the data provided by the space-based observatories described above, I use a number of mathematical and analytical techniques.  I analyse three main properties of the data:
 \begin{enumerate}

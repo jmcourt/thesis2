@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {2.5.1}A History of Models of Type II Bursts}{30}{subsection.2.5.1}
 \contentsline {chapter}{\numberline {3}Tools \& Methods}{33}{chapter.3}
 \contentsline {section}{\numberline {3.1}Instrumentation}{33}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}The \textit {Rossi X-Ray Timing Experiment}}{33}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}The \textit {Rossi X-Ray Timing Experiment}}{34}{subsection.3.1.1}
 \contentsline {subsubsection}{Data Formatting}{34}{section*.16}
 \contentsline {subsubsection}{Data Extraction \& Background Correction}{35}{section*.17}
 \contentsline {subsection}{\numberline {3.1.2}The \textit {Neil Gehrels Swift Observatory}}{36}{subsection.3.1.2}
@@ -36,15 +36,15 @@
 \contentsline {subsection}{\numberline {3.1.7}\textit {INTEGRAL}}{40}{subsection.3.1.7}
 \contentsline {section}{\numberline {3.2}Methods \& Techniques}{41}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Lightcurve Morphology}{41}{subsection.3.2.1}
-\contentsline {subsubsection}{Lightcurve Folding}{41}{section*.21}
+\contentsline {subsubsection}{Lightcurve Folding}{42}{section*.21}
 \contentsline {subsubsection}{Flare-Finding Algorithm}{42}{section*.23}
-\contentsline {subsubsection}{Variable Period Lightcurve Folding}{44}{section*.26}
+\contentsline {subsubsection}{Variable Period Lightcurve Folding}{46}{section*.26}
 \contentsline {subsection}{\numberline {3.2.2}Timing Analysis}{47}{subsection.3.2.2}
 \contentsline {subsubsection}{Fourier Spectroscopy}{47}{section*.27}
 \contentsline {subsubsection}{Fast Fourier Transform}{49}{section*.29}
 \contentsline {subsubsection}{Normalising the Fourier Transform}{49}{section*.30}
 \contentsline {subsubsection}{Lomb-Scargle Periodograms}{50}{section*.31}
-\contentsline {subsection}{\numberline {3.2.3}Energy Spectral Analysis}{50}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Energy Spectral Analysis}{51}{subsection.3.2.3}
 \contentsline {subsubsection}{Hardness-Intensity Diagrams}{51}{section*.32}
 \contentsline {subsubsection}{Phase-Resolved Spectroscopy}{53}{section*.34}
 \contentsline {chapter}{\numberline {4}Variability in IGR J17091-3624: Classification}{55}{chapter.4}
@@ -83,7 +83,7 @@
 \contentsline {subsubsection}{Class IX - Figure \ref {fig:Qmulti}}{98}{section*.82}
 \contentsline {subsection}{\numberline {4.3.2}General Comparison with GRS 1915+105}{99}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Comparison with the Rapid Burster}{100}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Comparison with Altamirano \textit {et al.} 2011}{100}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Comparison with \citealp {Altamirano_IGR_FH}}{100}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}New Constraints on Accretion Rate, Mass \& Distance}{101}{subsection.4.3.5}
 \contentsline {subsection}{\numberline {4.3.6}Implications for Models of `Heartbeat' Variability}{102}{subsection.4.3.6}
 \contentsline {section}{\numberline {4.4}Conclusions}{103}{section.4.4}
@@ -132,9 +132,9 @@
 \contentsline {subsubsection}{Evidence of Thermonuclear Burning}{149}{section*.135}
 \contentsline {section}{\numberline {5.4}Conclusions}{151}{section.5.4}
 \contentsline {chapter}{\numberline {6}The Bursting Pulsar GRO J1744-28: the Slowest Transitional Pulsar?}{153}{chapter.6}
-\contentsline {section}{\numberline {6.1}Transitional Millisecond Pulsars}{153}{section.6.1}
+\contentsline {section}{\numberline {6.1}Transitional Millisecond Pulsars}{154}{section.6.1}
 \contentsline {section}{\numberline {6.2}Comparison: TMSPs vs. the Bursting Pulsar}{156}{section.6.2}
-\contentsline {section}{\numberline {6.3}Discussion}{159}{section.6.3}
+\contentsline {section}{\numberline {6.3}Discussion}{158}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Comparison with other Objects}{159}{subsection.6.3.1}
 \contentsline {section}{\numberline {6.4}Conclusion}{161}{section.6.4}
 \contentsline {chapter}{\numberline {7}Conclusions}{163}{chapter.7}
