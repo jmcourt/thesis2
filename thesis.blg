@@ -11,12 +11,8 @@ A level-1 auxiliary file: PhysicsofAccretion.aux
 A level-1 auxiliary file: Methods.aux
 A level-1 auxiliary file: IGRJ17091Paper.aux
 A level-1 auxiliary file: BPBigPaper.aux
-Case mismatch error between cite keys Harrison_NuSTAR and Harrison_NuStar
----line 53 of file BPBigPaper.aux
- : \citation{Harrison_NuSTAR
- :                          }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: BPLetter.aux
+A level-1 auxiliary file: Discussion.aux
 A level-1 auxiliary file: Conclusion.aux
 The style file: apalike.bst
 A level-1 auxiliary file: igrclasslist.aux
@@ -24,7 +20,7 @@ A level-1 auxiliary file: xtelist.aux
 A level-1 auxiliary file: bursthists.aux
 A level-1 auxiliary file: paramcorr.aux
 A level-1 auxiliary file: pantheon.aux
-Reallocated field_info (elt_size=4) to 10698 items from 5000.
+Reallocated field_info (elt_size=4) to 10654 items from 5000.
 Database file #1: refs.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in Chandrasekhar_MRI
@@ -39,45 +35,45 @@ Warning--empty title in Poisson_Distribution
 Warning--can't use both author and editor fields in Strohmayer_TypeI
 Warning--empty publisher in Strohmayer_TypeI
 Warning--empty publisher in vonMises_Poptest
-You've used 347 entries,
+You've used 349 entries,
             1935 wiz_defined-function locations,
-            2564 strings with 93929 characters,
-and the built_in function-call counts, 192200 in all, are:
-= -- 16764
-> -- 14313
-< -- 189
-+ -- 5311
-- -- 5288
-* -- 18643
-:= -- 34532
-add.period$ -- 1034
-call.type$ -- 347
-change.case$ -- 4326
-chr.to.int$ -- 328
-cite$ -- 359
-duplicate$ -- 5457
-empty$ -- 9858
-format.name$ -- 5729
-if$ -- 36178
+            2577 strings with 94274 characters,
+and the built_in function-call counts, 192889 in all, are:
+= -- 16829
+> -- 14338
+< -- 190
++ -- 5319
+- -- 5296
+* -- 18697
+:= -- 34656
+add.period$ -- 1040
+call.type$ -- 349
+change.case$ -- 4339
+chr.to.int$ -- 330
+cite$ -- 361
+duplicate$ -- 5485
+empty$ -- 9910
+format.name$ -- 5739
+if$ -- 36313
 int.to.chr$ -- 20
 int.to.str$ -- 0
-missing$ -- 356
-newline$ -- 1729
-num.names$ -- 1105
-pop$ -- 3913
+missing$ -- 359
+newline$ -- 1739
+num.names$ -- 1111
+pop$ -- 3927
 preamble$ -- 2
-purify$ -- 4339
+purify$ -- 4353
 quote$ -- 0
-skip$ -- 4065
+skip$ -- 4085
 stack$ -- 0
-substring$ -- 9445
-swap$ -- 851
+substring$ -- 9490
+swap$ -- 853
 text.length$ -- 92
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2056
+type$ -- 2066
 warning$ -- 12
-while$ -- 1047
+while$ -- 1052
 width$ -- 0
-write$ -- 4512
-(There was 1 error message)
+write$ -- 4537
+(There were 12 warnings)

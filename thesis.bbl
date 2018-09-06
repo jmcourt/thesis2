@@ -1572,6 +1572,12 @@ Kenney, J. (1939).
 Negri, L.~H. and Vestri, C. (2017).
 \newblock lucashn/peakutils: v1.1.0.
 
+\bibitem[{Neil} et~al., 2007]{Neil_GRSPeriod}
+{Neil}, E.~T., {Bailyn}, C.~D., and {Cobb}, B.~E. (2007).
+\newblock {Infrared Monitoring of the Microquasar GRS 1915+105: Detection of
+  Orbital and Superhump Signatures}.
+\newblock {\em \apj}, 657:409--414.
+
 \bibitem[{Neilsen} et~al., 2011]{Neilsen_GRSModel}
 {Neilsen}, J., {Remillard}, R.~A., and {Lee}, J.~C. (2011).
 \newblock {The Physics of the ''Heartbeat'' State of GRS 1915+105}.
@@ -1600,6 +1606,12 @@ Negri, L.~H. and Vestri, C. (2017).
 \newblock {Astrophysics of black holes.}
 \newblock In {Dewitt}, C. and {Dewitt}, B.~S., editors, {\em Black Holes (Les
   Astres Occlus)}, pages 343--450.
+
+\bibitem[{of Ockam}, 1495]{Occam}
+{of Ockam}, W. (1495).
+\newblock {\em Quaestiones et decisiones in quattuor libros Sententiarum Petri
+  Lombardi: Centilogium theologicum}.
+\newblock Johannes Trechsel.
 
 \bibitem[{Ortolani} et~al., 2007]{Ortolani_LillerD}
 {Ortolani}, S., {Barbuy}, B., {Bica}, E., {Zoccali}, M., and {Renzini}, A.

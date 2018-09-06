@@ -1122,61 +1122,6 @@ booktitle = {American Astronomical Society Meeting Abstracts},
      year = {1965}
 }
 
-@ARTICLE{Court_IGRClasses,
-   author = {{Court}, J.~M.~C. and {Altamirano}, D. and {Pereyra}, M. and 
-	{Boon}, C.~M. and {Yamaoka}, K. and {Belloni}, T. and {Wijnands}, R. and 
-	{Pahari}, M.},
-    title = "{An atlas of exotic variability in IGR J17091-3624: a comparison with GRS 1915+105}",
-  journal = {\mnras},
-archivePrefix = "arXiv",
-   eprint = {1703.09572},
- primaryClass = "astro-ph.HE",
- keywords = {accretion, accretion discs, instabilities, X-rays: binaries, X-rays: individual: GRS 1915+105, X-rays: individual: IGR J17091-3624},
-     year = 2017,
-    month = jul,
-   volume = 468,
-    pages = {4748-4771},
-      doi = {10.1093/mnras/stx773},
-   adsurl = {http://adsabs.harvard.edu/abs/2017MNRAS.468.4748C},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
-@ARTICLE{Court_BPClasses,
-   author = {{Court}, J.~M.~C. and {Altamirano}, D. and {Albayati}, A.~C. and 
-	{Overton}, T. and {Sanna}, A. and {Degenaar}, N. and {Yamaoka}, K. and 
-	{Belloni}, T. and {Blaes}, O.},
-    title = "{A Population Study of X-Ray bursts in the "Bursting Pulsar" GRO J1744-28}",
-  journal = {\mnras},
- keywords = {accretion, accretion discs, instabilities, X-rays: binaries, X-rays: individual: GRS 1915+105, X-rays: individual: IGR J17091-3624},
-     year = {(in prep) 2018}
-}
-
-@ARTICLE{Court_BPTMSP,
-   author = {{Court}, J.~M.~C. and {Altamirano}, D. and {Sanna}, A.},
-    title = "{The Bursting Pulsar GRO J1744-28: the slowest transitional pulsar?}",
-  journal = {\mnras},
-archivePrefix = "arXiv",
-   eprint = {1804.05586},
- primaryClass = "astro-ph.HE",
- keywords = {instabilities, X-rays: binaries, X-rays: individual: GRO J1744-28, accretion, accretion disks, stars: pulsars: general},
-     year = 2018,
-    month = jun,
-   volume = 477,
-    pages = {L106-L110},
-      doi = {10.1093/mnrasl/sly056},
-   adsurl = {http://adsabs.harvard.edu/abs/2018MNRAS.477L.106C},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
-@MISC{Court_PANTHEON,
-  author       = {Jamie Court},
-  title        = {jmcourt/PANTHEON: Zenodo Release},
-  month        = nov,
-  year         = 2017,
-  doi          = {10.5281/zenodo.1040704},
-  url          = {https://doi.org/10.5281/zenodo.1040704}
-}
-
 @ARTICLE{Courvoisier_ISDC,
    author = {{Courvoisier}, T.~J.-L. and {Walter}, R. and {Beckmann}, V. and 
 	{Dean}, A.~J. and {Dubath}, P. and {Hudec}, R. and {Kretschmar}, P. and 
@@ -3770,6 +3715,14 @@ booktitle = {Black Holes (Les Astres Occlus)},
     pages = {343-450},
    adsurl = {http://adsabs.harvard.edu/abs/1973blho.conf..343N},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@book{Occam,
+  title={Quaestiones et decisiones in quattuor libros Sententiarum Petri Lombardi: Centilogium theologicum},
+  author={{of Ockam}, W.},
+  url={https://books.google.co.uk/books?id=1uSplwEACAAJ},
+  year={1495},
+  publisher={Johannes Trechsel}
 }
 
 @ARTICLE{Ortolani_LillerD,
