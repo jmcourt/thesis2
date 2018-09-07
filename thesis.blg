@@ -20,7 +20,7 @@ A level-1 auxiliary file: xtelist.aux
 A level-1 auxiliary file: bursthists.aux
 A level-1 auxiliary file: paramcorr.aux
 A level-1 auxiliary file: pantheon.aux
-Reallocated field_info (elt_size=4) to 10654 items from 5000.
+Reallocated field_info (elt_size=4) to 10786 items from 5000.
 Database file #1: refs.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in Chandrasekhar_MRI
@@ -35,45 +35,45 @@ Warning--empty title in Poisson_Distribution
 Warning--can't use both author and editor fields in Strohmayer_TypeI
 Warning--empty publisher in Strohmayer_TypeI
 Warning--empty publisher in vonMises_Poptest
-You've used 349 entries,
+You've used 355 entries,
             1935 wiz_defined-function locations,
-            2577 strings with 94274 characters,
-and the built_in function-call counts, 192889 in all, are:
-= -- 16829
-> -- 14338
-< -- 190
-+ -- 5319
-- -- 5296
-* -- 18697
-:= -- 34656
-add.period$ -- 1040
-call.type$ -- 349
-change.case$ -- 4339
-chr.to.int$ -- 330
-cite$ -- 361
-duplicate$ -- 5485
-empty$ -- 9910
-format.name$ -- 5739
-if$ -- 36313
+            2605 strings with 95550 characters,
+and the built_in function-call counts, 195888 in all, are:
+= -- 17096
+> -- 14546
+< -- 192
++ -- 5395
+- -- 5372
+* -- 18987
+:= -- 35202
+add.period$ -- 1058
+call.type$ -- 355
+change.case$ -- 4407
+chr.to.int$ -- 336
+cite$ -- 367
+duplicate$ -- 5569
+empty$ -- 10072
+format.name$ -- 5825
+if$ -- 36873
 int.to.chr$ -- 20
 int.to.str$ -- 0
-missing$ -- 359
-newline$ -- 1739
-num.names$ -- 1111
-pop$ -- 3927
+missing$ -- 365
+newline$ -- 1769
+num.names$ -- 1129
+pop$ -- 3981
 preamble$ -- 2
-purify$ -- 4353
+purify$ -- 4421
 quote$ -- 0
-skip$ -- 4085
+skip$ -- 4147
 stack$ -- 0
-substring$ -- 9490
-swap$ -- 853
+substring$ -- 9652
+swap$ -- 859
 text.length$ -- 92
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2066
+type$ -- 2102
 warning$ -- 12
-while$ -- 1052
+while$ -- 1070
 width$ -- 0
-write$ -- 4537
+write$ -- 4615
 (There were 12 warnings)

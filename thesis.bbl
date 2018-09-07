@@ -674,6 +674,11 @@ Fourier, J. (1822).
 \newblock {\em Th{\'e}orie analytique de la chaleur}.
 \newblock Chez Firmin Didot, p{\`e}re et fils.
 
+\bibitem[{Fragos} and {McClintock}, 2015]{Fragos_spin}
+{Fragos}, T. and {McClintock}, J.~E. (2015).
+\newblock {The Origin of Black Hole Spin in Galactic Low-mass X-Ray Binaries}.
+\newblock {\em \apj}, 800:17.
+
 \bibitem[{Frank} et~al., 2002]{Frank_Timescales}
 {Frank}, J., {King}, A., and {Raine}, D.~J. (2002).
 \newblock {\em {Accretion Power in Astrophysics: Third Edition}}.
@@ -957,6 +962,12 @@ Fourier, J. (1822).
 {Illarionov}, A.~F. and {Sunyaev}, R.~A. (1975).
 \newblock {Why the Number of Galactic X-ray Stars Is so Small?}
 \newblock {\em \aap}, 39:185.
+
+\bibitem[{Ingram} et~al., 2009]{Ingram_Solid}
+{Ingram}, A., {Done}, C., and {Fragile}, P.~C. (2009).
+\newblock {Low-frequency quasi-periodic oscillations spectra and Lense-Thirring
+  precession}.
+\newblock {\em \mnras}, 397:L101--L105.
 
 \bibitem[{in't Zand} et~al., 2014]{intZand_Decay}
 {in't Zand}, J.~J.~M., {Cumming}, A., {Triemstra}, T.~L., {Mateijsen},
@@ -1460,6 +1471,16 @@ Kenney, J. (1939).
 \newblock {On the limit-cycle instability in magnetized accretion discs}.
 \newblock {\em \mnras}, 372:728--734.
 
+\bibitem[{Miller} et~al., 2013]{Miller_GRSspin}
+{Miller}, J.~M., {Parker}, M.~L., {Fuerst}, F., {Bachetti}, M., {Harrison},
+  F.~A., {Barret}, D., {Boggs}, S.~E., {Chakrabarty}, D., {Christensen}, F.~E.,
+  {Craig}, W.~W., {Fabian}, A.~C., {Grefenstette}, B.~W., {Hailey}, C.~J.,
+  {King}, A.~L., {Stern}, D.~K., {Tomsick}, J.~A., {Walton}, D.~J., and
+  {Zhang}, W.~W. (2013).
+\newblock {NuSTAR Spectroscopy of GRS 1915+105: Disk Reflection, Spin, and
+  Connections to Jets}.
+\newblock {\em \apjl}, 775:L45.
+
 \bibitem[{Miller} et~al., 2016]{Miller_2016Outburst}
 {Miller}, J.~M., {Reynolds}, M., {Kennea}, J., {King}, A.~L., and {Tomsick}, J.
   (2016).
@@ -1612,6 +1633,12 @@ Negri, L.~H. and Vestri, C. (2017).
 \newblock {\em Quaestiones et decisiones in quattuor libros Sententiarum Petri
   Lombardi: Centilogium theologicum}.
 \newblock Johannes Trechsel.
+
+\bibitem[{Orosz} et~al., 2011]{Orosz_CygX1}
+{Orosz}, J.~A., {McClintock}, J.~E., {Aufdenberg}, J.~P., {Remillard}, R.~A.,
+  {Reid}, M.~J., {Narayan}, R., and {Gou}, L. (2011).
+\newblock {The Mass of the Black Hole in Cygnus X-1}.
+\newblock {\em \apj}, 742:84.
 
 \bibitem[{Ortolani} et~al., 2007]{Ortolani_LillerD}
 {Ortolani}, S., {Barbuy}, B., {Bica}, E., {Zoccali}, M., and {Renzini}, A.
@@ -1970,6 +1997,12 @@ Planck, M. (1914).
 \newblock {\em Abh.~Konigl.~Preuss.~Akad.~Wissenschaften Jahre 1906,92,
   Berlin,1907}, 1916.
 
+\bibitem[{Shahbaz} et~al., 1994]{Shahbaz_V404}
+{Shahbaz}, T., {Ringwald}, F.~A., {Bunn}, J.~C., {Naylor}, T., {Charles},
+  P.~A., and {Casares}, J. (1994).
+\newblock {The mass of the black hole in V404 Cygni.}
+\newblock {\em \mnras}, 271:L10--L14.
+
 \bibitem[{Shakura} and {Sunyaev}, 1973]{Shakura_Disk}
 {Shakura}, N.~I. and {Sunyaev}, R.~A. (1973).
 \newblock {Black holes in binary systems. Observational appearance.}
@@ -2010,6 +2043,12 @@ Planck, M. (1914).
 {Steiner}, J.~F., {Narayan}, R., {McClintock}, J.~E., and {Ebisawa}, K. (2009).
 \newblock {A Simple Comptonization Model}.
 \newblock {\em \pasp}, 121:1279.
+
+\bibitem[{Stella} and {Vietri}, 1998]{Stella_LT}
+{Stella}, L. and {Vietri}, M. (1998).
+\newblock {Lense-Thirring Precession and Quasi-periodic Oscillations in
+  Low-Mass X-Ray Binaries}.
+\newblock {\em \apjl}, 492:L59--L62.
 
 \bibitem[{Stirling} et~al., 2001]{Stirling_Jet}
 {Stirling}, A.~M., {Spencer}, R.~E., {de la Force}, C.~J., {Garrett}, M.~A.,

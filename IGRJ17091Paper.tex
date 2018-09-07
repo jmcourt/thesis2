@@ -100,6 +100,8 @@
 
 \subsection{\rxte}
 
+\label{sec:IGRclassesintro}
+
 \par Using the data products described in Section \ref{sec:dex}, I assigned a model-independent variability class to each of the 243 \rxte\textit{/PCA} orbits.  To avoid bias, this was done without reference to the classes defined by \citet{Belloni_GRS_MI} to describe the behaviour of GRS 1915.
 \par Classes were initially assigned based on analysis of lightcurve profiles, count rate, mean fractional RMS \citep{Vaughan_RMS}, Fourier and Lomb-scargle power spectra and hardness-intensity diagrams.  For observations with significant quasi-periodic variability at a frequency lower than $\sim1$\,Hz, I also attempted to fold lightcurves to analyse count rate and colour as a function of phase.  When flares were present in the lightcurve, I used my algorithm (described in Section \ref{sec:Flares}) to sample the distribution of parameters such as peak flare count rate, flare rise time and flare fall time.  All parameters were normalised per active PCU, and fractional RMS values were taken from 2--60\,keV lightcurves binned to 0.5\,s.  I identify nine distinct classes, labelled I to IX; I describe these in the following sections.
 \par Although the criteria for assigning each class to an observation was different, a number of criteria were given the most weight.  In particular, the detection, $q$-value and peak frequency of a QPO in the range 2\,Hz--10\,Hz were used as criteria for all classes, as well as the presence or absence of high-amplitude quasi-periodic flaring with a frequency between 0.01--1\,Hz.  The folded profile of these flares, as well as the presence of associated harmonics, were also used as classification diagnostics in observations.  Additionally, the presence or absence of low count-rate 'dips' in a lightcurve was used as a criterion for Classes VI, VIII and IX.  Detailed criteria for each individual class are given below in Sections \ref{sec:ClassI} to \ref{sec:ClassIX}.
@@ -451,6 +453,8 @@ Energy 		& Intensity 		& Significance 	& Exposure 	& Flux 				& Flux					\\
 \par I also use all 2011-2013 IGR J17091-3624 data from \rxte , \textit{XMM-Newton}, \textit{Chandra}, \textit{Swift}, \textit{INTEGRAL} and \textit{Suzaku} to analyse the long-term evolution of the 2011--2013 outburst.  This in turn corresponds to all available X-ray data taken during this outburst.
 
 \subsection{Variability Classes: IGR J17091 vs. GRS 1915}
+
+\label{sec:IGRcomp}
 
 \par As observations of IGR J17091 and GRS 1915 suffer from different values of interstellar absorption $N_H$\footnote{$N_H$, or the interstellar absorption, is a measure of the surface density of hydrogen atoms along a column between the object in question and the Earth.}, I cannot directly compare the absolute colours of these two objects.  However, I can compare the evolution of colour both over time and as a function of count rate.  I therefore use these parameters, along with power spectra and lightcurve morphology, when comparing GRS 1915 with IGR J17091.
 \par For seven of my classes, I was able to assign the closest matching class described by \citealt{Belloni_GRS_MI} for GRS 1915 (see Table \ref{tab:class_assign}).  I am unable to find analogues to my classes VII and VIII in observations of GRS 1915, and I suggest that these classes are unique to IGR J17091.

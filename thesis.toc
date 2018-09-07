@@ -138,20 +138,21 @@
 \contentsline {subsection}{\numberline {6.3.1}Comparison with other Objects}{159}{subsection.6.3.1}
 \contentsline {section}{\numberline {6.4}Conclusion}{161}{section.6.4}
 \contentsline {chapter}{\numberline {7}Discussion}{163}{chapter.7}
-\contentsline {section}{\numberline {7.1}Variability Evolution throughout an Ouburst}{164}{section.7.1}
-\contentsline {section}{\numberline {7.2}Criteria for Exotic Variability}{165}{section.7.2}
-\contentsline {section}{\numberline {7.3}Evidence of System Memory}{166}{section.7.3}
-\contentsline {section}{\numberline {7.4}IGR J17091 vs. the Bursting Pulsar: A Comparison}{166}{section.7.4}
-\contentsline {chapter}{\numberline {8}Conclusions}{167}{chapter.8}
-\contentsline {chapter}{\numberline {A}Model-Independent Classification of each Observation of IGR J17091-3624}{199}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}List of \textit {RXTE} Observations of the Bursting Pulsar}{204}{Appendix.a.B}
-\contentsline {chapter}{\numberline {C}Normal Burst Histograms}{208}{Appendix.a.C}
-\contentsline {chapter}{\numberline {D}Parameter Correlations in Normal Bursts}{217}{Appendix.a.D}
-\contentsline {chapter}{\numberline {E}PANTHEON suite}{219}{Appendix.a.E}
-\contentsline {section}{\numberline {E.1}FITS Genie}{219}{section.a.E.1}
-\contentsline {section}{\numberline {E.2}Plot Demon}{229}{section.a.E.2}
-\contentsline {section}{\numberline {E.3}Spec Angel}{266}{section.a.E.3}
-\contentsline {section}{\numberline {E.4}Back Hydra}{280}{section.a.E.4}
-\contentsline {section}{\numberline {E.5}PAN Lib}{283}{section.a.E.5}
-\contentsline {section}{\numberline {E.6}XTE-PAN Lib}{321}{section.a.E.6}
-\contentsline {section}{\numberline {E.7}Mode Get}{328}{section.a.E.7}
+\contentsline {section}{\numberline {7.1}General Observations}{164}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Variability Evolution throughout an Ouburst}{164}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Criteria for Exotic Variability}{165}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Evidence of System Memory}{167}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}IGR J17091 vs. the Bursting Pulsar: A Comparison}{168}{section.7.2}
+\contentsline {chapter}{\numberline {8}Conclusions}{169}{chapter.8}
+\contentsline {chapter}{\numberline {A}Model-Independent Classification of each Observation of IGR J17091-3624}{202}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}List of \textit {RXTE} Observations of the Bursting Pulsar}{207}{Appendix.a.B}
+\contentsline {chapter}{\numberline {C}Normal Burst Histograms}{211}{Appendix.a.C}
+\contentsline {chapter}{\numberline {D}Parameter Correlations in Normal Bursts}{220}{Appendix.a.D}
+\contentsline {chapter}{\numberline {E}PANTHEON suite}{222}{Appendix.a.E}
+\contentsline {section}{\numberline {E.1}FITS Genie}{222}{section.a.E.1}
+\contentsline {section}{\numberline {E.2}Plot Demon}{232}{section.a.E.2}
+\contentsline {section}{\numberline {E.3}Spec Angel}{269}{section.a.E.3}
+\contentsline {section}{\numberline {E.4}Back Hydra}{283}{section.a.E.4}
+\contentsline {section}{\numberline {E.5}PAN Lib}{286}{section.a.E.5}
+\contentsline {section}{\numberline {E.6}XTE-PAN Lib}{324}{section.a.E.6}
+\contentsline {section}{\numberline {E.7}Mode Get}{331}{section.a.E.7}
