@@ -76,26 +76,27 @@
 \contentsline {figure}{\numberline {6.4}{\ignorespaces A plot of a number of objects ranging in scale from LMXBs and High-Mass X-ray Binaries (HMXBs) to Cataclysmic Variables (CVs) and Young Stellar Objects (YSOs). In each case, the object is plotted at the luminosity which defines its transition between propeller-mode accretion and free accretion.}}{160}{figure.caption.139}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces \textit {Swift}/XRT lightcurves of IGR J17091-3624 during its 2016 outburst, showing two of the variability classes we identify in Chapter \ref {ch:IGR}.}}{165}{figure.caption.140}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces xxxxx}}{170}{figure.caption.141}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Histogram showing the distribution of $\phi _B$ amongst Normal Bursts.}}{212}{figure.caption.149}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Histogram showing the distribution of $a_B$ amongst Normal Bursts.}}{212}{figure.caption.150}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Histogram showing the distribution of $\sigma _B$ amongst Normal Bursts.}}{213}{figure.caption.151}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Histogram showing the distribution of $c$ amongst Normal Bursts.}}{213}{figure.caption.152}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Histogram showing the distribution of $\phi _d$ amongst Normal Bursts.}}{214}{figure.caption.153}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Histogram showing the distribution of $a_d$ amongst Normal Bursts.}}{214}{figure.caption.154}
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Histogram showing the distribution of $d$ amongst Normal Bursts.}}{215}{figure.caption.155}
-\contentsline {figure}{\numberline {C.8}{\ignorespaces Histogram showing the distribution of $\lambda $ amongst Normal Bursts.}}{215}{figure.caption.156}
-\contentsline {figure}{\numberline {C.9}{\ignorespaces Histogram showing the distribution of $\phi _p$ amongst Normal Bursts.}}{216}{figure.caption.157}
-\contentsline {figure}{\numberline {C.10}{\ignorespaces Histogram showing the distribution of $a_p$ amongst Normal Bursts.}}{216}{figure.caption.158}
-\contentsline {figure}{\numberline {C.11}{\ignorespaces Histogram showing the distribution of $\phi _B/k$ amongst Normal Bursts.}}{217}{figure.caption.159}
-\contentsline {figure}{\numberline {C.12}{\ignorespaces Histogram showing the distribution of $a_B/k$ amongst Normal Bursts.}}{217}{figure.caption.160}
-\contentsline {figure}{\numberline {C.13}{\ignorespaces Histogram showing the distribution of $\phi _d/k$ amongst Normal Bursts.}}{218}{figure.caption.161}
-\contentsline {figure}{\numberline {C.14}{\ignorespaces Histogram showing the distribution of $a_d/k$ amongst Normal Bursts.}}{218}{figure.caption.162}
-\contentsline {figure}{\numberline {C.15}{\ignorespaces Histogram showing the distribution of $\phi _p/k$ amongst Normal Bursts.}}{219}{figure.caption.163}
-\contentsline {figure}{\numberline {C.16}{\ignorespaces Histogram showing the distribution of $a_p/k$ amongst Normal Bursts.}}{219}{figure.caption.164}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Histogram showing the distribution of $\phi _B$ amongst Normal Bursts.}}{216}{figure.caption.150}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Histogram showing the distribution of $a_B$ amongst Normal Bursts.}}{216}{figure.caption.151}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Histogram showing the distribution of $\sigma _B$ amongst Normal Bursts.}}{217}{figure.caption.152}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Histogram showing the distribution of $c$ amongst Normal Bursts.}}{217}{figure.caption.153}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Histogram showing the distribution of $\phi _d$ amongst Normal Bursts.}}{218}{figure.caption.154}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Histogram showing the distribution of $a_d$ amongst Normal Bursts.}}{218}{figure.caption.155}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Histogram showing the distribution of $d$ amongst Normal Bursts.}}{219}{figure.caption.156}
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Histogram showing the distribution of $\lambda $ amongst Normal Bursts.}}{219}{figure.caption.157}
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Histogram showing the distribution of $\phi _p$ amongst Normal Bursts.}}{220}{figure.caption.158}
+\contentsline {figure}{\numberline {C.10}{\ignorespaces Histogram showing the distribution of $a_p$ amongst Normal Bursts.}}{220}{figure.caption.159}
+\contentsline {figure}{\numberline {C.11}{\ignorespaces Histogram showing the distribution of $\phi _B/k$ amongst Normal Bursts.}}{221}{figure.caption.160}
+\contentsline {figure}{\numberline {C.12}{\ignorespaces Histogram showing the distribution of $a_B/k$ amongst Normal Bursts.}}{221}{figure.caption.161}
+\contentsline {figure}{\numberline {C.13}{\ignorespaces Histogram showing the distribution of $\phi _d/k$ amongst Normal Bursts.}}{222}{figure.caption.162}
+\contentsline {figure}{\numberline {C.14}{\ignorespaces Histogram showing the distribution of $a_d/k$ amongst Normal Bursts.}}{222}{figure.caption.163}
+\contentsline {figure}{\numberline {C.15}{\ignorespaces Histogram showing the distribution of $\phi _p/k$ amongst Normal Bursts.}}{223}{figure.caption.164}
+\contentsline {figure}{\numberline {C.16}{\ignorespaces Histogram showing the distribution of $a_p/k$ amongst Normal Bursts.}}{223}{figure.caption.165}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Covariance Matrix with a scatter plot of each of the 66 pairings of the 12 Normal Burst parameters listed in section \ref {sec:NormCorr}}}{221}{figure.caption.165}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Covariance Matrix with a scatter plot of each of the 66 pairings of the 12 Normal Burst parameters listed in section \ref {sec:NormCorr}}}{225}{figure.caption.166}
 \addvspace {10\p@ }

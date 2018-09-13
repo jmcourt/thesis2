@@ -1,0 +1,10 @@
+set terminal postscrip enhance color 20
+set output "page2.ps"
+set key off
+set multiplot layout 2,1
+plot [1280:1514]    "543881874_96420-01-05-00_FS_event_gx1_chan_0_50.in" u ($1):($2/2.):($3/2.) w yerrorl lt 1 lc rgb "black"
+set xlabel "Time (sec)"
+plot [1870:2305]  "GRS1915_10408-01-40-00_pcu2.in" u 1:($2/1.):($3/1.) w yerrorl lt 1 lc rgb "black"
+unset multiplot
+
+
